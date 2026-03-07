@@ -432,32 +432,6 @@ class Second_NullAST:
             file.write("过滤后函数数目：" + str(func_count_filter) + '\n')
             file.close()
         return self.dependency_map
-    '''
-    "name": "s",
-    "nullable": "@Nullable",
-    "dependency": [],
-    "id": 1
-    参数
-    1. if null{},  @nullable   2. 对其他函数调用  ->   3. 直接的解引用 @nonnull  4. 没有解引用@nullable
-    method1 (param1){
-        if param1!=null{
-            method2(param1)   []   
-            return param1    #改：试一下这种情况      优先判断是否为空，判断不了再返回依赖；true； false；   改：试一下试一下
-        }
-        param1.toString()
-    }
-    [nullable/nonnull,  函数调用]
-    method1 (param1){
-        method2(param1)   method2 --> method1   [method2.1]
-        param1.toString()
-    }
-    '''
-    '''
-    类字段
-        1. 直接赋值null
-        2. 由其他类的字段赋值  
-        3. 其他函数的返回值赋值
-    '''    
     def propagate_nullable_marks(self, dependency_map):
         """
         传播@Nullable标记
@@ -472,10 +446,6 @@ class Second_NullAST:
         n = self.N
         node_anno  = ["@NonNull" for i in range(self.N+100)]#np.full((1, n), np.nan)
         flag = [0 for i in range(self.N+100)]
-        # for param in self.func_param_list:
-        #     id = self.func_param_list[param]
-        #     node_anno[id] = self.func_param_annotation[]  参数部分？？？
-        # 因为参数部分只要有一条线路为@NonNull，就要赋值为@NonNull，和类的字段、返回值完全相反，所以参数部分要取反
         print("++++++++++",self.field_anno)
         for field in self.field_name:
             id = self.field_name[field]
@@ -631,7 +601,7 @@ Input:
                 {"role": "system", "content": "You are an expert in the field of program analysis. You can read in the java code and analyze it. Your main task is to read in the code and related information, determine the dependencies related to whether the method's return value is null, only return the result using a list.Only return the result, do not present the thought process"},
                 {"role": "user", "content": prompt},
             ],
-            api_key="sk-a6771b0980824fb599e1bb780461cfb0",  # 或者使用环境变量
+            api_key="sk—key",  # 或者使用环境变量
             api_base="https://api.deepseek.com",  # DeepSeek API基础URL
             temperature=0.3,  # 较低的温度以获得更确定性的输出
             response_format={"type": "json_object"},  # 要求JSON格式输出
@@ -805,4 +775,5 @@ def create_map(java_code, func_name_list, class_name, func_to_code, func_param_a
     field_anno, func_return_annotation, func_param_annotation = second_nullast.propagate_nullable_marks(dependency_map)
 
     return func_name_list, class_name, func_to_code, field_name, field_anno, N, dependency_map, func_param_list, func_param_annotation, func_return_annotation, func_param_id, func_param_shunxv
+
 
