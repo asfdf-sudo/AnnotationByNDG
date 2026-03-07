@@ -234,7 +234,7 @@ class Second_NullAST:
             field_allexpr[field] = []
         func_count = 0
         func_count_filter = 0
-        input_file = r"C:\Users\Asfdf\Desktop\annoation\Lognew\log_tmp_askai.txt"
+        input_file = r"log_tmp_askai.txt"
         ai_dict = {}
         with open(input_file, "r", encoding="utf-8") as file:
             lines = file.readlines()
@@ -775,5 +775,6 @@ def create_map(java_code, func_name_list, class_name, func_to_code, func_param_a
     field_anno, func_return_annotation, func_param_annotation = second_nullast.propagate_nullable_marks(dependency_map)
 
     return func_name_list, class_name, func_to_code, field_name, field_anno, N, dependency_map, func_param_list, func_param_annotation, func_return_annotation, func_param_id, func_param_shunxv
+
 
 
