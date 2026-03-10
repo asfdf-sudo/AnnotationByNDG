@@ -17,4 +17,6 @@ This study presents a method of constructing nullability dependency graphs using
   - `countAnnotation.py` : This can be used for generating statistical annotations.
   - `compareJson.py` : This script can be used to statistically analyze the comparison of annotation labels before and after annotation generation.
   - `run_test.py` : This script is used for batch processing the construction of the Juliet project and generating the project build logs for each individual project.
+  - `analyze_logs.py` : This script is used to compare the error results of the log before and after generating annotations.
+
 
