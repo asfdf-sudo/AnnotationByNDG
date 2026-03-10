@@ -1,0 +1,39 @@
+{
+    "AbstractLobHandler": {
+        "getBlobAsBytes": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "columnName": 0
+            }
+        },
+        "getBlobAsBinaryStream": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "columnName": 0
+            }
+        },
+        "getClobAsString": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "columnName": 0
+            }
+        },
+        "getClobAsAsciiStream": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "columnName": 0
+            }
+        },
+        "getClobAsCharacterStream": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "columnName": 0
+            }
+        }
+    }
+}

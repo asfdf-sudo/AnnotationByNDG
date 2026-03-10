@@ -1,0 +1,17 @@
+{
+    "SingleColumnRowMapperTests": {
+        "useDefaultConversionService": {
+            "return": 0,
+            "parameters": {}
+        },
+        "useCustomConversionService": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doesNotUseConversionService": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "MyLocalDateTime": {}
+}

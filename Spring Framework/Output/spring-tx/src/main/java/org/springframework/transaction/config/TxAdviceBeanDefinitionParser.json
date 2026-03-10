@@ -1,0 +1,39 @@
+{
+    "TxAdviceBeanDefinitionParser": {
+        "getBeanClass": {
+            "return": 0,
+            "parameters": {
+                "element": 0
+            }
+        },
+        "doParse": {
+            "return": 0,
+            "parameters": {
+                "element": 0,
+                "parserContext": 0,
+                "builder": 0
+            }
+        },
+        "parseAttributeSource": {
+            "return": 0,
+            "parameters": {
+                "attrEle": 0,
+                "parserContext": 0
+            }
+        },
+        "addRollbackRuleAttributesTo": {
+            "return": 0,
+            "parameters": {
+                "rollbackRules": 0,
+                "rollbackForValue": 0
+            }
+        },
+        "addNoRollbackRuleAttributesTo": {
+            "return": 0,
+            "parameters": {
+                "rollbackRules": 0,
+                "noRollbackForValue": 1
+            }
+        }
+    }
+}

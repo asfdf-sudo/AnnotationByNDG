@@ -1,0 +1,21 @@
+{
+    "CustomSQLExceptionTranslatorRegistry": {
+        "getInstance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerTranslator": {
+            "return": 0,
+            "parameters": {
+                "dbName": 0,
+                "translator": 0
+            }
+        },
+        "findTranslatorForDatabase": {
+            "return": 1,
+            "parameters": {
+                "dbName": 0
+            }
+        }
+    }
+}

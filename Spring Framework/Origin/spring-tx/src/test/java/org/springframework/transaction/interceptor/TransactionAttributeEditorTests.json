@@ -1,0 +1,44 @@
+{
+    "TransactionAttributeEditorTests": {
+        "nullText": {
+            "return": 0,
+            "parameters": {}
+        },
+        "emptyString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validPropagationCodeOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invalidPropagationCodeOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validPropagationCodeAndIsolationCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validPropagationAndIsolationCodesAndInvalidRollbackRule": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validPropagationCodeAndIsolationCodeAndRollbackRules1": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validPropagationCodeAndIsolationCodeAndRollbackRules2": {
+            "return": 0,
+            "parameters": {}
+        },
+        "defaultTransactionAttributeToString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "ruleBasedTransactionAttributeToString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

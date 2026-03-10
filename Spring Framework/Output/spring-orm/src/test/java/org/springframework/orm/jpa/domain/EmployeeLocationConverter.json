@@ -1,0 +1,16 @@
+{
+    "EmployeeLocationConverter": {
+        "convertToDatabaseColumn": {
+            "return": 1,
+            "parameters": {
+                "employeeLocation": 1
+            }
+        },
+        "convertToEntityAttribute": {
+            "return": 1,
+            "parameters": {
+                "data": 1
+            }
+        }
+    }
+}

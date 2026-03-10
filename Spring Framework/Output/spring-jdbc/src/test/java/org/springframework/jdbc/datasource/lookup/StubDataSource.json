@@ -1,0 +1,11 @@
+{
+    "StubDataSource": {
+        "getConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 1,
+                "password": 1
+            }
+        }
+    }
+}

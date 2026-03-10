@@ -1,0 +1,20 @@
+{
+    "StubMessageListenerAdapter": {
+        "wasCalled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "handleMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 1
+            }
+        },
+        "handleListenerException": {
+            "return": 0,
+            "parameters": {
+                "ex": 1
+            }
+        }
+    }
+}

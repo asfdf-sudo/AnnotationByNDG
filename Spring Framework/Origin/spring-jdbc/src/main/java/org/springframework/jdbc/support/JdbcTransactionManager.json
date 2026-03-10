@@ -1,0 +1,41 @@
+{
+    "JdbcTransactionManager": {
+        "setDatabaseProductName": {
+            "return": 0,
+            "parameters": {
+                "dbName": 0
+            }
+        },
+        "setExceptionTranslator": {
+            "return": 0,
+            "parameters": {
+                "exceptionTranslator": 0
+            }
+        },
+        "getExceptionTranslator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLazyInit": {
+            "return": 0,
+            "parameters": {
+                "lazyInit": 0
+            }
+        },
+        "isLazyInit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateException": {
+            "return": 0,
+            "parameters": {
+                "task": 0,
+                "ex": 0
+            }
+        }
+    }
+}

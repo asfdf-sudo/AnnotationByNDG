@@ -1,0 +1,28 @@
+{
+    "H2DatabasePopulatorTests": {
+        "getEmbeddedDatabaseType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scriptWithH2Alias": {
+            "return": 0,
+            "parameters": {}
+        },
+        "automaticallyCommitsIfAutoCommitIsDisabled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertAutoCommitDisabledPreconditions": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "selectFirstNames": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        }
+    }
+}

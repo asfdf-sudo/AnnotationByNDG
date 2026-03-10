@@ -1,0 +1,40 @@
+{
+    "SimplePropertyRowMapperTests": {
+        "staticQueryWithDataClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "staticQueryWithDataClassAndGenerics": {
+            "return": 0,
+            "parameters": {}
+        },
+        "staticQueryWithDataClassAndSetters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "staticQueryWithPlainSetters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "staticQueryWithDataRecord": {
+            "return": 0,
+            "parameters": {}
+        },
+        "staticQueryWithDataFields": {
+            "return": 0,
+            "parameters": {}
+        },
+        "staticQueryWithIncompleteDataFields": {
+            "return": 0,
+            "parameters": {}
+        },
+        "verifyPerson": {
+            "return": 0,
+            "parameters": {
+                "person": 0
+            }
+        }
+    },
+    "FieldPerson": {},
+    "IncompleteFieldPerson": {}
+}

@@ -1,0 +1,8 @@
+{
+    "GenericStoredProcedureTests": {
+        "testAddInvoices": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

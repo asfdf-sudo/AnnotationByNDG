@@ -1,0 +1,88 @@
+{
+    "ExtendedEntityManagerCreator": {
+        "createApplicationManagedEntityManager": {
+            "return": 0,
+            "parameters": {
+                "rawEntityManager": 0,
+                "emfInfo": 0,
+                "synchronizedWithTransaction": 0
+            }
+        },
+        "createContainerManagedEntityManager": {
+            "return": 0,
+            "parameters": {
+                "emf": 0,
+                "properties": 1,
+                "synchronizedWithTransaction": 0
+            }
+        },
+        "createProxy": {
+            "return": 0,
+            "parameters": {
+                "rawEm": 0,
+                "emIfc": 1,
+                "cl": 1,
+                "exceptionTranslator": 1,
+                "jta": 1,
+                "containerManaged": 0,
+                "synchronizedWithTransaction": 0
+            }
+        }
+    },
+    "ExtendedEntityManagerInvocationHandler": {
+        "isJtaEntityManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invoke": {
+            "return": 1,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        },
+        "doJoinTransaction": {
+            "return": 0,
+            "parameters": {
+                "enforce": 0
+            }
+        },
+        "enlistInCurrentTransaction": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ExtendedEntityManagerSynchronization": {
+        "getOrder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "flushResource": {
+            "return": 0,
+            "parameters": {
+                "resourceHolder": 0
+            }
+        },
+        "shouldReleaseBeforeCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "convertException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    }
+}

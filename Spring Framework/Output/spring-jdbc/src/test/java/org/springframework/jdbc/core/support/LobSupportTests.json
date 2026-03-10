@@ -1,0 +1,45 @@
+{
+    "LobSupportTests": {
+        "testCreatingPreparedStatementCallback": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "SetValuesCalled": {
+        "setValues": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "lobCreator": 0
+            }
+        },
+        "testAbstractLobStreamingResultSetExtractorNoRows": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testAbstractLobStreamingResultSetExtractorOneRow": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testAbstractLobStreamingResultSetExtractorMultipleRows": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testAbstractLobStreamingResultSetExtractorCorrectException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getResultSetExtractor": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "streamData": {
+            "return": 0,
+            "parameters": {
+                "rs": 0
+            }
+        }
+    }
+}

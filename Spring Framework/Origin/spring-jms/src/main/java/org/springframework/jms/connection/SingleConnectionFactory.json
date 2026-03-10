@@ -1,0 +1,179 @@
+{
+    "SingleConnectionFactory": {
+        "setTargetConnectionFactory": {
+            "return": 0,
+            "parameters": {
+                "targetConnectionFactory": 1
+            }
+        },
+        "getTargetConnectionFactory": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setClientId": {
+            "return": 0,
+            "parameters": {
+                "clientId": 1
+            }
+        },
+        "getClientId": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setExceptionListener": {
+            "return": 0,
+            "parameters": {
+                "exceptionListener": 1
+            }
+        },
+        "getExceptionListener": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setReconnectOnException": {
+            "return": 0,
+            "parameters": {
+                "reconnectOnException": 0
+            }
+        },
+        "isReconnectOnException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createQueueConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createTopicConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createContext": {
+            "return": 0,
+            "parameters": {
+                "sessionMode": 0
+            }
+        },
+        "obtainTargetConnectionFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "onException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "destroy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "start": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stop": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRunning": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doCreateConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "prepareConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "getSession": {
+            "return": 1,
+            "parameters": {
+                "con": 0,
+                "mode": 0
+            }
+        },
+        "createSession": {
+            "return": 0,
+            "parameters": {
+                "con": 0,
+                "mode": 0
+            }
+        },
+        "resetConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "closeConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "getSharedConnectionProxy": {
+            "return": 0,
+            "parameters": {
+                "target": 0
+            }
+        }
+    },
+    "SharedConnectionInvocationHandler": {
+        "invoke": {
+            "return": 1,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        },
+        "localStart": {
+            "return": 0,
+            "parameters": {}
+        },
+        "localStop": {
+            "return": 0,
+            "parameters": {}
+        },
+        "factory": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "AggregatedExceptionListener": {
+        "onException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    }
+}

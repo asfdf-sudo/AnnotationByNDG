@@ -1,0 +1,31 @@
+{
+    "MatchAlwaysTransactionAttributeSource": {
+        "setTransactionAttribute": {
+            "return": 0,
+            "parameters": {
+                "transactionAttribute": 1
+            }
+        },
+        "getTransactionAttribute": {
+            "return": 1,
+            "parameters": {
+                "method": 0,
+                "targetClass": 1
+            }
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

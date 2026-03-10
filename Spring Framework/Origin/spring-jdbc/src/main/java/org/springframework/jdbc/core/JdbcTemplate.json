@@ -1,0 +1,452 @@
+{
+    "JdbcTemplate": {
+        "setIgnoreWarnings": {
+            "return": 0,
+            "parameters": {
+                "ignoreWarnings": 0
+            }
+        },
+        "isIgnoreWarnings": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setFetchSize": {
+            "return": 0,
+            "parameters": {
+                "fetchSize": 0
+            }
+        },
+        "getFetchSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMaxRows": {
+            "return": 0,
+            "parameters": {
+                "maxRows": 0
+            }
+        },
+        "getMaxRows": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setQueryTimeout": {
+            "return": 0,
+            "parameters": {
+                "queryTimeout": 0
+            }
+        },
+        "getQueryTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSkipResultsProcessing": {
+            "return": 0,
+            "parameters": {
+                "skipResultsProcessing": 0
+            }
+        },
+        "isSkipResultsProcessing": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSkipUndeclaredResults": {
+            "return": 0,
+            "parameters": {
+                "skipUndeclaredResults": 0
+            }
+        },
+        "isSkipUndeclaredResults": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setResultsMapCaseInsensitive": {
+            "return": 0,
+            "parameters": {
+                "resultsMapCaseInsensitive": 0
+            }
+        },
+        "isResultsMapCaseInsensitive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "createConnectionProxy": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        }
+    },
+    "ExecuteStatementCallback": {
+        "doInStatement": {
+            "return": 1,
+            "parameters": {
+                "stmt": 0
+            }
+        },
+        "getSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "query": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "rse": 0
+            }
+        }
+    },
+    "QueryStatementCallback": {
+        "doInStatement": {
+            "return": 0,
+            "parameters": {
+                "stmt": 0
+            }
+        },
+        "getSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "query": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "rowMapper": 0
+            }
+        },
+        "queryForStream": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "rowMapper": 0
+            }
+        }
+    },
+    "StreamStatementCallback": {
+        "doInStatement": {
+            "return": 0,
+            "parameters": {
+                "stmt": 0
+            }
+        },
+        "getSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForMap": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "queryForObject": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "requiredType": 0
+            }
+        },
+        "queryForList": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "queryForRowSet": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "update": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        }
+    },
+    "UpdateStatementCallback": {
+        "doInStatement": {
+            "return": 0,
+            "parameters": {
+                "stmt": 0
+            }
+        },
+        "getSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "batchUpdate": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "BatchUpdateStatementCallback": {
+        "doInStatement": {
+            "return": 0,
+            "parameters": {
+                "stmt": 0
+            }
+        },
+        "appendSql": {
+            "return": 0,
+            "parameters": {
+                "statement": 0
+            }
+        },
+        "getSql": {
+            "return": 1,
+            "parameters": {
+                "obj": 0
+            }
+        },
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "callString": 0,
+                "action": 0
+            }
+        },
+        "query": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "rowMapper": 0
+            }
+        },
+        "queryForStream": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "rowMapper": 0
+            }
+        },
+        "queryForObject": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "requiredType": 0
+            }
+        },
+        "queryForMap": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "queryForList": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "queryForRowSet": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "update": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "batchUpdate": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "batchArgs": 0,
+                "batchSize": 0,
+                "pss": 0
+            }
+        },
+        "setValues": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "i": 0
+            }
+        },
+        "getBatchSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "call": {
+            "return": 0,
+            "parameters": {
+                "csc": 0,
+                "declaredParameters": 0
+            }
+        },
+        "extractReturnedResults": {
+            "return": 0,
+            "parameters": {
+                "cs": 0,
+                "updateCountParameters": 1,
+                "resultSetParameters": 1,
+                "updateCount": 0
+            }
+        },
+        "extractOutputParameters": {
+            "return": 0,
+            "parameters": {
+                "cs": 0,
+                "parameters": 0
+            }
+        },
+        "processResultSet": {
+            "return": 0,
+            "parameters": {
+                "rs": 1,
+                "param": 0
+            }
+        },
+        "getColumnMapRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSingleColumnRowMapper": {
+            "return": 0,
+            "parameters": {
+                "requiredType": 0
+            }
+        },
+        "createResultsMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "applyStatementSettings": {
+            "return": 0,
+            "parameters": {
+                "stmt": 0
+            }
+        },
+        "newArgPreparedStatementSetter": {
+            "return": 0,
+            "parameters": {
+                "args": 1
+            }
+        },
+        "newArgTypePreparedStatementSetter": {
+            "return": 0,
+            "parameters": {
+                "args": 1,
+                "argTypes": 0
+            }
+        },
+        "handleWarnings": {
+            "return": 0,
+            "parameters": {
+                "warning": 1
+            }
+        },
+        "translateException": {
+            "return": 0,
+            "parameters": {
+                "task": 0,
+                "sql": 1,
+                "ex": 0
+            }
+        },
+        "result": {
+            "return": 0,
+            "parameters": {
+                "result": 1
+            }
+        },
+        "updateCount": {
+            "return": 0,
+            "parameters": {
+                "result": 1
+            }
+        },
+        "storeGeneratedKeys": {
+            "return": 0,
+            "parameters": {
+                "generatedKeyHolder": 0,
+                "ps": 0,
+                "rowsExpected": 0
+            }
+        },
+        "getPreparedStatementCallback": {
+            "return": 0,
+            "parameters": {
+                "pss": 0,
+                "generatedKeyHolder": 1
+            }
+        }
+    },
+    "CloseSuppressingInvocationHandler": {
+        "invoke": {
+            "return": 1,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        }
+    },
+    "SimplePreparedStatementCreator": {
+        "createPreparedStatement": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "getSql": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "SimpleCallableStatementCreator": {
+        "createCallableStatement": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "getSql": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "RowCallbackHandlerResultSetExtractor": {
+        "extractData": {
+            "return": 1,
+            "parameters": {
+                "rs": 0
+            }
+        }
+    },
+    "ResultSetSpliterator": {
+        "tryAdvance": {
+            "return": 0,
+            "parameters": {
+                "action": 0
+            }
+        },
+        "trySplit": {
+            "return": 1,
+            "parameters": {}
+        },
+        "estimateSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "characteristics": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stream": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

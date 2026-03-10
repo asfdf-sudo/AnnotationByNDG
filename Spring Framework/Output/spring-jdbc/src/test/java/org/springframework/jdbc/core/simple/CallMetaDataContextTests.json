@@ -1,0 +1,16 @@
+{
+    "CallMetaDataContextTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "verifyClosed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMatchParameterValuesAndSqlInOutParameters": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

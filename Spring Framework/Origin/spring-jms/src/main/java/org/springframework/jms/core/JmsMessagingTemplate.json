@@ -1,0 +1,169 @@
+{
+    "JmsMessagingTemplate": {
+        "setConnectionFactory": {
+            "return": 0,
+            "parameters": {
+                "connectionFactory": 0
+            }
+        },
+        "getConnectionFactory": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setJmsTemplate": {
+            "return": 0,
+            "parameters": {
+                "jmsTemplate": 1
+            }
+        },
+        "getJmsTemplate": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setJmsMessageConverter": {
+            "return": 0,
+            "parameters": {
+                "jmsMessageConverter": 0
+            }
+        },
+        "getJmsMessageConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDefaultDestinationName": {
+            "return": 0,
+            "parameters": {
+                "defaultDestinationName": 1
+            }
+        },
+        "getDefaultDestinationName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "obtainJmsTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "send": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0,
+                "message": 0
+            }
+        },
+        "convertAndSend": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0,
+                "payload": 0,
+                "headers": 1,
+                "postProcessor": 1
+            }
+        },
+        "receive": {
+            "return": 1,
+            "parameters": {
+                "destinationName": 0
+            }
+        },
+        "receiveAndConvert": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0,
+                "targetClass": 0
+            }
+        },
+        "receiveSelected": {
+            "return": 1,
+            "parameters": {
+                "destinationName": 0,
+                "messageSelector": 1
+            }
+        },
+        "receiveSelectedAndConvert": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0,
+                "messageSelector": 1,
+                "targetClass": 0
+            }
+        },
+        "sendAndReceive": {
+            "return": 1,
+            "parameters": {
+                "destinationName": 0,
+                "requestMessage": 0
+            }
+        },
+        "convertSendAndReceive": {
+            "return": 0,
+            "parameters": {
+                "request": 0,
+                "headers": 1,
+                "targetClass": 0,
+                "postProcessor": 1
+            }
+        },
+        "doSend": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0,
+                "message": 0
+            }
+        },
+        "doReceive": {
+            "return": 1,
+            "parameters": {
+                "destinationName": 0
+            }
+        },
+        "doReceiveSelected": {
+            "return": 1,
+            "parameters": {
+                "destinationName": 0,
+                "messageSelector": 1
+            }
+        },
+        "doSendAndReceive": {
+            "return": 1,
+            "parameters": {
+                "destinationName": 0,
+                "requestMessage": 0
+            }
+        },
+        "createMessageCreator": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "getRequiredDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertJmsMessage": {
+            "return": 1,
+            "parameters": {
+                "message": 1
+            }
+        },
+        "convertJmsException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    },
+    "MessagingMessageCreator": {
+        "createMessage": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        }
+    }
+}

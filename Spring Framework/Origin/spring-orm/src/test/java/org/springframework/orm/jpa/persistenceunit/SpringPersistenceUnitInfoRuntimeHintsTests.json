@@ -1,0 +1,12 @@
+{
+    "SpringPersistenceUnitInfoRuntimeHintsTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "springPersistenceUnitInfoHasReflectionHints": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

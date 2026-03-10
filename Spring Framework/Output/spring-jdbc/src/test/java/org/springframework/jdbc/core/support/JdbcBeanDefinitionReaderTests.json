@@ -1,0 +1,8 @@
+{
+    "JdbcBeanDefinitionReaderTests": {
+        "readBeanDefinitionFromMockedDataSource": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

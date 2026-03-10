@@ -1,0 +1,83 @@
+{
+    "BeanPropertyRowMapperTests": {
+        "overridingDifferentClassDefinedForMapping": {
+            "return": 0,
+            "parameters": {}
+        },
+        "overridingSameClassDefinedForMapping": {
+            "return": 0,
+            "parameters": {}
+        },
+        "staticQueryWithRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mappingWithInheritance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mappingWithNoUnpopulatedFieldsFound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mappingWithUnpopulatedFieldsNotChecked": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mappingWithUnpopulatedFieldsNotAccepted": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mappingNullValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mappingNullValueWithPrimitivesDefaultedForNullValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithSpaceInColumnNameAndLocalDateTime": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithSpaceInColumnNameAndLocalDate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithDirectNameMatchOnBirthDate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithCustomNameMatchOnBirthDate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithUnderscoreInColumnNameAndPersonWithMultipleAdjacentUppercaseLettersInPropertyName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "underscoreName": {
+            "return": 0,
+            "parameters": {
+                "input": 0,
+                "expected": 0
+            }
+        }
+    },
+    "CustomPerson": {
+        "setBirth_date": {
+            "return": 0,
+            "parameters": {
+                "date": 0
+            }
+        }
+    },
+    "CustomBeanPropertyRowMapper": {
+        "mappedNames": {
+            "return": 0,
+            "parameters": {
+                "pd": 0
+            }
+        }
+    }
+}

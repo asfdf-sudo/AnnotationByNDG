@@ -1,0 +1,222 @@
+{
+    "StoredProcedureTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "verifyClosed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testNoSuchStoredProcedure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testAddInvoice": {
+            "return": 0,
+            "parameters": {
+                "amount": 0,
+                "custid": 0
+            }
+        },
+        "testAddInvoiceUsingObjectArray": {
+            "return": 0,
+            "parameters": {
+                "amount": 0,
+                "custid": 0
+            }
+        },
+        "testAddInvoices": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testAddInvoicesUsingObjectArray": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testAddInvoicesWithinTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStoredProcedureConfiguredViaJdbcTemplateWithCustomExceptionTranslator": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestJdbcTemplate": {
+        "call": {
+            "return": 0,
+            "parameters": {
+                "csc": 0,
+                "declaredParameters": 0
+            }
+        },
+        "testStoredProcedureConfiguredViaJdbcTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testNullArg": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUnnamedParameter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMissingParameter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStoredProcedureExceptionTranslator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStoredProcedureWithResultSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStoredProcedureWithResultSetMapped": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStoredProcedureWithUndeclaredResults": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStoredProcedureSkippingResultsProcessing": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStoredProcedureSkippingUndeclaredResults": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testParameterMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSqlTypeValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testNumericWithScale": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "StoredProcedureConfiguredViaJdbcTemplate": {
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "intIn": 0
+            }
+        }
+    },
+    "AddInvoice": {
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "amount": 0,
+                "custid": 0
+            }
+        }
+    },
+    "AddInvoiceUsingObjectArray": {
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "amount": 0,
+                "custid": 0
+            }
+        }
+    },
+    "NullArg": {
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "s": 0
+            }
+        }
+    },
+    "NoSuchStoredProcedure": {
+        "execute": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "UnnamedParameterStoredProcedure": {},
+    "MissingParameterStoredProcedure": {
+        "execute": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "StoredProcedureWithResultSet": {
+        "execute": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getCount": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "StoredProcedureWithResultSetMapped": {
+        "execute": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "RowMapperImpl": {
+        "mapRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rowNum": 0
+            }
+        }
+    },
+    "ParameterMapperStoredProcedure": {
+        "executeTest": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestParameterMapper": {
+        "createMap": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        }
+    },
+    "SqlTypeValueStoredProcedure": {
+        "executeTest": {
+            "return": 0,
+            "parameters": {
+                "inValue": 0
+            }
+        },
+        "createTypeValue": {
+            "return": 0,
+            "parameters": {
+                "con": 0,
+                "type": 0,
+                "typeName": 0
+            }
+        }
+    },
+    "NumericWithScaleStoredProcedure": {
+        "executeTest": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "StoredProcedureExceptionTranslator": {
+        "execute": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "CustomDataException": {}
+}

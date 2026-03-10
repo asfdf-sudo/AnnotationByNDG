@@ -1,0 +1,78 @@
+{
+    "JmsListenerEndpointRegistry": {
+        "setApplicationContext": {
+            "return": 0,
+            "parameters": {
+                "applicationContext": 0
+            }
+        },
+        "onApplicationEvent": {
+            "return": 0,
+            "parameters": {
+                "event": 0
+            }
+        },
+        "getListenerContainer": {
+            "return": 0,
+            "parameters": {
+                "id": 0
+            }
+        },
+        "getListenerContainerIds": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getListenerContainers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerListenerContainer": {
+            "return": 0,
+            "parameters": {
+                "endpoint": 0,
+                "factory": 0
+            }
+        },
+        "createListenerContainer": {
+            "return": 0,
+            "parameters": {
+                "endpoint": 0,
+                "factory": 0
+            }
+        },
+        "getPhase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "start": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stop": {
+            "return": 0,
+            "parameters": {
+                "callback": 1
+            }
+        },
+        "isRunning": {
+            "return": 0,
+            "parameters": {}
+        },
+        "startIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "listenerContainer": 0
+            }
+        },
+        "destroy": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "AggregatingCallback": {
+        "run": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

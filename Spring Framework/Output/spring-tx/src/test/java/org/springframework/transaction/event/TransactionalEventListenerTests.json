@@ -1,0 +1,312 @@
+{
+    "TransactionalEventListenerTests": {
+        "closeContext": {
+            "return": 0,
+            "parameters": {}
+        },
+        "immediately": {
+            "return": 0,
+            "parameters": {}
+        },
+        "immediatelyImpactsCurrentTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCompletionCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCompletionRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCommitWithTransactionalComponentListenerProxiedViaDynamicProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCommitWithTransactionalComponentListenerWithInterfaceProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterRollbackWithCustomExecutor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "beforeCommit": {
+            "return": 0,
+            "parameters": {
+                "readOnly": 0
+            }
+        },
+        "beforeCommitWithException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "regularTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "noTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionDemarcationWithNotSupportedPropagation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionDemarcationWithSupportsPropagationAndNoTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionDemarcationWithSupportsPropagationAndExistingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionDemarcationWithRequiredPropagation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "noTransactionWithFallbackExecution": {
+            "return": 0,
+            "parameters": {}
+        },
+        "noTransactionManagementWithFallbackExecution": {
+            "return": 0,
+            "parameters": {}
+        },
+        "noTransactionManagementWithoutFallbackExecution": {
+            "return": 0,
+            "parameters": {}
+        },
+        "conditionFoundOnTransactionalEventListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCommitMetaAnnotation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "conditionFoundOnMetaAnnotation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getEventCollector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getContext": {
+            "return": 0,
+            "parameters": {}
+        },
+        "load": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doLoad": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "BasicConfiguration": {
+        "eventCollector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBean": {
+            "return": 0,
+            "parameters": {
+                "eventPublisher": 0
+            }
+        },
+        "transactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionTemplate": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "PlainConfiguration": {
+        "eventCollector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBean": {
+            "return": 0,
+            "parameters": {
+                "eventPublisher": 0
+            }
+        },
+        "transactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionTemplate": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "MulticasterWithCustomExecutor": {
+        "applicationEventMulticaster": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EventCollector": {
+        "addEvent": {
+            "return": 0,
+            "parameters": {
+                "phase": 0,
+                "event": 0
+            }
+        },
+        "getEvents": {
+            "return": 0,
+            "parameters": {
+                "phase": 0
+            }
+        },
+        "assertNoEventReceived": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertEvents": {
+            "return": 0,
+            "parameters": {
+                "phase": 0
+            }
+        },
+        "assertTotalEventsCount": {
+            "return": 0,
+            "parameters": {
+                "number": 0
+            }
+        }
+    },
+    "TestBean": {
+        "notSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "supports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "required": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "BaseTransactionalTestListener": {
+        "handleEvent": {
+            "return": 0,
+            "parameters": {
+                "phase": 0,
+                "data": 0
+            }
+        }
+    },
+    "ImmediateTestListener": {
+        "handleImmediately": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        }
+    },
+    "AfterCompletionTestListener": {
+        "handleAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        }
+    },
+    "AfterCompletionExplicitTestListener": {
+        "handleAfterCommit": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "handleAfterRollback": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        }
+    },
+    "TransactionalComponentTestListener": {
+        "handleAfterCommit": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        }
+    },
+    "TransactionalComponentTestListenerWithInterface": {
+        "handleAfterCommit": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        }
+    },
+    "BeforeCommitTestListener": {
+        "handleBeforeCommit": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        }
+    },
+    "FallbackExecutionTestListener": {
+        "handleBeforeCommit": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "handleAfterCommit": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "handleAfterRollback": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "handleAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        }
+    },
+    "AfterCommitMetaAnnotationTestListener": {
+        "handleAfterCommit": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        }
+    },
+    "EventTransactionSynchronization": {
+        "getOrder": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

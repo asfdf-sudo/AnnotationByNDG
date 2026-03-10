@@ -1,0 +1,20 @@
+{
+    "MarshallingMessageConverterTests": {
+        "toBytesMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fromBytesMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toTextMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fromTextMessage": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

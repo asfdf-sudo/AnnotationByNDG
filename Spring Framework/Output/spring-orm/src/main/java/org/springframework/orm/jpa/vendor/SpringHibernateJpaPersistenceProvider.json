@@ -1,0 +1,21 @@
+{
+    "SpringHibernateJpaPersistenceProvider": {
+        "createContainerEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "info": 0,
+                "properties": 0
+            }
+        },
+        "getManagedClassNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "pushClassTransformer": {
+            "return": 0,
+            "parameters": {
+                "enhancementContext": 0
+            }
+        }
+    }
+}

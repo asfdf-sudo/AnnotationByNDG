@@ -1,0 +1,58 @@
+{
+    "EntityManagerFactoryAccessor": {
+        "setEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "emf": 1
+            }
+        },
+        "getEntityManagerFactory": {
+            "return": 1,
+            "parameters": {}
+        },
+        "obtainEntityManagerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPersistenceUnitName": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitName": 1
+            }
+        },
+        "getPersistenceUnitName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setJpaProperties": {
+            "return": 0,
+            "parameters": {
+                "jpaProperties": 0
+            }
+        },
+        "setJpaPropertyMap": {
+            "return": 0,
+            "parameters": {
+                "jpaProperties": 1
+            }
+        },
+        "getJpaPropertyMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        },
+        "createEntityManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransactionalEntityManager": {
+            "return": 1,
+            "parameters": {}
+        }
+    }
+}

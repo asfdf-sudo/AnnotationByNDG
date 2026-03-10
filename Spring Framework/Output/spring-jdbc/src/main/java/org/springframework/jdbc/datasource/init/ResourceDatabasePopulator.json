@@ -1,0 +1,80 @@
+{
+    "ResourceDatabasePopulator": {
+        "addScript": {
+            "return": 0,
+            "parameters": {
+                "script": 0
+            }
+        },
+        "addScripts": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setScripts": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertContentsOfScriptArray": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSqlScriptEncoding": {
+            "return": 0,
+            "parameters": {
+                "sqlScriptEncoding": 1
+            }
+        },
+        "setSeparator": {
+            "return": 0,
+            "parameters": {
+                "separator": 1
+            }
+        },
+        "setCommentPrefix": {
+            "return": 0,
+            "parameters": {
+                "commentPrefix": 1
+            }
+        },
+        "setCommentPrefixes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBlockCommentStartDelimiter": {
+            "return": 0,
+            "parameters": {
+                "blockCommentStartDelimiter": 0
+            }
+        },
+        "setBlockCommentEndDelimiter": {
+            "return": 0,
+            "parameters": {
+                "blockCommentEndDelimiter": 0
+            }
+        },
+        "setContinueOnError": {
+            "return": 0,
+            "parameters": {
+                "continueOnError": 0
+            }
+        },
+        "setIgnoreFailedDrops": {
+            "return": 0,
+            "parameters": {
+                "ignoreFailedDrops": 0
+            }
+        },
+        "populate": {
+            "return": 0,
+            "parameters": {
+                "connection": 1
+            }
+        },
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        }
+    }
+}

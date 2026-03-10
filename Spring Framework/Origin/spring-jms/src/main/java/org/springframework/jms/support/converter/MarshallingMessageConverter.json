@@ -1,0 +1,85 @@
+{
+    "MarshallingMessageConverter": {
+        "setMarshaller": {
+            "return": 0,
+            "parameters": {
+                "marshaller": 0
+            }
+        },
+        "setUnmarshaller": {
+            "return": 0,
+            "parameters": {
+                "unmarshaller": 0
+            }
+        },
+        "setTargetType": {
+            "return": 0,
+            "parameters": {
+                "targetType": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0
+            }
+        },
+        "fromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "marshalToTextMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0,
+                "marshaller": 0
+            }
+        },
+        "marshalToBytesMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0,
+                "marshaller": 0
+            }
+        },
+        "marshalToMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0,
+                "marshaller": 0,
+                "targetType": 0
+            }
+        },
+        "unmarshalFromTextMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0,
+                "unmarshaller": 0
+            }
+        },
+        "unmarshalFromBytesMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0,
+                "unmarshaller": 0
+            }
+        },
+        "unmarshalFromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0,
+                "unmarshaller": 0
+            }
+        }
+    }
+}

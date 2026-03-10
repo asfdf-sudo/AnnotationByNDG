@@ -1,0 +1,16 @@
+{
+    "PersistenceManagedTypesTests": {
+        "createWithManagedClassNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithNullManagedClasses": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithManagedClassNamesAndPackages": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

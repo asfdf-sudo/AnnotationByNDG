@@ -1,0 +1,24 @@
+{
+    "TransactionSystemException": {
+        "initApplicationException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "getApplicationException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getOriginalException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "contains": {
+            "return": 0,
+            "parameters": {
+                "exType": 1
+            }
+        }
+    }
+}

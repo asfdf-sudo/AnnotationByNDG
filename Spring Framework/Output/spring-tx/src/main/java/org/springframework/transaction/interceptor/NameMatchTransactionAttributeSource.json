@@ -1,0 +1,61 @@
+{
+    "NameMatchTransactionAttributeSource": {
+        "setNameMap": {
+            "return": 0,
+            "parameters": {
+                "nameMap": 0
+            }
+        },
+        "setProperties": {
+            "return": 0,
+            "parameters": {
+                "transactionAttributes": 0
+            }
+        },
+        "addTransactionalMethod": {
+            "return": 0,
+            "parameters": {
+                "methodName": 1,
+                "attr": 1
+            }
+        },
+        "setEmbeddedValueResolver": {
+            "return": 0,
+            "parameters": {
+                "resolver": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransactionAttribute": {
+            "return": 1,
+            "parameters": {
+                "method": 0,
+                "targetClass": 1
+            }
+        },
+        "isMatch": {
+            "return": 0,
+            "parameters": {
+                "methodName": 0,
+                "mappedName": 0
+            }
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

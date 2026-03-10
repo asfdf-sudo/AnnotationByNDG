@@ -1,0 +1,14 @@
+{
+    "TestExceptionListener": {
+        "onException": {
+            "return": 0,
+            "parameters": {
+                "ex": 1
+            }
+        },
+        "getCount": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

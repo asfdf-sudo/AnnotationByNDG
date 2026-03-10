@@ -1,0 +1,74 @@
+{
+    "TransactionSynchronizationUtils": {
+        "sameResourceFactory": {
+            "return": 0,
+            "parameters": {
+                "tm": 0,
+                "resourceFactory": 0
+            }
+        },
+        "unwrapResourceIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "resource": 0
+            }
+        },
+        "triggerFlush": {
+            "return": 0,
+            "parameters": {}
+        },
+        "triggerSavepoint": {
+            "return": 0,
+            "parameters": {
+                "savepoint": 0
+            }
+        },
+        "triggerSavepointRollback": {
+            "return": 0,
+            "parameters": {
+                "savepoint": 0
+            }
+        },
+        "triggerBeforeCommit": {
+            "return": 0,
+            "parameters": {
+                "readOnly": 0
+            }
+        },
+        "triggerBeforeCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "triggerAfterCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invokeAfterCommit": {
+            "return": 0,
+            "parameters": {
+                "synchronizations": 1
+            }
+        },
+        "triggerAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "completionStatus": 0
+            }
+        },
+        "invokeAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "synchronizations": 1,
+                "completionStatus": 0
+            }
+        }
+    },
+    "ScopedProxyUnwrapper": {
+        "unwrapIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "resource": 0
+            }
+        }
+    }
+}

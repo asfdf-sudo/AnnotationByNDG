@@ -1,0 +1,48 @@
+{
+    "RuleBasedTransactionAttributeTests": {
+        "defaultRule": {
+            "return": 0,
+            "parameters": {}
+        },
+        "ruleForRollbackOnChecked": {
+            "return": 0,
+            "parameters": {}
+        },
+        "ruleForCommitOnUnchecked": {
+            "return": 0,
+            "parameters": {}
+        },
+        "ruleForSelectiveRollbackOnCheckedWithString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "ruleForSelectiveRollbackOnCheckedWithClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestRuleForSelectiveRollbackOnChecked": {
+            "return": 0,
+            "parameters": {
+                "rta": 0
+            }
+        },
+        "ruleForCommitOnSubclassOfChecked": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackNever": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toStringMatchesEditor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "conflictingRulesToDetermineExactContract": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "MyBusinessException": {},
+    "MyBusinessWarningException": {}
+}

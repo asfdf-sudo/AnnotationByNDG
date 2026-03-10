@@ -1,0 +1,16 @@
+{
+    "SimplePersistenceManagedTypes": {
+        "getManagedClassNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getManagedPackages": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPersistenceUnitRootUrl": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

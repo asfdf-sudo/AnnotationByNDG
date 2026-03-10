@@ -1,0 +1,53 @@
+{
+    "StandardJmsActivationSpecFactory": {
+        "setActivationSpecClass": {
+            "return": 0,
+            "parameters": {
+                "activationSpecClass": 0
+            }
+        },
+        "setDefaultProperties": {
+            "return": 0,
+            "parameters": {
+                "defaultProperties": 0
+            }
+        },
+        "setDestinationResolver": {
+            "return": 0,
+            "parameters": {
+                "destinationResolver": 1
+            }
+        },
+        "getDestinationResolver": {
+            "return": 1,
+            "parameters": {}
+        },
+        "createActivationSpec": {
+            "return": 0,
+            "parameters": {
+                "adapter": 0,
+                "config": 0
+            }
+        },
+        "determineActivationSpecClass": {
+            "return": 1,
+            "parameters": {
+                "adapter": 0
+            }
+        },
+        "populateActivationSpecProperties": {
+            "return": 0,
+            "parameters": {
+                "bw": 0,
+                "config": 0
+            }
+        },
+        "applyAcknowledgeMode": {
+            "return": 0,
+            "parameters": {
+                "bw": 0,
+                "ackMode": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "JdbcDaoSupportTests": {
+        "testJdbcDaoSupportWithDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initDao": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testJdbcDaoSupportWithJdbcTemplate": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

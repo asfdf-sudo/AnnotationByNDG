@@ -1,0 +1,28 @@
+{
+    "UpdatableSqlQuery": {
+        "newRowMapper": {
+            "return": 0,
+            "parameters": {
+                "parameters": 1,
+                "context": 1
+            }
+        },
+        "updateRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rowNum": 0,
+                "context": 1
+            }
+        }
+    },
+    "RowMapperImpl": {
+        "mapRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rowNum": 0
+            }
+        }
+    }
+}

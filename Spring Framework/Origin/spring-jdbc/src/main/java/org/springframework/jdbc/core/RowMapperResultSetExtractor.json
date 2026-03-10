@@ -1,0 +1,10 @@
+{
+    "RowMapperResultSetExtractor": {
+        "extractData": {
+            "return": 0,
+            "parameters": {
+                "rs": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "ResultSetSupportingSqlParameter": {
+        "isResultSetSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getResultSetExtractor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getRowCallbackHandler": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isInputValueProvided": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "AbstractJmsListenerEndpoint": {
+        "setId": {
+            "return": 0,
+            "parameters": {
+                "id": 0
+            }
+        },
+        "getId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDestination": {
+            "return": 0,
+            "parameters": {
+                "destination": 0
+            }
+        },
+        "getDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSubscription": {
+            "return": 0,
+            "parameters": {
+                "subscription": 1
+            }
+        },
+        "getSubscription": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSelector": {
+            "return": 0,
+            "parameters": {
+                "selector": 0
+            }
+        },
+        "getSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setConcurrency": {
+            "return": 0,
+            "parameters": {
+                "concurrency": 1
+            }
+        },
+        "getConcurrency": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setupListenerContainer": {
+            "return": 0,
+            "parameters": {
+                "listenerContainer": 0
+            }
+        },
+        "setupJmsListenerContainer": {
+            "return": 0,
+            "parameters": {
+                "listenerContainer": 0
+            }
+        },
+        "createMessageListener": {
+            "return": 0,
+            "parameters": {
+                "container": 0
+            }
+        },
+        "setupMessageListener": {
+            "return": 0,
+            "parameters": {
+                "container": 0
+            }
+        },
+        "getEndpointDescription": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "JcaEndpointConfigurer": {
+        "configureEndpoint": {
+            "return": 0,
+            "parameters": {
+                "listenerContainer": 0
+            }
+        },
+        "setupJcaMessageContainer": {
+            "return": 0,
+            "parameters": {
+                "container": 0
+            }
+        }
+    }
+}

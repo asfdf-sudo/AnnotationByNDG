@@ -1,0 +1,8 @@
+{
+    "StubTopic": {
+        "getTopicName": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

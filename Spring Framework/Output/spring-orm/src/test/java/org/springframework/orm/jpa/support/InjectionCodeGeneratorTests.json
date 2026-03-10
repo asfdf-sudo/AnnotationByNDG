@@ -1,0 +1,67 @@
+{
+    "InjectionCodeGeneratorTests": {
+        "generateCodeWhenPublicFieldInjectsValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "generateCodeWhenPackagePrivateFieldInTargetPackageInjectsValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "generateCodeWhenPackagePrivateFieldInAnotherPackageUsesReflection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "generateCodeWhenPrivateFieldInjectsValueUsingReflection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "generateCodeWhenPrivateFieldAddsHint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "generateCodeWhenPublicMethodInjectsValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "generateCodeWhenPackagePrivateMethodInTargetPackageInjectsValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "generateCodeWhenPackagePrivateMethodInAnotherPackageUsesReflection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "generateCodeWhenPrivateMethodInjectsValueUsingReflection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "generateCodeWhenPrivateMethodAddsHint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createGenerator": {
+            "return": 0,
+            "parameters": {
+                "target": 0
+            }
+        },
+        "testCompiledResult": {
+            "return": 0,
+            "parameters": {
+                "generatedClasName": 0,
+                "generatedCode": 0,
+                "target": 0,
+                "result": 0
+            }
+        },
+        "createJavaFile": {
+            "return": 0,
+            "parameters": {
+                "generatedClasName": 0,
+                "generatedCode": 0,
+                "target": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "MessagingMessageListenerAdapter": {
+        "setHandlerMethod": {
+            "return": 0,
+            "parameters": {
+                "handlerMethod": 0
+            }
+        },
+        "getHandlerMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "onMessage": {
+            "return": 0,
+            "parameters": {
+                "jmsMessage": 0,
+                "session": 0
+            }
+        },
+        "toMessagingMessage": {
+            "return": 0,
+            "parameters": {
+                "jmsMessage": 0
+            }
+        },
+        "invokeHandler": {
+            "return": 0,
+            "parameters": {
+                "jmsMessage": 0,
+                "session": 0,
+                "message": 0
+            }
+        },
+        "createMessagingErrorMessage": {
+            "return": 0,
+            "parameters": {
+                "description": 0
+            }
+        },
+        "preProcessResponse": {
+            "return": 0,
+            "parameters": {
+                "result": 1
+            }
+        },
+        "getSubscriptionName": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

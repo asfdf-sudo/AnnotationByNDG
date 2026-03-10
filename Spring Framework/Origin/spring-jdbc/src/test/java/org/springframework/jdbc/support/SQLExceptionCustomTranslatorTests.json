@@ -1,0 +1,12 @@
+{
+    "SQLExceptionCustomTranslatorTests": {
+        "badSqlGrammarException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "dataAccessResourceException": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

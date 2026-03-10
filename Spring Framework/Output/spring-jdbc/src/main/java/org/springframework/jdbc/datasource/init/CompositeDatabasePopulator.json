@@ -1,0 +1,18 @@
+{
+    "CompositeDatabasePopulator": {
+        "setPopulators": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addPopulators": {
+            "return": 0,
+            "parameters": {}
+        },
+        "populate": {
+            "return": 0,
+            "parameters": {
+                "connection": 0
+            }
+        }
+    }
+}

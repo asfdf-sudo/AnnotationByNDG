@@ -1,0 +1,35 @@
+{
+    "IsolationLevelDataSourceAdapter": {
+        "setIsolationLevelName": {
+            "return": 0,
+            "parameters": {
+                "constantName": 1
+            }
+        },
+        "setIsolationLevel": {
+            "return": 0,
+            "parameters": {
+                "isolationLevel": 0
+            }
+        },
+        "getIsolationLevel": {
+            "return": 1,
+            "parameters": {}
+        },
+        "doGetConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "getCurrentIsolationLevel": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getCurrentReadOnlyFlag": {
+            "return": 1,
+            "parameters": {}
+        }
+    }
+}

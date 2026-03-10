@@ -1,0 +1,24 @@
+{
+    "TransactionAttributeSourceTests": {
+        "matchAlwaysTransactionAttributeSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "nameMatchTransactionAttributeSourceWithStarAtStartOfMethodName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "nameMatchTransactionAttributeSourceWithStarAtEndOfMethodName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "nameMatchTransactionAttributeSourceMostSpecificMethodNameIsDefinitelyMatched": {
+            "return": 0,
+            "parameters": {}
+        },
+        "nameMatchTransactionAttributeSourceWithEmptyMethodName": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "TableMetaDataProviderFactory": {
+        "createMetaDataProvider": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0,
+                "context": 0
+            }
+        }
+    }
+}

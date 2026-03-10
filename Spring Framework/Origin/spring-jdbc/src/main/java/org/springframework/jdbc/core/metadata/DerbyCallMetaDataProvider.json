@@ -1,0 +1,10 @@
+{
+    "DerbyCallMetaDataProvider": {
+        "metaDataSchemaNameToUse": {
+            "return": 1,
+            "parameters": {
+                "schemaName": 1
+            }
+        }
+    }
+}

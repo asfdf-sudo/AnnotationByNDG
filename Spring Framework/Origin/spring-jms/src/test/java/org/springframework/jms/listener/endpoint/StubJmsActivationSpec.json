@@ -1,0 +1,64 @@
+{
+    "StubJmsActivationSpec": {
+        "getDestinationType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDestinationType": {
+            "return": 0,
+            "parameters": {
+                "destinationType": 0
+            }
+        },
+        "getSubscriptionDurability": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSubscriptionDurability": {
+            "return": 0,
+            "parameters": {
+                "subscriptionDurability": 0
+            }
+        },
+        "getSubscriptionName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSubscriptionName": {
+            "return": 0,
+            "parameters": {
+                "subscriptionName": 0
+            }
+        },
+        "getClientId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setClientId": {
+            "return": 0,
+            "parameters": {
+                "clientId": 0
+            }
+        },
+        "getMessageSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageSelector": {
+            "return": 0,
+            "parameters": {
+                "messageSelector": 0
+            }
+        },
+        "getAcknowledgeMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAcknowledgeMode": {
+            "return": 0,
+            "parameters": {
+                "acknowledgeMode": 0
+            }
+        }
+    }
+}

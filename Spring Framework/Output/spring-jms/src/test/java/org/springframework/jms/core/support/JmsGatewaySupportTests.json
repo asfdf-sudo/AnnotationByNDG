@@ -1,0 +1,16 @@
+{
+    "JmsGatewaySupportTests": {
+        "testJmsGatewaySupportWithConnectionFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initGateway": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testJmsGatewaySupportWithJmsTemplate": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

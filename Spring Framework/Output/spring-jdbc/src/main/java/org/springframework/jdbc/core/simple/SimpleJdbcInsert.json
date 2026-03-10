@@ -1,0 +1,64 @@
+{
+    "SimpleJdbcInsert": {
+        "withTableName": {
+            "return": 0,
+            "parameters": {
+                "tableName": 0
+            }
+        },
+        "withSchemaName": {
+            "return": 0,
+            "parameters": {
+                "schemaName": 0
+            }
+        },
+        "withCatalogName": {
+            "return": 0,
+            "parameters": {
+                "catalogName": 0
+            }
+        },
+        "usingColumns": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usingGeneratedKeyColumns": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usingQuotedIdentifiers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withoutTableColumnMetaDataAccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "includeSynonymsForTableColumnMetaData": {
+            "return": 0,
+            "parameters": {}
+        },
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "parameterSource": 0
+            }
+        },
+        "executeAndReturnKey": {
+            "return": 0,
+            "parameters": {
+                "parameterSource": 0
+            }
+        },
+        "executeAndReturnKeyHolder": {
+            "return": 0,
+            "parameters": {
+                "parameterSource": 0
+            }
+        },
+        "executeBatch": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "ConcretePerson": {
+        "getBalance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBalance": {
+            "return": 0,
+            "parameters": {
+                "balance": 0
+            }
+        }
+    }
+}

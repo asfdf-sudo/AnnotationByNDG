@@ -1,0 +1,8 @@
+{
+    "SqliteMaxValueIncrementer": {
+        "getNextKey": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

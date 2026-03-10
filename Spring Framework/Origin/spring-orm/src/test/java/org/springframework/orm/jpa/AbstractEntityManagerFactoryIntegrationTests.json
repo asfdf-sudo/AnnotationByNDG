@@ -1,0 +1,76 @@
+{
+    "AbstractEntityManagerFactoryIntegrationTests": {
+        "setEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "entityManagerFactory": 0
+            }
+        },
+        "setSharedEntityManager": {
+            "return": 0,
+            "parameters": {
+                "sharedEntityManager": 0
+            }
+        },
+        "setTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "transactionManager": 0
+            }
+        },
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConfigLocations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "cleanup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "closeContext": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createContainerManagedEntityManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setComplete": {
+            "return": 0,
+            "parameters": {}
+        },
+        "endTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "startNewTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "deleteFromTables": {
+            "return": 0,
+            "parameters": {}
+        },
+        "countRowsInTable": {
+            "return": 0,
+            "parameters": {
+                "tableName": 0
+            }
+        },
+        "executeSqlScript": {
+            "return": 0,
+            "parameters": {
+                "sqlResourcePath": 0
+            }
+        }
+    }
+}

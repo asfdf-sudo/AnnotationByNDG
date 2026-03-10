@@ -1,0 +1,66 @@
+{
+    "DataAccessUtils": {
+        "singleResult": {
+            "return": 0,
+            "parameters": {
+                "results": 1
+            }
+        },
+        "optionalResult": {
+            "return": 0,
+            "parameters": {
+                "results": 1
+            }
+        },
+        "requiredSingleResult": {
+            "return": 0,
+            "parameters": {
+                "results": 1
+            }
+        },
+        "nullableSingleResult": {
+            "return": 0,
+            "parameters": {
+                "results": 1
+            }
+        },
+        "uniqueResult": {
+            "return": 0,
+            "parameters": {
+                "results": 1
+            }
+        },
+        "requiredUniqueResult": {
+            "return": 0,
+            "parameters": {
+                "results": 1
+            }
+        },
+        "objectResult": {
+            "return": 0,
+            "parameters": {
+                "results": 1,
+                "requiredType": 1
+            }
+        },
+        "intResult": {
+            "return": 0,
+            "parameters": {
+                "results": 1
+            }
+        },
+        "longResult": {
+            "return": 0,
+            "parameters": {
+                "results": 1
+            }
+        },
+        "translateIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "rawException": 0,
+                "pet": 0
+            }
+        }
+    }
+}

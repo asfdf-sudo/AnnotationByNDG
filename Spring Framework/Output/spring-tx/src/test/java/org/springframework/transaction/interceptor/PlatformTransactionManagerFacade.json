@@ -1,0 +1,22 @@
+{
+    "PlatformTransactionManagerFacade": {
+        "getTransaction": {
+            "return": 0,
+            "parameters": {
+                "definition": 0
+            }
+        },
+        "commit": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "rollback": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "DynamicDestinationResolverTests": {
+        "resolveWithPubSubTopicSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveWithPubSubVanillaSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveWithPointToPointQueueSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveWithPointToPointVanillaSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testResolveDestination": {
+            "return": 0,
+            "parameters": {
+                "session": 1,
+                "expected": 1,
+                "isPubSub": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "JmsResponseTests": {
+        "destinationDoesNotUseDestinationResolver": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveDestinationForQueue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithNullResponse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithNullQueueName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithNullTopicName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithNulDestination": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

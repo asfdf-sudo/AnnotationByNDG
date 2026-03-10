@@ -1,0 +1,47 @@
+{
+    "OpenEntityManagerInViewInterceptor": {
+        "preHandle": {
+            "return": 0,
+            "parameters": {
+                "request": 0
+            }
+        },
+        "postHandle": {
+            "return": 0,
+            "parameters": {
+                "request": 0,
+                "model": 0
+            }
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "request": 0,
+                "ex": 1
+            }
+        },
+        "decrementParticipateCount": {
+            "return": 0,
+            "parameters": {
+                "request": 0
+            }
+        },
+        "afterConcurrentHandlingStarted": {
+            "return": 0,
+            "parameters": {
+                "request": 0
+            }
+        },
+        "getParticipateAttributeName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "applyEntityManagerBindingInterceptor": {
+            "return": 0,
+            "parameters": {
+                "asyncManager": 0,
+                "key": 0
+            }
+        }
+    }
+}

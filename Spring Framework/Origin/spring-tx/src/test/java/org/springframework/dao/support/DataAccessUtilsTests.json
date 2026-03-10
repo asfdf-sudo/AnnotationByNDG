@@ -1,0 +1,54 @@
+{
+    "DataAccessUtilsTests": {
+        "withEmptyCollection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withTooLargeCollection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withNullValueInCollection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withInteger": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withSameIntegerInstanceTwice": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withEquivalentIntegerInstanceTwice": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withLong": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withDate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "exceptionTranslationWithNoTranslation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "exceptionTranslationWithTranslation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sizeRequirements": {
+            "return": 0,
+            "parameters": {
+                "expectedSize": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "EclipseLinkJpaDialect": {
+        "setLazyDatabaseTransaction": {
+            "return": 0,
+            "parameters": {
+                "lazyDatabaseTransaction": 0
+            }
+        },
+        "beginTransaction": {
+            "return": 1,
+            "parameters": {
+                "entityManager": 0,
+                "definition": 0
+            }
+        },
+        "getJdbcConnection": {
+            "return": 0,
+            "parameters": {
+                "entityManager": 0,
+                "readOnly": 0
+            }
+        }
+    },
+    "EclipseLinkConnectionHandle": {
+        "getConnection": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "PersistenceManagedTypesBeanRegistrationAotProcessorTests": {
+        "processEntityManagerWithPackagesToScan": {
+            "return": 0,
+            "parameters": {}
+        },
+        "contributeJpaHints": {
+            "return": 0,
+            "parameters": {}
+        },
+        "contributeHibernateHints": {
+            "return": 0,
+            "parameters": {}
+        },
+        "compile": {
+            "return": 0,
+            "parameters": {
+                "applicationContext": 0,
+                "result": 0
+            }
+        },
+        "toFreshApplicationContext": {
+            "return": 0,
+            "parameters": {
+                "initializer": 0
+            }
+        },
+        "contributeHints": {
+            "return": 0,
+            "parameters": {
+                "applicationContext": 0,
+                "result": 0
+            }
+        }
+    },
+    "AbstractEntityManagerWithPackagesToScanConfiguration": {
+        "mockDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jpaVendorAdapter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "persistenceManagedTypes": {
+            "return": 0,
+            "parameters": {
+                "resourceLoader": 0
+            }
+        },
+        "entityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0,
+                "jpaVendorAdapter": 0,
+                "persistenceManagedTypes": 0
+            }
+        },
+        "packageToScan": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "JpaDomainConfiguration": {
+        "packageToScan": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "HibernateDomainConfiguration": {
+        "packageToScan": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "ReactiveResourceSynchronization": {
+        "suspend": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resume": {
+            "return": 0,
+            "parameters": {}
+        },
+        "beforeCommit": {
+            "return": 0,
+            "parameters": {
+                "readOnly": 0
+            }
+        },
+        "beforeCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "shouldUnbindAtCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldReleaseBeforeCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldReleaseAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "resourceHolder": 0
+            }
+        },
+        "processResourceAfterCommit": {
+            "return": 0,
+            "parameters": {
+                "resourceHolder": 0
+            }
+        },
+        "releaseResource": {
+            "return": 0,
+            "parameters": {
+                "resourceHolder": 0,
+                "resourceKey": 0
+            }
+        },
+        "cleanupResource": {
+            "return": 0,
+            "parameters": {
+                "resourceHolder": 0,
+                "resourceKey": 0,
+                "committed": 0
+            }
+        }
+    }
+}

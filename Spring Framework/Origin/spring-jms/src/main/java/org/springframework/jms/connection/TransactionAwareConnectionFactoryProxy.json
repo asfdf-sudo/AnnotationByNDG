@@ -1,0 +1,83 @@
+{
+    "TransactionAwareConnectionFactoryProxy": {
+        "setTargetConnectionFactory": {
+            "return": 0,
+            "parameters": {
+                "targetConnectionFactory": 0
+            }
+        },
+        "getTargetConnectionFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSynchedLocalTransactionAllowed": {
+            "return": 0,
+            "parameters": {
+                "synchedLocalTransactionAllowed": 0
+            }
+        },
+        "isSynchedLocalTransactionAllowed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createQueueConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createTopicConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createContext": {
+            "return": 0,
+            "parameters": {
+                "sessionMode": 0
+            }
+        },
+        "getTransactionAwareConnectionProxy": {
+            "return": 0,
+            "parameters": {
+                "target": 0
+            }
+        }
+    },
+    "TransactionAwareConnectionInvocationHandler": {
+        "invoke": {
+            "return": 0,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        },
+        "getCloseSuppressingSessionProxy": {
+            "return": 0,
+            "parameters": {
+                "target": 0
+            }
+        }
+    },
+    "CloseSuppressingSessionInvocationHandler": {
+        "invoke": {
+            "return": 1,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        }
+    }
+}

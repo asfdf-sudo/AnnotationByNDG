@@ -1,0 +1,146 @@
+{
+    "JmsNamespaceHandlerTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shutdown": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBeansCreated": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testContainerConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testJcaContainerConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testJmsContainerFactoryConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testJcaContainerFactoryConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testListeners": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testRecoveryInterval": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testConcurrency": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testResponseDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testErrorHandlers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPhases": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testComponentRegistration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSourceExtraction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validateComponentDefinition": {
+            "return": 0,
+            "parameters": {
+                "compDef": 0
+            }
+        },
+        "getListener": {
+            "return": 0,
+            "parameters": {
+                "containerBeanName": 0
+            }
+        },
+        "getErrorHandler": {
+            "return": 0,
+            "parameters": {
+                "containerBeanName": 0
+            }
+        },
+        "getBackOff": {
+            "return": 0,
+            "parameters": {
+                "containerBeanName": 0
+            }
+        },
+        "getRecoveryInterval": {
+            "return": 0,
+            "parameters": {
+                "containerBeanName": 0
+            }
+        },
+        "getPhase": {
+            "return": 0,
+            "parameters": {
+                "containerBeanName": 0
+            }
+        },
+        "createDummyEndpoint": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestMessageListener": {
+        "onMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        }
+    },
+    "ToolingTestApplicationContext": {
+        "initBeanDefinitionReader": {
+            "return": 0,
+            "parameters": {
+                "beanDefinitionReader": 0
+            }
+        },
+        "containsComponentDefinition": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getRegisteredComponents": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "StoringReaderEventListener": {
+        "componentRegistered": {
+            "return": 0,
+            "parameters": {
+                "componentDefinition": 0
+            }
+        }
+    },
+    "TestErrorHandler": {
+        "handleError": {
+            "return": 0,
+            "parameters": {
+                "t": 0
+            }
+        }
+    }
+}

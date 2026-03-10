@@ -1,0 +1,23 @@
+{
+    "SQLExceptionSubclassTranslatorTests": {
+        "exceptionClassTranslation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "batchExceptionTranslation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fallbackStateTranslation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertTranslation": {
+            "return": 0,
+            "parameters": {
+                "ex": 0,
+                "dataAccessExceptionType": 0
+            }
+        }
+    }
+}

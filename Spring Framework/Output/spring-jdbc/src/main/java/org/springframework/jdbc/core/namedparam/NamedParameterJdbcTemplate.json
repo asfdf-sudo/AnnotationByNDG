@@ -1,0 +1,123 @@
+{
+    "NamedParameterJdbcTemplate": {
+        "getJdbcOperations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJdbcTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCacheLimit": {
+            "return": 0,
+            "parameters": {
+                "cacheLimit": 0
+            }
+        },
+        "getCacheLimit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "action": 0
+            }
+        },
+        "query": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "rowMapper": 0
+            }
+        },
+        "queryForStream": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "paramMap": 0,
+                "rowMapper": 0
+            }
+        },
+        "queryForObject": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "paramMap": 0,
+                "requiredType": 0
+            }
+        },
+        "queryForMap": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "paramMap": 0
+            }
+        },
+        "queryForList": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "paramMap": 0
+            }
+        },
+        "queryForRowSet": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "paramMap": 0
+            }
+        },
+        "update": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "paramSource": 0,
+                "generatedKeyHolder": 0,
+                "keyColumnNames": 1
+            }
+        },
+        "batchUpdate": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "batchArgs": 0,
+                "generatedKeyHolder": 0,
+                "keyColumnNames": 1
+            }
+        },
+        "setValues": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "i": 0
+            }
+        },
+        "getBatchSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPreparedStatementCreator": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "paramSource": 0,
+                "customizer": 1
+            }
+        },
+        "getParsedSql": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "getPreparedStatementCreatorFactory": {
+            "return": 0,
+            "parameters": {
+                "parsedSql": 0,
+                "paramSource": 0
+            }
+        }
+    }
+}

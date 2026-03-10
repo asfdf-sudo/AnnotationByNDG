@@ -1,0 +1,40 @@
+{
+    "JmsMessageEndpointManagerTests": {
+        "isPubSubDomainWithQueue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isPubSubDomainWithTopic": {
+            "return": 0,
+            "parameters": {}
+        },
+        "pubSubDomainCustomForReply": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customReplyQosSettings": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isPubSubDomainWithNoConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isReplyPubSubDomainWithNoConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getReplyQosSettingsWithNoConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getMessageConverterNoConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDestinationResolverNoConfig": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

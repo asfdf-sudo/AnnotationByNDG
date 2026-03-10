@@ -1,0 +1,44 @@
+{
+    "ConstructorPersonWithSetters": {
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 1
+            }
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        },
+        "setBirthDate": {
+            "return": 0,
+            "parameters": {
+                "birthDate": 0
+            }
+        },
+        "setBalance": {
+            "return": 0,
+            "parameters": {
+                "balance": 1
+            }
+        },
+        "name": {
+            "return": 0,
+            "parameters": {}
+        },
+        "age": {
+            "return": 0,
+            "parameters": {}
+        },
+        "birthDate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "balance": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

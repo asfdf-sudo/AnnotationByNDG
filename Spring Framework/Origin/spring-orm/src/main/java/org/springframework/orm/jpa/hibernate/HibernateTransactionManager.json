@@ -1,0 +1,216 @@
+{
+    "HibernateTransactionManager": {
+        "setSessionFactory": {
+            "return": 0,
+            "parameters": {
+                "sessionFactory": 1
+            }
+        },
+        "getSessionFactory": {
+            "return": 1,
+            "parameters": {}
+        },
+        "obtainSessionFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 1
+            }
+        },
+        "getDataSource": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setAutodetectDataSource": {
+            "return": 0,
+            "parameters": {
+                "autodetectDataSource": 0
+            }
+        },
+        "setPrepareConnection": {
+            "return": 0,
+            "parameters": {
+                "prepareConnection": 0
+            }
+        },
+        "setHibernateManagedSession": {
+            "return": 0,
+            "parameters": {
+                "hibernateManagedSession": 0
+            }
+        },
+        "setSessionInitializer": {
+            "return": 0,
+            "parameters": {
+                "sessionInitializer": 0
+            }
+        },
+        "setEntityInterceptorBeanName": {
+            "return": 0,
+            "parameters": {
+                "entityInterceptorBeanName": 0
+            }
+        },
+        "setEntityInterceptor": {
+            "return": 0,
+            "parameters": {
+                "entityInterceptor": 1
+            }
+        },
+        "getEntityInterceptor": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getResourceFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doGetTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isExistingTransaction": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "doBegin": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0,
+                "definition": 0
+            }
+        },
+        "doSuspend": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "doResume": {
+            "return": 0,
+            "parameters": {
+                "transaction": 1,
+                "suspendedResources": 0
+            }
+        },
+        "doCommit": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doRollback": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doSetRollbackOnly": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doCleanupAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "disconnectOnCompletion": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        }
+    },
+    "HibernateTransactionObject": {
+        "setSession": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "setExistingSession": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "setSessionHolder": {
+            "return": 0,
+            "parameters": {
+                "sessionHolder": 1
+            }
+        },
+        "getSessionHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasSessionHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isNewSessionHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isNewSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "connectionPrepared": {
+            "return": 0,
+            "parameters": {}
+        },
+        "needsConnectionReset": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasSpringManagedTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasHibernateManagedTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "flush": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "SuspendedResourcesHolder": {
+        "getSessionHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConnectionHolder": {
+            "return": 1,
+            "parameters": {}
+        }
+    }
+}

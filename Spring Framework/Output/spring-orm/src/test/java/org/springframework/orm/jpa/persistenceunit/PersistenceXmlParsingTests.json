@@ -1,0 +1,60 @@
+{
+    "PersistenceXmlParsingTests": {
+        "testMetaInfCase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExample1": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExample2": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExample3": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExample4": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExample5": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExampleComplex": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExample6": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testInvalidPersistence": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testNoSchemaPersistence": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPersistenceUnitRootUrl": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPersistenceUnitRootUrlWithJar": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testJpa1ExcludeUnlisted": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testJpa2ExcludeUnlisted": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

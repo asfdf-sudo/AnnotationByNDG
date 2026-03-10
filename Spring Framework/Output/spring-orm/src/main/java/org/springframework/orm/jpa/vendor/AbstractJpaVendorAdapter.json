@@ -1,0 +1,76 @@
+{
+    "AbstractJpaVendorAdapter": {
+        "setDatabase": {
+            "return": 0,
+            "parameters": {
+                "database": 0
+            }
+        },
+        "getDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDatabasePlatform": {
+            "return": 0,
+            "parameters": {
+                "databasePlatform": 0
+            }
+        },
+        "getDatabasePlatform": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setGenerateDdl": {
+            "return": 0,
+            "parameters": {
+                "generateDdl": 0
+            }
+        },
+        "isGenerateDdl": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setShowSql": {
+            "return": 0,
+            "parameters": {
+                "showSql": 0
+            }
+        },
+        "isShowSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPersistenceProviderRootPackage": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getJpaPropertyMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJpaDialect": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getEntityManagerFactoryInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getEntityManagerInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "postProcessEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "emf": 1
+            }
+        },
+        "postProcessEntityManager": {
+            "return": 0,
+            "parameters": {
+                "em": 0
+            }
+        }
+    }
+}

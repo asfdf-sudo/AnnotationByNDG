@@ -1,0 +1,20 @@
+{
+    "BeanFactoryTransactionAttributeSourceAdvisor": {
+        "setTransactionAttributeSource": {
+            "return": 0,
+            "parameters": {
+                "transactionAttributeSource": 0
+            }
+        },
+        "setClassFilter": {
+            "return": 0,
+            "parameters": {
+                "classFilter": 0
+            }
+        },
+        "getPointcut": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

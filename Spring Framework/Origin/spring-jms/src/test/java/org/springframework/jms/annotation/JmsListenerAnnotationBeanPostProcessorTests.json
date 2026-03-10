@@ -1,0 +1,100 @@
+{
+    "JmsListenerAnnotationBeanPostProcessorTests": {
+        "simpleMessageListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "metaAnnotationIsDiscovered": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendToAnnotationFoundOnInterfaceProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendToAnnotationFoundOnCglibProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invalidProxy": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "SimpleMessageListenerTestBean": {
+        "handleIt": {
+            "return": 0,
+            "parameters": {
+                "body": 0
+            }
+        }
+    },
+    "MetaAnnotationTestBean": {
+        "handleIt": {
+            "return": 0,
+            "parameters": {
+                "body": 0
+            }
+        }
+    },
+    "Config": {
+        "postProcessor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsListenerEndpointRegistry": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ProxyConfig": {
+        "transactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "handleIt": {
+            "return": 0,
+            "parameters": {
+                "value": 0,
+                "body": 0
+            }
+        }
+    },
+    "InterfaceProxyTestBean": {
+        "handleIt": {
+            "return": 0,
+            "parameters": {
+                "value": 0,
+                "body": 0
+            }
+        }
+    },
+    "ClassProxyTestBean": {
+        "handleIt": {
+            "return": 0,
+            "parameters": {
+                "value": 0,
+                "body": 0
+            }
+        }
+    },
+    "InvalidProxyTestBean": {
+        "handleIt": {
+            "return": 0,
+            "parameters": {
+                "value": 0,
+                "body": 0
+            }
+        },
+        "handleIt2": {
+            "return": 0,
+            "parameters": {
+                "body": 0
+            }
+        }
+    }
+}

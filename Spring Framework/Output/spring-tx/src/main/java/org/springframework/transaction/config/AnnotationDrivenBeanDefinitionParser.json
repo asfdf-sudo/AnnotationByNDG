@@ -1,0 +1,47 @@
+{
+    "AnnotationDrivenBeanDefinitionParser": {
+        "parse": {
+            "return": 1,
+            "parameters": {
+                "element": 0,
+                "parserContext": 0
+            }
+        },
+        "registerTransactionAspect": {
+            "return": 0,
+            "parameters": {
+                "element": 0,
+                "parserContext": 0
+            }
+        },
+        "registerJtaTransactionAspect": {
+            "return": 0,
+            "parameters": {
+                "element": 0,
+                "parserContext": 0
+            }
+        },
+        "registerTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "element": 0,
+                "def": 0
+            }
+        },
+        "registerTransactionalEventListenerFactory": {
+            "return": 0,
+            "parameters": {
+                "parserContext": 0
+            }
+        }
+    },
+    "AopAutoProxyConfigurer": {
+        "configureAutoProxyCreator": {
+            "return": 0,
+            "parameters": {
+                "element": 0,
+                "parserContext": 0
+            }
+        }
+    }
+}

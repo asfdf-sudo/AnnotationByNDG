@@ -1,0 +1,15 @@
+{
+    "SqlArrayValue": {
+        "setValue": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0
+            }
+        },
+        "cleanup": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

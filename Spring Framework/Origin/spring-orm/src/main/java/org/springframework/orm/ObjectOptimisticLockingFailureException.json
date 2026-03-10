@@ -1,0 +1,16 @@
+{
+    "ObjectOptimisticLockingFailureException": {
+        "getPersistentClass": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getPersistentClassName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getIdentifier": {
+            "return": 1,
+            "parameters": {}
+        }
+    }
+}

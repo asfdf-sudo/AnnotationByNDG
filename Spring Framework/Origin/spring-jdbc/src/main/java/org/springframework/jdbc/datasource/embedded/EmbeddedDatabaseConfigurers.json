@@ -1,0 +1,17 @@
+{
+    "EmbeddedDatabaseConfigurers": {
+        "getConfigurer": {
+            "return": 0,
+            "parameters": {
+                "type": 0
+            }
+        },
+        "customizeConfigurer": {
+            "return": 0,
+            "parameters": {
+                "type": 0,
+                "customizer": 0
+            }
+        }
+    }
+}

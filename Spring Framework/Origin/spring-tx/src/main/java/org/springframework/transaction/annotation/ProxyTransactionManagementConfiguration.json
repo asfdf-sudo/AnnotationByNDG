@@ -1,0 +1,17 @@
+{
+    "ProxyTransactionManagementConfiguration": {
+        "transactionAdvisor": {
+            "return": 0,
+            "parameters": {
+                "transactionAttributeSource": 0,
+                "transactionInterceptor": 0
+            }
+        },
+        "transactionInterceptor": {
+            "return": 0,
+            "parameters": {
+                "transactionAttributeSource": 0
+            }
+        }
+    }
+}

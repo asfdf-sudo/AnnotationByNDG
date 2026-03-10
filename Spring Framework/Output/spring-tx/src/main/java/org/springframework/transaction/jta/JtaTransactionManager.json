@@ -1,0 +1,304 @@
+{
+    "JtaTransactionManager": {
+        "setJndiTemplate": {
+            "return": 0,
+            "parameters": {
+                "jndiTemplate": 0
+            }
+        },
+        "getJndiTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setJndiEnvironment": {
+            "return": 0,
+            "parameters": {
+                "jndiEnvironment": 0
+            }
+        },
+        "getJndiEnvironment": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setUserTransaction": {
+            "return": 0,
+            "parameters": {
+                "userTransaction": 0
+            }
+        },
+        "getUserTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setUserTransactionName": {
+            "return": 0,
+            "parameters": {
+                "userTransactionName": 0
+            }
+        },
+        "setAutodetectUserTransaction": {
+            "return": 0,
+            "parameters": {
+                "autodetectUserTransaction": 0
+            }
+        },
+        "setCacheUserTransaction": {
+            "return": 0,
+            "parameters": {
+                "cacheUserTransaction": 0
+            }
+        },
+        "setTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "transactionManager": 0
+            }
+        },
+        "getTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTransactionManagerName": {
+            "return": 0,
+            "parameters": {
+                "transactionManagerName": 0
+            }
+        },
+        "setAutodetectTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "autodetectTransactionManager": 0
+            }
+        },
+        "setTransactionSynchronizationRegistry": {
+            "return": 0,
+            "parameters": {
+                "transactionSynchronizationRegistry": 0
+            }
+        },
+        "getTransactionSynchronizationRegistry": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTransactionSynchronizationRegistryName": {
+            "return": 0,
+            "parameters": {
+                "transactionSynchronizationRegistryName": 0
+            }
+        },
+        "setAutodetectTransactionSynchronizationRegistry": {
+            "return": 0,
+            "parameters": {
+                "autodetectTransactionSynchronizationRegistry": 0
+            }
+        },
+        "setAllowCustomIsolationLevels": {
+            "return": 0,
+            "parameters": {
+                "allowCustomIsolationLevels": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initUserTransactionAndTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkUserTransactionAndTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initTransactionSynchronizationRegistry": {
+            "return": 0,
+            "parameters": {}
+        },
+        "buildUserTransaction": {
+            "return": 0,
+            "parameters": {
+                "transactionManager": 1
+            }
+        },
+        "lookupUserTransaction": {
+            "return": 0,
+            "parameters": {
+                "userTransactionName": 1
+            }
+        },
+        "lookupTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "transactionManagerName": 1
+            }
+        },
+        "lookupTransactionSynchronizationRegistry": {
+            "return": 0,
+            "parameters": {
+                "registryName": 1
+            }
+        },
+        "retrieveUserTransaction": {
+            "return": 1,
+            "parameters": {}
+        },
+        "retrieveTransactionManager": {
+            "return": 1,
+            "parameters": {}
+        },
+        "retrieveTransactionSynchronizationRegistry": {
+            "return": 1,
+            "parameters": {}
+        },
+        "findUserTransaction": {
+            "return": 1,
+            "parameters": {}
+        },
+        "findTransactionManager": {
+            "return": 1,
+            "parameters": {
+                "ut": 1
+            }
+        },
+        "findTransactionSynchronizationRegistry": {
+            "return": 1,
+            "parameters": {
+                "ut": 1,
+                "tm": 1
+            }
+        },
+        "doGetTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doGetJtaTransaction": {
+            "return": 0,
+            "parameters": {
+                "ut": 0
+            }
+        },
+        "isExistingTransaction": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "useSavepointForNestedTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doBegin": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0,
+                "definition": 0
+            }
+        },
+        "doJtaBegin": {
+            "return": 0,
+            "parameters": {
+                "txObject": 0,
+                "definition": 0
+            }
+        },
+        "applyIsolationLevel": {
+            "return": 0,
+            "parameters": {
+                "txObject": 0,
+                "isolationLevel": 0
+            }
+        },
+        "applyTimeout": {
+            "return": 0,
+            "parameters": {
+                "txObject": 0,
+                "timeout": 0
+            }
+        },
+        "doSuspend": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "doJtaSuspend": {
+            "return": 0,
+            "parameters": {
+                "txObject": 0
+            }
+        },
+        "doResume": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0,
+                "suspendedResources": 0
+            }
+        },
+        "doJtaResume": {
+            "return": 0,
+            "parameters": {
+                "txObject": 0,
+                "suspendedTransaction": 0
+            }
+        },
+        "shouldCommitOnGlobalRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doCommit": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doRollback": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doSetRollbackOnly": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "registerAfterCompletionWithExistingTransaction": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0,
+                "synchronizations": 0
+            }
+        },
+        "doRegisterAfterCompletionWithJtaTransaction": {
+            "return": 0,
+            "parameters": {
+                "txObject": 0,
+                "synchronizations": 0
+            }
+        },
+        "doCleanupAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "createTransaction": {
+            "return": 0,
+            "parameters": {
+                "name": 1,
+                "timeout": 0
+            }
+        },
+        "supportsResourceAdapterManagedTransactions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "readObject": {
+            "return": 0,
+            "parameters": {
+                "ois": 0
+            }
+        }
+    }
+}

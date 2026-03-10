@@ -1,0 +1,23 @@
+{
+    "ArgumentTypePreparedStatementSetter": {
+        "setValues": {
+            "return": 0,
+            "parameters": {
+                "ps": 0
+            }
+        },
+        "doSetValue": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "parameterPosition": 0,
+                "argType": 0,
+                "argValue": 1
+            }
+        },
+        "cleanupParameters": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ConnectionFactoriesRuntimeHintsTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldRegisterProxyHints": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

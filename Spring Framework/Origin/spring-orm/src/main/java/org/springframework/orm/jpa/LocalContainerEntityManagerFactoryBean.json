@@ -1,0 +1,127 @@
+{
+    "LocalContainerEntityManagerFactoryBean": {
+        "setPersistenceUnitManager": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitManager": 0
+            }
+        },
+        "setPersistenceXmlLocation": {
+            "return": 0,
+            "parameters": {
+                "persistenceXmlLocation": 0
+            }
+        },
+        "setPersistenceUnitName": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitName": 1
+            }
+        },
+        "setPersistenceUnitRootLocation": {
+            "return": 0,
+            "parameters": {
+                "defaultPersistenceUnitRootLocation": 0
+            }
+        },
+        "setPersistenceConfiguration": {
+            "return": 0,
+            "parameters": {
+                "configuration": 0
+            }
+        },
+        "setManagedTypes": {
+            "return": 0,
+            "parameters": {
+                "managedTypes": 0
+            }
+        },
+        "setPackagesToScan": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setManagedClassNameFilter": {
+            "return": 0,
+            "parameters": {
+                "managedClassNameFilter": 0
+            }
+        },
+        "setMappingResources": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSharedCacheMode": {
+            "return": 0,
+            "parameters": {
+                "sharedCacheMode": 0
+            }
+        },
+        "setValidationMode": {
+            "return": 0,
+            "parameters": {
+                "validationMode": 0
+            }
+        },
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 1
+            }
+        },
+        "setJtaDataSource": {
+            "return": 0,
+            "parameters": {
+                "jtaDataSource": 1
+            }
+        },
+        "setPersistenceUnitPostProcessors": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLoadTimeWeaver": {
+            "return": 0,
+            "parameters": {
+                "loadTimeWeaver": 0
+            }
+        },
+        "setResourceLoader": {
+            "return": 0,
+            "parameters": {
+                "resourceLoader": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createNativeEntityManagerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determinePersistenceUnitInfo": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitManager": 0
+            }
+        },
+        "postProcessEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "emf": 0,
+                "pui": 0
+            }
+        },
+        "getPersistenceUnitInfo": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getPersistenceUnitName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getDataSource": {
+            "return": 1,
+            "parameters": {}
+        }
+    }
+}

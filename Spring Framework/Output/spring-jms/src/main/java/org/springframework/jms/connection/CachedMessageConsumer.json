@@ -1,0 +1,48 @@
+{
+    "CachedMessageConsumer": {
+        "getMessageSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getQueue": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getTopic": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getNoLocal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getMessageListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageListener": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 0
+            }
+        },
+        "receive": {
+            "return": 0,
+            "parameters": {
+                "timeout": 0
+            }
+        },
+        "receiveNoWait": {
+            "return": 0,
+            "parameters": {}
+        },
+        "close": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

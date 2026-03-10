@@ -1,0 +1,56 @@
+{
+    "DefaultLobHandlerTests": {
+        "testGetBlobAsBytes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetBlobAsBinaryStream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetClobAsString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetClobAsAsciiStream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetClobAsCharacterStream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetBlobAsBytes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetBlobAsBinaryStream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetBlobAsBinaryStreamWithoutLength": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetClobAsString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetClobAsAsciiStream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetClobAsAsciiStreamWithoutLength": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetClobAsCharacterStream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetClobAsCharacterStreamWithoutLength": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

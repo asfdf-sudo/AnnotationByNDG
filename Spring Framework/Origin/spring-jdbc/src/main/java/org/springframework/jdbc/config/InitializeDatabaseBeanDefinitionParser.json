@@ -1,0 +1,15 @@
+{
+    "InitializeDatabaseBeanDefinitionParser": {
+        "parseInternal": {
+            "return": 0,
+            "parameters": {
+                "element": 0,
+                "parserContext": 0
+            }
+        },
+        "shouldGenerateId": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

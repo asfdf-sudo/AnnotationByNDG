@@ -1,0 +1,64 @@
+{
+    "Jdbc4SqlXmlHandler": {
+        "getXmlAsString": {
+            "return": 1,
+            "parameters": {
+                "rs": 0,
+                "columnIndex": 0
+            }
+        },
+        "getXmlAsBinaryStream": {
+            "return": 1,
+            "parameters": {
+                "rs": 0,
+                "columnIndex": 0
+            }
+        },
+        "getXmlAsCharacterStream": {
+            "return": 1,
+            "parameters": {
+                "rs": 0,
+                "columnIndex": 0
+            }
+        },
+        "getXmlAsSource": {
+            "return": 1,
+            "parameters": {
+                "rs": 0,
+                "columnIndex": 0,
+                "sourceClass": 1
+            }
+        },
+        "newSqlXmlValue": {
+            "return": 0,
+            "parameters": {
+                "document": 0
+            }
+        },
+        "provideXml": {
+            "return": 0,
+            "parameters": {
+                "xmlObject": 0
+            }
+        }
+    },
+    "AbstractJdbc4SqlXmlValue": {
+        "setValue": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0
+            }
+        },
+        "cleanup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "provideXml": {
+            "return": 0,
+            "parameters": {
+                "xmlObject": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,239 @@
+{
+    "JpaTransactionManager": {
+        "setEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "emf": 1
+            }
+        },
+        "getEntityManagerFactory": {
+            "return": 1,
+            "parameters": {}
+        },
+        "obtainEntityManagerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPersistenceUnitName": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitName": 1
+            }
+        },
+        "getPersistenceUnitName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setJpaProperties": {
+            "return": 0,
+            "parameters": {
+                "jpaProperties": 1
+            }
+        },
+        "setJpaPropertyMap": {
+            "return": 0,
+            "parameters": {
+                "jpaProperties": 1
+            }
+        },
+        "getJpaPropertyMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 1
+            }
+        },
+        "getDataSource": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setJpaDialect": {
+            "return": 0,
+            "parameters": {
+                "jpaDialect": 1
+            }
+        },
+        "getJpaDialect": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setEntityManagerInitializer": {
+            "return": 0,
+            "parameters": {
+                "entityManagerInitializer": 0
+            }
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getResourceFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doGetTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isExistingTransaction": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "doBegin": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0,
+                "definition": 0
+            }
+        },
+        "createEntityManagerForTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "closeEntityManagerAfterFailedBegin": {
+            "return": 0,
+            "parameters": {
+                "txObject": 0
+            }
+        },
+        "doSuspend": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "doResume": {
+            "return": 0,
+            "parameters": {
+                "transaction": 1,
+                "suspendedResources": 0
+            }
+        },
+        "shouldCommitOnGlobalRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doCommit": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doRollback": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doSetRollbackOnly": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doCleanupAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        }
+    },
+    "JpaTransactionObject": {
+        "setEntityManagerHolder": {
+            "return": 0,
+            "parameters": {
+                "entityManagerHolder": 1,
+                "newEntityManagerHolder": 0
+            }
+        },
+        "getEntityManagerHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasEntityManagerHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isNewEntityManagerHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTransactionData": {
+            "return": 0,
+            "parameters": {
+                "transactionData": 1
+            }
+        },
+        "getTransactionData": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "flush": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSavepoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackToSavepoint": {
+            "return": 0,
+            "parameters": {
+                "savepoint": 0
+            }
+        },
+        "releaseSavepoint": {
+            "return": 0,
+            "parameters": {
+                "savepoint": 0
+            }
+        },
+        "getSavepointManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "JpaTransactionDefinition": {
+        "getTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isLocalResource": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "SuspendedResourcesHolder": {
+        "getEntityManagerHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConnectionHolder": {
+            "return": 1,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "AbstractEntityManagerFactoryBean": {
+        "setPersistenceProviderClass": {
+            "return": 0,
+            "parameters": {
+                "persistenceProviderClass": 0
+            }
+        },
+        "setPersistenceProvider": {
+            "return": 0,
+            "parameters": {
+                "persistenceProvider": 0
+            }
+        },
+        "getPersistenceProvider": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPersistenceUnitName": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitName": 0
+            }
+        },
+        "getPersistenceUnitName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setJpaProperties": {
+            "return": 0,
+            "parameters": {
+                "jpaProperties": 0
+            }
+        },
+        "setJpaPropertyMap": {
+            "return": 0,
+            "parameters": {
+                "jpaProperties": 1
+            }
+        },
+        "getJpaPropertyMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setEntityManagerFactoryInterface": {
+            "return": 0,
+            "parameters": {
+                "emfInterface": 0
+            }
+        },
+        "setEntityManagerInterface": {
+            "return": 0,
+            "parameters": {
+                "emInterface": 0
+            }
+        },
+        "getEntityManagerInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setJpaDialect": {
+            "return": 0,
+            "parameters": {
+                "jpaDialect": 0
+            }
+        },
+        "getJpaDialect": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setJpaVendorAdapter": {
+            "return": 0,
+            "parameters": {
+                "jpaVendorAdapter": 1
+            }
+        },
+        "getJpaVendorAdapter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setEntityManagerInitializer": {
+            "return": 0,
+            "parameters": {
+                "entityManagerInitializer": 0
+            }
+        },
+        "setBootstrapExecutor": {
+            "return": 0,
+            "parameters": {
+                "bootstrapExecutor": 0
+            }
+        },
+        "getBootstrapExecutor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBeanClassLoader": {
+            "return": 0,
+            "parameters": {
+                "classLoader": 0
+            }
+        },
+        "getBeanClassLoader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        },
+        "getBeanFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBeanName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getBeanName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterSingletonsInstantiated": {
+            "return": 0,
+            "parameters": {}
+        },
+        "buildNativeEntityManagerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createEntityManagerFactoryProxy": {
+            "return": 0,
+            "parameters": {
+                "emf": 1
+            }
+        },
+        "invokeProxyMethod": {
+            "return": 1,
+            "parameters": {
+                "method": 0,
+                "args": 1
+            }
+        },
+        "createNativeEntityManagerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateExceptionIfPossible": {
+            "return": 0,
+            "parameters": {
+                "ex": 1
+            }
+        },
+        "getNativeEntityManagerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createNativeEntityManager": {
+            "return": 0,
+            "parameters": {
+                "properties": 0
+            }
+        },
+        "postProcessEntityManager": {
+            "return": 0,
+            "parameters": {
+                "rawEntityManager": 0
+            }
+        },
+        "getPersistenceUnitInfo": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getDataSource": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getObject": {
+            "return": 1,
+            "parameters": {
+                "type": 0
+            }
+        },
+        "getObjectType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "supportsType": {
+            "return": 0,
+            "parameters": {
+                "type": 0
+            }
+        },
+        "destroy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "readObject": {
+            "return": 0,
+            "parameters": {
+                "ois": 1
+            }
+        },
+        "writeReplace": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "SerializedEntityManagerFactoryBeanReference": {
+        "readResolve": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ManagedEntityManagerFactoryInvocationHandler": {
+        "invoke": {
+            "return": 0,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        }
+    }
+}

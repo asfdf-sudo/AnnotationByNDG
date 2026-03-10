@@ -1,0 +1,74 @@
+{
+    "AbstractTransactionStatus": {
+        "setRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isLocalRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isGlobalRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCompleted": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isCompleted": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasSavepoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSavepoint": {
+            "return": 0,
+            "parameters": {
+                "savepoint": 1
+            }
+        },
+        "getSavepoint": {
+            "return": 1,
+            "parameters": {}
+        },
+        "createAndHoldSavepoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackToHeldSavepoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "releaseHeldSavepoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSavepoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackToSavepoint": {
+            "return": 0,
+            "parameters": {
+                "savepoint": 0
+            }
+        },
+        "releaseSavepoint": {
+            "return": 0,
+            "parameters": {
+                "savepoint": 0
+            }
+        },
+        "getSavepointManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

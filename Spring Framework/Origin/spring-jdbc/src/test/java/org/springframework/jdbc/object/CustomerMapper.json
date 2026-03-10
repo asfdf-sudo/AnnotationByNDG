@@ -1,0 +1,11 @@
+{
+    "CustomerMapper": {
+        "mapRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rownum": 0
+            }
+        }
+    }
+}

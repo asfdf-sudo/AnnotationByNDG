@@ -1,0 +1,60 @@
+{
+    "ParsedSql": {
+        "getOriginalSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addNamedParameter": {
+            "return": 0,
+            "parameters": {
+                "parameterName": 0,
+                "startIndex": 0,
+                "endIndex": 0
+            }
+        },
+        "getParameterNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getParameterIndexes": {
+            "return": 0,
+            "parameters": {
+                "parameterPosition": 0
+            }
+        },
+        "setNamedParameterCount": {
+            "return": 0,
+            "parameters": {
+                "namedParameterCount": 0
+            }
+        },
+        "getNamedParameterCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setUnnamedParameterCount": {
+            "return": 0,
+            "parameters": {
+                "unnamedParameterCount": 0
+            }
+        },
+        "getUnnamedParameterCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTotalParameterCount": {
+            "return": 0,
+            "parameters": {
+                "totalParameterCount": 0
+            }
+        },
+        "getTotalParameterCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "TransactionAttributeSourcePointcut": {
+        "setTransactionAttributeSource": {
+            "return": 0,
+            "parameters": {
+                "transactionAttributeSource": 0
+            }
+        },
+        "matches": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "targetClass": 0
+            }
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TransactionAttributeSourceClassFilter": {
+        "matches": {
+            "return": 0,
+            "parameters": {
+                "clazz": 0
+            }
+        },
+        "getTransactionAttributeSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 0
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

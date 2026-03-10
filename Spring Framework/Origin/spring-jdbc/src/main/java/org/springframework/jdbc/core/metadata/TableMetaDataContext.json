@@ -1,0 +1,129 @@
+{
+    "TableMetaDataContext": {
+        "setTableName": {
+            "return": 0,
+            "parameters": {
+                "tableName": 1
+            }
+        },
+        "getTableName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setCatalogName": {
+            "return": 0,
+            "parameters": {
+                "catalogName": 1
+            }
+        },
+        "getCatalogName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setSchemaName": {
+            "return": 0,
+            "parameters": {
+                "schemaName": 1
+            }
+        },
+        "getSchemaName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setAccessTableColumnMetaData": {
+            "return": 0,
+            "parameters": {
+                "accessTableColumnMetaData": 0
+            }
+        },
+        "isAccessTableColumnMetaData": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setOverrideIncludeSynonymsDefault": {
+            "return": 0,
+            "parameters": {
+                "override": 0
+            }
+        },
+        "isOverrideIncludeSynonymsDefault": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setQuoteIdentifiers": {
+            "return": 0,
+            "parameters": {
+                "quoteIdentifiers": 0
+            }
+        },
+        "isQuoteIdentifiers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTableColumns": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processMetaData": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0,
+                "declaredColumns": 0,
+                "generatedKeyNames": 0
+            }
+        },
+        "obtainMetaDataProvider": {
+            "return": 0,
+            "parameters": {}
+        },
+        "reconcileColumnsToUse": {
+            "return": 0,
+            "parameters": {
+                "declaredColumns": 0,
+                "generatedKeyNames": 0
+            }
+        },
+        "matchInParameterValuesWithInsertColumns": {
+            "return": 0,
+            "parameters": {
+                "inParameters": 0
+            }
+        },
+        "createInsertString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createInsertTypes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isGetGeneratedKeysSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isGetGeneratedKeysSimulated": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSimpleQueryForGetGeneratedKey": {
+            "return": 1,
+            "parameters": {
+                "tableName": 0,
+                "keyColumnName": 0
+            }
+        },
+        "isGeneratedKeysColumnNameArraySupported": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "QuoteHandler": {
+        "appendTo": {
+            "return": 0,
+            "parameters": {
+                "stringBuilder": 0,
+                "item": 1
+            }
+        }
+    }
+}

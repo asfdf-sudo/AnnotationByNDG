@@ -1,0 +1,20 @@
+{
+    "JtaTransactionManagerFactoryBean": {
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getObject": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getObjectType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isSingleton": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

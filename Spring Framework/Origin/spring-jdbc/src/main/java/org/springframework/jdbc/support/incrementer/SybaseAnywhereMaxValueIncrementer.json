@@ -1,0 +1,8 @@
+{
+    "SybaseAnywhereMaxValueIncrementer": {
+        "getIncrementStatement": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

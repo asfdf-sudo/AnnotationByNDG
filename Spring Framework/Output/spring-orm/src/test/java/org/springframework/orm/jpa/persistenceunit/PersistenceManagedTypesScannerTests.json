@@ -1,0 +1,28 @@
+{
+    "PersistenceManagedTypesScannerTests": {
+        "scanPackageWithOnlyEntities": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scanPackageInvokesManagedClassNamesFilter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scanPackageWithUseManagedClassNamesFilter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scanPackageWithEntitiesAndManagedPackages": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scanPackageUsesIndexIfPresent": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scanPackageUsesIndexAndClassNameFilterIfPresent": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

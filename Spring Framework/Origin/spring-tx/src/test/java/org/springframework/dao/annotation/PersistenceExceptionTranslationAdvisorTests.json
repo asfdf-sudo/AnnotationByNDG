@@ -1,0 +1,80 @@
+{
+    "PersistenceExceptionTranslationAdvisorTests": {
+        "createProxy": {
+            "return": 0,
+            "parameters": {
+                "target": 0
+            }
+        },
+        "addPersistenceExceptionTranslation": {
+            "return": 0,
+            "parameters": {
+                "pf": 0,
+                "pet": 0
+            }
+        },
+        "noTranslationNeeded": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translationNotNeededForTheseExceptions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translationNeededForTheseExceptions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translationNeededForTheseExceptionsOnSuperclass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translationNeededForTheseExceptionsWithCustomStereotype": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translationNeededForTheseExceptionsOnInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translationNeededForTheseExceptionsOnInheritedInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestTranslationNeededForTheseExceptions": {
+            "return": 0,
+            "parameters": {
+                "target": 0
+            }
+        },
+        "noThrowsClause": {
+            "return": 0,
+            "parameters": {}
+        },
+        "throwsPersistenceException": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "RepositoryInterfaceImpl": {
+        "setBehavior": {
+            "return": 0,
+            "parameters": {
+                "rex": 0
+            }
+        },
+        "noThrowsClause": {
+            "return": 0,
+            "parameters": {}
+        },
+        "throwsPersistenceException": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "StereotypedRepositoryInterfaceImpl": {},
+    "MyStereotypedRepositoryInterfaceImpl": {},
+    "CustomStereotypedRepositoryInterfaceImpl": {},
+    "MyInterfaceStereotypedRepositoryInterfaceImpl": {},
+    "MyInterfaceInheritedStereotypedRepositoryInterfaceImpl": {}
+}

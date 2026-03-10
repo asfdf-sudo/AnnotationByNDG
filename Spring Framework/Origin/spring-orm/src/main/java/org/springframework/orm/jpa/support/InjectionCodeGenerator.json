@@ -1,0 +1,28 @@
+{
+    "InjectionCodeGenerator": {
+        "generateInjectionCode": {
+            "return": 0,
+            "parameters": {
+                "member": 0,
+                "instanceVariable": 0,
+                "resourceToInject": 0
+            }
+        },
+        "generateFieldInjectionCode": {
+            "return": 0,
+            "parameters": {
+                "field": 0,
+                "instanceVariable": 0,
+                "resourceToInject": 0
+            }
+        },
+        "generateMethodInjectionCode": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "instanceVariable": 0,
+                "resourceToInject": 0
+            }
+        }
+    }
+}

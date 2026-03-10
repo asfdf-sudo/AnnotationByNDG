@@ -1,0 +1,64 @@
+{
+    "PersistenceContextTransactionTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "findEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "unitName": 0,
+                "requestingBeanName": 0
+            }
+        },
+        "clear": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithSharedEntityManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithSharedEntityManagerAndPropagationSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithExtendedEntityManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithExtendedEntityManagerAndPropagationSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithSharedEntityManagerUnsynchronized": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithSharedEntityManagerUnsynchronizedAndPropagationSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithExtendedEntityManagerUnsynchronized": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithExtendedEntityManagerUnsynchronizedAndPropagationSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithSharedEntityManagerUnsynchronizedJoined": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithExtendedEntityManagerUnsynchronizedJoined": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithExtendedEntityManagerUnsynchronizedJoinedAndPropagationSupports": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EntityManagerHoldingBean": {}
+}

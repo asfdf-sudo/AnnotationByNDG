@@ -1,0 +1,10 @@
+{
+    "TransactionAttributeSourceEditor": {
+        "setAsText": {
+            "return": 0,
+            "parameters": {
+                "text": 0
+            }
+        }
+    }
+}

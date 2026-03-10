@@ -1,0 +1,248 @@
+{
+    "PersistenceAnnotationBeanPostProcessor": {
+        "setJndiTemplate": {
+            "return": 0,
+            "parameters": {
+                "jndiTemplate": 0
+            }
+        },
+        "setJndiEnvironment": {
+            "return": 0,
+            "parameters": {
+                "jndiEnvironment": 0
+            }
+        },
+        "setResourceRef": {
+            "return": 0,
+            "parameters": {
+                "resourceRef": 0
+            }
+        },
+        "setPersistenceUnits": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnits": 0
+            }
+        },
+        "setPersistenceContexts": {
+            "return": 0,
+            "parameters": {
+                "persistenceContexts": 0
+            }
+        },
+        "setExtendedPersistenceContexts": {
+            "return": 0,
+            "parameters": {
+                "extendedPersistenceContexts": 0
+            }
+        },
+        "setDefaultPersistenceUnitName": {
+            "return": 0,
+            "parameters": {
+                "unitName": 1
+            }
+        },
+        "setOrder": {
+            "return": 0,
+            "parameters": {
+                "order": 0
+            }
+        },
+        "getOrder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 1
+            }
+        },
+        "postProcessMergedBeanDefinition": {
+            "return": 0,
+            "parameters": {
+                "beanDefinition": 0,
+                "beanType": 0,
+                "beanName": 0
+            }
+        },
+        "resetBeanDefinition": {
+            "return": 0,
+            "parameters": {
+                "beanName": 0
+            }
+        },
+        "processAheadOfTime": {
+            "return": 1,
+            "parameters": {
+                "registeredBean": 0
+            }
+        },
+        "findInjectionMetadata": {
+            "return": 0,
+            "parameters": {
+                "beanDefinition": 0,
+                "beanType": 0,
+                "beanName": 0
+            }
+        },
+        "postProcessProperties": {
+            "return": 0,
+            "parameters": {
+                "pvs": 0,
+                "bean": 0,
+                "beanName": 0
+            }
+        },
+        "postProcessBeforeDestruction": {
+            "return": 0,
+            "parameters": {
+                "bean": 0,
+                "beanName": 0
+            }
+        },
+        "requiresDestruction": {
+            "return": 0,
+            "parameters": {
+                "bean": 1
+            }
+        },
+        "findPersistenceMetadata": {
+            "return": 0,
+            "parameters": {
+                "beanName": 0,
+                "clazz": 0,
+                "pvs": 0
+            }
+        },
+        "buildPersistenceMetadata": {
+            "return": 0,
+            "parameters": {
+                "clazz": 0
+            }
+        },
+        "getPersistenceUnit": {
+            "return": 1,
+            "parameters": {
+                "unitName": 1
+            }
+        },
+        "getPersistenceContext": {
+            "return": 0,
+            "parameters": {
+                "unitName": 1,
+                "extended": 0
+            }
+        },
+        "findEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "unitName": 1,
+                "requestingBeanName": 0
+            }
+        },
+        "findNamedEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "unitName": 0,
+                "requestingBeanName": 1
+            }
+        },
+        "findDefaultEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "requestingBeanName": 1
+            }
+        },
+        "lookup": {
+            "return": 0,
+            "parameters": {
+                "jndiName": 0,
+                "requiredType": 0
+            }
+        }
+    },
+    "LocatorDelegate": {
+        "lookup": {
+            "return": 0,
+            "parameters": {
+                "jndiName": 0,
+                "requiredType": 0
+            }
+        }
+    },
+    "PersistenceElement": {
+        "getResourceToInject": {
+            "return": 0,
+            "parameters": {
+                "target": 0,
+                "requestingBeanName": 0
+            }
+        },
+        "resolveEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "requestingBeanName": 0
+            }
+        },
+        "resolveEntityManager": {
+            "return": 0,
+            "parameters": {
+                "requestingBeanName": 0
+            }
+        },
+        "resolveExtendedEntityManager": {
+            "return": 0,
+            "parameters": {
+                "target": 0,
+                "requestingBeanName": 0
+            }
+        }
+    },
+    "AotContribution": {
+        "applyTo": {
+            "return": 0,
+            "parameters": {
+                "generationContext": 0,
+                "beanRegistrationCode": 0
+            }
+        },
+        "generateMethodCode": {
+            "return": 0,
+            "parameters": {
+                "hints": 0,
+                "generatedClass": 0
+            }
+        },
+        "applyInjectedElement": {
+            "return": 0,
+            "parameters": {
+                "hints": 0,
+                "generatedClass": 0,
+                "injectedElement": 0
+            }
+        },
+        "generateInjectedElementMethodCode": {
+            "return": 0,
+            "parameters": {
+                "hints": 0,
+                "generatedClass": 0,
+                "injectedElement": 0
+            }
+        },
+        "generateResourceToInjectCode": {
+            "return": 0,
+            "parameters": {
+                "generatedMethods": 0,
+                "injectedElement": 0
+            }
+        },
+        "generateGetEntityManagerMethod": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "injectedElement": 0
+            }
+        }
+    }
+}

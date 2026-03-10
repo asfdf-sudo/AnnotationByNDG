@@ -1,0 +1,16 @@
+{
+    "DefaultJpaDialectTests": {
+        "testDefaultBeginTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCustomIsolationLevel": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTranslateException": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

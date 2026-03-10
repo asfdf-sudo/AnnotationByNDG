@@ -1,0 +1,12 @@
+{
+    "IncorrectResultSizeDataAccessException": {
+        "getExpectedSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getActualSize": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "JdbcUtilsRuntimeHintsTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sqlTypesShouldHaveFieldAccess": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

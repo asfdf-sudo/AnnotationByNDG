@@ -1,0 +1,22 @@
+{
+    "JdbcBeanDefinitionReader": {
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "setJdbcTemplate": {
+            "return": 0,
+            "parameters": {
+                "jdbcTemplate": 0
+            }
+        },
+        "loadBeanDefinitions": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        }
+    }
+}

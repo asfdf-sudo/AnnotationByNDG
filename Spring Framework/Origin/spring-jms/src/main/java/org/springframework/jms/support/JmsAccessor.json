@@ -1,0 +1,70 @@
+{
+    "JmsAccessor": {
+        "setConnectionFactory": {
+            "return": 0,
+            "parameters": {
+                "connectionFactory": 1
+            }
+        },
+        "getConnectionFactory": {
+            "return": 1,
+            "parameters": {}
+        },
+        "obtainConnectionFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSessionTransacted": {
+            "return": 0,
+            "parameters": {
+                "sessionTransacted": 0
+            }
+        },
+        "isSessionTransacted": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSessionAcknowledgeModeName": {
+            "return": 0,
+            "parameters": {
+                "constantName": 0
+            }
+        },
+        "setSessionAcknowledgeMode": {
+            "return": 0,
+            "parameters": {
+                "sessionAcknowledgeMode": 0
+            }
+        },
+        "getSessionAcknowledgeMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertJmsAccessException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "createConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSession": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "isClientAcknowledge": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        }
+    }
+}

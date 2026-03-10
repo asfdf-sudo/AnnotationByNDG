@@ -1,0 +1,179 @@
+{
+    "AbstractAdaptableMessageListener": {
+        "setDefaultResponseDestination": {
+            "return": 0,
+            "parameters": {
+                "destination": 0
+            }
+        },
+        "setDefaultResponseQueueName": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0
+            }
+        },
+        "setDefaultResponseTopicName": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0
+            }
+        },
+        "setDestinationResolver": {
+            "return": 0,
+            "parameters": {
+                "destinationResolver": 0
+            }
+        },
+        "getDestinationResolver": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageConverter": {
+            "return": 0,
+            "parameters": {
+                "messageConverter": 1
+            }
+        },
+        "getMessageConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setHeaderMapper": {
+            "return": 0,
+            "parameters": {
+                "headerMapper": 0
+            }
+        },
+        "getMessagingMessageConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setResponseQosSettings": {
+            "return": 0,
+            "parameters": {
+                "responseQosSettings": 1
+            }
+        },
+        "getResponseQosSettings": {
+            "return": 0,
+            "parameters": {}
+        },
+        "onMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0,
+                "session": 0
+            }
+        },
+        "handleListenerException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "extractMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "handleResult": {
+            "return": 0,
+            "parameters": {
+                "result": 0,
+                "request": 0,
+                "session": 1
+            }
+        },
+        "buildMessage": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "result": 0
+            }
+        },
+        "preProcessResponse": {
+            "return": 0,
+            "parameters": {
+                "result": 0
+            }
+        },
+        "postProcessResponse": {
+            "return": 0,
+            "parameters": {
+                "request": 0,
+                "response": 0
+            }
+        },
+        "getResponseDestination": {
+            "return": 0,
+            "parameters": {
+                "request": 0,
+                "response": 1,
+                "session": 1
+            }
+        },
+        "resolveDefaultResponseDestination": {
+            "return": 1,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "sendResponse": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "destination": 0,
+                "response": 0
+            }
+        },
+        "postProcessProducer": {
+            "return": 0,
+            "parameters": {
+                "producer": 0,
+                "response": 0
+            }
+        }
+    },
+    "MessagingMessageConverterAdapter": {
+        "fromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "extractPayload": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "createMessageForPayload": {
+            "return": 0,
+            "parameters": {
+                "payload": 0,
+                "session": 0,
+                "conversionHint": 0
+            }
+        }
+    },
+    "LazyResolutionMessage": {
+        "getPayload": {
+            "return": 0,
+            "parameters": {}
+        },
+        "unwrapPayload": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getHeaders": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "DestinationNameHolder": {}
+}

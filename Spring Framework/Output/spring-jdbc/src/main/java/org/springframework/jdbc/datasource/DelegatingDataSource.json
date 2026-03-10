@@ -1,0 +1,73 @@
+{
+    "DelegatingDataSource": {
+        "setTargetDataSource": {
+            "return": 0,
+            "parameters": {
+                "targetDataSource": 0
+            }
+        },
+        "getTargetDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "obtainTargetDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createConnectionBuilder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createShardingKeyBuilder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getLoginTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLoginTimeout": {
+            "return": 0,
+            "parameters": {
+                "seconds": 0
+            }
+        },
+        "getLogWriter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLogWriter": {
+            "return": 0,
+            "parameters": {
+                "out": 0
+            }
+        },
+        "getParentLogger": {
+            "return": 0,
+            "parameters": {}
+        },
+        "unwrap": {
+            "return": 0,
+            "parameters": {
+                "iface": 0
+            }
+        },
+        "isWrapperFor": {
+            "return": 0,
+            "parameters": {
+                "iface": 0
+            }
+        }
+    }
+}

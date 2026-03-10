@@ -1,0 +1,20 @@
+{
+    "ConstructorPerson": {
+        "name": {
+            "return": 0,
+            "parameters": {}
+        },
+        "age": {
+            "return": 0,
+            "parameters": {}
+        },
+        "birth_date": {
+            "return": 0,
+            "parameters": {}
+        },
+        "balance": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

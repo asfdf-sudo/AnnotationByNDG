@@ -1,0 +1,30 @@
+{
+    "JmsTemplateObservationTests": {
+        "setupServer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldRecordJmsPublishObservations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldRecordJmsProcessObservations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldRecordJmsPublishAndProcessObservations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createMessage": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "shutdownServer": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

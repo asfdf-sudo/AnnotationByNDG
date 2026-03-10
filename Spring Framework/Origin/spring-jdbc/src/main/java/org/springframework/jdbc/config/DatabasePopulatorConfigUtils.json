@@ -1,0 +1,26 @@
+{
+    "DatabasePopulatorConfigUtils": {
+        "setDatabasePopulator": {
+            "return": 0,
+            "parameters": {
+                "element": 0,
+                "builder": 0
+            }
+        },
+        "createDatabasePopulator": {
+            "return": 1,
+            "parameters": {
+                "element": 0,
+                "scripts": 0,
+                "execution": 0
+            }
+        },
+        "getSeparator": {
+            "return": 1,
+            "parameters": {
+                "element": 0,
+                "scriptElement": 0
+            }
+        }
+    }
+}

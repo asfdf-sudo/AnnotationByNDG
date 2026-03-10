@@ -1,0 +1,168 @@
+{
+    "AbstractJmsListeningContainer": {
+        "setClientId": {
+            "return": 0,
+            "parameters": {
+                "clientId": 1
+            }
+        },
+        "getClientId": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setAutoStartup": {
+            "return": 0,
+            "parameters": {
+                "autoStartup": 0
+            }
+        },
+        "isAutoStartup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPhase": {
+            "return": 0,
+            "parameters": {
+                "phase": 0
+            }
+        },
+        "getPhase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBeanName": {
+            "return": 0,
+            "parameters": {
+                "beanName": 1
+            }
+        },
+        "getBeanName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validateConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "destroy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initialize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shutdown": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isActive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "start": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doStart": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stop": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doStop": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRunning": {
+            "return": 0,
+            "parameters": {}
+        },
+        "runningAllowed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "establishSharedConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "refreshSharedConnection": {
+            "return": 0,
+            "parameters": {
+                "connectionValidator": 0
+            }
+        },
+        "createSharedConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "prepareSharedConnection": {
+            "return": 0,
+            "parameters": {
+                "connection": 0
+            }
+        },
+        "startSharedConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stopSharedConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "releaseSharedConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSharedConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rescheduleTaskIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "task": 0
+            }
+        },
+        "resumePausedTasks": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPausedTaskCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doRescheduleTask": {
+            "return": 0,
+            "parameters": {
+                "task": 0
+            }
+        },
+        "logRejectedTask": {
+            "return": 0,
+            "parameters": {
+                "task": 0,
+                "ex": 0
+            }
+        },
+        "sharedConnectionEnabled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doInitialize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doShutdown": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "SharedConnectionNotInitializedException": {}
+}

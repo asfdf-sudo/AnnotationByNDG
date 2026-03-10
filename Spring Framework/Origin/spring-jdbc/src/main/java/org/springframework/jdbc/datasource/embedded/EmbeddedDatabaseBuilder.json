@@ -1,0 +1,98 @@
+{
+    "EmbeddedDatabaseBuilder": {
+        "generateUniqueName": {
+            "return": 0,
+            "parameters": {
+                "flag": 0
+            }
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "databaseName": 0
+            }
+        },
+        "setType": {
+            "return": 0,
+            "parameters": {
+                "databaseType": 0
+            }
+        },
+        "setDatabaseConfigurer": {
+            "return": 0,
+            "parameters": {
+                "configurer": 0
+            }
+        },
+        "setDataSourceFactory": {
+            "return": 0,
+            "parameters": {
+                "dataSourceFactory": 0
+            }
+        },
+        "addDefaultScripts": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addScript": {
+            "return": 0,
+            "parameters": {
+                "script": 0
+            }
+        },
+        "addScripts": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setScriptEncoding": {
+            "return": 0,
+            "parameters": {
+                "scriptEncoding": 0
+            }
+        },
+        "setSeparator": {
+            "return": 0,
+            "parameters": {
+                "separator": 0
+            }
+        },
+        "setCommentPrefix": {
+            "return": 0,
+            "parameters": {
+                "commentPrefix": 0
+            }
+        },
+        "setCommentPrefixes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBlockCommentStartDelimiter": {
+            "return": 0,
+            "parameters": {
+                "blockCommentStartDelimiter": 0
+            }
+        },
+        "setBlockCommentEndDelimiter": {
+            "return": 0,
+            "parameters": {
+                "blockCommentEndDelimiter": 0
+            }
+        },
+        "continueOnError": {
+            "return": 0,
+            "parameters": {
+                "flag": 0
+            }
+        },
+        "ignoreFailedDrops": {
+            "return": 0,
+            "parameters": {
+                "flag": 0
+            }
+        },
+        "build": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

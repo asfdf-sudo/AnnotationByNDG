@@ -1,0 +1,14 @@
+{
+    "IsolationLevelDataSourceRouter": {
+        "resolveSpecifiedLookupKey": {
+            "return": 0,
+            "parameters": {
+                "lookupKey": 1
+            }
+        },
+        "determineCurrentLookupKey": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

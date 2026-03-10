@@ -1,0 +1,16 @@
+{
+    "EmployeeCategoryConverter": {
+        "convertToDatabaseColumn": {
+            "return": 0,
+            "parameters": {
+                "employeeCategory": 0
+            }
+        },
+        "convertToEntityAttribute": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        }
+    }
+}

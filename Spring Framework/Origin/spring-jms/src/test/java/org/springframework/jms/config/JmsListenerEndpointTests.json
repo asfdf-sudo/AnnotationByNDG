@@ -1,0 +1,24 @@
+{
+    "JmsListenerEndpointTests": {
+        "setupJmsMessageContainerFullConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setupJcaMessageContainerFullConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setupConcurrencySimpleContainer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setupMessageContainerNoListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setupMessageContainerUnsupportedContainer": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

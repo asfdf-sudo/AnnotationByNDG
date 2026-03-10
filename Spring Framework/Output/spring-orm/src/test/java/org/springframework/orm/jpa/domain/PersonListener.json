@@ -1,0 +1,10 @@
+{
+    "PersonListener": {
+        "postLoad": {
+            "return": 0,
+            "parameters": {
+                "person": 0
+            }
+        }
+    }
+}

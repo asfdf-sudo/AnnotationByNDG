@@ -1,0 +1,12 @@
+{
+    "EmbeddedDatabaseFactoryRuntimeHintsTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "embeddedDataSourceProxyTypeHasHint": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

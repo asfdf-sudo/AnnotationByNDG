@@ -1,0 +1,8 @@
+{
+    "SqlServerSequenceMaxValueIncrementer": {
+        "getSequenceQuery": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

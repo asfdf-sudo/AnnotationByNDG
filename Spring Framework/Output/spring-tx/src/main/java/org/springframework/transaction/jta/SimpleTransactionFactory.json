@@ -1,0 +1,15 @@
+{
+    "SimpleTransactionFactory": {
+        "createTransaction": {
+            "return": 0,
+            "parameters": {
+                "name": 1,
+                "timeout": 0
+            }
+        },
+        "supportsResourceAdapterManagedTransactions": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "MappingJackson2MessageConverterTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toBytesMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fromBytesMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toTextMessageWithObject": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toTextMessageWithMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fromTextMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fromTextMessageWithUnknownProperty": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fromTextMessageAsObject": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fromTextMessageAsMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toTextMessageWithReturnType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toTextMessageWithNullReturnType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toTextMessageWithReturnTypeAndNoJsonView": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toTextMessageWithReturnTypeAndMultipleJsonViews": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testToTextMessageWithReturnType": {
+            "return": 0,
+            "parameters": {
+                "returnType": 0
+            }
+        },
+        "toTextMessageWithJsonViewClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toTextMessageWithAnotherJsonViewClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "summary": {
+            "return": 0,
+            "parameters": {}
+        },
+        "none": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invalid": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "MyBean": {
+        "getFoo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setFoo": {
+            "return": 0,
+            "parameters": {
+                "foo": 0
+            }
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "o": 0
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "MyAnotherBean": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getDescription": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDescription": {
+            "return": 0,
+            "parameters": {
+                "description": 0
+            }
+        }
+    }
+}

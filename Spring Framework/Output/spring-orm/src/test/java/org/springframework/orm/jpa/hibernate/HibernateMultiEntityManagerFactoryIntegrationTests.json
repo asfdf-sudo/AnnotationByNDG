@@ -1,0 +1,16 @@
+{
+    "HibernateMultiEntityManagerFactoryIntegrationTests": {
+        "getConfigLocations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testEntityManagerFactoryImplementsEntityManagerFactoryInfo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testEntityManagerFactory2": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

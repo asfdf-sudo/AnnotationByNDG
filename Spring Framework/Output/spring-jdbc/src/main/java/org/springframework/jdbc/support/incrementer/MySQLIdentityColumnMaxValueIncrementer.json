@@ -1,0 +1,12 @@
+{
+    "MySQLIdentityColumnMaxValueIncrementer": {
+        "getIncrementStatement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getIdentityStatement": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,339 @@
+{
+    "DataSourceTransactionManagerTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "ds": 0
+            }
+        },
+        "verifyTransactionSynchronizationManagerState": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionCommitWithAutoCommitTrue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionCommitWithAutoCommitFalse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionCommitWithAutoCommitTrueAndLazyConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionCommitWithAutoCommitFalseAndLazyConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionCommitWithAutoCommitTrueAndLazyConnectionAndStatementCreated": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionCommitWithAutoCommitFalseAndLazyConnectionAndStatementCreated": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitRestoringAutoCommit": {
+            "return": 0,
+            "parameters": {
+                "autoCommit": 0,
+                "lazyConnection": 0,
+                "createStatement": 0
+            }
+        },
+        "transactionRollbackWithAutoCommitTrue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionRollbackWithAutoCommitFalse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionRollbackWithAutoCommitTrueAndLazyConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionRollbackWithAutoCommitFalseAndLazyConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionRollbackWithAutoCommitTrueAndLazyConnectionAndCreateStatement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionRollbackWithAutoCommitFalseAndLazyConnectionAndCreateStatement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionRollbackRestoringAutoCommit": {
+            "return": 0,
+            "parameters": {
+                "autoCommit": 0,
+                "lazyConnection": 0,
+                "createStatement": 0
+            }
+        },
+        "transactionRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "participatingTransactionWithRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "participatingTransactionWithRollbackOnlyAndFailEarly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testParticipatingTransactionWithRollbackOnly": {
+            "return": 0,
+            "parameters": {
+                "failEarly": 0
+            }
+        },
+        "participatingTransactionWithIncompatibleIsolationLevel": {
+            "return": 0,
+            "parameters": {}
+        },
+        "participatingTransactionWithIncompatibleReadOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "participatingTransactionWithTransactionStartedFromSynch": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "participatingTransactionWithDifferentConnectionObtainedFromSynch": {
+            "return": 0,
+            "parameters": {}
+        },
+        "participatingTransactionWithRollbackOnlyAndInnerSynch": {
+            "return": 0,
+            "parameters": {}
+        },
+        "propagationRequiresNewWithExistingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "propagationRequiresNewWithExistingTransactionAndUnrelatedDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "propagationRequiresNewWithExistingTransactionAndUnrelatedFailingDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "propagationNotSupportedWithExistingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "propagationNeverWithExistingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "propagationSupportsAndRequiresNew": {
+            "return": 0,
+            "parameters": {}
+        },
+        "propagationSupportsAndRequiresNewWithEarlyAccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithIsolationAndReadOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithDefaultReadOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithEnforceReadOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithLazyConnectionDataSourceAndStatement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithLazyConnectionDataSourceNoStatement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithReadOnlyDataSourceAndStatement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithReadOnlyDataSourceNoStatement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionReadOnly": {
+            "return": 0,
+            "parameters": {
+                "isolationLevel": 0,
+                "withStatement": 0
+            }
+        },
+        "transactionWithTimeout": {
+            "return": 0,
+            "parameters": {
+                "timeout": 0
+            }
+        },
+        "transactionAwareDataSourceProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionAwareDataSourceProxyWithLazyFalse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionAwareDataSourceProxyWithEarlyConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionAwareDataSourceProxyWithSuspension": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionAwareDataSourceProxyWithSuspensionAndReobtaining": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithExceptionOnBegin": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithExceptionOnCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithExceptionOnCommitAndRollbackOnCommitFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithExceptionOnRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithPropagationSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithPropagationNotSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithPropagationNever": {
+            "return": 0,
+            "parameters": {}
+        },
+        "existingTransactionWithPropagationNested": {
+            "return": 0,
+            "parameters": {}
+        },
+        "existingTransactionWithPropagationNestedTwice": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExistingTransactionWithPropagationNested": {
+            "return": 0,
+            "parameters": {
+                "count": 0
+            }
+        },
+        "existingTransactionWithPropagationNestedAndRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "existingTransactionWithPropagationNestedAndRequiredRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "existingTransactionWithPropagationNestedAndRequiredRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "existingTransactionWithManualSavepoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "existingTransactionWithManualSavepointAndRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithPropagationNested": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithPropagationNestedAndRollback": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestTransactionSynchronization": {
+        "suspend": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resume": {
+            "return": 0,
+            "parameters": {}
+        },
+        "flush": {
+            "return": 0,
+            "parameters": {}
+        },
+        "beforeCommit": {
+            "return": 0,
+            "parameters": {
+                "readOnly": 0
+            }
+        },
+        "beforeCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        }
+    },
+    "TestSavepointSynchronization": {
+        "savepoint": {
+            "return": 0,
+            "parameters": {
+                "savepoint": 0
+            }
+        },
+        "savepointRollback": {
+            "return": 0,
+            "parameters": {
+                "savepoint": 0
+            }
+        }
+    }
+}

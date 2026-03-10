@@ -1,0 +1,52 @@
+{
+    "SQLErrorCodesFactory": {
+        "getInstance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "loadResource": {
+            "return": 1,
+            "parameters": {
+                "path": 0
+            }
+        },
+        "getErrorCodes": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "resolveErrorCodes": {
+            "return": 1,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "registerDatabase": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0,
+                "databaseName": 0
+            }
+        },
+        "unregisterDatabase": {
+            "return": 1,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "identify": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "checkCustomTranslatorRegistry": {
+            "return": 0,
+            "parameters": {
+                "databaseName": 0,
+                "errorCodes": 0
+            }
+        }
+    }
+}

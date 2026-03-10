@@ -1,0 +1,20 @@
+{
+    "StoredProcedure": {
+        "allowsUnusedParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "declareParameter": {
+            "return": 0,
+            "parameters": {
+                "param": 0
+            }
+        },
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "inParamMapper": 0
+            }
+        }
+    }
+}

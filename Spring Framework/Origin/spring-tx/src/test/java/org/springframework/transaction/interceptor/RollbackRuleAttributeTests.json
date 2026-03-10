@@ -1,0 +1,67 @@
+{
+    "RollbackRuleAttributeTests": {},
+    "ExceptionPatternTests": {
+        "constructorPreconditions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "notFound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "foundImmediatelyWhenDirectMatch": {
+            "return": 0,
+            "parameters": {}
+        },
+        "foundImmediatelyWhenExceptionThrownIsNestedTypeOfRegisteredException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "foundImmediatelyWhenNameOfExceptionThrownStartsWithNameOfRegisteredException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "foundInSuperclassHierarchy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "alwaysFoundForThrowable": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ExceptionTypeTests": {
+        "constructorPreconditions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "notFound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "notFoundWhenNameOfExceptionThrownStartsWithNameOfRegisteredException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "notFoundWhenExceptionThrownIsNestedTypeOfRegisteredException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "foundImmediatelyWhenDirectMatch": {
+            "return": 0,
+            "parameters": {}
+        },
+        "foundInSuperclassHierarchy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "alwaysFoundForThrowable": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EnclosingException": {},
+    "NestedException": {},
+    "MyException": {},
+    "MyException2": {}
+}

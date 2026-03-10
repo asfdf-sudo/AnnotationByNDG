@@ -1,0 +1,40 @@
+{
+    "CallParameterMetaData": {
+        "isFunction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getParameterName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getParameterType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isReturnParameter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isOutParameter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isInOutParameter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSqlType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTypeName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isNullable": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

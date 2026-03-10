@@ -1,0 +1,27 @@
+{
+    "MapDataSourceLookup": {
+        "setDataSources": {
+            "return": 0,
+            "parameters": {
+                "dataSources": 1
+            }
+        },
+        "getDataSources": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSourceName": 0,
+                "dataSource": 0
+            }
+        },
+        "getDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSourceName": 0
+            }
+        }
+    }
+}

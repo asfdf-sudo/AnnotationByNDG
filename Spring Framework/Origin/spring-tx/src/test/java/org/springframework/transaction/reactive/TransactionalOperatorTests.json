@@ -1,0 +1,48 @@
+{
+    "TransactionalOperatorTests": {
+        "commitWithMono": {
+            "return": 0,
+            "parameters": {}
+        },
+        "monoSubscriptionNotCancelled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "cancellationPropagatedToMono": {
+            "return": 0,
+            "parameters": {}
+        },
+        "cancellationPropagatedToFlux": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackWithMono": {
+            "return": 0,
+            "parameters": {}
+        },
+        "commitFailureWithMono": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackFailureWithMono": {
+            "return": 0,
+            "parameters": {}
+        },
+        "commitWithFlux": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackWithFlux": {
+            "return": 0,
+            "parameters": {}
+        },
+        "commitFailureWithFlux": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackFailureWithFlux": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

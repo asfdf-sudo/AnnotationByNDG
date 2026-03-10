@@ -1,0 +1,8 @@
+{
+    "SharedEntityManagerFactoryTests": {
+        "testValidUsage": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

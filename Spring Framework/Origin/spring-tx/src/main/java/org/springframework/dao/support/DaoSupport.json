@@ -1,0 +1,16 @@
+{
+    "DaoSupport": {
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkDaoConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initDao": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

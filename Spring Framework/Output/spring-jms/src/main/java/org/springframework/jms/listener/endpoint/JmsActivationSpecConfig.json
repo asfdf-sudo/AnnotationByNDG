@@ -1,0 +1,156 @@
+{
+    "JmsActivationSpecConfig": {
+        "setDestinationName": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0
+            }
+        },
+        "getDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPubSubDomain": {
+            "return": 0,
+            "parameters": {
+                "pubSubDomain": 0
+            }
+        },
+        "isPubSubDomain": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setReplyPubSubDomain": {
+            "return": 0,
+            "parameters": {
+                "replyPubSubDomain": 0
+            }
+        },
+        "isReplyPubSubDomain": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setReplyQosSettings": {
+            "return": 0,
+            "parameters": {
+                "replyQosSettings": 0
+            }
+        },
+        "getReplyQosSettings": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSubscriptionDurable": {
+            "return": 0,
+            "parameters": {
+                "subscriptionDurable": 0
+            }
+        },
+        "isSubscriptionDurable": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSubscriptionShared": {
+            "return": 0,
+            "parameters": {
+                "subscriptionShared": 0
+            }
+        },
+        "isSubscriptionShared": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSubscriptionName": {
+            "return": 0,
+            "parameters": {
+                "subscriptionName": 0
+            }
+        },
+        "getSubscriptionName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDurableSubscriptionName": {
+            "return": 0,
+            "parameters": {
+                "durableSubscriptionName": 1
+            }
+        },
+        "getDurableSubscriptionName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setClientId": {
+            "return": 0,
+            "parameters": {
+                "clientId": 0
+            }
+        },
+        "getClientId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageSelector": {
+            "return": 0,
+            "parameters": {
+                "messageSelector": 0
+            }
+        },
+        "getMessageSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAcknowledgeModeName": {
+            "return": 0,
+            "parameters": {
+                "constantName": 0
+            }
+        },
+        "setAcknowledgeMode": {
+            "return": 0,
+            "parameters": {
+                "acknowledgeMode": 0
+            }
+        },
+        "getAcknowledgeMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setConcurrency": {
+            "return": 0,
+            "parameters": {
+                "concurrency": 0
+            }
+        },
+        "setMaxConcurrency": {
+            "return": 0,
+            "parameters": {
+                "maxConcurrency": 0
+            }
+        },
+        "getMaxConcurrency": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPrefetchSize": {
+            "return": 0,
+            "parameters": {
+                "prefetchSize": 0
+            }
+        },
+        "getPrefetchSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageConverter": {
+            "return": 0,
+            "parameters": {
+                "messageConverter": 0
+            }
+        },
+        "getMessageConverter": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

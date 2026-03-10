@@ -1,0 +1,82 @@
+{
+    "MessageListenerTestContainer": {
+        "setAutoStartup": {
+            "return": 0,
+            "parameters": {
+                "autoStartup": 0
+            }
+        },
+        "getEndpoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isStarted": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isStopped": {
+            "return": 0,
+            "parameters": {}
+        },
+        "start": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stop": {
+            "return": 0,
+            "parameters": {
+                "callback": 0
+            }
+        },
+        "isRunning": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPhase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isAutoStartup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setupMessageListener": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 0
+            }
+        },
+        "getMessageConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDestinationResolver": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isPubSubDomain": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isReplyPubSubDomain": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getReplyQosSettings": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "destroy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

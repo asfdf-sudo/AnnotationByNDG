@@ -1,0 +1,92 @@
+{
+    "PersistenceManagedTypesBeanRegistrationAotProcessor": {
+        "processAheadOfTime": {
+            "return": 1,
+            "parameters": {
+                "registeredBean": 0
+            }
+        }
+    },
+    "JpaManagedTypesBeanRegistrationCodeFragments": {
+        "generateInstanceSupplierCode": {
+            "return": 0,
+            "parameters": {
+                "generationContext": 0,
+                "beanRegistrationCode": 0,
+                "allowDirectSupplierShortcut": 0
+            }
+        },
+        "toCodeBlock": {
+            "return": 0,
+            "parameters": {
+                "values": 0
+            }
+        },
+        "contributeHints": {
+            "return": 0,
+            "parameters": {
+                "hints": 0,
+                "classLoader": 0,
+                "managedClassNames": 0
+            }
+        },
+        "contributeEntityListenersHints": {
+            "return": 0,
+            "parameters": {
+                "hints": 0,
+                "managedClass": 0
+            }
+        },
+        "contributeIdClassHints": {
+            "return": 0,
+            "parameters": {
+                "hints": 0,
+                "managedClass": 0
+            }
+        },
+        "contributeConverterHints": {
+            "return": 0,
+            "parameters": {
+                "hints": 0,
+                "managedClass": 0
+            }
+        },
+        "contributeCallbackHints": {
+            "return": 0,
+            "parameters": {
+                "hints": 0,
+                "managedClass": 0
+            }
+        },
+        "contributeHibernateHints": {
+            "return": 0,
+            "parameters": {
+                "hints": 0,
+                "classLoader": 0,
+                "managedClass": 0
+            }
+        },
+        "contributePackagePrivateHints": {
+            "return": 0,
+            "parameters": {
+                "hints": 0,
+                "managedClass": 0
+            }
+        },
+        "loadClass": {
+            "return": 0,
+            "parameters": {
+                "className": 0,
+                "classLoader": 0
+            }
+        },
+        "registerForReflection": {
+            "return": 0,
+            "parameters": {
+                "reflection": 0,
+                "annotation": 0,
+                "attribute": 0
+            }
+        }
+    }
+}

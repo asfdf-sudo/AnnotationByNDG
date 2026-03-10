@@ -1,0 +1,193 @@
+{
+    "AbstractJdbcInsert": {
+        "getJdbcTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTableName": {
+            "return": 0,
+            "parameters": {
+                "tableName": 0
+            }
+        },
+        "getTableName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSchemaName": {
+            "return": 0,
+            "parameters": {
+                "schemaName": 0
+            }
+        },
+        "getSchemaName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCatalogName": {
+            "return": 0,
+            "parameters": {
+                "catalogName": 0
+            }
+        },
+        "getCatalogName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setColumnNames": {
+            "return": 0,
+            "parameters": {
+                "columnNames": 0
+            }
+        },
+        "getColumnNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setGeneratedKeyName": {
+            "return": 0,
+            "parameters": {
+                "generatedKeyName": 0
+            }
+        },
+        "setGeneratedKeyNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getGeneratedKeyNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAccessTableColumnMetaData": {
+            "return": 0,
+            "parameters": {
+                "accessTableColumnMetaData": 0
+            }
+        },
+        "setOverrideIncludeSynonymsDefault": {
+            "return": 0,
+            "parameters": {
+                "override": 0
+            }
+        },
+        "getInsertString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getInsertTypes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setQuoteIdentifiers": {
+            "return": 0,
+            "parameters": {
+                "quoteIdentifiers": 0
+            }
+        },
+        "isQuoteIdentifiers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "compile": {
+            "return": 0,
+            "parameters": {}
+        },
+        "compileInternal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "onCompileInternal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isCompiled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkCompiled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkIfConfigurationModificationIsAllowed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doExecute": {
+            "return": 0,
+            "parameters": {
+                "parameterSource": 0
+            }
+        },
+        "executeInsertInternal": {
+            "return": 0,
+            "parameters": {
+                "values": 0
+            }
+        },
+        "doExecuteAndReturnKey": {
+            "return": 0,
+            "parameters": {
+                "parameterSource": 0
+            }
+        },
+        "doExecuteAndReturnKeyHolder": {
+            "return": 0,
+            "parameters": {
+                "parameterSource": 0
+            }
+        },
+        "executeInsertAndReturnKeyInternal": {
+            "return": 0,
+            "parameters": {
+                "values": 0
+            }
+        },
+        "executeInsertAndReturnKeyHolderInternal": {
+            "return": 0,
+            "parameters": {
+                "values": 1
+            }
+        },
+        "prepareStatementForGeneratedKeys": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "doExecuteBatch": {
+            "return": 0,
+            "parameters": {}
+        },
+        "executeBatchInternal": {
+            "return": 0,
+            "parameters": {
+                "batchValues": 0
+            }
+        },
+        "setValues": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "i": 0
+            }
+        },
+        "getBatchSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setParameterValues": {
+            "return": 0,
+            "parameters": {
+                "preparedStatement": 0,
+                "values": 0,
+                "": 0
+            }
+        },
+        "matchInParameterValuesWithInsertColumns": {
+            "return": 0,
+            "parameters": {
+                "args": 0
+            }
+        }
+    }
+}

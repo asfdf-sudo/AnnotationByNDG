@@ -1,0 +1,17 @@
+{
+    "AbstractLobCreatingPreparedStatementCallback": {
+        "doInPreparedStatement": {
+            "return": 0,
+            "parameters": {
+                "ps": 0
+            }
+        },
+        "setValues": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "lobCreator": 0
+            }
+        }
+    }
+}

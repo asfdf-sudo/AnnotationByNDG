@@ -1,0 +1,22 @@
+{
+    "TransactionalApplicationListenerAdapterTests": {
+        "invokesCompletionCallbackOnSuccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invokesExceptionHandlerOnException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "useSpecifiedIdentifier": {
+            "return": 0,
+            "parameters": {}
+        },
+        "runInTransaction": {
+            "return": 0,
+            "parameters": {
+                "runnable": 0
+            }
+        }
+    }
+}

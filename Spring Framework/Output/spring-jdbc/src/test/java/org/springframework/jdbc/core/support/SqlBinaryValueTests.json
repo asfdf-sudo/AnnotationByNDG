@@ -1,0 +1,36 @@
+{
+    "SqlBinaryValueTests": {
+        "withByteArray": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withByteArrayForBlob": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withInputStream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withInputStreamForBlob": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withInputStreamSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withInputStreamSourceForBlob": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withResource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withResourceForBlob": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

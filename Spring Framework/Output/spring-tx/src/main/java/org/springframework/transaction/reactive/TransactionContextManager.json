@@ -1,0 +1,26 @@
+{
+    "TransactionContextManager": {
+        "currentContext": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createTransactionContext": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getOrCreateContext": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getOrCreateContextHolder": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "NoTransactionInContextException": {
+        "fillInStackTrace": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

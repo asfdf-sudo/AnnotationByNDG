@@ -1,0 +1,28 @@
+{
+    "SimpleDestinationResolver": {
+        "resolveTopic": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "topicName": 0
+            }
+        },
+        "resolveQueue": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "queueName": 0
+            }
+        },
+        "removeFromCache": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0
+            }
+        },
+        "clearCache": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

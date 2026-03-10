@@ -1,0 +1,182 @@
+{
+    "LocalSessionFactoryBean": {
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "setConfigLocation": {
+            "return": 0,
+            "parameters": {
+                "configLocation": 0
+            }
+        },
+        "setConfigLocations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMappingResources": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMappingLocations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCacheableMappingLocations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMappingJarLocations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMappingDirectoryLocations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setEntityInterceptor": {
+            "return": 0,
+            "parameters": {
+                "entityInterceptor": 0
+            }
+        },
+        "setImplicitNamingStrategy": {
+            "return": 0,
+            "parameters": {
+                "implicitNamingStrategy": 0
+            }
+        },
+        "setPhysicalNamingStrategy": {
+            "return": 0,
+            "parameters": {
+                "physicalNamingStrategy": 0
+            }
+        },
+        "setJtaTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "jtaTransactionManager": 0
+            }
+        },
+        "setCacheRegionFactory": {
+            "return": 0,
+            "parameters": {
+                "cacheRegionFactory": 0
+            }
+        },
+        "setMultiTenantConnectionProvider": {
+            "return": 0,
+            "parameters": {
+                "multiTenantConnectionProvider": 0
+            }
+        },
+        "setCurrentTenantIdentifierResolver": {
+            "return": 0,
+            "parameters": {
+                "currentTenantIdentifierResolver": 0
+            }
+        },
+        "setHibernateProperties": {
+            "return": 0,
+            "parameters": {
+                "hibernateProperties": 0
+            }
+        },
+        "getHibernateProperties": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setEntityTypeFilters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAnnotatedClasses": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAnnotatedPackages": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPackagesToScan": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBootstrapExecutor": {
+            "return": 0,
+            "parameters": {
+                "bootstrapExecutor": 0
+            }
+        },
+        "setHibernateIntegrators": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMetadataSources": {
+            "return": 0,
+            "parameters": {
+                "metadataSources": 0
+            }
+        },
+        "getMetadataSources": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setResourceLoader": {
+            "return": 0,
+            "parameters": {
+                "resourceLoader": 0
+            }
+        },
+        "getResourceLoader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterSingletonsInstantiated": {
+            "return": 0,
+            "parameters": {}
+        },
+        "buildSessionFactory": {
+            "return": 0,
+            "parameters": {
+                "sfb": 0
+            }
+        },
+        "getConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getObject": {
+            "return": 0,
+            "parameters": {
+                "type": 0
+            }
+        },
+        "getObjectType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "supportsType": {
+            "return": 0,
+            "parameters": {
+                "type": 0
+            }
+        },
+        "destroy": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

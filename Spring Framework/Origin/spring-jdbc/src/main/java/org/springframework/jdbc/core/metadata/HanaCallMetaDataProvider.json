@@ -1,0 +1,10 @@
+{
+    "HanaCallMetaDataProvider": {
+        "initializeWithMetaData": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0
+            }
+        }
+    }
+}

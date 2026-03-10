@@ -1,0 +1,76 @@
+{
+    "GenericMessageEndpointManager": {
+        "setResourceAdapter": {
+            "return": 0,
+            "parameters": {
+                "resourceAdapter": 1
+            }
+        },
+        "getResourceAdapter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageEndpointFactory": {
+            "return": 0,
+            "parameters": {
+                "messageEndpointFactory": 0
+            }
+        },
+        "getMessageEndpointFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setActivationSpec": {
+            "return": 0,
+            "parameters": {
+                "activationSpec": 0
+            }
+        },
+        "getActivationSpec": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAutoStartup": {
+            "return": 0,
+            "parameters": {
+                "autoStartup": 0
+            }
+        },
+        "isAutoStartup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPhase": {
+            "return": 0,
+            "parameters": {
+                "phase": 0
+            }
+        },
+        "getPhase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "start": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stop": {
+            "return": 0,
+            "parameters": {
+                "callback": 0
+            }
+        },
+        "isRunning": {
+            "return": 0,
+            "parameters": {}
+        },
+        "destroy": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

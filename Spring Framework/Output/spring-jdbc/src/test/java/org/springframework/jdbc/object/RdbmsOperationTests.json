@@ -1,0 +1,66 @@
+{
+    "RdbmsOperationTests": {
+        "emptySql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTypeAfterCompile": {
+            "return": 0,
+            "parameters": {}
+        },
+        "declareParameterAfterCompile": {
+            "return": 0,
+            "parameters": {}
+        },
+        "tooFewParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "tooFewMapParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "operationConfiguredViaJdbcTemplateMustGetDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "tooManyParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "tooManyMapParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "unspecifiedMapParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "compileTwice": {
+            "return": 0,
+            "parameters": {}
+        },
+        "emptyDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parameterPropagation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validateInOutParameter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parametersSetWithList": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestRdbmsOperation": {
+        "compileInternal": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

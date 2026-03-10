@@ -1,0 +1,12 @@
+{
+    "IncorrectResultSetColumnCountException": {
+        "getExpectedCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getActualCount": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

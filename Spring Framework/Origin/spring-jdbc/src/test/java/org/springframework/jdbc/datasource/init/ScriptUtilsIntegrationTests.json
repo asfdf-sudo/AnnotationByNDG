@@ -1,0 +1,47 @@
+{
+    "ScriptUtilsIntegrationTests": {
+        "getEmbeddedDatabaseType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setUpSchema": {
+            "return": 0,
+            "parameters": {}
+        },
+        "executeSqlScriptContainingMultiLineComments": {
+            "return": 0,
+            "parameters": {}
+        },
+        "executeSqlScriptContainingSingleQuotesNestedInsideDoubleQuotes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "statementWithMultipleResultSets": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertUsersInDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "encodedResource": {
+            "return": 0,
+            "parameters": {
+                "resource": 0
+            }
+        },
+        "inlineResource": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "user": {
+            "return": 0,
+            "parameters": {
+                "firstName": 0,
+                "lastName": 0
+            }
+        }
+    }
+}

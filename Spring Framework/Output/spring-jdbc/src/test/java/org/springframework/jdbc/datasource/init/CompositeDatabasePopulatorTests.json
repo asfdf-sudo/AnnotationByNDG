@@ -1,0 +1,24 @@
+{
+    "CompositeDatabasePopulatorTests": {
+        "addPopulators": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPopulatorsWithMultiple": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPopulatorsForOverride": {
+            "return": 0,
+            "parameters": {}
+        },
+        "constructWithVarargs": {
+            "return": 0,
+            "parameters": {}
+        },
+        "constructWithCollection": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

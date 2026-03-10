@@ -1,0 +1,52 @@
+{
+    "JmsResourceHolder": {
+        "isFrozen": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addConnection": {
+            "return": 0,
+            "parameters": {
+                "connection": 0
+            }
+        },
+        "addSession": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "connection": 1
+            }
+        },
+        "containsSession": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "getConnection": {
+            "return": 0,
+            "parameters": {
+                "connectionType": 0
+            }
+        },
+        "getOriginalSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSession": {
+            "return": 0,
+            "parameters": {
+                "sessionType": 0,
+                "connection": 1
+            }
+        },
+        "commitAll": {
+            "return": 0,
+            "parameters": {}
+        },
+        "closeAll": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "RollbackRuleAttribute": {
+        "getExceptionName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDepth": {
+            "return": 0,
+            "parameters": {
+                "exceptionType": 1,
+                "depth": 0
+            }
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "MapDataSourceLookupTests": {
+        "getDataSourcesReturnsUnmodifiableMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "lookupSunnyDay": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDataSourcesIsAnIdempotentOperation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addingDataSourcePermitsOverride": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDataSourceWhereSuppliedMapHasNonDataSourceTypeUnderSpecifiedKey": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDataSourceWhereSuppliedMapHasNoEntryForSpecifiedKey": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "AutoCommitDisabledH2EmbeddedDatabaseConfigurer": {
+        "configureConnectionProperties": {
+            "return": 0,
+            "parameters": {
+                "properties": 0,
+                "databaseName": 0
+            }
+        }
+    }
+}

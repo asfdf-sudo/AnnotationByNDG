@@ -1,0 +1,36 @@
+{
+    "SimpleDriverDataSourceFactory": {
+        "getConnectionProperties": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDriverClass": {
+            "return": 0,
+            "parameters": {
+                "driverClass": 0
+            }
+        },
+        "setUrl": {
+            "return": 0,
+            "parameters": {
+                "url": 0
+            }
+        },
+        "setUsername": {
+            "return": 0,
+            "parameters": {
+                "username": 0
+            }
+        },
+        "setPassword": {
+            "return": 0,
+            "parameters": {
+                "password": 0
+            }
+        },
+        "getDataSource": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

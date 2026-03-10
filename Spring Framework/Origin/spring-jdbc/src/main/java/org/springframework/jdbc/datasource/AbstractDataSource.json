@@ -1,0 +1,40 @@
+{
+    "AbstractDataSource": {
+        "getLoginTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLoginTimeout": {
+            "return": 0,
+            "parameters": {
+                "timeout": 0
+            }
+        },
+        "getLogWriter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLogWriter": {
+            "return": 0,
+            "parameters": {
+                "pw": 0
+            }
+        },
+        "getParentLogger": {
+            "return": 0,
+            "parameters": {}
+        },
+        "unwrap": {
+            "return": 0,
+            "parameters": {
+                "iface": 0
+            }
+        },
+        "isWrapperFor": {
+            "return": 0,
+            "parameters": {
+                "iface": 0
+            }
+        }
+    }
+}

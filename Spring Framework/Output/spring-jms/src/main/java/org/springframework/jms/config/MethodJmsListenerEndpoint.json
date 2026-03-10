@@ -1,0 +1,82 @@
+{
+    "MethodJmsListenerEndpoint": {
+        "setBean": {
+            "return": 0,
+            "parameters": {
+                "bean": 0
+            }
+        },
+        "getBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMethod": {
+            "return": 0,
+            "parameters": {
+                "method": 1
+            }
+        },
+        "getMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMostSpecificMethod": {
+            "return": 0,
+            "parameters": {
+                "mostSpecificMethod": 0
+            }
+        },
+        "getMostSpecificMethod": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setMessageHandlerMethodFactory": {
+            "return": 0,
+            "parameters": {
+                "messageHandlerMethodFactory": 0
+            }
+        },
+        "setEmbeddedValueResolver": {
+            "return": 0,
+            "parameters": {
+                "embeddedValueResolver": 0
+            }
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 1
+            }
+        },
+        "createMessageListener": {
+            "return": 0,
+            "parameters": {
+                "container": 0
+            }
+        },
+        "createMessageListenerInstance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDefaultResponseDestination": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getSendTo": {
+            "return": 0,
+            "parameters": {
+                "specificMethod": 0
+            }
+        },
+        "resolve": {
+            "return": 0,
+            "parameters": {
+                "value": 0
+            }
+        },
+        "getEndpointDescription": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

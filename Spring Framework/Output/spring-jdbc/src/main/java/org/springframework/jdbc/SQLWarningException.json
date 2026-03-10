@@ -1,0 +1,12 @@
+{
+    "SQLWarningException": {
+        "getSQLWarning": {
+            "return": 0,
+            "parameters": {}
+        },
+        "SQLWarning": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

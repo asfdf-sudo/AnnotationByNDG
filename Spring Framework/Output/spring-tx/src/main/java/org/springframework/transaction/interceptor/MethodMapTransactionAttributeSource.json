@@ -1,0 +1,67 @@
+{
+    "MethodMapTransactionAttributeSource": {
+        "setMethodMap": {
+            "return": 0,
+            "parameters": {
+                "methodMap": 0
+            }
+        },
+        "setEmbeddedValueResolver": {
+            "return": 0,
+            "parameters": {
+                "resolver": 0
+            }
+        },
+        "setBeanClassLoader": {
+            "return": 0,
+            "parameters": {
+                "beanClassLoader": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initMethodMap": {
+            "return": 0,
+            "parameters": {
+                "methodMap": 1
+            }
+        },
+        "addTransactionalMethod": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "attr": 0
+            }
+        },
+        "isMatch": {
+            "return": 0,
+            "parameters": {
+                "methodName": 0,
+                "mappedName": 0
+            }
+        },
+        "getTransactionAttribute": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "targetClass": 1
+            }
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "EnableJmsTests": {
+        "sampleConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fullConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fullConfigurableConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "explicitContainerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "defaultContainerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "containerAreStartedByDefault": {
+            "return": 0,
+            "parameters": {}
+        },
+        "containerCanBeStarterViaTheRegistry": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsHandlerMethodFactoryConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsListenerIsRepeatable": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsListeners": {
+            "return": 0,
+            "parameters": {}
+        },
+        "composedJmsListeners": {
+            "return": 0,
+            "parameters": {}
+        },
+        "unknownFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "lazyComponent": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EnableJmsSampleConfig": {
+        "jmsListenerContainerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "simpleFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EnableJmsFullConfig": {
+        "simpleFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EnableJmsFullConfigurableConfig": {
+        "simpleFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "propertySourcesPlaceholderConfigurer": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EnableJmsCustomConfig": {
+        "configureJmsListeners": {
+            "return": 0,
+            "parameters": {
+                "registrar": 0
+            }
+        },
+        "jmsListenerContainerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customRegistry": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "simpleMessageListener": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EnableJmsCustomContainerFactoryConfig": {
+        "configureJmsListeners": {
+            "return": 0,
+            "parameters": {
+                "registrar": 0
+            }
+        },
+        "simpleFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EnableJmsDefaultContainerFactoryConfig": {
+        "jmsListenerContainerFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EnableJmsHandlerMethodFactoryConfig": {
+        "configureJmsListeners": {
+            "return": 0,
+            "parameters": {
+                "registrar": 0
+            }
+        },
+        "customMessageHandlerMethodFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "defaultFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EnableJmsAutoStartupFalseConfig": {
+        "configureJmsListeners": {
+            "return": 0,
+            "parameters": {
+                "registrar": 0
+            }
+        },
+        "simpleFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "LazyBean": {
+        "handle": {
+            "return": 0,
+            "parameters": {
+                "msg": 0
+            }
+        }
+    },
+    "ComposedJmsListenersBean": {
+        "repeatableHandle": {
+            "return": 0,
+            "parameters": {
+                "msg": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,307 @@
+{
+    "TransactionAspectSupport": {
+        "currentTransactionInfo": {
+            "return": 1,
+            "parameters": {}
+        },
+        "currentTransactionStatus": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTransactionManagerBeanName": {
+            "return": 0,
+            "parameters": {
+                "transactionManagerBeanName": 1
+            }
+        },
+        "getTransactionManagerBeanName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "transactionManager": 1
+            }
+        },
+        "getTransactionManager": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setTransactionAttributes": {
+            "return": 0,
+            "parameters": {
+                "transactionAttributes": 0
+            }
+        },
+        "setTransactionAttributeSources": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTransactionAttributeSource": {
+            "return": 0,
+            "parameters": {
+                "transactionAttributeSource": 1
+            }
+        },
+        "getTransactionAttributeSource": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 1
+            }
+        },
+        "getBeanFactory": {
+            "return": 1,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invokeWithinTransaction": {
+            "return": 1,
+            "parameters": {
+                "method": 0,
+                "targetClass": 1,
+                "invocation": 0
+            }
+        },
+        "clearTransactionManagerCache": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineTransactionManager": {
+            "return": 1,
+            "parameters": {
+                "txAttr": 1
+            }
+        },
+        "determineQualifiedTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0,
+                "qualifier": 0
+            }
+        },
+        "asPlatformTransactionManager": {
+            "return": 1,
+            "parameters": {
+                "transactionManager": 1
+            }
+        },
+        "methodIdentification": {
+            "return": 1,
+            "parameters": {
+                "method": 0,
+                "targetClass": 1
+            }
+        },
+        "createTransactionIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "tm": 1,
+                "txAttr": 1,
+                "joinpointIdentification": 0
+            }
+        },
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "prepareTransactionInfo": {
+            "return": 0,
+            "parameters": {
+                "tm": 1,
+                "txAttr": 1,
+                "joinpointIdentification": 0,
+                "status": 1
+            }
+        },
+        "commitTransactionAfterReturning": {
+            "return": 0,
+            "parameters": {
+                "txInfo": 1
+            }
+        },
+        "completeTransactionAfterThrowing": {
+            "return": 0,
+            "parameters": {
+                "txInfo": 1,
+                "invocation": 0,
+                "ex": 0
+            }
+        },
+        "cleanupTransactionInfo": {
+            "return": 0,
+            "parameters": {
+                "txInfo": 1
+            }
+        }
+    },
+    "TransactionInfo": {
+        "getTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransactionAttribute": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getJoinpointIdentification": {
+            "return": 0,
+            "parameters": {}
+        },
+        "newTransactionStatus": {
+            "return": 0,
+            "parameters": {
+                "status": 1
+            }
+        },
+        "getTransactionStatus": {
+            "return": 1,
+            "parameters": {}
+        },
+        "hasTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "bindToThread": {
+            "return": 0,
+            "parameters": {}
+        },
+        "restoreThreadLocalStatus": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "proceedWithInvocation": {
+            "return": 1,
+            "parameters": {}
+        },
+        "onRollback": {
+            "return": 0,
+            "parameters": {
+                "failure": 0,
+                "execution": 0
+            }
+        }
+    },
+    "ThrowableHolder": {},
+    "ThrowableHolderException": {
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "VavrDelegate": {
+        "isVavrTry": {
+            "return": 0,
+            "parameters": {
+                "retVal": 0
+            }
+        },
+        "evaluateTryFailure": {
+            "return": 0,
+            "parameters": {
+                "invocation": 0,
+                "retVal": 0,
+                "txAttr": 0,
+                "status": 0
+            }
+        }
+    },
+    "ReactiveTransactionSupport": {
+        "invokeWithinTransaction": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "targetClass": 1,
+                "invocation": 0,
+                "txAttr": 1,
+                "rtm": 0
+            }
+        },
+        "createTransactionIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "tm": 0,
+                "txAttr": 1,
+                "joinpointIdentification": 0
+            }
+        },
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "prepareTransactionInfo": {
+            "return": 0,
+            "parameters": {
+                "tm": 1,
+                "txAttr": 1,
+                "joinpointIdentification": 0,
+                "transaction": 1
+            }
+        },
+        "commitTransactionAfterReturning": {
+            "return": 0,
+            "parameters": {
+                "txInfo": 1
+            }
+        },
+        "rollbackTransactionOnCancel": {
+            "return": 0,
+            "parameters": {
+                "txInfo": 1
+            }
+        },
+        "completeTransactionAfterThrowing": {
+            "return": 0,
+            "parameters": {
+                "txInfo": 1,
+                "invocation": 0,
+                "ex": 0
+            }
+        },
+        "unwrapIfResourceCleanupFailure": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    },
+    "ReactiveTransactionInfo": {
+        "getTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransactionAttribute": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getJoinpointIdentification": {
+            "return": 0,
+            "parameters": {}
+        },
+        "newReactiveTransaction": {
+            "return": 0,
+            "parameters": {
+                "transaction": 1
+            }
+        },
+        "getReactiveTransaction": {
+            "return": 1,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

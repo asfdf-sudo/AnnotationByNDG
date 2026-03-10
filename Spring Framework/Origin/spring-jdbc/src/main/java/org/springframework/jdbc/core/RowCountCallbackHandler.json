@@ -1,0 +1,27 @@
+{
+    "RowCountCallbackHandler": {
+        "processRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rowNum": 0
+            }
+        },
+        "getColumnTypes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getColumnNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getRowCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getColumnCount": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "DelegatingConnectionFactory": {
+        "setTargetConnectionFactory": {
+            "return": 0,
+            "parameters": {
+                "targetConnectionFactory": 0
+            }
+        },
+        "getTargetConnectionFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "obtainTargetConnectionFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setShouldStopConnections": {
+            "return": 0,
+            "parameters": {
+                "shouldStopConnections": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createQueueConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createTopicConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createContext": {
+            "return": 0,
+            "parameters": {
+                "sessionMode": 0
+            }
+        },
+        "shouldStop": {
+            "return": 0,
+            "parameters": {
+                "con": 1
+            }
+        }
+    }
+}

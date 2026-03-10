@@ -1,0 +1,12 @@
+{
+    "EntityManagerPointcut": {
+        "getClassFilter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getMethodMatcher": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

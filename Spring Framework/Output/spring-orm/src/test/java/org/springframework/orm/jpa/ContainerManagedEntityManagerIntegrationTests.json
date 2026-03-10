@@ -1,0 +1,56 @@
+{
+    "ContainerManagedEntityManagerIntegrationTests": {
+        "testExceptionTranslationWithDialectFoundOnIntroducedEntityManagerInfo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExceptionTranslationWithDialectFoundOnEntityManagerFactoryBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestExceptionTranslationWithDialectFound": {
+            "return": 0,
+            "parameters": {
+                "pet": 0
+            }
+        },
+        "testEntityManagerProxyIsProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testEntityManagerProxyRejectsProgrammaticTxManagement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testContainerEntityManagerProxyAllowsJoinTransactionInTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testContainerEntityManagerProxyRejectsJoinTransactionWithoutTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testInstantiateAndSave": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doInstantiateAndSave": {
+            "return": 0,
+            "parameters": {
+                "em": 0
+            }
+        },
+        "testReuseInNewTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testRollbackOccurs": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCommitOccurs": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

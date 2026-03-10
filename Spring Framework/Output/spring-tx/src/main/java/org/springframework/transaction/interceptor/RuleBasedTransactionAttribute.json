@@ -1,0 +1,24 @@
+{
+    "RuleBasedTransactionAttribute": {
+        "setRollbackRules": {
+            "return": 0,
+            "parameters": {
+                "rollbackRules": 0
+            }
+        },
+        "getRollbackRules": {
+            "return": 1,
+            "parameters": {}
+        },
+        "rollbackOn": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

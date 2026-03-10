@@ -1,0 +1,16 @@
+{
+    "JdbcUtilsTests": {
+        "commonDatabaseName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveTypeName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertUnderscoreNameToPropertyName": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

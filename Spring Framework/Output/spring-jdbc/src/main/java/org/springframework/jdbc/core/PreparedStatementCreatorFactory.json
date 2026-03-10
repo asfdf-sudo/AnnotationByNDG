@@ -1,0 +1,75 @@
+{
+    "PreparedStatementCreatorFactory": {
+        "getSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addParameter": {
+            "return": 0,
+            "parameters": {
+                "param": 0
+            }
+        },
+        "setResultSetType": {
+            "return": 0,
+            "parameters": {
+                "resultSetType": 0
+            }
+        },
+        "setUpdatableResults": {
+            "return": 0,
+            "parameters": {
+                "updatableResults": 0
+            }
+        },
+        "setReturnGeneratedKeys": {
+            "return": 0,
+            "parameters": {
+                "returnGeneratedKeys": 0
+            }
+        },
+        "setGeneratedKeysColumnNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "newPreparedStatementSetter": {
+            "return": 0,
+            "parameters": {
+                "params": 1
+            }
+        },
+        "newPreparedStatementCreator": {
+            "return": 0,
+            "parameters": {
+                "sqlToUse": 0,
+                "params": 1
+            }
+        }
+    },
+    "PreparedStatementCreatorImpl": {
+        "createPreparedStatement": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "setValues": {
+            "return": 0,
+            "parameters": {
+                "ps": 0
+            }
+        },
+        "getSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "cleanupParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

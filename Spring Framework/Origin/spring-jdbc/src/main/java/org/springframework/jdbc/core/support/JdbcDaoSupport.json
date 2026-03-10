@@ -1,0 +1,52 @@
+{
+    "JdbcDaoSupport": {
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "createJdbcTemplate": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "getDataSource": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setJdbcTemplate": {
+            "return": 0,
+            "parameters": {
+                "jdbcTemplate": 1
+            }
+        },
+        "getJdbcTemplate": {
+            "return": 1,
+            "parameters": {}
+        },
+        "initTemplateConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkDaoConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getExceptionTranslator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "releaseConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        }
+    }
+}

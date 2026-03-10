@@ -1,0 +1,12 @@
+{
+    "EclipseLinkEntityManagerFactoryIntegrationTests": {
+        "testCanCastNativeEntityManagerFactoryToEclipseLinkEntityManagerFactoryImpl": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanCastSharedEntityManagerProxyToEclipseLinkEntityManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

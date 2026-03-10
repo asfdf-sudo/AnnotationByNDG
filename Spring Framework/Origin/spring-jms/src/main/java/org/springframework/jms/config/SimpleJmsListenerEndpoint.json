@@ -1,0 +1,24 @@
+{
+    "SimpleJmsListenerEndpoint": {
+        "setMessageListener": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 1
+            }
+        },
+        "getMessageListener": {
+            "return": 1,
+            "parameters": {}
+        },
+        "createMessageListener": {
+            "return": 0,
+            "parameters": {
+                "container": 0
+            }
+        },
+        "getEndpointDescription": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

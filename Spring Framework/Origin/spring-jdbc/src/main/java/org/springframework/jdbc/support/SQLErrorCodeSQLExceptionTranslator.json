@@ -1,0 +1,64 @@
+{
+    "SQLErrorCodeSQLExceptionTranslator": {
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "setDatabaseProductName": {
+            "return": 0,
+            "parameters": {
+                "dbName": 0
+            }
+        },
+        "setSqlErrorCodes": {
+            "return": 0,
+            "parameters": {
+                "sec": 1
+            }
+        },
+        "getSqlErrorCodes": {
+            "return": 1,
+            "parameters": {}
+        },
+        "doTranslate": {
+            "return": 1,
+            "parameters": {
+                "task": 0,
+                "sql": 1,
+                "ex": 0
+            }
+        },
+        "customTranslate": {
+            "return": 1,
+            "parameters": {
+                "task": 0,
+                "sql": 1,
+                "sqlEx": 0
+            }
+        },
+        "createCustomException": {
+            "return": 1,
+            "parameters": {
+                "task": 0,
+                "sql": 1,
+                "sqlEx": 0,
+                "exceptionClass": 0
+            }
+        },
+        "logTranslation": {
+            "return": 0,
+            "parameters": {
+                "task": 0,
+                "sql": 1,
+                "sqlEx": 0,
+                "custom": 0
+            }
+        },
+        "hasUserProvidedErrorCodesFile": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

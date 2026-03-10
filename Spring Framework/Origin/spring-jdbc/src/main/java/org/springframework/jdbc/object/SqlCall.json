@@ -1,0 +1,42 @@
+{
+    "SqlCall": {
+        "setFunction": {
+            "return": 0,
+            "parameters": {
+                "function": 0
+            }
+        },
+        "isFunction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSqlReadyForUse": {
+            "return": 0,
+            "parameters": {
+                "sqlReadyForUse": 0
+            }
+        },
+        "isSqlReadyForUse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "compileInternal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "onCompileInternal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getCallString": {
+            "return": 1,
+            "parameters": {}
+        },
+        "newCallableStatementCreator": {
+            "return": 0,
+            "parameters": {
+                "inParamMapper": 0
+            }
+        }
+    }
+}

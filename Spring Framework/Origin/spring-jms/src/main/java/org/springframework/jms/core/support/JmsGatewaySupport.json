@@ -1,0 +1,38 @@
+{
+    "JmsGatewaySupport": {
+        "setConnectionFactory": {
+            "return": 0,
+            "parameters": {
+                "connectionFactory": 0
+            }
+        },
+        "createJmsTemplate": {
+            "return": 0,
+            "parameters": {
+                "connectionFactory": 0
+            }
+        },
+        "getConnectionFactory": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setJmsTemplate": {
+            "return": 0,
+            "parameters": {
+                "jmsTemplate": 1
+            }
+        },
+        "getJmsTemplate": {
+            "return": 1,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initGateway": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

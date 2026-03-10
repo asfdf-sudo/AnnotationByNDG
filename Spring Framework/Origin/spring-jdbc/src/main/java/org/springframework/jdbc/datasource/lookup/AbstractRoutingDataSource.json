@@ -1,0 +1,91 @@
+{
+    "AbstractRoutingDataSource": {
+        "setTargetDataSources": {
+            "return": 0,
+            "parameters": {
+                "targetDataSources": 0
+            }
+        },
+        "setDefaultTargetDataSource": {
+            "return": 0,
+            "parameters": {
+                "defaultTargetDataSource": 0
+            }
+        },
+        "setLenientFallback": {
+            "return": 0,
+            "parameters": {
+                "lenientFallback": 0
+            }
+        },
+        "setDataSourceLookup": {
+            "return": 0,
+            "parameters": {
+                "dataSourceLookup": 1
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initialize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveSpecifiedLookupKey": {
+            "return": 0,
+            "parameters": {
+                "lookupKey": 0
+            }
+        },
+        "resolveSpecifiedDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSourceObject": 0
+            }
+        },
+        "getResolvedDataSources": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getResolvedDefaultDataSource": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createConnectionBuilder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createShardingKeyBuilder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "unwrap": {
+            "return": 0,
+            "parameters": {
+                "iface": 0
+            }
+        },
+        "isWrapperFor": {
+            "return": 0,
+            "parameters": {
+                "iface": 0
+            }
+        },
+        "determineTargetDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineCurrentLookupKey": {
+            "return": 1,
+            "parameters": {}
+        }
+    }
+}

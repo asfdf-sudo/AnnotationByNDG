@@ -1,0 +1,36 @@
+{
+    "SqlUpdate": {
+        "setMaxRowsAffected": {
+            "return": 0,
+            "parameters": {
+                "maxRowsAffected": 0
+            }
+        },
+        "setRequiredRowsAffected": {
+            "return": 0,
+            "parameters": {
+                "requiredRowsAffected": 0
+            }
+        },
+        "checkRowsAffected": {
+            "return": 0,
+            "parameters": {
+                "rowsAffected": 0
+            }
+        },
+        "update": {
+            "return": 0,
+            "parameters": {
+                "p1": 0,
+                "p2": 0
+            }
+        },
+        "updateByNamedParam": {
+            "return": 0,
+            "parameters": {
+                "paramMap": 0,
+                "generatedKeyHolder": 0
+            }
+        }
+    }
+}

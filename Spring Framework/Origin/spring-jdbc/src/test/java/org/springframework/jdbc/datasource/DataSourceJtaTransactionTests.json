@@ -1,0 +1,173 @@
+{
+    "DataSourceJtaTransactionTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "verifyTransactionSynchronizationManagerState": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestJtaTransaction": {
+            "return": 0,
+            "parameters": {
+                "rollback": 0
+            }
+        },
+        "doInTransactionWithoutResult": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "jtaTransactionCommitWithPropagationRequiresNew": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewWithAccessAfterResume": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAccessed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewWithTransactionAwareDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionRollbackWithPropagationRequiresNew": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionRollbackWithPropagationRequiresNewWithAccessAfterResume": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionRollbackWithPropagationRequiresNewWithOpenOuterConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionRollbackWithPropagationRequiresNewWithOpenOuterConnectionAccessed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionRollbackWithPropagationRequiresNewWithTransactionAwareDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestJtaTransactionWithPropagationRequiresNew": {
+            "return": 0,
+            "parameters": {
+                "rollback": 0,
+                "openOuterConnection": 0,
+                "accessAfterResume": 0,
+                "useTransactionAwareDataSource": 0
+            }
+        },
+        "jtaTransactionCommitWithPropagationRequiredWithinSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiredWithinNotSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewWithinSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewWithinNotSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestJtaTransactionCommitWithNewTransactionWithinEmptyTransaction": {
+            "return": 0,
+            "parameters": {
+                "requiresNew": 0,
+                "notSupported": 0
+            }
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewAndSuspendException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAndSuspendException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewWithTransactionAwareDataSourceAndSuspendException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAndTransactionAwareDataSourceAndSuspendException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewAndBeginException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAndBeginException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewWithOpenOuterConnectionAndTransactionAwareDataSourceAndBeginException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionCommitWithPropagationRequiresNewWithTransactionAwareDataSourceAndBeginException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestJtaTransactionWithPropagationRequiresNewAndBeginException": {
+            "return": 0,
+            "parameters": {
+                "suspendException": 0,
+                "openOuterConnection": 0,
+                "useTransactionAwareDataSource": 0
+            }
+        },
+        "jtaTransactionWithConnectionHolderStillBound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doRegisterAfterCompletionWithJtaTransaction": {
+            "return": 0,
+            "parameters": {
+                "txObject": 0,
+                "synchronizations": 0
+            }
+        },
+        "jtaTransactionWithIsolationLevelDataSourceAdapter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionWithIsolationLevelDataSourceRouter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionWithIsolationLevelDataSourceRouterWithDataSourceLookup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestJtaTransactionWithIsolationLevelDataSourceRouter": {
+            "return": 0,
+            "parameters": {
+                "dataSourceLookup": 0
+            }
+        }
+    }
+}

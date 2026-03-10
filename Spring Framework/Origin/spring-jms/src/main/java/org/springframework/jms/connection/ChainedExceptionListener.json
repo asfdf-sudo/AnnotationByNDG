@@ -1,0 +1,20 @@
+{
+    "ChainedExceptionListener": {
+        "addDelegate": {
+            "return": 0,
+            "parameters": {
+                "listener": 0
+            }
+        },
+        "getDelegates": {
+            "return": 0,
+            "parameters": {}
+        },
+        "onException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    }
+}

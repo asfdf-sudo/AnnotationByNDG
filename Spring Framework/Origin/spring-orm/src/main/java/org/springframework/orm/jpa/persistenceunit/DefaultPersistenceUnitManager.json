@@ -1,0 +1,174 @@
+{
+    "DefaultPersistenceUnitManager": {
+        "setPersistenceXmlLocation": {
+            "return": 0,
+            "parameters": {
+                "persistenceXmlLocation": 0
+            }
+        },
+        "setPersistenceXmlLocations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDefaultPersistenceUnitRootLocation": {
+            "return": 0,
+            "parameters": {
+                "defaultPersistenceUnitRootLocation": 0
+            }
+        },
+        "setDefaultPersistenceUnitName": {
+            "return": 0,
+            "parameters": {
+                "defaultPersistenceUnitName": 0
+            }
+        },
+        "setPersistenceConfiguration": {
+            "return": 0,
+            "parameters": {
+                "configuration": 0
+            }
+        },
+        "setManagedTypes": {
+            "return": 0,
+            "parameters": {
+                "managedTypes": 0
+            }
+        },
+        "setPackagesToScan": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setManagedClassNameFilter": {
+            "return": 0,
+            "parameters": {
+                "managedClassNameFilter": 0
+            }
+        },
+        "setMappingResources": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSharedCacheMode": {
+            "return": 0,
+            "parameters": {
+                "sharedCacheMode": 0
+            }
+        },
+        "setValidationMode": {
+            "return": 0,
+            "parameters": {
+                "validationMode": 0
+            }
+        },
+        "setDataSources": {
+            "return": 0,
+            "parameters": {
+                "dataSources": 0
+            }
+        },
+        "setDataSourceLookup": {
+            "return": 0,
+            "parameters": {
+                "dataSourceLookup": 1
+            }
+        },
+        "getDataSourceLookup": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setDefaultDataSource": {
+            "return": 0,
+            "parameters": {
+                "defaultDataSource": 1
+            }
+        },
+        "getDefaultDataSource": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setDefaultJtaDataSource": {
+            "return": 0,
+            "parameters": {
+                "defaultJtaDataSource": 1
+            }
+        },
+        "getDefaultJtaDataSource": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setPersistenceUnitPostProcessors": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPersistenceUnitPostProcessors": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLoadTimeWeaver": {
+            "return": 0,
+            "parameters": {
+                "loadTimeWeaver": 1
+            }
+        },
+        "getLoadTimeWeaver": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setResourceLoader": {
+            "return": 0,
+            "parameters": {
+                "resourceLoader": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "preparePersistenceUnitInfos": {
+            "return": 0,
+            "parameters": {}
+        },
+        "readPersistenceUnitInfos": {
+            "return": 0,
+            "parameters": {}
+        },
+        "buildDefaultPersistenceUnitInfo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineDefaultPersistenceUnitRootUrl": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getOrmXmlForDefaultPersistenceUnit": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getPersistenceUnitInfo": {
+            "return": 1,
+            "parameters": {
+                "persistenceUnitName": 0
+            }
+        },
+        "postProcessPersistenceUnitInfo": {
+            "return": 0,
+            "parameters": {
+                "pui": 0
+            }
+        },
+        "isPersistenceUnitOverrideAllowed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "obtainDefaultPersistenceUnitInfo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "obtainPersistenceUnitInfo": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitName": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,267 @@
+{
+    "AbstractReactiveTransactionManager": {
+        "setTransactionExecutionListeners": {
+            "return": 0,
+            "parameters": {
+                "listeners": 0
+            }
+        },
+        "getTransactionExecutionListeners": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getReactiveTransaction": {
+            "return": 0,
+            "parameters": {
+                "definition": 1
+            }
+        },
+        "handleExistingTransaction": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "definition": 0,
+                "transaction": 0,
+                "debugEnabled": 0
+            }
+        },
+        "prepareReactiveTransaction": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "definition": 0,
+                "transaction": 0,
+                "newTransaction": 0,
+                "debug": 0,
+                "suspendedResources": 0
+            }
+        },
+        "newReactiveTransaction": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "definition": 0,
+                "transaction": 0,
+                "newTransaction": 0,
+                "nested": 0,
+                "debug": 0,
+                "suspendedResources": 0
+            }
+        },
+        "prepareSynchronization": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0,
+                "definition": 0
+            }
+        },
+        "suspend": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "transaction": 1
+            }
+        },
+        "resume": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "transaction": 0,
+                "resourcesHolder": 1
+            }
+        },
+        "resumeAfterBeginException": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "transaction": 0,
+                "suspendedResources": 0,
+                "beginEx": 0
+            }
+        },
+        "doSuspendSynchronization": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0
+            }
+        },
+        "doResumeSynchronization": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "suspendedSynchronizations": 0
+            }
+        },
+        "commit": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "processCommit": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0
+            }
+        },
+        "rollback": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "processRollback": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0
+            }
+        },
+        "doRollbackOnCommitException": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0,
+                "ex": 0
+            }
+        },
+        "triggerBeforeCommit": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0
+            }
+        },
+        "triggerBeforeCompletion": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0
+            }
+        },
+        "triggerAfterCommit": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0
+            }
+        },
+        "triggerAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0,
+                "completionStatus": 0
+            }
+        },
+        "invokeAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "synchronizations": 0,
+                "completionStatus": 0
+            }
+        },
+        "cleanupAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0
+            }
+        },
+        "doGetTransaction": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0
+            }
+        },
+        "isExistingTransaction": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "doBegin": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "transaction": 0,
+                "definition": 0
+            }
+        },
+        "doSuspend": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "transaction": 0
+            }
+        },
+        "doResume": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 1,
+                "transaction": 1,
+                "suspendedResources": 1
+            }
+        },
+        "prepareForCommit": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0
+            }
+        },
+        "doCommit": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0
+            }
+        },
+        "doRollback": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0
+            }
+        },
+        "doSetRollbackOnly": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0
+            }
+        },
+        "registerAfterCompletionWithExistingTransaction": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "transaction": 0,
+                "synchronizations": 0
+            }
+        },
+        "doCleanupAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "transaction": 0
+            }
+        },
+        "readObject": {
+            "return": 0,
+            "parameters": {
+                "ois": 0
+            }
+        }
+    },
+    "SuspendedResourcesHolder": {
+        "test": {
+            "return": 0,
+            "parameters": {
+                "throwable": 0
+            }
+        }
+    }
+}

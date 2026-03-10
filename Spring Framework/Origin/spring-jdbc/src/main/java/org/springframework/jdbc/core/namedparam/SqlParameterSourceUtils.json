@@ -1,0 +1,23 @@
+{
+    "SqlParameterSourceUtils": {
+        "createBatch": {
+            "return": 0,
+            "parameters": {
+                "valueMaps": 0
+            }
+        },
+        "getTypedValue": {
+            "return": 1,
+            "parameters": {
+                "source": 0,
+                "parameterName": 0
+            }
+        },
+        "extractCaseInsensitiveParameterNames": {
+            "return": 0,
+            "parameters": {
+                "parameterSource": 0
+            }
+        }
+    }
+}

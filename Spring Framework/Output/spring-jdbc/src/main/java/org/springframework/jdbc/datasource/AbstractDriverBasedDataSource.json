@@ -1,0 +1,77 @@
+{
+    "AbstractDriverBasedDataSource": {
+        "setUrl": {
+            "return": 0,
+            "parameters": {
+                "url": 1
+            }
+        },
+        "getUrl": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setUsername": {
+            "return": 0,
+            "parameters": {
+                "username": 0
+            }
+        },
+        "getUsername": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPassword": {
+            "return": 0,
+            "parameters": {
+                "password": 1
+            }
+        },
+        "getPassword": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCatalog": {
+            "return": 0,
+            "parameters": {
+                "catalog": 0
+            }
+        },
+        "getCatalog": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSchema": {
+            "return": 0,
+            "parameters": {
+                "schema": 0
+            }
+        },
+        "getSchema": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setConnectionProperties": {
+            "return": 0,
+            "parameters": {
+                "connectionProperties": 0
+            }
+        },
+        "getConnectionProperties": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "getConnectionFromDriver": {
+            "return": 0,
+            "parameters": {
+                "props": 0
+            }
+        }
+    }
+}

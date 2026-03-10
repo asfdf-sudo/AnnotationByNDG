@@ -1,0 +1,27 @@
+{
+    "MessagingMessageListenerAdapterIntegrationTests": {
+        "defaultSubscriptionName": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "subscriptionName": 0
+            }
+        },
+        "subscriptionNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "findMethod": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "CustomListener": {
+        "toUpperCase": {
+            "return": 0,
+            "parameters": {
+                "input": 0
+            }
+        }
+    }
+}

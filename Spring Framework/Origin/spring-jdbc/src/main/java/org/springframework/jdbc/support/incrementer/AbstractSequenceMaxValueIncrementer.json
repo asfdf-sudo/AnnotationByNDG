@@ -1,0 +1,12 @@
+{
+    "AbstractSequenceMaxValueIncrementer": {
+        "getNextKey": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSequenceQuery": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

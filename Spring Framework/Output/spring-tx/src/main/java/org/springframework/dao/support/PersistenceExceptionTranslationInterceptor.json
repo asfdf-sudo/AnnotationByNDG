@@ -1,0 +1,38 @@
+{
+    "PersistenceExceptionTranslationInterceptor": {
+        "setPersistenceExceptionTranslator": {
+            "return": 0,
+            "parameters": {
+                "pet": 0
+            }
+        },
+        "setAlwaysTranslate": {
+            "return": 0,
+            "parameters": {
+                "alwaysTranslate": 0
+            }
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 1
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invoke": {
+            "return": 0,
+            "parameters": {
+                "mi": 0
+            }
+        },
+        "detectPersistenceExceptionTranslators": {
+            "return": 0,
+            "parameters": {
+                "bf": 0
+            }
+        }
+    }
+}

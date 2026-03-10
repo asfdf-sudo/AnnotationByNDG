@@ -1,0 +1,117 @@
+{
+    "TransactionSynchronizationManager": {
+        "forCurrentTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasResource": {
+            "return": 0,
+            "parameters": {
+                "key": 0
+            }
+        },
+        "getResource": {
+            "return": 1,
+            "parameters": {
+                "key": 0
+            }
+        },
+        "doGetResource": {
+            "return": 1,
+            "parameters": {
+                "actualKey": 0
+            }
+        },
+        "bindResource": {
+            "return": 0,
+            "parameters": {
+                "key": 0,
+                "value": 0
+            }
+        },
+        "unbindResource": {
+            "return": 0,
+            "parameters": {
+                "key": 0
+            }
+        },
+        "unbindResourceIfPossible": {
+            "return": 1,
+            "parameters": {
+                "key": 0
+            }
+        },
+        "doUnbindResource": {
+            "return": 1,
+            "parameters": {
+                "actualKey": 0
+            }
+        },
+        "isSynchronizationActive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initSynchronization": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerSynchronization": {
+            "return": 0,
+            "parameters": {
+                "synchronization": 0
+            }
+        },
+        "getSynchronizations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "clearSynchronization": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCurrentTransactionName": {
+            "return": 0,
+            "parameters": {
+                "name": 1
+            }
+        },
+        "getCurrentTransactionName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setCurrentTransactionReadOnly": {
+            "return": 0,
+            "parameters": {
+                "readOnly": 0
+            }
+        },
+        "isCurrentTransactionReadOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCurrentTransactionIsolationLevel": {
+            "return": 0,
+            "parameters": {
+                "isolationLevel": 1
+            }
+        },
+        "getCurrentTransactionIsolationLevel": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setActualTransactionActive": {
+            "return": 0,
+            "parameters": {
+                "active": 0
+            }
+        },
+        "isActualTransactionActive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "clear": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

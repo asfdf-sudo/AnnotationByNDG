@@ -1,0 +1,212 @@
+{
+    "PersistenceInjectionTests": {
+        "testPrivatePersistenceContextField": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPrivateVendorSpecificPersistenceContextField": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPublicExtendedPersistenceContextSetter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPublicSpecificExtendedPersistenceContextSetter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testInjectionIntoExistingObjects": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPublicExtendedPersistenceContextSetterWithSerialization": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPublicExtendedPersistenceContextSetterWithEntityManagerInfoAndSerialization": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPublicExtendedPersistenceContextSetterWithOverriding": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPrivatePersistenceUnitField": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPublicPersistenceUnitSetter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPublicPersistenceUnitSetterWithOverriding": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPublicPersistenceUnitSetterWithUnitIdentifiedThroughBeanName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPublicPersistenceUnitSetterWithMultipleUnitsIdentifiedThroughUnitName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPersistenceUnitsFromJndi": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPersistenceUnitsFromJndiWithDefaultUnit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSinglePersistenceUnitFromJndi": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPersistenceContextsFromJndi": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPersistenceContextsFromJndiWithDefaultUnit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSinglePersistenceContextFromJndi": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testFieldOfWrongTypeAnnotatedWithPersistenceUnit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetterOfWrongTypeAnnotatedWithPersistenceUnit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetterWithNoArgs": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testNoPropertiesPassedIn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPropertiesPassedIn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPropertiesForTransactionalEntityManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPropertiesForSharedEntityManager1": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPropertiesForSharedEntityManager2": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "MockPersistenceAnnotationBeanPostProcessor": {
+        "findEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "emfName": 1,
+                "requestingBeanName": 0
+            }
+        }
+    },
+    "DefaultPrivatePersistenceContextField": {},
+    "DefaultVendorSpecificPrivatePersistenceContextField": {},
+    "FactoryBeanWithPersistenceContextField": {
+        "getObject": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getObjectType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isSingleton": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "DefaultPrivatePersistenceContextFieldNamedPerson": {},
+    "DefaultPrivatePersistenceContextFieldWithProperties": {},
+    "DefaultPublicPersistenceContextSetter": {
+        "setEntityManager": {
+            "return": 0,
+            "parameters": {
+                "em": 0
+            }
+        },
+        "getEntityManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "PublicPersistenceContextSetterOnNonPublicClass": {
+        "setEntityManager": {
+            "return": 0,
+            "parameters": {
+                "em": 0
+            }
+        }
+    },
+    "SpecificPublicPersistenceContextSetter": {},
+    "DefaultPrivatePersistenceUnitField": {},
+    "DefaultPublicPersistenceUnitSetter": {
+        "setEmf": {
+            "return": 0,
+            "parameters": {
+                "emf": 0
+            }
+        },
+        "getEmf": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "DefaultPublicPersistenceUnitSetterNamedPerson": {
+        "setEmf": {
+            "return": 0,
+            "parameters": {
+                "emf": 0
+            }
+        },
+        "getEntityManagerFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "FieldOfWrongTypeAnnotatedWithPersistenceUnit": {},
+    "SetterOfWrongTypeAnnotatedWithPersistenceUnit": {
+        "setSomething": {
+            "return": 0,
+            "parameters": {
+                "c": 0
+            }
+        }
+    },
+    "SetterWithNoArgs": {
+        "setSomething": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "DefaultPrivatePersistenceContextFieldExtended": {},
+    "DefaultPrivatePersistenceContextFieldExtendedWithProps": {},
+    "DummyInvocationHandler": {
+        "invoke": {
+            "return": 0,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        }
+    }
+}

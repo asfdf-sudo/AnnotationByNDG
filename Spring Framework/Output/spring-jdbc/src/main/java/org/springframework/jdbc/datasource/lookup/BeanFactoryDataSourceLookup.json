@@ -1,0 +1,16 @@
+{
+    "BeanFactoryDataSourceLookup": {
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        },
+        "getDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSourceName": 0
+            }
+        }
+    }
+}

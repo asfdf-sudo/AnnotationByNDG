@@ -1,0 +1,54 @@
+{
+    "AnnotationDrivenNamespaceTests": {
+        "sampleConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fullConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fullConfigurableConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "explicitContainerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "defaultContainerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsHandlerMethodFactoryConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsListenerIsRepeatable": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsListeners": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "CustomJmsListenerConfigurer": {
+        "configureJmsListeners": {
+            "return": 0,
+            "parameters": {
+                "registrar": 0
+            }
+        },
+        "setMessageListener": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 0
+            }
+        }
+    }
+}

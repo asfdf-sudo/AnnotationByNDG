@@ -1,0 +1,10 @@
+{
+    "StubTaskExecutor": {
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "task": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "DynamicDestinationResolver": {
+        "resolveDestinationName": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "destinationName": 0,
+                "pubSubDomain": 0
+            }
+        },
+        "resolveTopic": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "topicName": 0
+            }
+        },
+        "resolveQueue": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "queueName": 0
+            }
+        }
+    }
+}

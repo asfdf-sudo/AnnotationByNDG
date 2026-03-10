@@ -1,0 +1,129 @@
+{
+    "DataSourceUtils": {
+        "getConnection": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "doGetConnection": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "fetchConnection": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "prepareConnectionForTransaction": {
+            "return": 1,
+            "parameters": {
+                "con": 0,
+                "isolationLevel": 0,
+                "setReadOnly": 0
+            }
+        },
+        "setReadOnlyIfPossible": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "resetConnectionAfterTransaction": {
+            "return": 0,
+            "parameters": {
+                "con": 0,
+                "previousIsolationLevel": 1
+            }
+        },
+        "isConnectionTransactional": {
+            "return": 0,
+            "parameters": {
+                "con": 0,
+                "dataSource": 1
+            }
+        },
+        "applyTransactionTimeout": {
+            "return": 0,
+            "parameters": {
+                "stmt": 0,
+                "dataSource": 1
+            }
+        },
+        "applyTimeout": {
+            "return": 0,
+            "parameters": {
+                "stmt": 0,
+                "dataSource": 1,
+                "timeout": 0
+            }
+        },
+        "releaseConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 1,
+                "dataSource": 1
+            }
+        },
+        "doReleaseConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 1,
+                "dataSource": 1
+            }
+        },
+        "doCloseConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 0,
+                "dataSource": 1
+            }
+        },
+        "connectionEquals": {
+            "return": 0,
+            "parameters": {
+                "conHolder": 0,
+                "passedInCon": 0
+            }
+        },
+        "getTargetConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "getConnectionSynchronizationOrder": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        }
+    },
+    "ConnectionSynchronization": {
+        "getOrder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "suspend": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resume": {
+            "return": 0,
+            "parameters": {}
+        },
+        "beforeCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        }
+    }
+}

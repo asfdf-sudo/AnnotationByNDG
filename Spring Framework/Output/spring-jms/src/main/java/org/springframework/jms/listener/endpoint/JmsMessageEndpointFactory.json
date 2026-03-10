@@ -1,0 +1,31 @@
+{
+    "JmsMessageEndpointFactory": {
+        "setMessageListener": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 0
+            }
+        },
+        "getMessageListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createEndpointInternal": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "JmsMessageEndpoint": {
+        "onMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "getEndpointClassLoader": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "JmsResourceException": {}
+}

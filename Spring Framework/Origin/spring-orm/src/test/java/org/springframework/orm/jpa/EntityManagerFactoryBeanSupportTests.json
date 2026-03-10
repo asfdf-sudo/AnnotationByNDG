@@ -1,0 +1,8 @@
+{
+    "EntityManagerFactoryBeanSupportTests": {
+        "testHookIsCalled": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

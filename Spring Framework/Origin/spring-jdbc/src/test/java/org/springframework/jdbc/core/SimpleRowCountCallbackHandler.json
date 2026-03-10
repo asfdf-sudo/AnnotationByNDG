@@ -1,0 +1,14 @@
+{
+    "SimpleRowCountCallbackHandler": {
+        "processRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0
+            }
+        },
+        "getCount": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

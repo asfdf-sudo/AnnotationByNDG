@@ -1,0 +1,42 @@
+{
+    "TransactionAwareDataSourceProxy": {
+        "setLazyTransactionalConnections": {
+            "return": 0,
+            "parameters": {
+                "lazyTransactionalConnections": 0
+            }
+        },
+        "setReobtainTransactionalConnections": {
+            "return": 0,
+            "parameters": {
+                "reobtainTransactionalConnections": 0
+            }
+        },
+        "getConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransactionAwareConnectionProxy": {
+            "return": 0,
+            "parameters": {
+                "targetDataSource": 0
+            }
+        },
+        "shouldObtainFixedConnection": {
+            "return": 0,
+            "parameters": {
+                "targetDataSource": 0
+            }
+        }
+    },
+    "TransactionAwareInvocationHandler": {
+        "invoke": {
+            "return": 0,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        }
+    }
+}

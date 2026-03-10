@@ -1,0 +1,18 @@
+{
+    "JtaTransactionManagerBeanDefinitionParser": {
+        "getBeanClass": {
+            "return": 0,
+            "parameters": {
+                "element": 0
+            }
+        },
+        "resolveId": {
+            "return": 0,
+            "parameters": {
+                "element": 0,
+                "definition": 0,
+                "parserContext": 0
+            }
+        }
+    }
+}

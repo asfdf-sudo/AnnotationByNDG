@@ -1,0 +1,103 @@
+{
+    "SQLStateSQLExceptionTranslatorTests": {
+        "translateNullException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateBadSqlGrammar": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateDataIntegrityViolation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateDuplicateKey": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateDuplicateKeyOracle": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateDuplicateKeyMySQL": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateDuplicateKeyMSSQL1": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateDuplicateKeyMSSQL2": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateDuplicateKeySapHana": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateDuplicateKeyInformix1": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateDuplicateKeyInformix2": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateDataAccessResourceFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateTransientDataAccessResourceFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translatePessimisticLockingFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateCannotAcquireLock": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateQueryTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateWithinQualifiedBatch": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateWithinUnqualifiedBatch": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateUncategorized": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invalidSqlStateCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "malformedSqlStateCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertTranslation": {
+            "return": 0,
+            "parameters": {
+                "dae": 1,
+                "ex": 0,
+                "dataAccessExceptionType": 0
+            }
+        },
+        "buildBatchUpdateException": {
+            "return": 0,
+            "parameters": {
+                "sqlState": 0,
+                "next": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "NamedParameterQueryTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "verifyClose": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForListWithParamMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForListWithParamMapAndEmptyResult": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForListWithParamMapAndSingleRowAndColumn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForListWithParamMapAndIntegerElementAndSingleRowAndColumn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForMapWithParamMapAndSingleRowAndColumn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithParamMapAndRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithMapAndInteger": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithParamMapAndInteger": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithParamMapAndList": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithParamMapAndListOfExpressionLists": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForIntWithParamMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForLongWithParamBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForLongWithParamBeanWithCollection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForLongWithParamRecord": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ParameterBean": {
+        "getId": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ParameterCollectionBean": {
+        "getIds": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

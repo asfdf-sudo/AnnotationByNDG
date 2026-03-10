@@ -1,0 +1,52 @@
+{
+    "ReactiveTestTransactionManager": {
+        "doGetTransaction": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0
+            }
+        },
+        "isExistingTransaction": {
+            "return": 0,
+            "parameters": {
+                "transaction": 1
+            }
+        },
+        "doBegin": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 1,
+                "transaction": 1,
+                "definition": 1
+            }
+        },
+        "doCommit": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 1,
+                "status": 0
+            }
+        },
+        "doRollback": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 1,
+                "status": 0
+            }
+        },
+        "doSetRollbackOnly": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 1,
+                "status": 0
+            }
+        },
+        "doCleanupAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "transaction": 0
+            }
+        }
+    }
+}

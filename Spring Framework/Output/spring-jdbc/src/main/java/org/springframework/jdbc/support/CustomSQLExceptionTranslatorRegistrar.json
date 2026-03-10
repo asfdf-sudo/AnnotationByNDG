@@ -1,0 +1,14 @@
+{
+    "CustomSQLExceptionTranslatorRegistrar": {
+        "setTranslators": {
+            "return": 0,
+            "parameters": {
+                "translators": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

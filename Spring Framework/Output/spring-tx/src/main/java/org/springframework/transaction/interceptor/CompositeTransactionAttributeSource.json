@@ -1,0 +1,28 @@
+{
+    "CompositeTransactionAttributeSource": {
+        "getTransactionAttributeSources": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isCandidateClass": {
+            "return": 0,
+            "parameters": {
+                "targetClass": 0
+            }
+        },
+        "hasTransactionAttribute": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "targetClass": 0
+            }
+        },
+        "getTransactionAttribute": {
+            "return": 1,
+            "parameters": {
+                "method": 0,
+                "targetClass": 0
+            }
+        }
+    }
+}

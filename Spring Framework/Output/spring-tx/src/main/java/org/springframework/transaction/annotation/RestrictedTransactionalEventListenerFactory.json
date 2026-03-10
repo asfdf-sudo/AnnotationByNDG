@@ -1,0 +1,12 @@
+{
+    "RestrictedTransactionalEventListenerFactory": {
+        "createApplicationListener": {
+            "return": 0,
+            "parameters": {
+                "beanName": 0,
+                "type": 0,
+                "method": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "TestTransactionExecutionListener": {
+        "beforeBegin": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "afterBegin": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0,
+                "beginFailure": 1
+            }
+        },
+        "beforeCommit": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "afterCommit": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0,
+                "commitFailure": 1
+            }
+        },
+        "beforeRollback": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "afterRollback": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0,
+                "rollbackFailure": 1
+            }
+        }
+    }
+}

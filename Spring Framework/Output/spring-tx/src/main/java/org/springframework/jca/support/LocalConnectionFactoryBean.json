@@ -1,0 +1,32 @@
+{
+    "LocalConnectionFactoryBean": {
+        "setManagedConnectionFactory": {
+            "return": 0,
+            "parameters": {
+                "managedConnectionFactory": 0
+            }
+        },
+        "setConnectionManager": {
+            "return": 0,
+            "parameters": {
+                "connectionManager": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getObject": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getObjectType": {
+            "return": 1,
+            "parameters": {}
+        },
+        "isSingleton": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "IsolationLevelDataSourceRouterTests": {
+        "resolveSpecifiedLookupKeyForInvalidTypes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveSpecifiedLookupKeyByNameForUnsupportedValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveSpecifiedLookupKeyByNameForAllSupportedValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveSpecifiedLookupKeyByInteger": {
+            "return": 0,
+            "parameters": {}
+        },
+        "streamIsolationConstants": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

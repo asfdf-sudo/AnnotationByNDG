@@ -1,0 +1,68 @@
+{
+    "DefaultJmsListenerContainerFactory": {
+        "setTaskExecutor": {
+            "return": 0,
+            "parameters": {
+                "taskExecutor": 1
+            }
+        },
+        "setTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "transactionManager": 1
+            }
+        },
+        "setCacheLevel": {
+            "return": 0,
+            "parameters": {
+                "cacheLevel": 1
+            }
+        },
+        "setCacheLevelName": {
+            "return": 0,
+            "parameters": {
+                "cacheLevelName": 1
+            }
+        },
+        "setConcurrency": {
+            "return": 0,
+            "parameters": {
+                "concurrency": 1
+            }
+        },
+        "setMaxMessagesPerTask": {
+            "return": 0,
+            "parameters": {
+                "maxMessagesPerTask": 1
+            }
+        },
+        "setReceiveTimeout": {
+            "return": 0,
+            "parameters": {
+                "receiveTimeout": 1
+            }
+        },
+        "setRecoveryInterval": {
+            "return": 0,
+            "parameters": {
+                "recoveryInterval": 1
+            }
+        },
+        "setBackOff": {
+            "return": 0,
+            "parameters": {
+                "backOff": 1
+            }
+        },
+        "createContainerInstance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initializeContainer": {
+            "return": 0,
+            "parameters": {
+                "container": 0
+            }
+        }
+    }
+}

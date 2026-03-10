@@ -1,0 +1,12 @@
+{
+    "TxNamespaceHandlerEventTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "componentEventReceived": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

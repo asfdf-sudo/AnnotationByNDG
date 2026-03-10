@@ -1,0 +1,32 @@
+{
+    "AbstractIdentityColumnMaxValueIncrementer": {
+        "setDeleteSpecificValues": {
+            "return": 0,
+            "parameters": {
+                "deleteSpecificValues": 0
+            }
+        },
+        "isDeleteSpecificValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getNextKey": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getIncrementStatement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getIdentityStatement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDeleteStatement": {
+            "return": 0,
+            "parameters": {
+                "values": 0
+            }
+        }
+    }
+}

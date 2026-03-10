@@ -1,0 +1,151 @@
+{
+    "AbstractJdbcCall": {
+        "getJdbcTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setProcedureName": {
+            "return": 0,
+            "parameters": {
+                "procedureName": 1
+            }
+        },
+        "getProcedureName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setInParameterNames": {
+            "return": 0,
+            "parameters": {
+                "inParameterNames": 0
+            }
+        },
+        "getInParameterNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCatalogName": {
+            "return": 0,
+            "parameters": {
+                "catalogName": 0
+            }
+        },
+        "getCatalogName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSchemaName": {
+            "return": 0,
+            "parameters": {
+                "schemaName": 0
+            }
+        },
+        "getSchemaName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setFunction": {
+            "return": 0,
+            "parameters": {
+                "function": 0
+            }
+        },
+        "isFunction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setReturnValueRequired": {
+            "return": 0,
+            "parameters": {
+                "returnValueRequired": 0
+            }
+        },
+        "isReturnValueRequired": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setNamedBinding": {
+            "return": 0,
+            "parameters": {
+                "namedBinding": 0
+            }
+        },
+        "isNamedBinding": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAccessCallParameterMetaData": {
+            "return": 0,
+            "parameters": {
+                "accessCallParameterMetaData": 0
+            }
+        },
+        "getCallString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getCallableStatementFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addDeclaredParameter": {
+            "return": 0,
+            "parameters": {
+                "parameter": 0
+            }
+        },
+        "addDeclaredRowMapper": {
+            "return": 0,
+            "parameters": {
+                "parameterName": 0,
+                "rowMapper": 0
+            }
+        },
+        "compile": {
+            "return": 0,
+            "parameters": {}
+        },
+        "compileInternal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "onCompileInternal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isCompiled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkCompiled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doExecute": {
+            "return": 0,
+            "parameters": {
+                "args": 0
+            }
+        },
+        "executeCallInternal": {
+            "return": 0,
+            "parameters": {
+                "args": 0
+            }
+        },
+        "getScalarOutParameterName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getCallParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "matchInParameterValuesWithCallParameters": {
+            "return": 0,
+            "parameters": {
+                "args": 0
+            }
+        }
+    }
+}

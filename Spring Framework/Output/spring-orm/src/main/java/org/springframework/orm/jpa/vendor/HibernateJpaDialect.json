@@ -1,0 +1,69 @@
+{
+    "HibernateJpaDialect": {
+        "setPrepareConnection": {
+            "return": 0,
+            "parameters": {
+                "prepareConnection": 0
+            }
+        },
+        "setJdbcExceptionTranslator": {
+            "return": 0,
+            "parameters": {
+                "exceptionTranslator": 0
+            }
+        },
+        "beginTransaction": {
+            "return": 0,
+            "parameters": {
+                "entityManager": 0,
+                "definition": 0
+            }
+        },
+        "prepareTransaction": {
+            "return": 0,
+            "parameters": {
+                "entityManager": 0,
+                "readOnly": 0,
+                "name": 0
+            }
+        },
+        "prepareFlushMode": {
+            "return": 1,
+            "parameters": {
+                "session": 0,
+                "readOnly": 0
+            }
+        },
+        "cleanupTransaction": {
+            "return": 0,
+            "parameters": {
+                "transactionData": 1
+            }
+        },
+        "getJdbcConnection": {
+            "return": 0,
+            "parameters": {
+                "entityManager": 0,
+                "readOnly": 0
+            }
+        },
+        "translateExceptionIfPossible": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    },
+    "SessionTransactionData": {
+        "resetSessionState": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "HibernateConnectionHandle": {
+        "getConnection": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

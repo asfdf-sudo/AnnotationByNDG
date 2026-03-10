@@ -1,0 +1,60 @@
+{
+    "SimpleJdbcInsertTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "verifyClosed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "missingTableName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usingQuotedIdentifiersWithoutSupplyingColumnNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "methodChaining": {
+            "return": 0,
+            "parameters": {}
+        },
+        "noSuchTable": {
+            "return": 0,
+            "parameters": {}
+        },
+        "retrieveColumnNamesFromMetadata": {
+            "return": 0,
+            "parameters": {}
+        },
+        "exceptionThrownWhileRetrievingColumnNamesFromMetadata": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usingColumns": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usingColumnsAndQuotedIdentifiers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usingColumnsAndQuotedIdentifiersWithSchemaName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usingSchema": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usingCatalog": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usingSchemaAndCatalog": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "TransactionRuntimeHints": {
+        "registerHints": {
+            "return": 0,
+            "parameters": {
+                "hints": 0,
+                "classLoader": 0
+            }
+        }
+    }
+}

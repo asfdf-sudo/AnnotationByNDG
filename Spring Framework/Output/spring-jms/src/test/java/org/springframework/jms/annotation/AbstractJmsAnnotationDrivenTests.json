@@ -1,0 +1,153 @@
+{
+    "AbstractJmsAnnotationDrivenTests": {
+        "sampleConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fullConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fullConfigurableConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "explicitContainerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "defaultContainerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsHandlerMethodFactoryConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsListenerIsRepeatable": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsListeners": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSampleConfiguration": {
+            "return": 0,
+            "parameters": {
+                "context": 0
+            }
+        },
+        "testFullConfiguration": {
+            "return": 0,
+            "parameters": {
+                "context": 1
+            }
+        },
+        "testCustomConfiguration": {
+            "return": 0,
+            "parameters": {
+                "context": 0
+            }
+        },
+        "testExplicitContainerFactoryConfiguration": {
+            "return": 0,
+            "parameters": {
+                "context": 0
+            }
+        },
+        "testDefaultContainerFactoryConfiguration": {
+            "return": 0,
+            "parameters": {
+                "context": 0
+            }
+        },
+        "testJmsHandlerMethodFactoryConfiguration": {
+            "return": 0,
+            "parameters": {
+                "context": 0
+            }
+        },
+        "testJmsListenerRepeatable": {
+            "return": 0,
+            "parameters": {
+                "context": 0
+            }
+        }
+    },
+    "SampleBean": {
+        "defaultHandle": {
+            "return": 0,
+            "parameters": {
+                "msg": 0
+            }
+        },
+        "simpleHandle": {
+            "return": 0,
+            "parameters": {
+                "msg": 0
+            }
+        }
+    },
+    "FullBean": {
+        "fullHandle": {
+            "return": 0,
+            "parameters": {
+                "msg": 0
+            }
+        }
+    },
+    "FullConfigurableBean": {
+        "fullHandle": {
+            "return": 0,
+            "parameters": {
+                "msg": 0
+            }
+        }
+    },
+    "CustomBean": {
+        "customHandle": {
+            "return": 0,
+            "parameters": {
+                "msg": 0
+            }
+        }
+    },
+    "DefaultBean": {
+        "handleIt": {
+            "return": 0,
+            "parameters": {
+                "msg": 0
+            }
+        }
+    },
+    "ValidationBean": {
+        "defaultHandle": {
+            "return": 0,
+            "parameters": {
+                "msg": 0
+            }
+        }
+    },
+    "JmsListenerRepeatableBean": {
+        "repeatableHandle": {
+            "return": 0,
+            "parameters": {
+                "msg": 0
+            }
+        }
+    },
+    "JmsListenersBean": {
+        "validate": {
+            "return": 0,
+            "parameters": {
+                "target": 0,
+                "errors": 0
+            }
+        }
+    }
+}

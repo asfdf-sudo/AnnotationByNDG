@@ -1,0 +1,55 @@
+{
+    "MessageListenerAdapter": {
+        "setDelegate": {
+            "return": 0,
+            "parameters": {
+                "delegate": 0
+            }
+        },
+        "getDelegate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDefaultListenerMethod": {
+            "return": 0,
+            "parameters": {
+                "defaultListenerMethod": 0
+            }
+        },
+        "getDefaultListenerMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "onMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0,
+                "session": 1
+            }
+        },
+        "getSubscriptionName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getListenerMethodName": {
+            "return": 0,
+            "parameters": {
+                "originalMessage": 0,
+                "extractedMessage": 0
+            }
+        },
+        "buildListenerArguments": {
+            "return": 0,
+            "parameters": {
+                "extractedMessage": 1
+            }
+        },
+        "invokeListenerMethod": {
+            "return": 0,
+            "parameters": {
+                "methodName": 0,
+                "arguments": 0
+            }
+        }
+    }
+}

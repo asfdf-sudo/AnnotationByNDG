@@ -1,0 +1,18 @@
+{
+    "ClassFileTransformerAdapter": {
+        "transform": {
+            "return": 0,
+            "parameters": {
+                "loader": 0,
+                "className": 0,
+                "classBeingRedefined": 0,
+                "protectionDomain": 0,
+                "classfileBuffer": 0
+            }
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

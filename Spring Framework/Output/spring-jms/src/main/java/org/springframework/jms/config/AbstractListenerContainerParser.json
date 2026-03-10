@@ -1,0 +1,70 @@
+{
+    "AbstractListenerContainerParser": {
+        "parse": {
+            "return": 1,
+            "parameters": {
+                "element": 0,
+                "parserContext": 0
+            }
+        },
+        "parseListener": {
+            "return": 0,
+            "parameters": {
+                "containerEle": 0,
+                "listenerEle": 0,
+                "parserContext": 0,
+                "commonContainerProperties": 0,
+                "specificContainerProperties": 0
+            }
+        },
+        "parseListenerConfiguration": {
+            "return": 0,
+            "parameters": {
+                "ele": 0,
+                "parserContext": 0,
+                "configValues": 0
+            }
+        },
+        "parseCommonContainerProperties": {
+            "return": 0,
+            "parameters": {
+                "containerEle": 0,
+                "parserContext": 0
+            }
+        },
+        "parseSpecificContainerProperties": {
+            "return": 0,
+            "parameters": {
+                "containerEle": 1,
+                "parserContext": 1
+            }
+        },
+        "createContainerFactory": {
+            "return": 0,
+            "parameters": {
+                "factoryId": 0,
+                "containerEle": 0,
+                "parserContext": 0,
+                "commonContainerProperties": 0,
+                "specificContainerProperties": 0
+            }
+        },
+        "createContainer": {
+            "return": 0,
+            "parameters": {
+                "containerEle": 1,
+                "listenerEle": 1,
+                "parserContext": 1,
+                "commonContainerProperties": 1,
+                "specificContainerProperties": 1
+            }
+        },
+        "parseAcknowledgeMode": {
+            "return": 1,
+            "parameters": {
+                "ele": 0,
+                "parserContext": 0
+            }
+        }
+    }
+}

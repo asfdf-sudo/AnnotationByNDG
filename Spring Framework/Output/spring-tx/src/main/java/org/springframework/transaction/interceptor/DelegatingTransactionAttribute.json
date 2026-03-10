@@ -1,0 +1,18 @@
+{
+    "DelegatingTransactionAttribute": {
+        "getQualifier": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getLabels": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackOn": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    }
+}

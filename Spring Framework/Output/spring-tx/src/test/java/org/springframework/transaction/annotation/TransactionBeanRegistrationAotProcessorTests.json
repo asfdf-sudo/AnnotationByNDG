@@ -1,0 +1,80 @@
+{
+    "TransactionBeanRegistrationAotProcessorTests": {
+        "shouldSkipNonAnnotatedType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldSkipAnnotatedTypeWithNoInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldProcessTransactionalOnClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldProcessJakartaTransactionalOnClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldProcessTransactionalOnInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldProcessTransactionalOnClassMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldProcessTransactionalOnInterfaceMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "process": {
+            "return": 0,
+            "parameters": {
+                "beanClass": 0
+            }
+        },
+        "createContribution": {
+            "return": 0,
+            "parameters": {
+                "beanClass": 0
+            }
+        }
+    },
+    "NonAnnotatedBean": {
+        "notTransactional": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "NoInterfaceBean": {
+        "notTransactional": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TransactionalOnTypeBean": {
+        "transactional": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "JakartaTransactionalOnTypeBean": {
+        "transactional": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TransactionalOnClassMethodBean": {
+        "transactional": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TransactionalOnInterfaceMethodBean": {
+        "transactional": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

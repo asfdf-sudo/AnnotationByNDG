@@ -1,0 +1,23 @@
+{
+    "OracleTableMetaDataProvider": {
+        "lookupDefaultSchema": {
+            "return": 1,
+            "parameters": {
+                "databaseMetaData": 0
+            }
+        },
+        "getDefaultSchema": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initializeWithTableColumnMetaData": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0,
+                "catalogName": 0,
+                "schemaName": 0,
+                "tableName": 0
+            }
+        }
+    }
+}

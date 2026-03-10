@@ -1,0 +1,48 @@
+{
+    "AbstractFallbackSQLExceptionTranslator": {
+        "setFallbackTranslator": {
+            "return": 0,
+            "parameters": {
+                "fallback": 1
+            }
+        },
+        "getFallbackTranslator": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setCustomTranslator": {
+            "return": 0,
+            "parameters": {
+                "customTranslator": 1
+            }
+        },
+        "getCustomTranslator": {
+            "return": 1,
+            "parameters": {}
+        },
+        "translate": {
+            "return": 1,
+            "parameters": {
+                "task": 0,
+                "sql": 1,
+                "ex": 0
+            }
+        },
+        "doTranslate": {
+            "return": 1,
+            "parameters": {
+                "task": 0,
+                "sql": 1,
+                "ex": 0
+            }
+        },
+        "buildMessage": {
+            "return": 0,
+            "parameters": {
+                "task": 0,
+                "sql": 1,
+                "ex": 0
+            }
+        }
+    }
+}

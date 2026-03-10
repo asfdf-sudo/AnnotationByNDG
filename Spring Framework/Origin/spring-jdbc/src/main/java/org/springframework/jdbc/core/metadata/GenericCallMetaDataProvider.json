@@ -1,0 +1,203 @@
+{
+    "GenericCallMetaDataProvider": {
+        "initializeWithMetaData": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0
+            }
+        },
+        "initializeWithProcedureColumnMetaData": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0,
+                "catalogName": 1,
+                "schemaName": 1,
+                "procedureName": 1
+            }
+        },
+        "getCallParameterMetaData": {
+            "return": 0,
+            "parameters": {}
+        },
+        "procedureNameToUse": {
+            "return": 1,
+            "parameters": {
+                "procedureName": 1
+            }
+        },
+        "catalogNameToUse": {
+            "return": 1,
+            "parameters": {
+                "catalogName": 1
+            }
+        },
+        "schemaNameToUse": {
+            "return": 1,
+            "parameters": {
+                "schemaName": 1
+            }
+        },
+        "metaDataCatalogNameToUse": {
+            "return": 1,
+            "parameters": {
+                "catalogName": 1
+            }
+        },
+        "metaDataSchemaNameToUse": {
+            "return": 1,
+            "parameters": {
+                "schemaName": 1
+            }
+        },
+        "parameterNameToUse": {
+            "return": 1,
+            "parameters": {
+                "parameterName": 1
+            }
+        },
+        "namedParameterBindingToUse": {
+            "return": 0,
+            "parameters": {
+                "parameterName": 1
+            }
+        },
+        "createDefaultOutParameter": {
+            "return": 0,
+            "parameters": {
+                "parameterName": 0,
+                "meta": 0
+            }
+        },
+        "createDefaultInOutParameter": {
+            "return": 0,
+            "parameters": {
+                "parameterName": 0,
+                "meta": 0
+            }
+        },
+        "createDefaultInParameter": {
+            "return": 0,
+            "parameters": {
+                "parameterName": 0,
+                "meta": 0
+            }
+        },
+        "getUserName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isProcedureColumnMetaDataUsed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isReturnResultSetSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRefCursorSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getRefCursorSqlType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "byPassReturnParameter": {
+            "return": 0,
+            "parameters": {
+                "parameterName": 0
+            }
+        },
+        "setSupportsCatalogsInProcedureCalls": {
+            "return": 0,
+            "parameters": {
+                "supportsCatalogsInProcedureCalls": 0
+            }
+        },
+        "isSupportsCatalogsInProcedureCalls": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSupportsSchemasInProcedureCalls": {
+            "return": 0,
+            "parameters": {
+                "supportsSchemasInProcedureCalls": 0
+            }
+        },
+        "isSupportsSchemasInProcedureCalls": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setStoresUpperCaseIdentifiers": {
+            "return": 0,
+            "parameters": {
+                "storesUpperCaseIdentifiers": 0
+            }
+        },
+        "isStoresUpperCaseIdentifiers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setStoresLowerCaseIdentifiers": {
+            "return": 0,
+            "parameters": {
+                "storesLowerCaseIdentifiers": 0
+            }
+        },
+        "isStoresLowerCaseIdentifiers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "identifierNameToUse": {
+            "return": 1,
+            "parameters": {
+                "identifierName": 1
+            }
+        },
+        "processProcedureColumns": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0,
+                "catalogName": 1,
+                "schemaName": 1,
+                "procedureName": 1
+            }
+        },
+        "getProcedureMetadata": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0,
+                "catalogName": 1,
+                "schemaName": 1,
+                "procedureName": 1
+            }
+        },
+        "getProcedureMetadataAsFunction": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0,
+                "catalogName": 1,
+                "schemaName": 1,
+                "procedureName": 1
+            }
+        },
+        "escapeNamePattern": {
+            "return": 1,
+            "parameters": {
+                "name": 1,
+                "escape": 1
+            }
+        },
+        "isInOrOutColumn": {
+            "return": 0,
+            "parameters": {
+                "columnType": 0,
+                "function": 0
+            }
+        },
+        "hits": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

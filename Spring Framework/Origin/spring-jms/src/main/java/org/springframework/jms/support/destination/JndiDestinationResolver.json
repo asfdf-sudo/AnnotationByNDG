@@ -1,0 +1,48 @@
+{
+    "JndiDestinationResolver": {
+        "setCache": {
+            "return": 0,
+            "parameters": {
+                "cache": 0
+            }
+        },
+        "setFallbackToDynamicDestination": {
+            "return": 0,
+            "parameters": {
+                "fallbackToDynamicDestination": 0
+            }
+        },
+        "setDynamicDestinationResolver": {
+            "return": 0,
+            "parameters": {
+                "dynamicDestinationResolver": 0
+            }
+        },
+        "resolveDestinationName": {
+            "return": 0,
+            "parameters": {
+                "session": 1,
+                "destinationName": 0,
+                "pubSubDomain": 0
+            }
+        },
+        "validateDestination": {
+            "return": 0,
+            "parameters": {
+                "destination": 0,
+                "destinationName": 0,
+                "pubSubDomain": 0
+            }
+        },
+        "removeFromCache": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0
+            }
+        },
+        "clearCache": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

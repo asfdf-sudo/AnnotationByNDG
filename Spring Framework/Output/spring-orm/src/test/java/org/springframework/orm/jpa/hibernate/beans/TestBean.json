@@ -1,0 +1,28 @@
+{
+    "TestBean": {
+        "getSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSource": {
+            "return": 0,
+            "parameters": {
+                "source": 0
+            }
+        },
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getApplicationContext": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "SqlLobValueTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "test1": {
+            "return": 0,
+            "parameters": {}
+        },
+        "test2": {
+            "return": 0,
+            "parameters": {}
+        },
+        "test3": {
+            "return": 0,
+            "parameters": {}
+        },
+        "test4": {
+            "return": 0,
+            "parameters": {}
+        },
+        "test5": {
+            "return": 0,
+            "parameters": {}
+        },
+        "test6": {
+            "return": 0,
+            "parameters": {}
+        },
+        "test7": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testOtherConstructors": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCorrectCleanup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testOtherSqlType": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

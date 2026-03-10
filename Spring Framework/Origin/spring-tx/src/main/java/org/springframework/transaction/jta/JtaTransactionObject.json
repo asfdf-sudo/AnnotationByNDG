@@ -1,0 +1,16 @@
+{
+    "JtaTransactionObject": {
+        "getUserTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "flush": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

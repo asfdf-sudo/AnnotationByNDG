@@ -1,0 +1,136 @@
+{
+    "SQLErrorCodes": {
+        "setDatabaseProductName": {
+            "return": 0,
+            "parameters": {
+                "databaseProductName": 1
+            }
+        },
+        "getDatabaseProductName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setDatabaseProductNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDatabaseProductNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setUseSqlStateForTranslation": {
+            "return": 0,
+            "parameters": {
+                "useStateCodeForTranslation": 0
+            }
+        },
+        "isUseSqlStateForTranslation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBadSqlGrammarCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getBadSqlGrammarCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setInvalidResultSetAccessCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getInvalidResultSetAccessCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDuplicateKeyCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDuplicateKeyCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDataIntegrityViolationCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDataIntegrityViolationCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPermissionDeniedCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPermissionDeniedCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDataAccessResourceFailureCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDataAccessResourceFailureCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTransientDataAccessResourceCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransientDataAccessResourceCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCannotAcquireLockCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getCannotAcquireLockCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDeadlockLoserCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDeadlockLoserCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCannotSerializeTransactionCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getCannotSerializeTransactionCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCustomTranslations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getCustomTranslations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCustomSqlExceptionTranslatorClass": {
+            "return": 0,
+            "parameters": {
+                "customTranslatorClass": 1
+            }
+        },
+        "setCustomSqlExceptionTranslator": {
+            "return": 0,
+            "parameters": {
+                "customSqlExceptionTranslator": 1
+            }
+        },
+        "getCustomSqlExceptionTranslator": {
+            "return": 1,
+            "parameters": {}
+        }
+    }
+}

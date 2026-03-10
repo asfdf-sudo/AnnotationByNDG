@@ -1,0 +1,8 @@
+{
+    "MariaDBSequenceMaxValueIncrementer": {
+        "getSequenceQuery": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

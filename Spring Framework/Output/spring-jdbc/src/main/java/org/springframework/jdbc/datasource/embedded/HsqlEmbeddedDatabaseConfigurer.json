@@ -1,0 +1,15 @@
+{
+    "HsqlEmbeddedDatabaseConfigurer": {
+        "getInstance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "configureConnectionProperties": {
+            "return": 0,
+            "parameters": {
+                "properties": 0,
+                "databaseName": 1
+            }
+        }
+    }
+}

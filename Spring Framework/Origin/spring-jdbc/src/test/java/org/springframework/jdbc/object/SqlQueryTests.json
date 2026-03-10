@@ -1,0 +1,89 @@
+{
+    "SqlQueryTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryWithoutParams": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mapRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rownum": 0
+            }
+        },
+        "testStreamWithoutParams": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStreamByNamedParam": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryWithoutEnoughParams": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryWithMissingMapParams": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStringQueryWithResults": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStringQueryWithoutResults": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testFindCustomerIntInt": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "CustomerQuery": {
+        "mapRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rownum": 0
+            }
+        },
+        "findCustomers": {
+            "return": 0,
+            "parameters": {
+                "id1": 0
+            }
+        },
+        "testUpdateCustomers": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "CustomerUpdateQuery": {
+        "updateRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rownum": 0,
+                "context": 1
+            }
+        }
+    },
+    "StringQuery": {
+        "mapRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rownum": 0
+            }
+        },
+        "run": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "MappingSqlQueryWithParameters": {
+        "newRowMapper": {
+            "return": 0,
+            "parameters": {
+                "parameters": 0,
+                "context": 0
+            }
+        },
+        "mapRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rowNum": 0,
+                "parameters": 0,
+                "context": 0
+            }
+        }
+    },
+    "RowMapperImpl": {
+        "mapRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rowNum": 0
+            }
+        }
+    }
+}

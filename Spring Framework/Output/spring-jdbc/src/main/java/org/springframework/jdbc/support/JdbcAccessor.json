@@ -1,0 +1,48 @@
+{
+    "JdbcAccessor": {
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "getDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "obtainDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDatabaseProductName": {
+            "return": 0,
+            "parameters": {
+                "dbName": 1
+            }
+        },
+        "setExceptionTranslator": {
+            "return": 0,
+            "parameters": {
+                "exceptionTranslator": 0
+            }
+        },
+        "getExceptionTranslator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLazyInit": {
+            "return": 0,
+            "parameters": {
+                "lazyInit": 0
+            }
+        },
+        "isLazyInit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

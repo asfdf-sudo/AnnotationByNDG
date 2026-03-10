@@ -1,0 +1,12 @@
+{
+    "DataSourceUtilsTests": {
+        "testConnectionNotAcquiredExceptionIsPropagated": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testConnectionSQLExceptionIsPropagated": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

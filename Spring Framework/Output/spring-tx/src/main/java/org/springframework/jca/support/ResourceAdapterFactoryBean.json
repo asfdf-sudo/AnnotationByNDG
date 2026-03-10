@@ -1,0 +1,54 @@
+{
+    "ResourceAdapterFactoryBean": {
+        "setResourceAdapterClass": {
+            "return": 0,
+            "parameters": {
+                "resourceAdapterClass": 0
+            }
+        },
+        "setResourceAdapter": {
+            "return": 0,
+            "parameters": {
+                "resourceAdapter": 0
+            }
+        },
+        "setBootstrapContext": {
+            "return": 0,
+            "parameters": {
+                "bootstrapContext": 0
+            }
+        },
+        "setWorkManager": {
+            "return": 0,
+            "parameters": {
+                "workManager": 0
+            }
+        },
+        "setXaTerminator": {
+            "return": 0,
+            "parameters": {
+                "xaTerminator": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getObject": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getObjectType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isSingleton": {
+            "return": 0,
+            "parameters": {}
+        },
+        "destroy": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

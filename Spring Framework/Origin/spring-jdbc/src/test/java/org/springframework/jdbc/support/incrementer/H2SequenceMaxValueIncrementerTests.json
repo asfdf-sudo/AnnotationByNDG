@@ -1,0 +1,20 @@
+{
+    "H2SequenceMaxValueIncrementerTests": {
+        "incrementsSequenceUsingH2EmbeddedDatabaseConfigurer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "incrementsSequenceWithExplicitH2CompatibilityMode": {
+            "return": 0,
+            "parameters": {
+                "mode": 0
+            }
+        },
+        "assertIncrements": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        }
+    }
+}

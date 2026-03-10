@@ -1,0 +1,11 @@
+{
+    "AbstractEmbeddedDatabaseConfigurer": {
+        "shutdown": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0,
+                "databaseName": 0
+            }
+        }
+    }
+}

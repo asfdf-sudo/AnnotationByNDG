@@ -1,0 +1,32 @@
+{
+    "ConfigurableJtaPlatform": {
+        "retrieveTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "retrieveUserTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransactionIdentifier": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "canRegisterSynchronization": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerSynchronization": {
+            "return": 0,
+            "parameters": {
+                "synchronization": 0
+            }
+        },
+        "getCurrentStatus": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

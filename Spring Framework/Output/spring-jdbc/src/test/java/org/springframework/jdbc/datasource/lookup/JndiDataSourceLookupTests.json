@@ -1,0 +1,19 @@
+{
+    "JndiDataSourceLookupTests": {
+        "testSunnyDay": {
+            "return": 0,
+            "parameters": {}
+        },
+        "lookup": {
+            "return": 0,
+            "parameters": {
+                "jndiName": 0,
+                "requiredType": 0
+            }
+        },
+        "testNoDataSourceAtJndiLocation": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

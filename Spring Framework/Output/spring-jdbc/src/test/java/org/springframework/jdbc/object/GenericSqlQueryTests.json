@@ -1,0 +1,27 @@
+{
+    "GenericSqlQueryTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCustomerQueryWithPlaceholders": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCustomerQueryWithNamedParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCustomerQueryWithRowMapperInstance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestCustomerQuery": {
+            "return": 0,
+            "parameters": {
+                "query": 0,
+                "namedParameters": 0
+            }
+        }
+    }
+}

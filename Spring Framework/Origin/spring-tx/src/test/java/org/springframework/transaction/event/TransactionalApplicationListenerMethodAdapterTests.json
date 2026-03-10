@@ -1,0 +1,195 @@
+{
+    "TransactionalApplicationListenerMethodAdapterTests": {
+        "defaultPhase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "phaseSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "phaseAndClassesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "valueSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invokesCompletionCallbackOnSuccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invokesExceptionHandlerOnException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usesAnnotatedIdentifier": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withTransactionalAnnotation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withTransactionalRequiresNewAnnotation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withTransactionalNotSupportedAnnotation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withAsyncTransactionalAnnotation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withTransactionalAnnotationBeforeCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withTransactionalAnnotationOnEnclosingClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withTransactionalRequiresNewAnnotationAndTransactionalAnnotationOnEnclosingClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withTransactionalNotSupportedAnnotationAndTransactionalAnnotationOnEnclosingClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withAsyncTransactionalAnnotationAndTransactionalAnnotationOnEnclosingClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertPhase": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "expected": 0
+            }
+        },
+        "supportsEventType": {
+            "return": 0,
+            "parameters": {
+                "match": 0,
+                "method": 0,
+                "eventType": 0
+            }
+        },
+        "createTestInstance": {
+            "return": 0,
+            "parameters": {
+                "m": 0
+            }
+        },
+        "getTargetBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createGenericEventType": {
+            "return": 0,
+            "parameters": {
+                "payloadType": 0
+            }
+        },
+        "runInTransaction": {
+            "return": 0,
+            "parameters": {
+                "runnable": 0
+            }
+        }
+    },
+    "SampleEvents": {
+        "defaultPhase": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "phaseSet": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "phaseAndClassesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "valueSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "throwing": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "identified": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "withTransactionalAnnotation": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "withTransactionalRequiresNewAnnotation": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "withTransactionalNotSupportedAnnotation": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "withAsyncTransactionalAnnotation": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "withTransactionalAnnotationBeforeCommit": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        }
+    },
+    "SampleEventsWithTransactionalAnnotation": {
+        "defaultPhase": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "withTransactionalRequiresNewAnnotation": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "withTransactionalNotSupportedAnnotation": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        },
+        "withAsyncTransactionalAnnotation": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        }
+    }
+}

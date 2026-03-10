@@ -1,0 +1,14 @@
+{
+    "ExtendedPerson": {
+        "getSomeField": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSomeField": {
+            "return": 0,
+            "parameters": {
+                "someField": 0
+            }
+        }
+    }
+}

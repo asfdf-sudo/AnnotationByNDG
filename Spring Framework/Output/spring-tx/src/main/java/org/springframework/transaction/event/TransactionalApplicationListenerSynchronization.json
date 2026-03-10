@@ -1,0 +1,52 @@
+{
+    "TransactionalApplicationListenerSynchronization": {
+        "getOrder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransactionPhase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processEventWithCallbacks": {
+            "return": 0,
+            "parameters": {}
+        },
+        "register": {
+            "return": 0,
+            "parameters": {
+                "event": 0,
+                "listener": 0,
+                "callbacks": 0
+            }
+        }
+    },
+    "PlatformSynchronization": {
+        "beforeCommit": {
+            "return": 0,
+            "parameters": {
+                "readOnly": 0
+            }
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        }
+    },
+    "ReactiveSynchronization": {
+        "beforeCommit": {
+            "return": 0,
+            "parameters": {
+                "readOnly": 0
+            }
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        }
+    }
+}

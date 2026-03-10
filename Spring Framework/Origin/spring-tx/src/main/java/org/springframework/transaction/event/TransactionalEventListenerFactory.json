@@ -1,0 +1,28 @@
+{
+    "TransactionalEventListenerFactory": {
+        "setOrder": {
+            "return": 0,
+            "parameters": {
+                "order": 0
+            }
+        },
+        "getOrder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "supportsMethod": {
+            "return": 0,
+            "parameters": {
+                "method": 0
+            }
+        },
+        "createApplicationListener": {
+            "return": 0,
+            "parameters": {
+                "beanName": 0,
+                "type": 0,
+                "method": 0
+            }
+        }
+    }
+}

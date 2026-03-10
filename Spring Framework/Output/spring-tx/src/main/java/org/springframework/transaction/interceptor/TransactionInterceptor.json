@@ -1,0 +1,39 @@
+{
+    "TransactionInterceptor": {
+        "setApplicationEventPublisher": {
+            "return": 0,
+            "parameters": {
+                "applicationEventPublisher": 0
+            }
+        },
+        "invoke": {
+            "return": 0,
+            "parameters": {
+                "invocation": 0
+            }
+        },
+        "proceedWithInvocation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "onRollback": {
+            "return": 0,
+            "parameters": {
+                "failure": 0,
+                "execution": 0
+            }
+        },
+        "writeObject": {
+            "return": 0,
+            "parameters": {
+                "oos": 0
+            }
+        },
+        "readObject": {
+            "return": 0,
+            "parameters": {
+                "ois": 0
+            }
+        }
+    }
+}

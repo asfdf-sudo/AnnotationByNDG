@@ -1,0 +1,12 @@
+{
+    "SqlReturnUpdateCount": {
+        "isInputValueProvided": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isResultsParameter": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

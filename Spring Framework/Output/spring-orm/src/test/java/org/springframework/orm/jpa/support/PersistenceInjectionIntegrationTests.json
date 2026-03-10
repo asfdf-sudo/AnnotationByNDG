@@ -1,0 +1,12 @@
+{
+    "PersistenceInjectionIntegrationTests": {
+        "testDefaultPersistenceContextSetterInjection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetterInjectionOfNamedPersistenceContext": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

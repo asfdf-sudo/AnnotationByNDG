@@ -1,0 +1,58 @@
+{
+    "Employee": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getDepartment": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDepartment": {
+            "return": 0,
+            "parameters": {
+                "department": 1
+            }
+        },
+        "getLocation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLocation": {
+            "return": 0,
+            "parameters": {
+                "location": 0
+            }
+        },
+        "getCategory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCategory": {
+            "return": 0,
+            "parameters": {
+                "category": 1
+            }
+        },
+        "getKind": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setKind": {
+            "return": 0,
+            "parameters": {
+                "kind": 0
+            }
+        },
+        "preRemove": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

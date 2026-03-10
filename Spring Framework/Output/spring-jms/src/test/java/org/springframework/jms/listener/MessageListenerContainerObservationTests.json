@@ -1,0 +1,34 @@
+{
+    "MessageListenerContainerObservationTests": {
+        "setupServer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldRecordJmsProcessObservations": {
+            "return": 0,
+            "parameters": {
+                "listenerContainer": 0
+            }
+        },
+        "shouldRecordJmsPublishObservations": {
+            "return": 0,
+            "parameters": {
+                "listenerContainer": 0
+            }
+        },
+        "shouldHaveObservationScopeInErrorHandler": {
+            "return": 0,
+            "parameters": {
+                "listenerContainer": 0
+            }
+        },
+        "listenerContainers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shutdownServer": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "JmsListenerEndpointRegistryTests": {
+        "createWithNullEndpoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithNullEndpointId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithNullContainerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithDuplicateEndpointId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createEndpoint": {
+            "return": 0,
+            "parameters": {
+                "id": 0,
+                "destinationName": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "SharedSessionCreator": {
+        "createSharedSession": {
+            "return": 0,
+            "parameters": {
+                "sessionFactory": 0
+            }
+        },
+        "createSharedStatelessSession": {
+            "return": 0,
+            "parameters": {
+                "sessionFactory": 0
+            }
+        }
+    },
+    "SharedSessionInvocationHandler": {
+        "invoke": {
+            "return": 1,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "PostgresTableMetaDataProvider": {
+        "metaDataCatalogNameToUse": {
+            "return": 1,
+            "parameters": {
+                "catalogName": 1
+            }
+        },
+        "metaDataSchemaNameToUse": {
+            "return": 1,
+            "parameters": {
+                "schemaName": 1
+            }
+        },
+        "isGetGeneratedKeysSimulated": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSimpleQueryForGetGeneratedKey": {
+            "return": 0,
+            "parameters": {
+                "tableName": 0,
+                "keyColumnName": 0
+            }
+        }
+    }
+}

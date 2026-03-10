@@ -1,0 +1,29 @@
+{
+    "SqlOperation": {
+        "compileInternal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "onCompileInternal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getParsedSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "newPreparedStatementSetter": {
+            "return": 0,
+            "parameters": {
+                "params": 0
+            }
+        },
+        "newPreparedStatementCreator": {
+            "return": 0,
+            "parameters": {
+                "sqlToUse": 0,
+                "params": 0
+            }
+        }
+    }
+}

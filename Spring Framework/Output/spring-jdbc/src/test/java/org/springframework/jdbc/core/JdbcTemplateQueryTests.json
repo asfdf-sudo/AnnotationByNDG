@@ -1,0 +1,126 @@
+{
+    "JdbcTemplateQueryTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForList": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForListWithEmptyResult": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForListWithSingleRowAndColumn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForListWithIntegerElement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForMapWithSingleRowAndColumn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectThrowsIncorrectResultSizeForMoreThanOneRow": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForStreamWithRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithBigInteger": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithBigDecimal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithInteger": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithIntegerAndNull": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForIntPrimitive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForLong": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForLongPrimitive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForListWithArgs": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForListIsNotConfusedByNamedParameterPrefix": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestQueryForListWithArgs": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "testQueryForListWithArgsAndEmptyResult": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForListWithArgsAndSingleRowAndColumn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForListWithArgsAndIntegerElementAndSingleRowAndColumn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForMapWithArgsAndSingleRowAndColumn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithArgsAndRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForStreamWithArgsAndRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithArgsAndInteger": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForIntWithArgs": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForLongWithArgs": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

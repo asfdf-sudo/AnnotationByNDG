@@ -1,0 +1,53 @@
+{
+    "SqlQuery": {
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "p1": 0
+            }
+        },
+        "stream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "executeByNamedParam": {
+            "return": 0,
+            "parameters": {
+                "paramMap": 0
+            }
+        },
+        "streamByNamedParam": {
+            "return": 0,
+            "parameters": {
+                "paramMap": 0
+            }
+        },
+        "queryByNamedParam": {
+            "return": 0,
+            "parameters": {
+                "paramMap": 0,
+                "context": 0,
+                "queryFunction": 0
+            }
+        },
+        "findObject": {
+            "return": 0,
+            "parameters": {
+                "p1": 0
+            }
+        },
+        "findObjectByNamedParam": {
+            "return": 0,
+            "parameters": {
+                "paramMap": 0
+            }
+        },
+        "newRowMapper": {
+            "return": 0,
+            "parameters": {
+                "parameters": 0,
+                "context": 0
+            }
+        }
+    }
+}

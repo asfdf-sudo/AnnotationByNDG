@@ -1,0 +1,56 @@
+{
+    "DefaultTransactionStatus": {
+        "getTransactionName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isNewTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isNewSynchronization": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isNested": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isReadOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isDebug": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSuspendedResources": {
+            "return": 1,
+            "parameters": {}
+        },
+        "isGlobalRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSavepointManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isTransactionSavepointManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "flush": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

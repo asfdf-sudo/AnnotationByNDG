@@ -1,0 +1,8 @@
+{
+    "JtaTransactionManagerSerializationTests": {
+        "serializable": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

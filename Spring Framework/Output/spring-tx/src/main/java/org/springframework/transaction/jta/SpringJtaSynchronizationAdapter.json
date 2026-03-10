@@ -1,0 +1,18 @@
+{
+    "SpringJtaSynchronizationAdapter": {
+        "beforeCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setRollbackOnlyIfPossible": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        }
+    }
+}

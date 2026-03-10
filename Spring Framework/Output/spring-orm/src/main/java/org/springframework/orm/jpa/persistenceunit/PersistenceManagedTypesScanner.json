@@ -1,0 +1,28 @@
+{
+    "PersistenceManagedTypesScanner": {
+        "scan": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scanPackage": {
+            "return": 0,
+            "parameters": {
+                "pkg": 0,
+                "scanResult": 0
+            }
+        },
+        "matchesEntityTypeFilter": {
+            "return": 0,
+            "parameters": {
+                "reader": 0,
+                "factory": 0
+            }
+        }
+    },
+    "ScanResult": {
+        "toJpaManagedTypes": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

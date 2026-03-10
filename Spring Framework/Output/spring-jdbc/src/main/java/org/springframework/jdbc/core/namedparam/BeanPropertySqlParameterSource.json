@@ -1,0 +1,30 @@
+{
+    "BeanPropertySqlParameterSource": {
+        "hasValue": {
+            "return": 0,
+            "parameters": {
+                "paramName": 0
+            }
+        },
+        "getValue": {
+            "return": 0,
+            "parameters": {
+                "paramName": 0
+            }
+        },
+        "getSqlType": {
+            "return": 0,
+            "parameters": {
+                "paramName": 0
+            }
+        },
+        "getParameterNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getReadablePropertyNames": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

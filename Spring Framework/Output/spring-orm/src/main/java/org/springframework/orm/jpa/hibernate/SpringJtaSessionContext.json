@@ -1,0 +1,8 @@
+{
+    "SpringJtaSessionContext": {
+        "buildOrObtainSession": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

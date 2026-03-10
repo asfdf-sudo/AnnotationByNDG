@@ -1,0 +1,12 @@
+{
+    "SimpleConnectionHandle": {
+        "getConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "ImplementsNoInterfaces": {
+        "setDependency": {
+            "return": 0,
+            "parameters": {
+                "testBean": 0
+            }
+        },
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        }
+    }
+}

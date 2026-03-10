@@ -1,0 +1,20 @@
+{
+    "ConstructorPersonWithGenerics": {
+        "name": {
+            "return": 0,
+            "parameters": {}
+        },
+        "age": {
+            "return": 0,
+            "parameters": {}
+        },
+        "birthDate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "balance": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

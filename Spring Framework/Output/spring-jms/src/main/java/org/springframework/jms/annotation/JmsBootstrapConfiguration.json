@@ -1,0 +1,12 @@
+{
+    "JmsBootstrapConfiguration": {
+        "jmsListenerAnnotationProcessor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "defaultJmsListenerEndpointRegistry": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "SharedEntityManagerCreatorTests": {
+        "proxyingWorksIfInfoReturnsNullEntityManagerInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionRequiredExceptionOnJoinTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionRequiredExceptionOnFlush": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionRequiredExceptionOnPersist": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionRequiredExceptionOnMerge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionRequiredExceptionOnRemove": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionRequiredExceptionOnRefresh": {
+            "return": 0,
+            "parameters": {}
+        },
+        "deferredQueryWithUpdate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "deferredQueryWithSingleResult": {
+            "return": 0,
+            "parameters": {}
+        },
+        "deferredQueryWithResultList": {
+            "return": 0,
+            "parameters": {}
+        },
+        "deferredQueryWithResultStream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "deferredStoredProcedureQueryWithIndexedParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "deferredStoredProcedureQueryWithNamedParameters": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

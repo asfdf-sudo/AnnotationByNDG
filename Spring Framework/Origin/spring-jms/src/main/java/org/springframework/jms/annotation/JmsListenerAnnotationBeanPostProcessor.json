@@ -1,0 +1,105 @@
+{
+    "JmsListenerAnnotationBeanPostProcessor": {
+        "getOrder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setContainerFactoryBeanName": {
+            "return": 0,
+            "parameters": {
+                "containerFactoryBeanName": 0
+            }
+        },
+        "setEndpointRegistry": {
+            "return": 0,
+            "parameters": {
+                "endpointRegistry": 0
+            }
+        },
+        "setMessageHandlerMethodFactory": {
+            "return": 0,
+            "parameters": {
+                "messageHandlerMethodFactory": 0
+            }
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        },
+        "afterSingletonsInstantiated": {
+            "return": 0,
+            "parameters": {}
+        },
+        "postProcessMergedBeanDefinition": {
+            "return": 0,
+            "parameters": {
+                "beanDefinition": 0,
+                "beanType": 0,
+                "beanName": 0
+            }
+        },
+        "postProcessBeforeInitialization": {
+            "return": 0,
+            "parameters": {
+                "bean": 0,
+                "beanName": 0
+            }
+        },
+        "postProcessAfterInitialization": {
+            "return": 0,
+            "parameters": {
+                "bean": 0,
+                "beanName": 0
+            }
+        },
+        "processJmsListener": {
+            "return": 0,
+            "parameters": {
+                "jmsListener": 0,
+                "mostSpecificMethod": 0,
+                "bean": 0
+            }
+        },
+        "createMethodJmsListenerEndpoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getEndpointId": {
+            "return": 0,
+            "parameters": {
+                "jmsListener": 0
+            }
+        },
+        "resolve": {
+            "return": 1,
+            "parameters": {
+                "value": 0
+            }
+        }
+    },
+    "MessageHandlerMethodFactoryAdapter": {
+        "setMessageHandlerMethodFactory": {
+            "return": 0,
+            "parameters": {
+                "messageHandlerMethodFactory": 0
+            }
+        },
+        "createInvocableHandlerMethod": {
+            "return": 0,
+            "parameters": {
+                "bean": 0,
+                "method": 0
+            }
+        },
+        "getMessageHandlerMethodFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createDefaultJmsHandlerMethodFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

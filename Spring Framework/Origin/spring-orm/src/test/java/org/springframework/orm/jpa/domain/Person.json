@@ -1,0 +1,52 @@
+{
+    "Person": {
+        "getId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTestBean": {
+            "return": 0,
+            "parameters": {
+                "testBean": 0
+            }
+        },
+        "getTestBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setFirstName": {
+            "return": 0,
+            "parameters": {
+                "firstName": 0
+            }
+        },
+        "getFirstName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLastName": {
+            "return": 0,
+            "parameters": {
+                "lastName": 0
+            }
+        },
+        "getLastName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDriversLicense": {
+            "return": 0,
+            "parameters": {
+                "driversLicense": 0
+            }
+        },
+        "getDriversLicense": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "PersistenceAnnotationBeanPostProcessorAotContributionTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAheadOfTimeWhenPersistenceUnitOnFieldAndPropertyValueSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAheadOfTimeWhenPersistenceUnitOnMethodAndPropertyValueSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAheadOfTimeWhenPersistenceUnitOnPublicField": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAheadOfTimeWhenPersistenceUnitOnPublicSetter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAheadOfTimeWhenCustomPersistenceUnitOnPublicSetter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAheadOfTimeWhenPersistenceContextOnPrivateField": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAheadOfTimeWhenPersistenceContextWithCustomPropertiesOnMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAheadOfTimeWhenPersistenceContextOnPrivateFields": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerBean": {
+            "return": 0,
+            "parameters": {
+                "beanClass": 0
+            }
+        },
+        "testCompile": {
+            "return": 0,
+            "parameters": {
+                "registeredBean": 0,
+                "result": 0
+            }
+        },
+        "processAheadOfTime": {
+            "return": 0,
+            "parameters": {
+                "registeredBean": 0
+            }
+        }
+    },
+    "Invoker": {
+        "accept": {
+            "return": 0,
+            "parameters": {
+                "registeredBean": 0,
+                "instance": 0
+            }
+        }
+    },
+    "DefaultPersistenceUnitField": {},
+    "DefaultPersistenceUnitMethod": {
+        "setEmf": {
+            "return": 0,
+            "parameters": {
+                "emf": 0
+            }
+        }
+    },
+    "CustomUnitNamePublicPersistenceUnitMethod": {
+        "setEmf": {
+            "return": 0,
+            "parameters": {
+                "emf": 0
+            }
+        }
+    },
+    "DefaultPersistenceContextField": {},
+    "CustomPropertiesPersistenceContextMethod": {}
+}

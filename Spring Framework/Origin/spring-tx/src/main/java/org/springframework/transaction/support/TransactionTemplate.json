@@ -1,0 +1,37 @@
+{
+    "TransactionTemplate": {
+        "setTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "transactionManager": 1
+            }
+        },
+        "getTransactionManager": {
+            "return": 1,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "action": 0
+            }
+        },
+        "rollbackOnException": {
+            "return": 0,
+            "parameters": {
+                "status": 0,
+                "ex": 0
+            }
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        }
+    }
+}

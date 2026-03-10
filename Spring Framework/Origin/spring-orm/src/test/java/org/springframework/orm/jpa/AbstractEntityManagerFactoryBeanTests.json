@@ -1,0 +1,32 @@
+{
+    "AbstractEntityManagerFactoryBeanTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "cleanup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkInvariants": {
+            "return": 0,
+            "parameters": {
+                "emfb": 0
+            }
+        }
+    },
+    "DummyEntityManagerFactoryBean": {
+        "createNativeEntityManagerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPersistenceUnitInfo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPersistenceUnitName": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "KeyHolderTests": {
+        "getKeyForSingleNumericKey": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getKeyForSingleNonNumericKey": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getKeyWithNoKeysInMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getKeyWithMultipleKeysInMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getKeyAsStringForSingleKey": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getKeyAsWrongType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getKeyAsIntegerWithNullValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getKeysWithMultipleKeyRows": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

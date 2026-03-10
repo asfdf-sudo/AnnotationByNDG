@@ -1,0 +1,8 @@
+{
+    "CustomSQLExceptionTranslatorRegistrarTests": {
+        "customErrorCodeTranslation": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

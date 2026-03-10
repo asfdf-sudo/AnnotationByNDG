@@ -1,0 +1,14 @@
+{
+    "HeuristicCompletionException": {
+        "getStateString": {
+            "return": 0,
+            "parameters": {
+                "state": 0
+            }
+        },
+        "getOutcomeState": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

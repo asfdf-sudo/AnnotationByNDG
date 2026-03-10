@@ -1,0 +1,168 @@
+{
+    "JmsClientTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "send": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertAndSendPayload": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertAndSendPayloadName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertAndSendPayloadAndHeaders": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertAndSendPayloadAndHeadersName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertAndSendPayloadAndHeadersWithPostProcessor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelected": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveAndConvert": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveAndConvertName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveAndConvertWithConversion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveAndConvertNoConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveAndConvertNoInput": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedAndConvert": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedAndConvertName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedAndConvertWithConversion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedAndConvertNoConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedAndConvertNoInput": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendAndReceive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendAndReceiveName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertSendAndReceivePayload": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertSendAndReceivePayloadWithPostProcessor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertSendAndReceivePayloadName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertMessageNotReadableException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertDestinationResolutionExceptionOnSend": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertDestinationResolutionExceptionOnReceive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertInvalidDestinationExceptionOnSendAndReceiveWithName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertInvalidDestinationExceptionOnSendAndReceive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendWithDefaults": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendWithPostProcessor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendWithCustomSettings": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveWithDefaults": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveWithCustomTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createTextMessage": {
+            "return": 0,
+            "parameters": {
+                "creator": 0
+            }
+        },
+        "createJmsTextMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertTextMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 1
+            }
+        }
+    }
+}

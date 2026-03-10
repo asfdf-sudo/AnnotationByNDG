@@ -1,0 +1,17 @@
+{
+    "TestDataSourceWrapper": {
+        "setTarget": {
+            "return": 0,
+            "parameters": {
+                "target": 0
+            }
+        },
+        "getConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "AsyncRequestInterceptor": {
+        "preProcess": {
+            "return": 0,
+            "parameters": {
+                "request": 0,
+                "task": 0
+            }
+        },
+        "bindEntityManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "postProcess": {
+            "return": 0,
+            "parameters": {
+                "request": 0,
+                "task": 0,
+                "concurrentResult": 1
+            }
+        },
+        "handleTimeout": {
+            "return": 0,
+            "parameters": {
+                "request": 0,
+                "deferredResult": 0
+            }
+        },
+        "handleError": {
+            "return": 0,
+            "parameters": {
+                "request": 0,
+                "deferredResult": 0,
+                "t": 0
+            }
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "request": 0,
+                "deferredResult": 0
+            }
+        },
+        "closeEntityManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "DefaultPersistenceUnitManagerTests": {
+        "defaultDomainWithScan": {
+            "return": 0,
+            "parameters": {}
+        },
+        "defaultDomainWithIndex": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testDefaultDomain": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

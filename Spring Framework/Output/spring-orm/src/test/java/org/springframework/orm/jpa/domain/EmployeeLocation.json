@@ -1,0 +1,14 @@
+{
+    "EmployeeLocation": {
+        "getLocation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLocation": {
+            "return": 0,
+            "parameters": {
+                "location": 0
+            }
+        }
+    }
+}

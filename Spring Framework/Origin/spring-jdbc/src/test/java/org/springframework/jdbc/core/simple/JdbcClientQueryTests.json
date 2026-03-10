@@ -1,0 +1,152 @@
+{
+    "JdbcClientQueryTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForListWithIndexedParam": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForListWithIndexedParamAndEmptyResult": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForListWithIndexedParamAndSingleRow": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForMapWithIndexedParamAndSingleRow": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForListWithIndexedParamAndSingleColumn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForIntegerWithIndexedParamAndSingleValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForIntegerWithIndexedParamAndOptionalValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForIntegerWithIndexedParamAndNonExistingValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForIntegerWithIndexedParamAndRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForOptionalWithIndexedParamAndRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForIntegerWithIndexedParam": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForIntWithIndexedParam": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForObjectWithIndexedParamAndList": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForListWithNamedParam": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForListWithNamedParamAndEmptyResult": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForListWithNamedParamAndSingleRow": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForMapWithNamedParamAndSingleRow": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForListWithNamedParamAndSingleColumn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForIntegerWithNamedParamAndSingleValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForIntegerWithNamedParamAndRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForOptionalWithNamedParamAndRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForIntegerWithNamedParam": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForIntegerWithNamedParamAndList": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForIntegerWithNamedParamAndListOfExpressionLists": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForIntWithNamedParam": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForLongWithParamBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForLongWithParamBeanWithCollection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForLongWithParamRecord": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForLongWithParamFieldHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForMappedRecordWithNamedParam": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForMappedFieldHolderWithNamedParam": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convert": {
+            "return": 0,
+            "parameters": {
+                "source": 0
+            }
+        }
+    },
+    "ParameterBean": {
+        "getId": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ParameterCollectionBean": {
+        "getIds": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ParameterFieldHolder": {},
+    "AgeFieldHolder": {}
+}

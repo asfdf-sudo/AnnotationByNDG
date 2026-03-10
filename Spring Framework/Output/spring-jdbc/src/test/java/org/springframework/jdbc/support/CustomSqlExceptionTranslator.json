@@ -1,0 +1,12 @@
+{
+    "CustomSqlExceptionTranslator": {
+        "translate": {
+            "return": 1,
+            "parameters": {
+                "task": 1,
+                "sql": 1,
+                "ex": 0
+            }
+        }
+    }
+}

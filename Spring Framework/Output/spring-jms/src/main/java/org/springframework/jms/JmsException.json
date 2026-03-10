@@ -1,0 +1,12 @@
+{
+    "JmsException": {
+        "getErrorCode": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getMessage": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

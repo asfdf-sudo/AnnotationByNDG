@@ -1,0 +1,44 @@
+{
+    "ResourceDatabasePopulatorTests": {
+        "constructWithNullResource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "constructWithNullResourceArray": {
+            "return": 0,
+            "parameters": {}
+        },
+        "constructWithResource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "constructWithMultipleResources": {
+            "return": 0,
+            "parameters": {}
+        },
+        "constructWithMultipleResourcesAndThenAddScript": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addScriptsWithNullResource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addScriptsWithNullResourceArray": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setScriptsWithNullResource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setScriptsWithNullResourceArray": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setScriptsAndThenAddScript": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

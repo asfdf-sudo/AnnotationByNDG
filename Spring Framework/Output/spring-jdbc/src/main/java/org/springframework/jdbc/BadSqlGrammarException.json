@@ -1,0 +1,12 @@
+{
+    "BadSqlGrammarException": {
+        "getSQLException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSql": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

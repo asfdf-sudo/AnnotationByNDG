@@ -1,0 +1,16 @@
+{
+    "TableMetaDataContextTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMatchInParametersAndSqlTypeInfoWrapping": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTableWithSingleColumnGeneratedKey": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "SpringPersistenceUnitInfo": {
+        "init": {
+            "return": 0,
+            "parameters": {
+                "classLoader": 1
+            }
+        },
+        "getClassLoader": {
+            "return": 1,
+            "parameters": {}
+        },
+        "addTransformer": {
+            "return": 0,
+            "parameters": {
+                "classTransformer": 0
+            }
+        },
+        "getNewTempClassLoader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setScopeAnnotationName": {
+            "return": 0,
+            "parameters": {
+                "scopeAnnotationName": 1
+            }
+        },
+        "getScopeAnnotationName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "addQualifierAnnotationName": {
+            "return": 0,
+            "parameters": {
+                "qualifierAnnotationName": 0
+            }
+        },
+        "getQualifierAnnotationNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "apply": {
+            "return": 0,
+            "parameters": {
+                "config": 0,
+                "dataSourceLookup": 0
+            }
+        },
+        "asStandardPersistenceUnitInfo": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "SmartPersistenceUnitInfoInvocationHandler": {
+        "invoke": {
+            "return": 1,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        }
+    }
+}

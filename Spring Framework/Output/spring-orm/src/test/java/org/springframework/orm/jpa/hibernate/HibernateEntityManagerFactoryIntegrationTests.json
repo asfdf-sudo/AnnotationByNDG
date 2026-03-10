@@ -1,0 +1,28 @@
+{
+    "HibernateEntityManagerFactoryIntegrationTests": {
+        "getConfigLocations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testAdvisedEntityManagerProxyFromSmartFactoryBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanCastNativeEntityManagerFactoryToHibernateEntityManagerFactoryImpl": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanCastSharedEntityManagerProxyToHibernateEntityManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanUnwrapAopProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReadOnly": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

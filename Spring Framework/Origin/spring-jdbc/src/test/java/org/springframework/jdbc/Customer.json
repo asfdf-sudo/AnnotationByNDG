@@ -1,0 +1,28 @@
+{
+    "Customer": {
+        "getId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setId": {
+            "return": 0,
+            "parameters": {
+                "id": 0
+            }
+        },
+        "getForename": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setForename": {
+            "return": 0,
+            "parameters": {
+                "forename": 0
+            }
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

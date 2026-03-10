@@ -1,0 +1,122 @@
+{
+    "LocalContainerEntityManagerFactoryBeanTests": {
+        "validPersistenceUnit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "exceptionTranslationWithNoDialect": {
+            "return": 0,
+            "parameters": {}
+        },
+        "entityManagerFactoryIsProxied": {
+            "return": 0,
+            "parameters": {}
+        },
+        "applicationManagedEntityManagerWithoutTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "applicationManagedEntityManagerWithTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "applicationManagedEntityManagerWithTransactionAndCommitException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "applicationManagedEntityManagerWithJtaTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invalidPersistenceUnitName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rejectsMissingPersistenceUnitInfo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "acceptsStandardPersistenceConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "acceptsHibernatePersistenceConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseValidPersistenceUnit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createEntityManagerFactoryBean": {
+            "return": 0,
+            "parameters": {
+                "persistenceXml": 0,
+                "props": 0,
+                "entityManagerName": 0
+            }
+        }
+    },
+    "DummyContainerPersistenceProvider": {
+        "createContainerEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "pui": 0,
+                "map": 0
+            }
+        },
+        "createEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "persistenceConfiguration": 0
+            }
+        },
+        "getProviderUtil": {
+            "return": 0,
+            "parameters": {}
+        },
+        "generateSchema": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitName": 0,
+                "map": 0
+            }
+        }
+    },
+    "NoOpEntityTransaction": {
+        "begin": {
+            "return": 0,
+            "parameters": {}
+        },
+        "commit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isActive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTimeout": {
+            "return": 0,
+            "parameters": {
+                "integer": 0
+            }
+        },
+        "getTimeout": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

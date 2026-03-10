@@ -1,0 +1,14 @@
+{
+    "TxNamespaceHandler": {
+        "getTransactionManagerName": {
+            "return": 0,
+            "parameters": {
+                "element": 0
+            }
+        },
+        "init": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

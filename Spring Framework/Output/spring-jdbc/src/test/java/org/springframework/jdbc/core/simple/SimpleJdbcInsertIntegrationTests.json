@@ -1,0 +1,97 @@
+{
+    "SimpleJdbcInsertIntegrationTests": {},
+    "DefaultSchemaTests": {},
+    "UnquotedIdentifiersInSchemaTests": {
+        "usingColumnsWithSchemaName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usingColumnsAndQuotedIdentifiersWithSchemaName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSchemaScript": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDataScript": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTableName": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "QuotedIdentifiersInSchemaTests": {
+        "usingColumnsWithSchemaName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usingColumnsAndQuotedIdentifiersWithSchemaName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getResourceLoader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSchemaScript": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDataScript": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTableName": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "CustomSchemaTests": {},
+    "AbstractSimpleJdbcInsertIntegrationTests": {
+        "createDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shutdownDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getResourceLoader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertNumRows": {
+            "return": 0,
+            "parameters": {
+                "count": 0
+            }
+        },
+        "insertJaneSmith": {
+            "return": 0,
+            "parameters": {
+                "insert": 0
+            }
+        },
+        "insertOrderEntry": {
+            "return": 0,
+            "parameters": {
+                "insert": 0
+            }
+        },
+        "getSchemaScript": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDataScript": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTableName": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "GenericMessageEndpointFactory": {
+        "setMessageListener": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 0
+            }
+        },
+        "getMessageListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createEndpoint": {
+            "return": 0,
+            "parameters": {
+                "xaResource": 0
+            }
+        },
+        "createEndpointInternal": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "GenericMessageEndpoint": {
+        "invoke": {
+            "return": 0,
+            "parameters": {
+                "methodInvocation": 0
+            }
+        },
+        "adaptExceptionIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "methodInvocation": 0,
+                "ex": 0
+            }
+        },
+        "getEndpointClassLoader": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "InternalResourceException": {}
+}

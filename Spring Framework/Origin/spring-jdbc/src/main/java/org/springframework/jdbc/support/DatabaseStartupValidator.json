@@ -1,0 +1,32 @@
+{
+    "DatabaseStartupValidator": {
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "setValidationQuery": {
+            "return": 0,
+            "parameters": {
+                "validationQuery": 0
+            }
+        },
+        "setInterval": {
+            "return": 0,
+            "parameters": {
+                "interval": 0
+            }
+        },
+        "setTimeout": {
+            "return": 0,
+            "parameters": {
+                "timeout": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

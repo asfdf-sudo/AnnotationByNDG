@@ -1,0 +1,12 @@
+{
+    "AggregatedBatchUpdateException": {
+        "getSuccessfulUpdateCounts": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getOriginalException": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

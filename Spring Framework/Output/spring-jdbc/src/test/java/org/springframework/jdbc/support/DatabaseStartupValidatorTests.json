@@ -1,0 +1,36 @@
+{
+    "DatabaseStartupValidatorTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "exceededTimeoutThrowsException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "properSetupForDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldUseJdbc4IsValidByDefault": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldCallValidationTwiceWhenNotValid": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldCallValidationTwiceInCaseOfException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "useValidationQueryInsteadOfIsValid": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldExecuteValidationTwiceOnError": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

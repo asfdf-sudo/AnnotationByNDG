@@ -1,0 +1,44 @@
+{
+    "SimpleMessageConverterTests": {
+        "testStringConversion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testByteArrayConversion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMapConversion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSerializableConversion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testToMessageThrowsExceptionIfGivenNullObjectToConvert": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testToMessageThrowsExceptionIfGivenIncompatibleObjectToConvert": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testToMessageSimplyReturnsMessageAsIsIfSuppliedWithMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testFromMessageSimplyReturnsMessageAsIsIfSuppliedWithMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMapConversionWhereMapHasNonStringTypesForKeys": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMapConversionWhereMapHasNNullForKey": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

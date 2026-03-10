@@ -1,0 +1,14 @@
+{
+    "TransactionalService": {
+        "setSomething": {
+            "return": 0,
+            "parameters": {
+                "name": 1
+            }
+        },
+        "doSomething": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

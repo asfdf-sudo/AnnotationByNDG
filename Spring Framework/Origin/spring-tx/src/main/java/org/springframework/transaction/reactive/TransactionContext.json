@@ -1,0 +1,66 @@
+{
+    "TransactionContext": {
+        "getParent": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getResources": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSynchronizations": {
+            "return": 0,
+            "parameters": {
+                "synchronizations": 1
+            }
+        },
+        "getSynchronizations": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setCurrentTransactionName": {
+            "return": 0,
+            "parameters": {
+                "currentTransactionName": 1
+            }
+        },
+        "getCurrentTransactionName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setCurrentTransactionReadOnly": {
+            "return": 0,
+            "parameters": {
+                "currentTransactionReadOnly": 0
+            }
+        },
+        "isCurrentTransactionReadOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCurrentTransactionIsolationLevel": {
+            "return": 0,
+            "parameters": {
+                "currentTransactionIsolationLevel": 1
+            }
+        },
+        "getCurrentTransactionIsolationLevel": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setActualTransactionActive": {
+            "return": 0,
+            "parameters": {
+                "actualTransactionActive": 0
+            }
+        },
+        "isActualTransactionActive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "clear": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

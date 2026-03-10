@@ -1,0 +1,31 @@
+{
+    "JmsListenerContainerParser": {
+        "createContainerFactory": {
+            "return": 1,
+            "parameters": {
+                "factoryId": 0,
+                "containerEle": 0,
+                "parserContext": 0,
+                "commonContainerProperties": 0,
+                "specificContainerProperties": 0
+            }
+        },
+        "createContainer": {
+            "return": 0,
+            "parameters": {
+                "containerEle": 0,
+                "listenerEle": 0,
+                "parserContext": 0,
+                "commonContainerProperties": 0,
+                "specificContainerProperties": 0
+            }
+        },
+        "parseSpecificContainerProperties": {
+            "return": 0,
+            "parameters": {
+                "containerEle": 0,
+                "parserContext": 0
+            }
+        }
+    }
+}

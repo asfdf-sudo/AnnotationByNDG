@@ -1,0 +1,111 @@
+{
+    "SimpleJdbcCallTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "noSuchStoredProcedure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "unnamedParameterHandling": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addInvoiceProcWithoutMetaDataUsingMapParamSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addInvoiceProcWithoutMetaDataUsingArrayParams": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addInvoiceProcWithMetaDataUsingMapParamSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addInvoiceProcWithMetaDataUsingArrayParams": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addInvoiceFuncWithoutMetaDataUsingMapParamSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addInvoiceFuncWithoutMetaDataUsingArrayParams": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addInvoiceFuncWithMetaDataUsingMapParamSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addInvoiceFuncWithMetaDataUsingArrayParams": {
+            "return": 0,
+            "parameters": {}
+        },
+        "correctFunctionStatement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "correctFunctionStatementNamed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "correctProcedureStatementNamed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "exceptionThrownWhileRetrievingColumnNamesFromMetadata": {
+            "return": 0,
+            "parameters": {}
+        },
+        "verifyStatement": {
+            "return": 0,
+            "parameters": {
+                "adder": 0,
+                "expected": 1
+            }
+        },
+        "initializeAddInvoiceWithoutMetaData": {
+            "return": 0,
+            "parameters": {
+                "isFunction": 0
+            }
+        },
+        "verifyAddInvoiceWithoutMetaData": {
+            "return": 0,
+            "parameters": {
+                "isFunction": 0
+            }
+        },
+        "initializeAddInvoiceWithMetaData": {
+            "return": 0,
+            "parameters": {
+                "isFunction": 0
+            }
+        },
+        "verifyAddInvoiceWithMetaData": {
+            "return": 0,
+            "parameters": {
+                "isFunction": 0
+            }
+        },
+        "correctSybaseFunctionStatementNamed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "declareParametersCannotBeInvokedWhenCompiled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addDeclaredRowMapperCanBeConfigured": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addDeclaredRowMapperWhenCompiled": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

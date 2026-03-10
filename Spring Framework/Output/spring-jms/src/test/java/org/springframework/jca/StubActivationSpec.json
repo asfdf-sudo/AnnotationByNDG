@@ -1,0 +1,18 @@
+{
+    "StubActivationSpec": {
+        "validate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getResourceAdapter": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setResourceAdapter": {
+            "return": 0,
+            "parameters": {
+                "resourceAdapter": 1
+            }
+        }
+    }
+}

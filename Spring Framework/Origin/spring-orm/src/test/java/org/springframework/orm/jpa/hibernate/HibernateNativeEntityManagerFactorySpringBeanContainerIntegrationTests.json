@@ -1,0 +1,114 @@
+{
+    "HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests": {
+        "getConfigLocations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getManagedBeanRegistry": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getBeanContainer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanRetrieveBeanByTypeWithJpaCompliantOptions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanRetrieveBeanByNameWithJpaCompliantOptions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanRetrieveBeanByTypeWithNativeOptions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanRetrieveBeanByNameWithNativeOptions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanRetrieveFallbackBeanByTypeWithJpaCompliantOptions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanRetrieveFallbackBeanByNameWithJpaCompliantOptions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanRetrieveFallbackBeanByTypeWithNativeOptions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanRetrieveFallbackBeanByNameWithNativeOptions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testFallbackExceptionInCaseOfNoSpringBeanFound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testOriginalExceptionInCaseOfFallbackProducerFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testFallbackExceptionInCaseOfNoSpringBeanFoundByName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testOriginalExceptionInCaseOfFallbackProducerFailureByName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testRetrieveBeanShouldRetainOriginalBeanType": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "JpaLifecycleOptions": {
+        "canUseCachedReferences": {
+            "return": 0,
+            "parameters": {}
+        },
+        "useJpaCompliantCreation": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "NativeLifecycleOptions": {
+        "canUseCachedReferences": {
+            "return": 0,
+            "parameters": {}
+        },
+        "useJpaCompliantCreation": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "IneffectiveBeanInstanceProducer": {
+        "produceBeanInstance": {
+            "return": 0,
+            "parameters": {
+                "s": 0,
+                "aClass": 0
+            }
+        }
+    },
+    "NoDefinitionInSpringContextTestBeanInstanceProducer": {
+        "produceBeanInstance": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "beanType": 0
+            }
+        },
+        "currentUnnamedInstantiationCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "currentNamedInstantiationCount": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

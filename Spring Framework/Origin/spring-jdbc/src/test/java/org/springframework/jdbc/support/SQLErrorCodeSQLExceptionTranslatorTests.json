@@ -1,0 +1,47 @@
+{
+    "SQLErrorCodeSQLExceptionTranslatorTests": {
+        "errorCodeTranslation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkTranslation": {
+            "return": 0,
+            "parameters": {
+                "errorCode": 0,
+                "expectedType": 0
+            }
+        },
+        "batchExceptionTranslation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "dataTruncationTranslation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customTranslateMethodTranslation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customTranslate": {
+            "return": 1,
+            "parameters": {
+                "task": 0,
+                "sql": 1,
+                "sqlException": 0
+            }
+        },
+        "customExceptionTranslation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "dataSourceInitializationWhenConnectionCannotBeObtained": {
+            "return": 0,
+            "parameters": {}
+        },
+        "dataSourceInitialization": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

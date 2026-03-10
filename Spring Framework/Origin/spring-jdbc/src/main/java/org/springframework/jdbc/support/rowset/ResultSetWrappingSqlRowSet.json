@@ -1,0 +1,166 @@
+{
+    "ResultSetWrappingSqlRowSet": {
+        "getResultSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getMetaData": {
+            "return": 0,
+            "parameters": {}
+        },
+        "findColumn": {
+            "return": 0,
+            "parameters": {
+                "columnLabel": 0
+            }
+        },
+        "getBigDecimal": {
+            "return": 1,
+            "parameters": {
+                "columnLabel": 0
+            }
+        },
+        "getBoolean": {
+            "return": 0,
+            "parameters": {
+                "columnLabel": 0
+            }
+        },
+        "getByte": {
+            "return": 0,
+            "parameters": {
+                "columnLabel": 0
+            }
+        },
+        "getDate": {
+            "return": 1,
+            "parameters": {
+                "columnLabel": 0,
+                "cal": 0
+            }
+        },
+        "getDouble": {
+            "return": 0,
+            "parameters": {
+                "columnLabel": 0
+            }
+        },
+        "getFloat": {
+            "return": 0,
+            "parameters": {
+                "columnLabel": 0
+            }
+        },
+        "getInt": {
+            "return": 0,
+            "parameters": {
+                "columnLabel": 0
+            }
+        },
+        "getLong": {
+            "return": 0,
+            "parameters": {
+                "columnLabel": 0
+            }
+        },
+        "getNString": {
+            "return": 1,
+            "parameters": {
+                "columnLabel": 0
+            }
+        },
+        "getObject": {
+            "return": 0,
+            "parameters": {
+                "columnLabel": 0,
+                "type": 0
+            }
+        },
+        "getShort": {
+            "return": 0,
+            "parameters": {
+                "columnLabel": 0
+            }
+        },
+        "getString": {
+            "return": 1,
+            "parameters": {
+                "columnLabel": 0
+            }
+        },
+        "getTime": {
+            "return": 1,
+            "parameters": {
+                "columnLabel": 0,
+                "cal": 0
+            }
+        },
+        "getTimestamp": {
+            "return": 1,
+            "parameters": {
+                "columnLabel": 0,
+                "cal": 0
+            }
+        },
+        "absolute": {
+            "return": 0,
+            "parameters": {
+                "row": 0
+            }
+        },
+        "afterLast": {
+            "return": 0,
+            "parameters": {}
+        },
+        "beforeFirst": {
+            "return": 0,
+            "parameters": {}
+        },
+        "first": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getRow": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isAfterLast": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isBeforeFirst": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isFirst": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isLast": {
+            "return": 0,
+            "parameters": {}
+        },
+        "last": {
+            "return": 0,
+            "parameters": {}
+        },
+        "next": {
+            "return": 0,
+            "parameters": {}
+        },
+        "previous": {
+            "return": 0,
+            "parameters": {}
+        },
+        "relative": {
+            "return": 0,
+            "parameters": {
+                "rows": 0
+            }
+        },
+        "wasNull": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

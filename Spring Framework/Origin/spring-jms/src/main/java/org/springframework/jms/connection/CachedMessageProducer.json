@@ -1,0 +1,104 @@
+{
+    "CachedMessageProducer": {
+        "setDisableMessageID": {
+            "return": 0,
+            "parameters": {
+                "disableMessageID": 0
+            }
+        },
+        "getDisableMessageID": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDisableMessageTimestamp": {
+            "return": 0,
+            "parameters": {
+                "disableMessageTimestamp": 0
+            }
+        },
+        "getDisableMessageTimestamp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDeliveryDelay": {
+            "return": 0,
+            "parameters": {
+                "deliveryDelay": 0
+            }
+        },
+        "getDeliveryDelay": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDeliveryMode": {
+            "return": 0,
+            "parameters": {
+                "deliveryMode": 0
+            }
+        },
+        "getDeliveryMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPriority": {
+            "return": 0,
+            "parameters": {
+                "priority": 0
+            }
+        },
+        "getPriority": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTimeToLive": {
+            "return": 0,
+            "parameters": {
+                "timeToLive": 0
+            }
+        },
+        "getTimeToLive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getQueue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTopic": {
+            "return": 0,
+            "parameters": {}
+        },
+        "send": {
+            "return": 0,
+            "parameters": {
+                "queue": 0,
+                "message": 0,
+                "deliveryMode": 0,
+                "priority": 0,
+                "timeToLive": 0
+            }
+        },
+        "publish": {
+            "return": 0,
+            "parameters": {
+                "topic": 0,
+                "message": 0,
+                "deliveryMode": 0,
+                "priority": 0,
+                "timeToLive": 0
+            }
+        },
+        "close": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

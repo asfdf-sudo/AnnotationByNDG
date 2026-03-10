@@ -1,0 +1,34 @@
+{
+    "StubResourceAdapter": {
+        "start": {
+            "return": 0,
+            "parameters": {
+                "bootstrapContext": 1
+            }
+        },
+        "stop": {
+            "return": 0,
+            "parameters": {}
+        },
+        "endpointActivation": {
+            "return": 0,
+            "parameters": {
+                "messageEndpointFactory": 1,
+                "activationSpec": 1
+            }
+        },
+        "endpointDeactivation": {
+            "return": 0,
+            "parameters": {
+                "messageEndpointFactory": 1,
+                "activationSpec": 1
+            }
+        },
+        "getXAResources": {
+            "return": 1,
+            "parameters": {
+                "activationSpecs": 1
+            }
+        }
+    }
+}

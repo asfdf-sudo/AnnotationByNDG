@@ -1,0 +1,26 @@
+{
+    "AnnotationDrivenJmsBeanDefinitionParser": {
+        "parse": {
+            "return": 1,
+            "parameters": {
+                "element": 0,
+                "parserContext": 0
+            }
+        },
+        "registerDefaultEndpointRegistry": {
+            "return": 0,
+            "parameters": {
+                "source": 0,
+                "parserContext": 0
+            }
+        },
+        "registerInfrastructureBean": {
+            "return": 0,
+            "parameters": {
+                "parserContext": 0,
+                "builder": 0,
+                "beanName": 0
+            }
+        }
+    }
+}

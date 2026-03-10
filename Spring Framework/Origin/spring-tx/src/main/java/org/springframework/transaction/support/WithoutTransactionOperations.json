@@ -1,0 +1,16 @@
+{
+    "WithoutTransactionOperations": {
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "action": 0
+            }
+        },
+        "executeWithoutResult": {
+            "return": 0,
+            "parameters": {
+                "action": 0
+            }
+        }
+    }
+}

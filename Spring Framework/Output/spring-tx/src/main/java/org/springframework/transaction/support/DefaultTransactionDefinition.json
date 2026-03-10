@@ -1,0 +1,96 @@
+{
+    "DefaultTransactionDefinition": {
+        "setPropagationBehaviorName": {
+            "return": 0,
+            "parameters": {
+                "constantName": 0
+            }
+        },
+        "setPropagationBehavior": {
+            "return": 0,
+            "parameters": {
+                "propagationBehavior": 0
+            }
+        },
+        "getPropagationBehavior": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setIsolationLevelName": {
+            "return": 0,
+            "parameters": {
+                "constantName": 0
+            }
+        },
+        "setIsolationLevel": {
+            "return": 0,
+            "parameters": {
+                "isolationLevel": 0
+            }
+        },
+        "getIsolationLevel": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTimeout": {
+            "return": 0,
+            "parameters": {
+                "timeout": 0
+            }
+        },
+        "getTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setReadOnly": {
+            "return": 0,
+            "parameters": {
+                "readOnly": 0
+            }
+        },
+        "isReadOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDefinitionDescription": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPropagationBehaviorName": {
+            "return": 0,
+            "parameters": {
+                "propagationBehavior": 0
+            }
+        },
+        "getIsolationLevelName": {
+            "return": 0,
+            "parameters": {
+                "isolationLevel": 0
+            }
+        }
+    }
+}

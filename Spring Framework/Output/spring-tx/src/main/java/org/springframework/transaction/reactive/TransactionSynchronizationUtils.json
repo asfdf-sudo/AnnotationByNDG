@@ -1,0 +1,44 @@
+{
+    "TransactionSynchronizationUtils": {
+        "unwrapResourceIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "resource": 0
+            }
+        },
+        "triggerBeforeCommit": {
+            "return": 0,
+            "parameters": {
+                "synchronizations": 0,
+                "readOnly": 0
+            }
+        },
+        "triggerBeforeCompletion": {
+            "return": 0,
+            "parameters": {
+                "synchronizations": 0
+            }
+        },
+        "invokeAfterCommit": {
+            "return": 0,
+            "parameters": {
+                "synchronizations": 0
+            }
+        },
+        "invokeAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "synchronizations": 0,
+                "completionStatus": 0
+            }
+        }
+    },
+    "ScopedProxyUnwrapper": {
+        "unwrapIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "resource": 0
+            }
+        }
+    }
+}

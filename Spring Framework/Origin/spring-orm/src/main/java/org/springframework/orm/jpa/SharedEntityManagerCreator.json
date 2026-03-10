@@ -1,0 +1,42 @@
+{
+    "SharedEntityManagerCreator": {
+        "createSharedEntityManager": {
+            "return": 0,
+            "parameters": {
+                "emf": 0,
+                "properties": 1,
+                "synchronizedWithTransaction": 0
+            }
+        }
+    },
+    "SharedEntityManagerInvocationHandler": {
+        "initProxyClassLoader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invoke": {
+            "return": 1,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        },
+        "readObject": {
+            "return": 0,
+            "parameters": {
+                "ois": 0
+            }
+        }
+    },
+    "DeferredQueryInvocationHandler": {
+        "invoke": {
+            "return": 0,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        }
+    }
+}

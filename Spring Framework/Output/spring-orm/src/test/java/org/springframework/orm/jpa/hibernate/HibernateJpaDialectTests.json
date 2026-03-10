@@ -1,0 +1,8 @@
+{
+    "HibernateJpaDialectTests": {
+        "testTranslateException": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

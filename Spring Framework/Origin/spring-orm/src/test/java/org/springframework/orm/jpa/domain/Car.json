@@ -1,0 +1,24 @@
+{
+    "Car": {
+        "getId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setId": {
+            "return": 0,
+            "parameters": {
+                "id": 0
+            }
+        },
+        "setModel": {
+            "return": 0,
+            "parameters": {
+                "model": 0
+            }
+        },
+        "getModel": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

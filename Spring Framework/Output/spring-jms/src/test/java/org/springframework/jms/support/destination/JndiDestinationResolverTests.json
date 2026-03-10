@@ -1,0 +1,49 @@
+{
+    "JndiDestinationResolverTests": {
+        "testHitsCacheSecondTimeThrough": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testDoesNotUseCacheIfCachingIsTurnedOff": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testDelegatesToFallbackIfNotResolvedInJndi": {
+            "return": 0,
+            "parameters": {}
+        },
+        "lookup": {
+            "return": 0,
+            "parameters": {
+                "jndiName": 0,
+                "requiredClass": 0
+            }
+        },
+        "testDoesNotDelegateToFallbackIfNotResolvedInJndi": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "OneTimeLookupJndiDestinationResolver": {
+        "lookup": {
+            "return": 0,
+            "parameters": {
+                "jndiName": 0,
+                "requiredType": 0
+            }
+        }
+    },
+    "CountingCannedJndiDestinationResolver": {
+        "getCallCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "lookup": {
+            "return": 0,
+            "parameters": {
+                "jndiName": 0,
+                "requiredType": 0
+            }
+        }
+    }
+}

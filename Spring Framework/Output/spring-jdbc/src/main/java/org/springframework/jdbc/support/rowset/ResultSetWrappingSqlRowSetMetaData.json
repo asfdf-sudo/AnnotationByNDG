@@ -1,0 +1,96 @@
+{
+    "ResultSetWrappingSqlRowSetMetaData": {
+        "getCatalogName": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "getColumnClassName": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "getColumnCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getColumnNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getColumnDisplaySize": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "getColumnLabel": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "getColumnName": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "getColumnType": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "getColumnTypeName": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "getPrecision": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "getScale": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "getSchemaName": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "getTableName": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "isCaseSensitive": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "isCurrency": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        },
+        "isSigned": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        }
+    }
+}

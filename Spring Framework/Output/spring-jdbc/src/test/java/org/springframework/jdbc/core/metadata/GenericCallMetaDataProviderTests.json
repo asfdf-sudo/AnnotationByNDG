@@ -1,0 +1,65 @@
+{
+    "GenericCallMetaDataProviderTests": {
+        "procedureNameWithNoMatch": {
+            "return": 0,
+            "parameters": {}
+        },
+        "procedureNameWithExactMatch": {
+            "return": 0,
+            "parameters": {}
+        },
+        "procedureNameWithSeveralMatchesFallBackOnEscaped": {
+            "return": 0,
+            "parameters": {}
+        },
+        "procedureNameWithSeveralMatchesDoesNotFallBackOnEscapedIfEscapeCharacterIsNotAvailable": {
+            "return": 0,
+            "parameters": {}
+        },
+        "procedureNameWitNoMatchFallbackOnFunction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "procedureNameWitNoMatchAndSeveralFunctionsFallbacksOnEscaped": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mockProcedures": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mockFunctions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mockProcedureColumns": {
+            "return": 0,
+            "parameters": {
+                "columnName": 0,
+                "columnType": 0
+            }
+        },
+        "applyBooleans": {
+            "return": 0,
+            "parameters": {
+                "content": 0,
+                "split": 0
+            }
+        },
+        "applyStrings": {
+            "return": 0,
+            "parameters": {
+                "content": 0,
+                "split": 0
+            }
+        },
+        "apply": {
+            "return": 0,
+            "parameters": {
+                "content": 0,
+                "generator": 0,
+                "split": 0
+            }
+        }
+    }
+}

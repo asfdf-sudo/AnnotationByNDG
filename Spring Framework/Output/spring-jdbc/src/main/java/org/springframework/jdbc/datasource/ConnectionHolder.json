@@ -1,0 +1,48 @@
+{
+    "ConnectionHolder": {
+        "getConnectionHandle": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTransactionActive": {
+            "return": 0,
+            "parameters": {
+                "transactionActive": 0
+            }
+        },
+        "isTransactionActive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setConnection": {
+            "return": 0,
+            "parameters": {
+                "connection": 1
+            }
+        },
+        "getConnection": {
+            "return": 1,
+            "parameters": {}
+        },
+        "supportsSavepoints": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSavepoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "released": {
+            "return": 0,
+            "parameters": {}
+        },
+        "clear": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

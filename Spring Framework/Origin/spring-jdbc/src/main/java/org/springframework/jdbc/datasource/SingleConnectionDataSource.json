@@ -1,0 +1,91 @@
+{
+    "SingleConnectionDataSource": {
+        "setSuppressClose": {
+            "return": 0,
+            "parameters": {
+                "suppressClose": 0
+            }
+        },
+        "isSuppressClose": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setRollbackBeforeClose": {
+            "return": 0,
+            "parameters": {
+                "rollbackBeforeClose": 0
+            }
+        },
+        "isRollbackBeforeClose": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAutoCommit": {
+            "return": 0,
+            "parameters": {
+                "autoCommit": 0
+            }
+        },
+        "getAutoCommitValue": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "shouldClose": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "close": {
+            "return": 0,
+            "parameters": {}
+        },
+        "destroy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resetConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "prepareConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "closeConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "getCloseSuppressingConnectionProxy": {
+            "return": 0,
+            "parameters": {
+                "target": 0
+            }
+        }
+    },
+    "CloseSuppressingInvocationHandler": {
+        "invoke": {
+            "return": 1,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "SimpleJmsListenerEndpointTests": {
+        "createListener": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "SortedResourcesFactoryBean": {
+        "setResourceLoader": {
+            "return": 0,
+            "parameters": {
+                "resourceLoader": 0
+            }
+        },
+        "getObjectType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createInstance": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "SpringBeanContainer": {
+        "getBean": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "beanType": 0,
+                "lifecycleOptions": 0,
+                "fallbackProducer": 0
+            }
+        },
+        "stop": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createBean": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "beanType": 0,
+                "lifecycleOptions": 0,
+                "fallbackProducer": 0
+            }
+        }
+    },
+    "SpringContainedBean": {
+        "getBeanInstance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getBeanClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "destroyIfNecessary": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

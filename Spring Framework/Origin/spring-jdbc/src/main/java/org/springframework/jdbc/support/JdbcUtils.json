@@ -1,0 +1,79 @@
+{
+    "JdbcUtils": {
+        "closeConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 1
+            }
+        },
+        "closeStatement": {
+            "return": 0,
+            "parameters": {
+                "stmt": 1
+            }
+        },
+        "closeResultSet": {
+            "return": 0,
+            "parameters": {
+                "rs": 1
+            }
+        },
+        "getResultSetValue": {
+            "return": 1,
+            "parameters": {
+                "rs": 0,
+                "index": 0
+            }
+        },
+        "extractDatabaseMetaData": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0,
+                "metaDataMethodName": 0
+            }
+        },
+        "supportsBatchUpdates": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "commonDatabaseName": {
+            "return": 1,
+            "parameters": {
+                "source": 1
+            }
+        },
+        "isNumeric": {
+            "return": 0,
+            "parameters": {
+                "sqlType": 0
+            }
+        },
+        "resolveTypeName": {
+            "return": 1,
+            "parameters": {
+                "sqlType": 0
+            }
+        },
+        "lookupColumnName": {
+            "return": 0,
+            "parameters": {
+                "resultSetMetaData": 0,
+                "columnIndex": 0
+            }
+        },
+        "convertPropertyNameToUnderscoreName": {
+            "return": 0,
+            "parameters": {
+                "name": 1
+            }
+        },
+        "convertUnderscoreNameToPropertyName": {
+            "return": 0,
+            "parameters": {
+                "name": 1
+            }
+        }
+    }
+}

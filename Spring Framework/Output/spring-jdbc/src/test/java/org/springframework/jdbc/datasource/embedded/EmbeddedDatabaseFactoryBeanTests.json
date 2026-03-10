@@ -1,0 +1,14 @@
+{
+    "EmbeddedDatabaseFactoryBeanTests": {
+        "resource": {
+            "return": 0,
+            "parameters": {
+                "path": 0
+            }
+        },
+        "testFactoryBeanLifecycle": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

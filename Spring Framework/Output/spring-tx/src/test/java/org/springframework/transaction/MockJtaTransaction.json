@@ -1,0 +1,43 @@
+{
+    "MockJtaTransaction": {
+        "getStatus": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerSynchronization": {
+            "return": 0,
+            "parameters": {
+                "synchronization": 0
+            }
+        },
+        "getSynchronization": {
+            "return": 0,
+            "parameters": {}
+        },
+        "enlistResource": {
+            "return": 0,
+            "parameters": {
+                "xaResource": 1
+            }
+        },
+        "delistResource": {
+            "return": 0,
+            "parameters": {
+                "xaResource": 0,
+                "i": 0
+            }
+        },
+        "commit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

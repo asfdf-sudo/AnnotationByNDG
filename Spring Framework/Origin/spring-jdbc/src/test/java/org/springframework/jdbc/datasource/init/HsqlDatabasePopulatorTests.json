@@ -1,0 +1,8 @@
+{
+    "HsqlDatabasePopulatorTests": {
+        "getEmbeddedDatabaseType": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "TransactionManagerConfiguration": {
+        "transactionManager1": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionManager2": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "DelegatingDataSourceTests": {
+        "shouldDelegateGetConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldDelegateGetConnectionWithUsernameAndPassword": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldDelegateGetLogWriter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldDelegateSetLogWriter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldDelegateGetLoginTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldDelegateSetLoginTimeoutWithSeconds": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldDelegateUnwrapWithoutImplementing": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldDelegateUnwrapImplementing": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldDelegateIsWrapperForWithoutImplementing": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldDelegateIsWrapperForImplementing": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "DelegatingDataSourceWithWrapper": {}
+}

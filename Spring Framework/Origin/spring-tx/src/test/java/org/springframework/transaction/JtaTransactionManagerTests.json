@@ -1,0 +1,203 @@
+{
+    "JtaTransactionManagerTests": {
+        "jtaTransactionManagerWithCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithCommitAndSynchronizationOnActual": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithCommitAndSynchronizationNever": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithRollbackAndSynchronizationOnActual": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithRollbackAndSynchronizationNever": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithExistingTransactionAndRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithExistingTransactionAndException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithExistingTransactionAndCommitException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithExistingTransactionAndRollbackOnlyAndNoGlobalRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithExistingTransactionAndExceptionAndNoGlobalRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithExistingTransactionAndJtaSynchronization": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithExistingTransactionAndSynchronizationOnActual": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithExistingTransactionAndSynchronizationNever": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithExistingAndPropagationSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithPropagationSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithPropagationSupportsAndSynchronizationOnActual": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithPropagationSupportsAndSynchronizationNever": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithPropagationNotSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithPropagationRequiresNew": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithPropagationRequiresNewWithinSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithPropagationRequiresNewAndExisting": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithPropagationRequiresNewAndExistingWithSuspendException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithPropagationRequiresNewAndExistingWithBeginException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithPropagationRequiresNewAndAdapter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithPropagationRequiresNewAndSuspensionNotSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithIsolationLevel": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithSystemExceptionOnIsExisting": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithNestedBegin": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithNotSupportedExceptionOnNestedBegin": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithUnsupportedOperationExceptionOnNestedBegin": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithSystemExceptionOnBegin": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithRollbackExceptionOnCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "jtaTransactionManagerWithNoExceptionOnGlobalRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithNoExceptionOnGlobalRollbackOnlyAndFailEarly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestJtaTransactionManagerWithNoExceptionOnGlobalRollbackOnly": {
+            "return": 0,
+            "parameters": {
+                "failEarly": 0
+            }
+        },
+        "jtaTransactionManagerWithHeuristicMixedExceptionOnCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithHeuristicRollbackExceptionOnCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithSystemExceptionOnCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithSystemExceptionOnRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithIllegalStateExceptionOnRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithSystemExceptionOnRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithDoubleCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithDoubleRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithRollbackAndCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "newJtaTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "ut": 0,
+                "tm": 0
+            }
+        },
+        "tearDown": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "LocalConnectionFactoryBeanTests": {
+        "testManagedConnectionFactoryIsRequired": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testIsSingleton": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetObjectTypeIsNullIfConnectionFactoryHasNotBeenConfigured": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCreatesVanillaConnectionFactoryIfNoConnectionManagerHasBeenConfigured": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCreatesManagedConnectionFactoryIfAConnectionManagerHasBeenConfigured": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "MessageListenerAdapterTests": {
+        "testWithMessageContentsDelegateForTextMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithMessageContentsDelegateForBytesMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithMessageContentsDelegateForObjectMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithMessageContentsDelegateForObjectMessageWithPlainObject": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithMessageDelegate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWhenTheAdapterItselfIsTheDelegate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testRainyDayWithNoApplicableHandlingMethods": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testThatAnExceptionThrownFromTheHandlingMethodIsSimplySwallowedByDefault": {
+            "return": 0,
+            "parameters": {}
+        },
+        "handleListenerException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "testThatTheDefaultMessageConverterisIndeedTheSimpleMessageConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testThatWhenNoDelegateIsSuppliedTheDelegateIsAssumedToBeTheMessageListenerAdapterItself": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testThatTheDefaultMessageHandlingMethodNameIsTheConstantDefault": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithResponsiveMessageDelegate_DoesNotSendReturnTextMessageIfNoSessionSupplied": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithResponsiveMessageDelegateWithDefaultDestination_SendsReturnTextMessageWhenSessionSupplied": {
+            "return": 0,
+            "parameters": {}
+        },
+        "extractMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "testWithResponsiveMessageDelegateNoDefaultDestination_SendsReturnTextMessageWhenSessionSupplied": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithResponsiveMessageDelegateNoDefaultDestinationAndNoReplyToDestination_SendsReturnTextMessageWhenSessionSupplied": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithResponsiveMessageDelegateNoDefaultDestination_SendsReturnTextMessageWhenSessionSupplied_AndSendingThrowsJMSException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithResponsiveMessageDelegateDoesNotSendReturnTextMessageWhenSessionSupplied_AndListenerMethodThrowsException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithResponsiveMessageDelegateWhenReturnTypeIsNotAJMSMessageAndNoMessageConverterIsSupplied": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithResponsiveMessageDelegateWhenReturnTypeIsAJMSMessageAndNoMessageConverterIsSupplied": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "SerializableObject": {}
+}

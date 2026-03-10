@@ -1,0 +1,60 @@
+{
+    "SessionHolder": {
+        "setSession": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "getSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setStatelessSession": {
+            "return": 0,
+            "parameters": {
+                "statelessSession": 0
+            }
+        },
+        "getStatelessSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasStatelessSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTransaction": {
+            "return": 0,
+            "parameters": {
+                "transaction": 1
+            }
+        },
+        "getTransaction": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setPreviousFlushMode": {
+            "return": 0,
+            "parameters": {
+                "previousFlushMode": 1
+            }
+        },
+        "getPreviousFlushMode": {
+            "return": 1,
+            "parameters": {}
+        },
+        "clear": {
+            "return": 0,
+            "parameters": {}
+        },
+        "closeAll": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

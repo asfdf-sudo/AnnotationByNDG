@@ -1,0 +1,156 @@
+{
+    "GenericTableMetaDataProvider": {
+        "initializeWithMetaData": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0
+            }
+        },
+        "initializeWithTableColumnMetaData": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0,
+                "catalogName": 1,
+                "schemaName": 1,
+                "tableName": 1
+            }
+        },
+        "getTableParameterMetaData": {
+            "return": 0,
+            "parameters": {}
+        },
+        "tableNameToUse": {
+            "return": 1,
+            "parameters": {
+                "tableName": 1
+            }
+        },
+        "columnNameToUse": {
+            "return": 1,
+            "parameters": {
+                "columnName": 1
+            }
+        },
+        "catalogNameToUse": {
+            "return": 1,
+            "parameters": {
+                "catalogName": 1
+            }
+        },
+        "schemaNameToUse": {
+            "return": 1,
+            "parameters": {
+                "schemaName": 1
+            }
+        },
+        "identifierNameToUse": {
+            "return": 1,
+            "parameters": {
+                "identifierName": 1
+            }
+        },
+        "metaDataCatalogNameToUse": {
+            "return": 1,
+            "parameters": {
+                "catalogName": 1
+            }
+        },
+        "metaDataSchemaNameToUse": {
+            "return": 1,
+            "parameters": {
+                "schemaName": 1
+            }
+        },
+        "getDefaultSchema": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getDatabaseVersion": {
+            "return": 1,
+            "parameters": {}
+        },
+        "isTableColumnMetaDataUsed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setGetGeneratedKeysSupported": {
+            "return": 0,
+            "parameters": {
+                "getGeneratedKeysSupported": 0
+            }
+        },
+        "isGetGeneratedKeysSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isGetGeneratedKeysSimulated": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSimpleQueryForGetGeneratedKey": {
+            "return": 1,
+            "parameters": {
+                "tableName": 0,
+                "keyColumnName": 0
+            }
+        },
+        "setGeneratedKeysColumnNameArraySupported": {
+            "return": 0,
+            "parameters": {
+                "generatedKeysColumnNameArraySupported": 0
+            }
+        },
+        "isGeneratedKeysColumnNameArraySupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setStoresUpperCaseIdentifiers": {
+            "return": 0,
+            "parameters": {
+                "storesUpperCaseIdentifiers": 0
+            }
+        },
+        "isStoresUpperCaseIdentifiers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setStoresLowerCaseIdentifiers": {
+            "return": 0,
+            "parameters": {
+                "storesLowerCaseIdentifiers": 0
+            }
+        },
+        "isStoresLowerCaseIdentifiers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getIdentifierQuoteString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "locateTableAndProcessMetaData": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0,
+                "catalogName": 1,
+                "schemaName": 1,
+                "tableName": 1
+            }
+        },
+        "findTableMetaData": {
+            "return": 0,
+            "parameters": {
+                "schemaName": 1,
+                "tableName": 1,
+                "tableMeta": 0
+            }
+        },
+        "processTableColumns": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0,
+                "tmd": 0
+            }
+        }
+    }
+}

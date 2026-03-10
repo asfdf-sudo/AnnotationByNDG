@@ -1,0 +1,488 @@
+{
+    "AnnotationTransactionAttributeSourceTests": {
+        "serializable": {
+            "return": 0,
+            "parameters": {}
+        },
+        "nullOrEmpty": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionAttributeDeclaredOnClassMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionAttributeDeclaredOnCglibClassMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionAttributeDeclaredOnInterfaceMethodOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionAttributeOnTargetClassMethodOverridesAttributeOnInterfaceMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackRulesAreApplied": {
+            "return": 0,
+            "parameters": {}
+        },
+        "labelsAreApplied": {
+            "return": 0,
+            "parameters": {}
+        },
+        "defaultsToClassTransactionAttribute": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customClassAttributeDetected": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customMethodAttributeDetected": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customClassAttributeWithReadOnlyOverrideDetected": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customMethodAttributeWithReadOnlyOverrideDetected": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customClassAttributeWithReadOnlyOverrideOnInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customMethodAttributeWithReadOnlyOverrideOnInterface": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "JtaAttributeTests": {
+        "transactionAttributeDeclaredOnClassMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionAttributeDeclaredOnClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionAttributeDeclaredOnInterface": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "JtaAnnotatedBean1": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        }
+    },
+    "JtaAnnotatedBean2": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        }
+    },
+    "JtaAnnotatedBean3": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        }
+    },
+    "Ejb3AttributeTests": {
+        "transactionAttributeDeclaredOnClassMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionAttributeDeclaredOnClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionAttributeDeclaredOnInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        },
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        }
+    },
+    "Ejb3AnnotatedBean1": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        }
+    },
+    "Ejb3AnnotatedBean2": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        }
+    },
+    "Ejb3AnnotatedBean3": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        }
+    },
+    "GroovyTests": {
+        "transactionAttributeDeclaredOnGroovyClass": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "GroovyTestBean": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        },
+        "invokeMethod": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "args": 0
+            }
+        },
+        "getProperty": {
+            "return": 0,
+            "parameters": {
+                "propertyName": 0
+            }
+        },
+        "setProperty": {
+            "return": 0,
+            "parameters": {
+                "propertyName": 0,
+                "newValue": 0
+            }
+        },
+        "getMetaClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMetaClass": {
+            "return": 0,
+            "parameters": {
+                "metaClass": 0
+            }
+        },
+        "hasRollbackRules": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasNoRollbackRule": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransactionAttribute": {
+            "return": 0,
+            "parameters": {
+                "declaringType": 0,
+                "methodName": 0
+            }
+        },
+        "getMethod": {
+            "return": 0,
+            "parameters": {
+                "declaringType": 0,
+                "methodName": 0
+            }
+        }
+    },
+    "Empty": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        }
+    },
+    "TestBean1": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        }
+    },
+    "TestBean2": {
+        "setBeanName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        }
+    },
+    "TestBean3": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        }
+    },
+    "TestBean4": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        }
+    },
+    "TestBean5": {
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestBean6": {
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestBean7": {
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestBean8": {
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestBean9": {
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestBean10": {
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestBean11": {
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

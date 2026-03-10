@@ -1,0 +1,58 @@
+{
+    "LocalEntityManagerFactoryBeanTests": {
+        "verifyClosed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withDefault": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withNameAndExplicitProperties": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withDefaultPersistenceConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withNameAndDefaultPersistenceConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withExplicitPersistenceConfiguration": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "DummyPersistenceProvider": {
+        "createContainerEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "pui": 0,
+                "map": 0
+            }
+        },
+        "createEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "config": 0
+            }
+        },
+        "getProviderUtil": {
+            "return": 0,
+            "parameters": {}
+        },
+        "generateSchema": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitName": 0,
+                "map": 0
+            }
+        }
+    }
+}

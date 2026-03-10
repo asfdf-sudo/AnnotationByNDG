@@ -1,0 +1,10 @@
+{
+    "SingleDataSourceLookup": {
+        "getDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSourceName": 0
+            }
+        }
+    }
+}

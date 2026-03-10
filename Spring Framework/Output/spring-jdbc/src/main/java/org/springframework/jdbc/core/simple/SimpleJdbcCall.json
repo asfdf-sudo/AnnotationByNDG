@@ -1,0 +1,75 @@
+{
+    "SimpleJdbcCall": {
+        "withProcedureName": {
+            "return": 0,
+            "parameters": {
+                "procedureName": 0
+            }
+        },
+        "withFunctionName": {
+            "return": 0,
+            "parameters": {
+                "functionName": 0
+            }
+        },
+        "withSchemaName": {
+            "return": 0,
+            "parameters": {
+                "schemaName": 0
+            }
+        },
+        "withCatalogName": {
+            "return": 0,
+            "parameters": {
+                "catalogName": 0
+            }
+        },
+        "withReturnValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "declareParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "useInParameterNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "returningResultSet": {
+            "return": 0,
+            "parameters": {
+                "parameterName": 0,
+                "rowMapper": 0
+            }
+        },
+        "withoutProcedureColumnMetaDataAccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withNamedBinding": {
+            "return": 0,
+            "parameters": {}
+        },
+        "executeFunction": {
+            "return": 0,
+            "parameters": {
+                "returnType": 0,
+                "args": 0
+            }
+        },
+        "executeObject": {
+            "return": 0,
+            "parameters": {
+                "returnType": 0,
+                "args": 0
+            }
+        },
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "parameterSource": 0
+            }
+        }
+    }
+}

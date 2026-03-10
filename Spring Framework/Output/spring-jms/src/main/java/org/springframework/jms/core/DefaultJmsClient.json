@@ -1,0 +1,92 @@
+{
+    "DefaultJmsClient": {
+        "setMessageConverter": {
+            "return": 0,
+            "parameters": {
+                "messageConverter": 0
+            }
+        },
+        "setMessagePostProcessor": {
+            "return": 0,
+            "parameters": {
+                "messagePostProcessor": 0
+            }
+        },
+        "destination": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0
+            }
+        },
+        "newDelegate": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "DefaultOperationSpec": {
+        "enforceCustomTemplate": {
+            "return": 0,
+            "parameters": {
+                "qos": 0
+            }
+        },
+        "withReceiveTimeout": {
+            "return": 0,
+            "parameters": {
+                "receiveTimeout": 0
+            }
+        },
+        "withDeliveryDelay": {
+            "return": 0,
+            "parameters": {
+                "deliveryDelay": 0
+            }
+        },
+        "withDeliveryPersistent": {
+            "return": 0,
+            "parameters": {
+                "persistent": 0
+            }
+        },
+        "withPriority": {
+            "return": 0,
+            "parameters": {
+                "priority": 0
+            }
+        },
+        "withTimeToLive": {
+            "return": 0,
+            "parameters": {
+                "timeToLive": 0
+            }
+        },
+        "send": {
+            "return": 0,
+            "parameters": {
+                "payload": 0,
+                "headers": 0
+            }
+        },
+        "receive": {
+            "return": 0,
+            "parameters": {
+                "messageSelector": 0,
+                "targetClass": 0
+            }
+        },
+        "sendAndReceive": {
+            "return": 0,
+            "parameters": {
+                "request": 0,
+                "headers": 0,
+                "targetClass": 0
+            }
+        },
+        "postProcessMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "AbstractJmsListenerContainerFactory": {
+        "setConnectionFactory": {
+            "return": 0,
+            "parameters": {
+                "connectionFactory": 0
+            }
+        },
+        "setDestinationResolver": {
+            "return": 0,
+            "parameters": {
+                "destinationResolver": 0
+            }
+        },
+        "setMessageConverter": {
+            "return": 0,
+            "parameters": {
+                "messageConverter": 0
+            }
+        },
+        "setExceptionListener": {
+            "return": 0,
+            "parameters": {
+                "exceptionListener": 0
+            }
+        },
+        "setErrorHandler": {
+            "return": 0,
+            "parameters": {
+                "errorHandler": 0
+            }
+        },
+        "setSessionTransacted": {
+            "return": 0,
+            "parameters": {
+                "sessionTransacted": 0
+            }
+        },
+        "setSessionAcknowledgeMode": {
+            "return": 0,
+            "parameters": {
+                "sessionAcknowledgeMode": 0
+            }
+        },
+        "setAcknowledgeAfterListener": {
+            "return": 0,
+            "parameters": {
+                "acknowledgeAfterListener": 0
+            }
+        },
+        "setPubSubDomain": {
+            "return": 0,
+            "parameters": {
+                "pubSubDomain": 0
+            }
+        },
+        "setReplyPubSubDomain": {
+            "return": 0,
+            "parameters": {
+                "replyPubSubDomain": 0
+            }
+        },
+        "setReplyQosSettings": {
+            "return": 0,
+            "parameters": {
+                "replyQosSettings": 0
+            }
+        },
+        "setSubscriptionDurable": {
+            "return": 0,
+            "parameters": {
+                "subscriptionDurable": 0
+            }
+        },
+        "setSubscriptionShared": {
+            "return": 0,
+            "parameters": {
+                "subscriptionShared": 0
+            }
+        },
+        "setClientId": {
+            "return": 0,
+            "parameters": {
+                "clientId": 0
+            }
+        },
+        "setPhase": {
+            "return": 0,
+            "parameters": {
+                "phase": 0
+            }
+        },
+        "setAutoStartup": {
+            "return": 0,
+            "parameters": {
+                "autoStartup": 0
+            }
+        },
+        "setObservationRegistry": {
+            "return": 0,
+            "parameters": {
+                "observationRegistry": 0
+            }
+        },
+        "createListenerContainer": {
+            "return": 0,
+            "parameters": {
+                "endpoint": 0
+            }
+        },
+        "createContainerInstance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initializeContainer": {
+            "return": 0,
+            "parameters": {
+                "instance": 0
+            }
+        }
+    }
+}

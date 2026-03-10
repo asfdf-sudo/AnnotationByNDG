@@ -1,0 +1,12 @@
+{
+    "ChainedPersistenceExceptionTranslatorTests": {
+        "empty": {
+            "return": 0,
+            "parameters": {}
+        },
+        "exceptionTranslationWithTranslation": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

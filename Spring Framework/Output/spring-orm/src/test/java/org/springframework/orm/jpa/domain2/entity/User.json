@@ -1,0 +1,28 @@
+{
+    "User": {
+        "getId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getFirstName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setFirstName": {
+            "return": 0,
+            "parameters": {
+                "firstName": 0
+            }
+        },
+        "getLastName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLastName": {
+            "return": 0,
+            "parameters": {
+                "lastName": 1
+            }
+        }
+    }
+}

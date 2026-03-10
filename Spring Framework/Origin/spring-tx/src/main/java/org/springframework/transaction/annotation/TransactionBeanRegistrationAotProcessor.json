@@ -1,0 +1,25 @@
+{
+    "TransactionBeanRegistrationAotProcessor": {
+        "processAheadOfTime": {
+            "return": 1,
+            "parameters": {
+                "registeredBean": 0
+            }
+        },
+        "isTransactional": {
+            "return": 0,
+            "parameters": {
+                "beanClass": 0
+            }
+        }
+    },
+    "AotContribution": {
+        "applyTo": {
+            "return": 0,
+            "parameters": {
+                "generationContext": 0,
+                "beanRegistrationCode": 0
+            }
+        }
+    }
+}

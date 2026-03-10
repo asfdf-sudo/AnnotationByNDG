@@ -1,0 +1,8 @@
+{
+    "Db2MainframeMaxValueIncrementer": {
+        "getSequenceQuery": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "JmsTransactionManager": {
+        "setConnectionFactory": {
+            "return": 0,
+            "parameters": {
+                "cf": 1
+            }
+        },
+        "getConnectionFactory": {
+            "return": 1,
+            "parameters": {}
+        },
+        "obtainConnectionFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLazyResourceRetrieval": {
+            "return": 0,
+            "parameters": {
+                "lazyResourceRetrieval": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getResourceFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doGetTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isExistingTransaction": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "doBegin": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0,
+                "definition": 0
+            }
+        },
+        "doSuspend": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "doResume": {
+            "return": 0,
+            "parameters": {
+                "transaction": 1,
+                "suspendedResources": 0
+            }
+        },
+        "doCommit": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doRollback": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doSetRollbackOnly": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doCleanupAfterCompletion": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0
+            }
+        },
+        "createConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSession": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        }
+    },
+    "LazyJmsResourceHolder": {
+        "getConnection": {
+            "return": 0,
+            "parameters": {
+                "connectionType": 0
+            }
+        },
+        "getSession": {
+            "return": 0,
+            "parameters": {
+                "sessionType": 0,
+                "connection": 1
+            }
+        },
+        "initializeConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initializeSession": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "JmsTransactionObject": {
+        "setResourceHolder": {
+            "return": 0,
+            "parameters": {
+                "resourceHolder": 1
+            }
+        },
+        "getResourceHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasResourceHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "DefaultJcaListenerContainerFactory": {
+        "setResourceAdapter": {
+            "return": 0,
+            "parameters": {
+                "resourceAdapter": 0
+            }
+        },
+        "setActivationSpecFactory": {
+            "return": 0,
+            "parameters": {
+                "activationSpecFactory": 0
+            }
+        },
+        "setDestinationResolver": {
+            "return": 0,
+            "parameters": {
+                "destinationResolver": 0
+            }
+        },
+        "setTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "transactionManager": 0
+            }
+        },
+        "setPhase": {
+            "return": 0,
+            "parameters": {
+                "phase": 0
+            }
+        },
+        "createListenerContainer": {
+            "return": 0,
+            "parameters": {
+                "endpoint": 0
+            }
+        },
+        "createContainerInstance": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

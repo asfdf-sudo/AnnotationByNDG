@@ -1,0 +1,24 @@
+{
+    "SimpleTransactionScopeTests": {
+        "getFromScope": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getWithTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "bindSynchronizedResource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "bindSynchronizedResourceWithOldValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "bindSynchronizedResourceWithoutTransaction": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

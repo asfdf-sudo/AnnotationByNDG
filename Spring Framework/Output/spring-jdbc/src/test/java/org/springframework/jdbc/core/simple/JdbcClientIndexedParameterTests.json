@@ -1,0 +1,56 @@
+{
+    "JdbcClientIndexedParameterTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithResultSetExtractor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithResultSetExtractorNoParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithRowCallbackHandler": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithRowCallbackHandlerNoParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithRowMapperNoParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForObjectWithRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryForStreamWithRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "update": {
+            "return": 0,
+            "parameters": {}
+        },
+        "updateWithTypedParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "updateWithGeneratedKeys": {
+            "return": 0,
+            "parameters": {}
+        },
+        "updateWithGeneratedKeysAndKeyColumnNames": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

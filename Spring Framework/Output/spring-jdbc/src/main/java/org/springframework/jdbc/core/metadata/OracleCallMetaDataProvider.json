@@ -1,0 +1,35 @@
+{
+    "OracleCallMetaDataProvider": {
+        "isReturnResultSetSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRefCursorSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getRefCursorSqlType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "metaDataCatalogNameToUse": {
+            "return": 0,
+            "parameters": {
+                "catalogName": 1
+            }
+        },
+        "metaDataSchemaNameToUse": {
+            "return": 0,
+            "parameters": {
+                "schemaName": 1
+            }
+        },
+        "createDefaultOutParameter": {
+            "return": 0,
+            "parameters": {
+                "parameterName": 0,
+                "meta": 0
+            }
+        }
+    }
+}

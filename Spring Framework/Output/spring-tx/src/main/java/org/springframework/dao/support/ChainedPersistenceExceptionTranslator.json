@@ -1,0 +1,20 @@
+{
+    "ChainedPersistenceExceptionTranslator": {
+        "addDelegate": {
+            "return": 0,
+            "parameters": {
+                "pet": 0
+            }
+        },
+        "getDelegates": {
+            "return": 0,
+            "parameters": {}
+        },
+        "translateExceptionIfPossible": {
+            "return": 1,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    }
+}

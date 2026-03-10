@@ -1,0 +1,290 @@
+{
+    "DefaultMessageListenerContainer": {
+        "setTaskExecutor": {
+            "return": 0,
+            "parameters": {
+                "taskExecutor": 0
+            }
+        },
+        "setVirtualThreads": {
+            "return": 0,
+            "parameters": {
+                "virtualThreads": 0
+            }
+        },
+        "setBackOff": {
+            "return": 0,
+            "parameters": {
+                "backOff": 0
+            }
+        },
+        "setRecoveryInterval": {
+            "return": 0,
+            "parameters": {
+                "recoveryInterval": 0
+            }
+        },
+        "setCacheLevelName": {
+            "return": 0,
+            "parameters": {
+                "constantName": 0
+            }
+        },
+        "setCacheLevel": {
+            "return": 0,
+            "parameters": {
+                "cacheLevel": 0
+            }
+        },
+        "getCacheLevel": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setConcurrency": {
+            "return": 0,
+            "parameters": {
+                "concurrency": 0
+            }
+        },
+        "setConcurrentConsumers": {
+            "return": 0,
+            "parameters": {
+                "concurrentConsumers": 0
+            }
+        },
+        "getConcurrentConsumers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMaxConcurrentConsumers": {
+            "return": 0,
+            "parameters": {
+                "maxConcurrentConsumers": 0
+            }
+        },
+        "getMaxConcurrentConsumers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMaxMessagesPerTask": {
+            "return": 0,
+            "parameters": {
+                "maxMessagesPerTask": 0
+            }
+        },
+        "getMaxMessagesPerTask": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setIdleConsumerLimit": {
+            "return": 0,
+            "parameters": {
+                "idleConsumerLimit": 0
+            }
+        },
+        "getIdleConsumerLimit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setIdleTaskExecutionLimit": {
+            "return": 0,
+            "parameters": {
+                "idleTaskExecutionLimit": 0
+            }
+        },
+        "getIdleTaskExecutionLimit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setIdleReceivesPerTaskLimit": {
+            "return": 0,
+            "parameters": {
+                "idleReceivesPerTaskLimit": 0
+            }
+        },
+        "getIdleReceivesPerTaskLimit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initialize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doInitialize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doShutdown": {
+            "return": 0,
+            "parameters": {}
+        },
+        "start": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stop": {
+            "return": 0,
+            "parameters": {
+                "callback": 0
+            }
+        },
+        "getScheduledConsumerCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getActiveConsumerCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRegisteredWithDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createDefaultTaskExecutor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scheduleNewInvoker": {
+            "return": 0,
+            "parameters": {}
+        },
+        "clearResourcesInScheduledInvokers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sharedConnectionEnabled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doRescheduleTask": {
+            "return": 0,
+            "parameters": {
+                "task": 0
+            }
+        },
+        "messageReceived": {
+            "return": 0,
+            "parameters": {
+                "invoker": 0,
+                "session": 0
+            }
+        },
+        "noMessageReceived": {
+            "return": 0,
+            "parameters": {
+                "invoker": 0,
+                "session": 0
+            }
+        },
+        "scheduleNewInvokerIfAppropriate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldRescheduleInvoker": {
+            "return": 0,
+            "parameters": {
+                "idleTaskExecutionCount": 0
+            }
+        },
+        "getIdleInvokerCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "establishSharedConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "startSharedConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stopSharedConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "handleListenerSetupFailure": {
+            "return": 0,
+            "parameters": {
+                "ex": 0,
+                "alreadyRecovered": 0
+            }
+        },
+        "recoverAfterListenerSetupFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "refreshConnectionUntilSuccessful": {
+            "return": 0,
+            "parameters": {}
+        },
+        "refreshDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validateRefreshedConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "applyBackOffTime": {
+            "return": 0,
+            "parameters": {
+                "execution": 0
+            }
+        },
+        "isRecovering": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "AsyncMessageListenerInvoker": {
+        "run": {
+            "return": 0,
+            "parameters": {}
+        },
+        "executeOngoingLoop": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invokeListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "decreaseActiveInvokerCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initResourcesIfNecessary": {
+            "return": 0,
+            "parameters": {}
+        },
+        "updateRecoveryMarker": {
+            "return": 0,
+            "parameters": {}
+        },
+        "interruptIfNecessary": {
+            "return": 0,
+            "parameters": {}
+        },
+        "clearResources": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isLongLived": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setIdle": {
+            "return": 0,
+            "parameters": {
+                "idle": 0
+            }
+        },
+        "isIdle": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ConnectionValidationException": {}
+}

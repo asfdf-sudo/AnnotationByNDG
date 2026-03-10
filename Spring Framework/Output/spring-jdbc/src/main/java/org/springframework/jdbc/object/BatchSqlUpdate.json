@@ -1,0 +1,55 @@
+{
+    "BatchSqlUpdate": {
+        "setBatchSize": {
+            "return": 0,
+            "parameters": {
+                "batchSize": 0
+            }
+        },
+        "setTrackRowsAffected": {
+            "return": 0,
+            "parameters": {
+                "trackRowsAffected": 0
+            }
+        },
+        "supportsLobParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "update": {
+            "return": 0,
+            "parameters": {}
+        },
+        "flush": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getBatchSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setValues": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "index": 0
+            }
+        },
+        "getQueueCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getExecutionCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getRowsAffected": {
+            "return": 0,
+            "parameters": {}
+        },
+        "reset": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

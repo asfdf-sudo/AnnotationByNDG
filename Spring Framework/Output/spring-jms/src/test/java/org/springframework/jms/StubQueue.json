@@ -1,0 +1,8 @@
+{
+    "StubQueue": {
+        "getQueueName": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

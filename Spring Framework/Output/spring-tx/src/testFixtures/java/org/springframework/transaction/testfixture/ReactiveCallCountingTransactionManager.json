@@ -1,0 +1,36 @@
+{
+    "ReactiveCallCountingTransactionManager": {
+        "doGetTransaction": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0
+            }
+        },
+        "doBegin": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 1,
+                "transaction": 1,
+                "definition": 0
+            }
+        },
+        "doCommit": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 0,
+                "status": 0
+            }
+        },
+        "doRollback": {
+            "return": 0,
+            "parameters": {
+                "synchronizationManager": 1,
+                "status": 1
+            }
+        },
+        "clear": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "DefaultTransactionAttribute": {
+        "setDescriptor": {
+            "return": 0,
+            "parameters": {
+                "descriptor": 1
+            }
+        },
+        "getDescriptor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTimeoutString": {
+            "return": 0,
+            "parameters": {
+                "timeoutString": 0
+            }
+        },
+        "getTimeoutString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setQualifier": {
+            "return": 0,
+            "parameters": {
+                "qualifier": 1
+            }
+        },
+        "getQualifier": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLabels": {
+            "return": 0,
+            "parameters": {
+                "labels": 0
+            }
+        },
+        "getLabels": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackOn": {
+            "return": 0,
+            "parameters": {
+                "ex": 1
+            }
+        },
+        "resolveAttributeStrings": {
+            "return": 0,
+            "parameters": {
+                "resolver": 1
+            }
+        },
+        "getAttributeDescription": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

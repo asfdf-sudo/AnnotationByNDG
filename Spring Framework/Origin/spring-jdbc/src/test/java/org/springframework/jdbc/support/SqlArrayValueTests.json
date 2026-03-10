@@ -1,0 +1,8 @@
+{
+    "SqlArrayValueTests": {
+        "setValue": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "AbstractPollingMessageListenerContainer": {
+        "setSessionTransacted": {
+            "return": 0,
+            "parameters": {
+                "sessionTransacted": 0
+            }
+        },
+        "setTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "transactionManager": 1
+            }
+        },
+        "getTransactionManager": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setTransactionName": {
+            "return": 0,
+            "parameters": {
+                "transactionName": 0
+            }
+        },
+        "setTransactionTimeout": {
+            "return": 0,
+            "parameters": {
+                "transactionTimeout": 0
+            }
+        },
+        "setReceiveTimeout": {
+            "return": 0,
+            "parameters": {
+                "receiveTimeout": 0
+            }
+        },
+        "getReceiveTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initialize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createListenerConsumer": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "receiveAndExecute": {
+            "return": 0,
+            "parameters": {
+                "invoker": 0,
+                "session": 1,
+                "consumer": 1
+            }
+        },
+        "doReceiveAndExecute": {
+            "return": 0,
+            "parameters": {
+                "invoker": 0,
+                "session": 1,
+                "consumer": 1,
+                "status": 1
+            }
+        },
+        "isSessionLocallyTransacted": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "shouldCommitAfterNoMessageReceived": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "rollbackOnException": {
+            "return": 0,
+            "parameters": {
+                "manager": 0,
+                "status": 0,
+                "ex": 0
+            }
+        },
+        "receiveMessage": {
+            "return": 1,
+            "parameters": {
+                "consumer": 0
+            }
+        },
+        "messageReceived": {
+            "return": 0,
+            "parameters": {
+                "invoker": 0,
+                "session": 0
+            }
+        },
+        "noMessageReceived": {
+            "return": 0,
+            "parameters": {
+                "invoker": 0,
+                "session": 0
+            }
+        },
+        "getConnection": {
+            "return": 1,
+            "parameters": {
+                "holder": 0
+            }
+        },
+        "getSession": {
+            "return": 1,
+            "parameters": {
+                "holder": 0
+            }
+        }
+    },
+    "MessageListenerContainerResourceFactory": {
+        "getConnection": {
+            "return": 1,
+            "parameters": {
+                "holder": 0
+            }
+        },
+        "getSession": {
+            "return": 1,
+            "parameters": {
+                "holder": 0
+            }
+        },
+        "createConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSession": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "isSynchedLocalTransactionAllowed": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

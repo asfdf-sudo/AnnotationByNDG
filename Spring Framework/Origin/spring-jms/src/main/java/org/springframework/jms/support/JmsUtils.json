@@ -1,0 +1,65 @@
+{
+    "JmsUtils": {
+        "closeConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 1,
+                "stop": 0
+            }
+        },
+        "closeSession": {
+            "return": 0,
+            "parameters": {
+                "session": 1
+            }
+        },
+        "closeMessageProducer": {
+            "return": 0,
+            "parameters": {
+                "producer": 1
+            }
+        },
+        "closeMessageConsumer": {
+            "return": 0,
+            "parameters": {
+                "consumer": 1
+            }
+        },
+        "closeQueueBrowser": {
+            "return": 0,
+            "parameters": {
+                "browser": 1
+            }
+        },
+        "closeQueueRequestor": {
+            "return": 0,
+            "parameters": {
+                "requestor": 1
+            }
+        },
+        "commitIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "rollbackIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "buildExceptionMessage": {
+            "return": 1,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "convertJmsAccessException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    }
+}

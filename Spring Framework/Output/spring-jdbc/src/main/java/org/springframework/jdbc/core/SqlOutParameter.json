@@ -1,0 +1,12 @@
+{
+    "SqlOutParameter": {
+        "getSqlReturnType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isReturnTypeSupported": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

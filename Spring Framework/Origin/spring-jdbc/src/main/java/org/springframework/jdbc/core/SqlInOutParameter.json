@@ -1,0 +1,8 @@
+{
+    "SqlInOutParameter": {
+        "isInputValueProvided": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

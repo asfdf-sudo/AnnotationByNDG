@@ -1,0 +1,70 @@
+{
+    "ScriptUtils": {
+        "executeSqlScript": {
+            "return": 0,
+            "parameters": {
+                "connection": 0,
+                "resource": 0,
+                "continueOnError": 0,
+                "ignoreFailedDrops": 0,
+                "commentPrefixes": 0,
+                "separator": 1,
+                "blockCommentStartDelimiter": 0,
+                "blockCommentEndDelimiter": 0
+            }
+        },
+        "logSqlWarnings": {
+            "return": 0,
+            "parameters": {
+                "stmt": 0
+            }
+        },
+        "readScript": {
+            "return": 0,
+            "parameters": {
+                "lineNumberReader": 0,
+                "commentPrefixes": 1,
+                "separator": 0,
+                "blockCommentEndDelimiter": 1
+            }
+        },
+        "appendSeparatorToScriptIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "scriptBuilder": 0,
+                "separator": 1
+            }
+        },
+        "containsStatementSeparator": {
+            "return": 0,
+            "parameters": {
+                "resource": 1,
+                "script": 0,
+                "separator": 0,
+                "commentPrefixes": 0,
+                "blockCommentStartDelimiter": 0,
+                "blockCommentEndDelimiter": 0
+            }
+        },
+        "splitSqlScript": {
+            "return": 0,
+            "parameters": {
+                "resource": 1,
+                "script": 0,
+                "separator": 0,
+                "commentPrefixes": 0,
+                "blockCommentStartDelimiter": 0,
+                "blockCommentEndDelimiter": 0,
+                "statements": 0
+            }
+        },
+        "startsWithAny": {
+            "return": 0,
+            "parameters": {
+                "script": 0,
+                "prefixes": 1,
+                "offset": 0
+            }
+        }
+    }
+}

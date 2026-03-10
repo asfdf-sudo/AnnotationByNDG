@@ -1,0 +1,44 @@
+{
+    "SingleColumnRowMapper": {
+        "setRequiredType": {
+            "return": 0,
+            "parameters": {
+                "requiredType": 0
+            }
+        },
+        "setConversionService": {
+            "return": 0,
+            "parameters": {
+                "conversionService": 1
+            }
+        },
+        "mapRow": {
+            "return": 1,
+            "parameters": {
+                "rs": 0,
+                "rowNum": 0
+            }
+        },
+        "getColumnValue": {
+            "return": 1,
+            "parameters": {
+                "rs": 0,
+                "index": 0
+            }
+        },
+        "convertValueToRequiredType": {
+            "return": 1,
+            "parameters": {
+                "value": 0,
+                "requiredType": 0
+            }
+        },
+        "newInstance": {
+            "return": 0,
+            "parameters": {
+                "requiredType": 0,
+                "conversionService": 1
+            }
+        }
+    }
+}

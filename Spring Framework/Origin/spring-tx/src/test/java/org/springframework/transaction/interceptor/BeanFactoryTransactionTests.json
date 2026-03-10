@@ -1,0 +1,85 @@
+{
+    "BeanFactoryTransactionTests": {
+        "loadBeanDefinitions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getsAreNotTransactionalWithProxyFactory1": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getsAreNotTransactionalWithProxyFactory2DynamicProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getsAreNotTransactionalWithProxyFactory2Cglib": {
+            "return": 0,
+            "parameters": {}
+        },
+        "proxyFactory2Lazy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "cglibTransactionProxyImplementsNoInterfaces": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getsAreNotTransactionalWithProxyFactory3": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertGetsAreNotTransactional": {
+            "return": 0,
+            "parameters": {
+                "testBean": 0
+            }
+        },
+        "getTransaction": {
+            "return": 0,
+            "parameters": {
+                "def": 1
+            }
+        },
+        "commit": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "rollback": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "getBeansOfTypeWithAbstract": {
+            "return": 0,
+            "parameters": {}
+        },
+        "noTransactionAttributeSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "dynamicTargetSource": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "InvocationCounterPointcut": {
+        "matches": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "clazz": 1
+            }
+        }
+    },
+    "InvocationCounterInterceptor": {
+        "invoke": {
+            "return": 0,
+            "parameters": {
+                "methodInvocation": 0
+            }
+        }
+    }
+}

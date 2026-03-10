@@ -1,0 +1,27 @@
+{
+    "GenericSqlQuery": {
+        "setRowMapper": {
+            "return": 0,
+            "parameters": {
+                "rowMapper": 0
+            }
+        },
+        "setRowMapperClass": {
+            "return": 0,
+            "parameters": {
+                "rowMapperClass": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "newRowMapper": {
+            "return": 0,
+            "parameters": {
+                "parameters": 0,
+                "context": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "MockCallbackPreferringTransactionManager": {
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "definition": 0,
+                "callback": 0
+            }
+        },
+        "getDefinition": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getStatus": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransaction": {
+            "return": 0,
+            "parameters": {
+                "definition": 1
+            }
+        },
+        "commit": {
+            "return": 0,
+            "parameters": {
+                "status": 1
+            }
+        },
+        "rollback": {
+            "return": 0,
+            "parameters": {
+                "status": 1
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "PostgresSequenceMaxValueIncrementer": {
+        "getSequenceQuery": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

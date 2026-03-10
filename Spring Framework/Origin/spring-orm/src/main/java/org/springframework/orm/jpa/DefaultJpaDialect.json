@@ -1,0 +1,45 @@
+{
+    "DefaultJpaDialect": {
+        "beginTransaction": {
+            "return": 1,
+            "parameters": {
+                "entityManager": 0,
+                "definition": 0
+            }
+        },
+        "prepareTransaction": {
+            "return": 1,
+            "parameters": {
+                "entityManager": 0,
+                "readOnly": 0,
+                "name": 1
+            }
+        },
+        "cleanupTransaction": {
+            "return": 0,
+            "parameters": {
+                "transactionData": 1
+            }
+        },
+        "getJdbcConnection": {
+            "return": 1,
+            "parameters": {
+                "entityManager": 0,
+                "readOnly": 0
+            }
+        },
+        "releaseJdbcConnection": {
+            "return": 0,
+            "parameters": {
+                "conHandle": 0,
+                "em": 0
+            }
+        },
+        "translateExceptionIfPossible": {
+            "return": 1,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "AbstractMessageEndpointFactory": {
+        "setTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "transactionManager": 0
+            }
+        },
+        "setTransactionFactory": {
+            "return": 0,
+            "parameters": {
+                "transactionFactory": 0
+            }
+        },
+        "setTransactionName": {
+            "return": 0,
+            "parameters": {
+                "transactionName": 0
+            }
+        },
+        "setTransactionTimeout": {
+            "return": 0,
+            "parameters": {
+                "transactionTimeout": 0
+            }
+        },
+        "setBeanName": {
+            "return": 0,
+            "parameters": {
+                "beanName": 0
+            }
+        },
+        "getActivationName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getEndpointClass": {
+            "return": 1,
+            "parameters": {}
+        },
+        "isDeliveryTransacted": {
+            "return": 0,
+            "parameters": {
+                "method": 0
+            }
+        },
+        "createEndpoint": {
+            "return": 0,
+            "parameters": {
+                "xaResource": 0,
+                "timeout": 0
+            }
+        },
+        "createEndpointInternal": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "AbstractMessageEndpoint": {
+        "initXAResource": {
+            "return": 0,
+            "parameters": {
+                "xaResource": 0
+            }
+        },
+        "beforeDelivery": {
+            "return": 0,
+            "parameters": {
+                "method": 1
+            }
+        },
+        "getEndpointClassLoader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasBeforeDeliveryBeenCalled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "onEndpointException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "afterDelivery": {
+            "return": 0,
+            "parameters": {}
+        },
+        "release": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TransactionDelegate": {
+        "beginTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "endTransaction": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

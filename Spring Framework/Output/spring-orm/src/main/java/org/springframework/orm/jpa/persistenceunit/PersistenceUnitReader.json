@@ -1,0 +1,74 @@
+{
+    "PersistenceUnitReader": {
+        "readPersistenceUnitInfos": {
+            "return": 0,
+            "parameters": {
+                "persistenceXmlLocations": 0
+            }
+        },
+        "buildDocument": {
+            "return": 0,
+            "parameters": {
+                "handler": 0,
+                "stream": 0
+            }
+        },
+        "parseDocument": {
+            "return": 0,
+            "parameters": {
+                "resource": 0,
+                "document": 0,
+                "infos": 0
+            }
+        },
+        "parsePersistenceUnitInfo": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnit": 0,
+                "version": 0,
+                "rootUrl": 0
+            }
+        },
+        "parseQualifiers": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnit": 0,
+                "unitInfo": 0
+            }
+        },
+        "parseMappingFiles": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnit": 0,
+                "unitInfo": 0
+            }
+        },
+        "parseJarFiles": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnit": 0,
+                "unitInfo": 0
+            }
+        },
+        "parseManagedClasses": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnit": 0,
+                "unitInfo": 0
+            }
+        },
+        "parseProperties": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnit": 0,
+                "unitInfo": 0
+            }
+        },
+        "determinePersistenceUnitRootUrl": {
+            "return": 1,
+            "parameters": {
+                "resource": 0
+            }
+        }
+    }
+}

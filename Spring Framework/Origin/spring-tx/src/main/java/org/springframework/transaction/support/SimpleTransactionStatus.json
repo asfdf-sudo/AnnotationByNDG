@@ -1,0 +1,8 @@
+{
+    "SimpleTransactionStatus": {
+        "isNewTransaction": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

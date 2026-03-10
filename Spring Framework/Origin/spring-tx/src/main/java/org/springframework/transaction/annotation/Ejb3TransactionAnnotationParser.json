@@ -1,0 +1,34 @@
+{
+    "Ejb3TransactionAnnotationParser": {
+        "isCandidateClass": {
+            "return": 0,
+            "parameters": {
+                "targetClass": 0
+            }
+        },
+        "parseTransactionAnnotation": {
+            "return": 0,
+            "parameters": {
+                "ann": 0
+            }
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "Ejb3TransactionAttribute": {
+        "rollbackOn": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    }
+}

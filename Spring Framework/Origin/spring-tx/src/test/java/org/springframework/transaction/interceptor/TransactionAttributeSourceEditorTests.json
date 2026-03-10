@@ -1,0 +1,28 @@
+{
+    "TransactionAttributeSourceEditorTests": {
+        "nullValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invalidFormat": {
+            "return": 0,
+            "parameters": {}
+        },
+        "matchesSpecific": {
+            "return": 0,
+            "parameters": {}
+        },
+        "matchesAll": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkTransactionProperties": {
+            "return": 0,
+            "parameters": {
+                "tas": 0,
+                "method": 0,
+                "propagationBehavior": 0
+            }
+        }
+    }
+}

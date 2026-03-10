@@ -1,0 +1,8 @@
+{
+    "SqlReturnResultSet": {
+        "isResultsParameter": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

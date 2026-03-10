@@ -1,0 +1,22 @@
+{
+    "GeneratedKeyHolder": {
+        "getKey": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getKeyAs": {
+            "return": 1,
+            "parameters": {
+                "keyType": 0
+            }
+        },
+        "getKeys": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getKeyList": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

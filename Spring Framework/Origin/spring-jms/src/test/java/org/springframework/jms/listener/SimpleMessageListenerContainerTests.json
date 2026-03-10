@@ -1,0 +1,104 @@
+{
+    "SimpleMessageListenerContainerTests": {
+        "testSettingMessageListenerToANullType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSettingMessageListenerToAnUnsupportedType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSessionTransactedModeReallyDoesDefaultToFalse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSettingConcurrentConsumersToZeroIsNotAllowed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSettingConcurrentConsumersToANegativeValueIsNotAllowed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testContextRefreshedEventDoesNotStartTheConnectionIfAutoStartIsSetToFalse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testContextRefreshedEventStartsTheConnectionByDefault": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCorrectSessionExposedForSessionAwareMessageListenerInvocation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTaskExecutorCorrectlyInvokedWhenSpecified": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testRegisteredExceptionListenerIsInvokedOnException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testRegisteredErrorHandlerIsInvokedOnException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testNoRollbackOccursIfSessionIsNotTransactedAndThatExceptionsDo_NOT_Propagate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactedSessionsGetRollbackLogicAppliedAndThatExceptionsStillDo_NOT_Propagate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testDestroyClosesConsumersSessionsAndConnectionInThatOrder": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestMessageListener": {
+        "onMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        }
+    },
+    "SimpleMessageConsumer": {
+        "sendMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "getMessageSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getMessageListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageListener": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 0
+            }
+        },
+        "receive": {
+            "return": 0,
+            "parameters": {
+                "l": 0
+            }
+        },
+        "receiveNoWait": {
+            "return": 0,
+            "parameters": {}
+        },
+        "close": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

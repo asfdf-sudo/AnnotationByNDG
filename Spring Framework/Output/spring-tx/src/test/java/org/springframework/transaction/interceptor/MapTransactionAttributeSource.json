@@ -1,0 +1,17 @@
+{
+    "MapTransactionAttributeSource": {
+        "register": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "txAttr": 0
+            }
+        },
+        "findTransactionAttribute": {
+            "return": 0,
+            "parameters": {
+                "method": 0
+            }
+        }
+    }
+}

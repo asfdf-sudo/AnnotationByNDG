@@ -1,0 +1,34 @@
+{
+    "Book": {
+        "getId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setId": {
+            "return": 0,
+            "parameters": {
+                "id": 0
+            }
+        },
+        "getTitle": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTitle": {
+            "return": 0,
+            "parameters": {
+                "title": 0
+            }
+        },
+        "getCreatedOn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCreatedOn": {
+            "return": 0,
+            "parameters": {
+                "createdOn": 0
+            }
+        }
+    }
+}

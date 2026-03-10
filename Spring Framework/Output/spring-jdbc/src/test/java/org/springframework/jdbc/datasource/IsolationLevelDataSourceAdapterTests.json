@@ -1,0 +1,20 @@
+{
+    "IsolationLevelDataSourceAdapterTests": {
+        "setIsolationLevelNameToUnsupportedValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setIsolationLevelNameToAllSupportedValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setIsolationLevel": {
+            "return": 0,
+            "parameters": {}
+        },
+        "streamIsolationConstants": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

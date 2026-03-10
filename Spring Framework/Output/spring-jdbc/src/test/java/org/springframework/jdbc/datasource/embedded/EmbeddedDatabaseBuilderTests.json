@@ -1,0 +1,84 @@
+{
+    "EmbeddedDatabaseBuilderTests": {
+        "addDefaultScripts": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addScriptWithBogusFileName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addScript": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addScripts": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addScriptsWithDefaultCommentPrefix": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addScriptsWithCustomCommentPrefix": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addScriptsWithCustomBlockComments": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTypeToH2": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTypeConfigurerToCustomH2": {
+            "return": 0,
+            "parameters": {}
+        },
+        "configureConnectionProperties": {
+            "return": 0,
+            "parameters": {
+                "properties": 0,
+                "databaseName": 0
+            }
+        },
+        "setTypeToDerbyAndIgnoreFailedDrops": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSameSchemaTwiceWithoutUniqueDbNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSameSchemaTwiceWithGeneratedUniqueDbNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTwice": {
+            "return": 0,
+            "parameters": {
+                "test": 0
+            }
+        },
+        "assertNumRowsInTestTable": {
+            "return": 0,
+            "parameters": {
+                "template": 0,
+                "count": 0
+            }
+        },
+        "assertDatabaseCreated": {
+            "return": 0,
+            "parameters": {
+                "db": 0
+            }
+        },
+        "assertDatabaseCreatedAndShutdown": {
+            "return": 0,
+            "parameters": {
+                "db": 0
+            }
+        }
+    }
+}

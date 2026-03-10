@@ -1,0 +1,20 @@
+{
+    "TransactionalApplicationListenerMethodAdapter": {
+        "getTransactionPhase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addCallback": {
+            "return": 0,
+            "parameters": {
+                "callback": 0
+            }
+        },
+        "onApplicationEvent": {
+            "return": 0,
+            "parameters": {
+                "event": 0
+            }
+        }
+    }
+}

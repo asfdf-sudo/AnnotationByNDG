@@ -1,0 +1,46 @@
+{
+    "JmsResponse": {
+        "getResponse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveDestination": {
+            "return": 1,
+            "parameters": {
+                "destinationResolver": 0,
+                "session": 0
+            }
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "forQueue": {
+            "return": 0,
+            "parameters": {
+                "result": 0,
+                "queueName": 0
+            }
+        },
+        "forTopic": {
+            "return": 0,
+            "parameters": {
+                "result": 0,
+                "topicName": 0
+            }
+        },
+        "forDestination": {
+            "return": 0,
+            "parameters": {
+                "result": 0,
+                "destination": 0
+            }
+        }
+    },
+    "DestinationNameHolder": {
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

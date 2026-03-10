@@ -1,0 +1,16 @@
+{
+    "TableParameterMetaData": {
+        "getParameterName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSqlType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isNullable": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

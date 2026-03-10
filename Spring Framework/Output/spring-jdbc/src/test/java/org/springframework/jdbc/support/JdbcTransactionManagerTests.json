@@ -1,0 +1,38 @@
+{
+    "JdbcTransactionManagerTests": {
+        "createTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "ds": 0
+            }
+        },
+        "transactionWithExceptionOnCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithDataAccessExceptionOnCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithDataAccessExceptionOnCommitFromLazyExceptionTranslator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithExceptionOnCommitAndRollbackOnCommitFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithExceptionOnRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithDataAccessExceptionOnRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionWithDataAccessExceptionOnRollbackFromLazyExceptionTranslator": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

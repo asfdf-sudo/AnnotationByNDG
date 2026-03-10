@@ -1,0 +1,18 @@
+{
+    "SpringFlushSynchronization": {
+        "flush": {
+            "return": 0,
+            "parameters": {}
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

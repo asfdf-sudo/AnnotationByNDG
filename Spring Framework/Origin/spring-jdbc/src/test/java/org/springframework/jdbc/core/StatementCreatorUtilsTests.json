@@ -1,0 +1,118 @@
+{
+    "StatementCreatorUtilsTests": {
+        "testSetParameterValueWithNullAndType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithNullAndTypeName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithNullAndUnknownType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithNullAndUnknownTypeOnInformix": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithNullAndUnknownTypeOnDerbyEmbedded": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithNullAndGetParameterTypeWorking": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithStringAndSpecialType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithStringAndUnknownType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithSqlDate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithDateAndUtilDate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithDateAndCalendar": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithSqlTime": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithTimeAndUtilDate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithTimeAndCalendar": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithSqlTimestamp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithTimestampAndUtilDate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithTimestampAndCalendar": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithDateAndUnknownType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithCalendarAndUnknownType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithJavaTimeTypes": {
+            "return": 0,
+            "parameters": {
+                "o": 0,
+                "sqlType": 0
+            }
+        },
+        "javaTimeTypesToSqlParameterType": {
+            "return": 0,
+            "parameters": {
+                "o": 0,
+                "expectedSqlType": 0
+            }
+        },
+        "javaTimeTypes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithOffsetDateTimeAndNotSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithNullAndNotSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithStringAndVendorSpecificType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSetParameterValueWithNullAndVendorSpecificType": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

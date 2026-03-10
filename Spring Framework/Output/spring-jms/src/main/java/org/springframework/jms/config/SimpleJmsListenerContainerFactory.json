@@ -1,0 +1,8 @@
+{
+    "SimpleJmsListenerContainerFactory": {
+        "createContainerInstance": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

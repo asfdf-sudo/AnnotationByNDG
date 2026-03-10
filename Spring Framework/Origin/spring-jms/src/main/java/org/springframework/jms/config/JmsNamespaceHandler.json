@@ -1,0 +1,8 @@
+{
+    "JmsNamespaceHandler": {
+        "init": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

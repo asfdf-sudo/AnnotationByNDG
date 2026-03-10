@@ -1,0 +1,24 @@
+{
+    "TransactionAttributeSourceAdvisor": {
+        "setTransactionInterceptor": {
+            "return": 0,
+            "parameters": {
+                "interceptor": 0
+            }
+        },
+        "setClassFilter": {
+            "return": 0,
+            "parameters": {
+                "classFilter": 0
+            }
+        },
+        "getAdvice": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPointcut": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

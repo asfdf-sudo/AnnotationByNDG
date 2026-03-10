@@ -1,0 +1,53 @@
+{
+    "MessagingMessageConverter": {
+        "setPayloadConverter": {
+            "return": 0,
+            "parameters": {
+                "payloadConverter": 0
+            }
+        },
+        "setHeaderMapper": {
+            "return": 0,
+            "parameters": {
+                "headerMapper": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0
+            }
+        },
+        "fromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "extractPayload": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "createMessageForPayload": {
+            "return": 0,
+            "parameters": {
+                "payload": 0,
+                "session": 0,
+                "conversionHint": 1
+            }
+        },
+        "extractHeaders": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        }
+    }
+}

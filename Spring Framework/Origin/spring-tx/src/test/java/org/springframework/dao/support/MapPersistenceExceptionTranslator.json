@@ -1,0 +1,17 @@
+{
+    "MapPersistenceExceptionTranslator": {
+        "addTranslation": {
+            "return": 0,
+            "parameters": {
+                "in": 0,
+                "out": 0
+            }
+        },
+        "translateExceptionIfPossible": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    }
+}

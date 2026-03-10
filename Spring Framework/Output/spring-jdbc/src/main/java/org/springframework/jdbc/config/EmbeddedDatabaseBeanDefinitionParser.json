@@ -1,0 +1,36 @@
+{
+    "EmbeddedDatabaseBeanDefinitionParser": {
+        "parseInternal": {
+            "return": 0,
+            "parameters": {
+                "element": 0,
+                "parserContext": 0
+            }
+        },
+        "shouldGenerateIdAsFallback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setGenerateUniqueDatabaseNameFlag": {
+            "return": 0,
+            "parameters": {
+                "element": 0,
+                "builder": 0
+            }
+        },
+        "setDatabaseName": {
+            "return": 0,
+            "parameters": {
+                "element": 0,
+                "builder": 0
+            }
+        },
+        "setDatabaseType": {
+            "return": 0,
+            "parameters": {
+                "element": 0,
+                "builder": 0
+            }
+        }
+    }
+}

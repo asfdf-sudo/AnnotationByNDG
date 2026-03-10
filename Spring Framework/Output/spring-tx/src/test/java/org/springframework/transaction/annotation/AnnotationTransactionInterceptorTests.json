@@ -1,0 +1,306 @@
+{
+    "AnnotationTransactionInterceptorTests": {
+        "classLevelOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withSingleMethodOverride": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withSingleMethodOverrideInverted": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withMultiMethodOverride": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withRollbackOnRuntimeException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withCommitOnCheckedException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withRollbackOnCheckedExceptionAndRollbackRule": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withMonoSuccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withMonoFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withMonoRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withFluxSuccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withFluxFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withFluxRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withCompletableFutureSuccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withCompletableFutureRuntimeException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withCompletableFutureCheckedException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withCompletableFutureCheckedExceptionAndRollbackRule": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withVavrTrySuccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withVavrTryRuntimeException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withVavrTryCheckedException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withVavrTryCheckedExceptionAndRollbackRule": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "crossClassInterfaceMethodLevelOnJdkProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "crossClassInterfaceOnJdkProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withInterfaceOnTargetJdkProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withInterfaceOnTargetCglibProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertGetTransactionAndCommitCount": {
+            "return": 0,
+            "parameters": {
+                "expectedCount": 0
+            }
+        },
+        "assertGetTransactionAndRollbackCount": {
+            "return": 0,
+            "parameters": {
+                "expectedCount": 0
+            }
+        },
+        "assertReactiveGetTransactionAndCommitCount": {
+            "return": 0,
+            "parameters": {
+                "expectedCount": 0
+            }
+        },
+        "assertReactiveGetTransactionAndRollbackCount": {
+            "return": 0,
+            "parameters": {
+                "expectedCount": 0
+            }
+        }
+    },
+    "TestClassLevelOnly": {
+        "doSomething": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingElse": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestWithSingleMethodOverride": {
+        "doSomething": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingElse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingCompletelyElse": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestWithSingleMethodOverrideInverted": {
+        "doSomething": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingElse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingCompletelyElse": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestWithMultiMethodOverride": {
+        "doSomething": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingElse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingCompletelyElse": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestWithExceptions": {
+        "doSomethingErroneous": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingElseErroneous": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingElseWithCheckedException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingElseWithCheckedExceptionAndRollbackRule": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestWithReactive": {
+        "monoSuccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "monoFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fluxSuccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fluxFailure": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestWithCompletableFuture": {
+        "doSomething": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingErroneous": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingErroneousWithCheckedException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingErroneousWithCheckedExceptionAndRollbackRule": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestWithVavrTry": {
+        "doSomething": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingErroneous": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingErroneousWithCheckedException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingErroneousWithCheckedExceptionAndRollbackRule": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingElse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingDefault": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestWithInterfaceImpl": {
+        "doSomething": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doSomethingElse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "foo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "bar": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fooBar": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "SomeServiceImpl": {
+        "bar": {
+            "return": 0,
+            "parameters": {}
+        },
+        "foo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "fooBar": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "OtherServiceImpl": {
+        "foo": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

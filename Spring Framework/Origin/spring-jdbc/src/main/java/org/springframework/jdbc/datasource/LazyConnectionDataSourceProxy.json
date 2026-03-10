@@ -1,0 +1,73 @@
+{
+    "LazyConnectionDataSourceProxy": {
+        "setReadOnlyDataSource": {
+            "return": 0,
+            "parameters": {
+                "readOnlyDataSource": 1
+            }
+        },
+        "setDefaultAutoCommit": {
+            "return": 0,
+            "parameters": {
+                "defaultAutoCommit": 0
+            }
+        },
+        "setDefaultTransactionIsolationName": {
+            "return": 0,
+            "parameters": {
+                "constantName": 0
+            }
+        },
+        "setDefaultTransactionIsolation": {
+            "return": 0,
+            "parameters": {
+                "defaultTransactionIsolation": 0
+            }
+        },
+        "checkDefaultConnectionProperties": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "defaultAutoCommit": {
+            "return": 1,
+            "parameters": {}
+        },
+        "defaultTransactionIsolation": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        }
+    },
+    "LazyConnectionInvocationHandler": {
+        "invoke": {
+            "return": 1,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        },
+        "hasTargetConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTargetConnection": {
+            "return": 0,
+            "parameters": {
+                "operation": 0
+            }
+        },
+        "getDataSourceToUse": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "CallMetaDataContext": {
+        "setFunctionReturnName": {
+            "return": 0,
+            "parameters": {
+                "functionReturnName": 0
+            }
+        },
+        "getFunctionReturnName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLimitedInParameterNames": {
+            "return": 0,
+            "parameters": {
+                "limitedInParameterNames": 0
+            }
+        },
+        "getLimitedInParameterNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setOutParameterNames": {
+            "return": 0,
+            "parameters": {
+                "outParameterNames": 0
+            }
+        },
+        "getOutParameterNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setProcedureName": {
+            "return": 0,
+            "parameters": {
+                "procedureName": 1
+            }
+        },
+        "getProcedureName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setCatalogName": {
+            "return": 0,
+            "parameters": {
+                "catalogName": 1
+            }
+        },
+        "getCatalogName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setSchemaName": {
+            "return": 0,
+            "parameters": {
+                "schemaName": 1
+            }
+        },
+        "getSchemaName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setFunction": {
+            "return": 0,
+            "parameters": {
+                "function": 0
+            }
+        },
+        "isFunction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setReturnValueRequired": {
+            "return": 0,
+            "parameters": {
+                "returnValueRequired": 0
+            }
+        },
+        "isReturnValueRequired": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAccessCallParameterMetaData": {
+            "return": 0,
+            "parameters": {
+                "accessCallParameterMetaData": 0
+            }
+        },
+        "isAccessCallParameterMetaData": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setNamedBinding": {
+            "return": 0,
+            "parameters": {
+                "namedBinding": 0
+            }
+        },
+        "isNamedBinding": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initializeMetaData": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "obtainMetaDataProvider": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createReturnResultSetParameter": {
+            "return": 0,
+            "parameters": {
+                "parameterName": 0,
+                "rowMapper": 0
+            }
+        },
+        "getScalarOutParameterName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getCallParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processParameters": {
+            "return": 0,
+            "parameters": {
+                "parameters": 0
+            }
+        },
+        "reconcileParameters": {
+            "return": 0,
+            "parameters": {
+                "parameters": 0
+            }
+        },
+        "matchInParameterValuesWithCallParameters": {
+            "return": 0,
+            "parameters": {
+                "parameterValues": 0
+            }
+        },
+        "createCallString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createParameterBinding": {
+            "return": 0,
+            "parameters": {
+                "parameter": 0
+            }
+        },
+        "lowerCase": {
+            "return": 0,
+            "parameters": {
+                "paramName": 1
+            }
+        }
+    }
+}

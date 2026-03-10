@@ -1,0 +1,64 @@
+{
+    "PassThroughClob": {
+        "length": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getCharacterStream": {
+            "return": 0,
+            "parameters": {
+                "pos": 0,
+                "length": 0
+            }
+        },
+        "getAsciiStream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCharacterStream": {
+            "return": 0,
+            "parameters": {
+                "pos": 0
+            }
+        },
+        "setAsciiStream": {
+            "return": 0,
+            "parameters": {
+                "pos": 0
+            }
+        },
+        "getSubString": {
+            "return": 0,
+            "parameters": {
+                "pos": 0,
+                "length": 0
+            }
+        },
+        "setString": {
+            "return": 0,
+            "parameters": {
+                "pos": 0,
+                "str": 0,
+                "offset": 0,
+                "len": 0
+            }
+        },
+        "position": {
+            "return": 0,
+            "parameters": {
+                "searchstr": 0,
+                "start": 0
+            }
+        },
+        "truncate": {
+            "return": 0,
+            "parameters": {
+                "len": 0
+            }
+        },
+        "free": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

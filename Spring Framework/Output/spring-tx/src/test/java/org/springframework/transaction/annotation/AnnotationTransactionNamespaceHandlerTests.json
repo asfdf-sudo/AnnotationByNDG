@@ -1,0 +1,64 @@
+{
+    "AnnotationTransactionNamespaceHandlerTests": {
+        "tearDown": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invokeTransactional": {
+            "return": 0,
+            "parameters": {}
+        },
+        "nonPublicMethodsNotAdvised": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mBeanExportAlsoWorks": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionalEventListenerRegisteredProperly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTestBean": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TransactionalTestBean": {
+        "findAllFoos": {
+            "return": 0,
+            "parameters": {}
+        },
+        "saveFoo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "saveQualifiedFoo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "saveQualifiedFooWithAttributeAlias": {
+            "return": 0,
+            "parameters": {}
+        },
+        "exceptional": {
+            "return": 0,
+            "parameters": {
+                "t": 0
+            }
+        },
+        "doSomething": {
+            "return": 0,
+            "parameters": {}
+        },
+        "annotationsOnProtectedAreIgnored": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

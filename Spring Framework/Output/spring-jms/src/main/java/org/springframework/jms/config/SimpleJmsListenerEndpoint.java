@@ -1,0 +1,68 @@
+/*
+ * Copyright 2002-present the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package org.springframework.jms.config;
+import org.checkerframework.checker.nullness.qual.Nullable;
+import org.checkerframework.checker.nullness.qual.NonNull;
+
+
+import jakarta.jms.MessageListener;
+import org.jspecify.annotations.Nullable;
+
+import org.springframework.jms.listener.MessageListenerContainer;
+import org.springframework.util.Assert;
+
+/**
+ * A {@link JmsListenerEndpoint} simply providing the {@link MessageListener} to
+ * invoke to process an incoming message for this endpoint.
+ *
+ * @author Stephane Nicoll
+ * @since 4.1
+ */
+public class SimpleJmsListenerEndpoint extends AbstractJmsListenerEndpoint {
+
+	private @Nullable MessageListener messageListener;
+
+
+	/**
+	 * Set the {@link MessageListener} to invoke when a message matching
+	 * the endpoint is received.
+	 */
+	public void setMessageListener(MessageListener messageListener) {
+		this.messageListener = messageListener;
+	}
+
+	/**
+	 * Return the {@link MessageListener} to invoke when a message matching
+	 * the endpoint is received.
+	 */
+	public MessageListener getMessageListener() {
+		return this.messageListener;
+	}
+
+
+		protected MessageListener createMessageListener(MessageListenerContainer container) {
+		MessageListener listener = getMessageListener();
+		Assert.state(listener != null, "No MessageListener set");
+		return listener;
+	}
+
+		protected StringBuilder getEndpointDescription() {
+		return super.getEndpointDescription()
+				.append(" | messageListener='").append(this.messageListener).append('\'');
+	}
+
+}

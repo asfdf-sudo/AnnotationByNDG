@@ -1,0 +1,34 @@
+{
+    "AbstractPerson": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        },
+        "getBirthDate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBirthDate": {
+            "return": 0,
+            "parameters": {
+                "birthDate": 1
+            }
+        }
+    }
+}

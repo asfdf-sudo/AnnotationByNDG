@@ -1,0 +1,16 @@
+{
+    "TransactionCallbackWithoutResult": {
+        "doInTransaction": {
+            "return": 1,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doInTransactionWithoutResult": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        }
+    }
+}

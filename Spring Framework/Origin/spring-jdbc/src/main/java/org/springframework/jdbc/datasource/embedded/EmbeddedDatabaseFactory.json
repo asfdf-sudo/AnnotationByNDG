@@ -1,0 +1,105 @@
+{
+    "EmbeddedDatabaseFactory": {
+        "setGenerateUniqueDatabaseName": {
+            "return": 0,
+            "parameters": {
+                "generateUniqueDatabaseName": 0
+            }
+        },
+        "setDatabaseName": {
+            "return": 0,
+            "parameters": {
+                "databaseName": 0
+            }
+        },
+        "setDataSourceFactory": {
+            "return": 0,
+            "parameters": {
+                "dataSourceFactory": 0
+            }
+        },
+        "setDatabaseType": {
+            "return": 0,
+            "parameters": {
+                "type": 0
+            }
+        },
+        "setDatabaseConfigurer": {
+            "return": 0,
+            "parameters": {
+                "configurer": 0
+            }
+        },
+        "setDatabasePopulator": {
+            "return": 0,
+            "parameters": {
+                "populator": 0
+            }
+        },
+        "getDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shutdownDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDataSource": {
+            "return": 1,
+            "parameters": {}
+        }
+    },
+    "EmbeddedDataSourceProxy": {
+        "getConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "getLogWriter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLogWriter": {
+            "return": 0,
+            "parameters": {
+                "out": 0
+            }
+        },
+        "getLoginTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLoginTimeout": {
+            "return": 0,
+            "parameters": {
+                "seconds": 0
+            }
+        },
+        "unwrap": {
+            "return": 0,
+            "parameters": {
+                "iface": 0
+            }
+        },
+        "isWrapperFor": {
+            "return": 0,
+            "parameters": {
+                "iface": 0
+            }
+        },
+        "getParentLogger": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shutdown": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

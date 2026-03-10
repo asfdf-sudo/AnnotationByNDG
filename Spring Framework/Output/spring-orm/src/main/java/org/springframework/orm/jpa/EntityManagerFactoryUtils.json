@@ -1,0 +1,103 @@
+{
+    "EntityManagerFactoryUtils": {
+        "findEntityManagerFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0,
+                "unitName": 1
+            }
+        },
+        "getTransactionalEntityManager": {
+            "return": 0,
+            "parameters": {
+                "emf": 0,
+                "properties": 0
+            }
+        },
+        "doGetTransactionalEntityManager": {
+            "return": 1,
+            "parameters": {
+                "emf": 1,
+                "properties": 1,
+                "synchronizedWithTransaction": 0
+            }
+        },
+        "prepareTransaction": {
+            "return": 0,
+            "parameters": {
+                "em": 0,
+                "emf": 0
+            }
+        },
+        "cleanupTransaction": {
+            "return": 0,
+            "parameters": {
+                "transactionData": 1,
+                "emf": 1
+            }
+        },
+        "applyTransactionTimeout": {
+            "return": 0,
+            "parameters": {
+                "query": 0,
+                "emf": 0
+            }
+        },
+        "convertJpaAccessExceptionIfPossible": {
+            "return": 1,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "closeEntityManager": {
+            "return": 0,
+            "parameters": {
+                "em": 1
+            }
+        }
+    },
+    "TransactionalEntityManagerSynchronization": {
+        "getOrder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "flushResource": {
+            "return": 0,
+            "parameters": {
+                "resourceHolder": 0
+            }
+        },
+        "shouldUnbindAtCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "releaseResource": {
+            "return": 0,
+            "parameters": {
+                "resourceHolder": 0,
+                "resourceKey": 0
+            }
+        },
+        "cleanupResource": {
+            "return": 0,
+            "parameters": {
+                "resourceHolder": 0,
+                "resourceKey": 0,
+                "committed": 0
+            }
+        }
+    },
+    "TransactionScopedEntityManagerSynchronization": {
+        "getOrder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "releaseResource": {
+            "return": 0,
+            "parameters": {
+                "resourceHolder": 0,
+                "resourceKey": 0
+            }
+        }
+    }
+}

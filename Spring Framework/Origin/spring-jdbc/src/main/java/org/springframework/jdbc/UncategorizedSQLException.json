@@ -1,0 +1,12 @@
+{
+    "UncategorizedSQLException": {
+        "getSQLException": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getSql": {
+            "return": 1,
+            "parameters": {}
+        }
+    }
+}

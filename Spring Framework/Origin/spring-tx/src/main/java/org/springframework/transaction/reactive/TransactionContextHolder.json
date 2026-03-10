@@ -1,0 +1,16 @@
+{
+    "TransactionContextHolder": {
+        "currentContext": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createContext": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasContext": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

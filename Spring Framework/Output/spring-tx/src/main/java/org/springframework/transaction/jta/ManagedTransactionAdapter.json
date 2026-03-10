@@ -1,0 +1,43 @@
+{
+    "ManagedTransactionAdapter": {
+        "getTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "commit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getStatus": {
+            "return": 0,
+            "parameters": {}
+        },
+        "enlistResource": {
+            "return": 0,
+            "parameters": {
+                "xaRes": 0
+            }
+        },
+        "delistResource": {
+            "return": 0,
+            "parameters": {
+                "xaRes": 0,
+                "flag": 0
+            }
+        },
+        "registerSynchronization": {
+            "return": 0,
+            "parameters": {
+                "sync": 0
+            }
+        }
+    }
+}

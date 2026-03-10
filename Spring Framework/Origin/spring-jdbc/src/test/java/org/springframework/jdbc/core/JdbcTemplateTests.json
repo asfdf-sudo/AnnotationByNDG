@@ -1,0 +1,322 @@
+{
+    "JdbcTemplateTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBeanProperties": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUpdateCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBogusUpdate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStringsWithStaticSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStringsWithStaticSqlAndFetchSizeAndMaxRows": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStringsWithEmptyPreparedStatementSetter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStringsWithPreparedStatementSetter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStringsWithEmptyPreparedStatementArgs": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStringsWithPreparedStatementArgs": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestStrings": {
+            "return": 0,
+            "parameters": {
+                "fetchSize": 0,
+                "maxRows": 0,
+                "queryTimeout": 0,
+                "argument": 0,
+                "jdbcTemplateCallback": 0
+            }
+        }
+    },
+    "StringHandler": {
+        "processRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0
+            }
+        },
+        "getStrings": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testLeaveConnectionOpenOnRequest": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testConnectionCallback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testConnectionCallbackWithStatementSettings": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCloseConnectionOnRequest": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExceptionComesBack": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSqlUpdate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSqlUpdateWithArguments": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSqlUpdateEncountersSqlException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSqlUpdateWithThreadConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithBatchFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithNoBatchSupport": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithNoBatchSupportAndSelect": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithPreparedStatement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setValues": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "i": 0
+            }
+        },
+        "getBatchSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithPreparedStatementWithEmptyData": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testInterruptibleBatchUpdate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isBatchExhausted": {
+            "return": 0,
+            "parameters": {
+                "i": 0
+            }
+        },
+        "testInterruptibleBatchUpdateWithBaseClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setValuesIfAvailable": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "i": 0
+            }
+        },
+        "testInterruptibleBatchUpdateWithBaseClassAndNoBatchSupport": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithPreparedStatementAndNoBatchSupport": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateFails": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithEmptyList": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithListOfObjectArrays": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithListOfObjectArraysPlusTypeInfo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithCollectionOfObjects": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithBatchFailingHasUpdateCounts": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithBatchFailingMatchesOriginalException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "test3BatchesOf2ItemsFailing": {
+            "return": 0,
+            "parameters": {
+                "exception": 0
+            }
+        },
+        "testCouldNotGetConnectionForOperationOrExceptionTranslator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCouldNotGetConnectionForOperationWithLazyExceptionTranslator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCouldNotGetConnectionInOperationWithExceptionTranslatorInitializedViaBeanProperty": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCouldNotGetConnectionInOperationWithExceptionTranslatorInitializedInAfterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestCouldNotGetConnectionInOperationWithExceptionTranslatorInitialized": {
+            "return": 0,
+            "parameters": {
+                "beanProperty": 0
+            }
+        },
+        "testPreparedStatementSetterSucceeds": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPreparedStatementSetterFails": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCouldNotClose": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testFatalWarning": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testIgnoredWarning": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSQLErrorCodeTranslation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSQLErrorCodeTranslationWithSpecifiedDatabaseName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUseCustomExceptionTranslator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStaticResultSetClosed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExecuteClosed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCaseInsensitiveResultsMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testEquallyNamedColumn": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateReturnsGeneratedKeys_whenDatabaseSupportsBatchUpdates": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateReturnsGeneratedKeys_whenDatabaseDoesNotSupportBatchUpdates": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSkipFurtherRowsOnceMaxRowsHasBeenReachedForRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testDiscardFurtherRowsOnceMaxRowsHasBeenReachedForRowCallbackHandler": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testDiscardFurtherRowsOnceMaxRowsHasBeenReachedForStream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testDiscardFurtherRowsOnceMaxRowsHasBeenReached": {
+            "return": 0,
+            "parameters": {
+                "function": 0
+            }
+        },
+        "mockDatabaseMetaData": {
+            "return": 0,
+            "parameters": {
+                "supportsBatchUpdates": 0
+            }
+        },
+        "doInJdbcTemplate": {
+            "return": 0,
+            "parameters": {
+                "template": 0,
+                "sql": 0,
+                "rch": 0
+            }
+        }
+    },
+    "Dispatcher": {
+        "createPreparedStatement": {
+            "return": 0,
+            "parameters": {
+                "connection": 0
+            }
+        },
+        "getSql": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

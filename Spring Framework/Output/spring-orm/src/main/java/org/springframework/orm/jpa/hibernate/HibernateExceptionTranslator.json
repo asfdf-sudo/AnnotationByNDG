@@ -1,0 +1,23 @@
+{
+    "HibernateExceptionTranslator": {
+        "setJdbcExceptionTranslator": {
+            "return": 0,
+            "parameters": {
+                "exceptionTranslator": 1
+            }
+        },
+        "translateExceptionIfPossible": {
+            "return": 0,
+            "parameters": {
+                "ex": 1
+            }
+        },
+        "convertHibernateAccessException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0,
+                "exToCheck": 0
+            }
+        }
+    }
+}

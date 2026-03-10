@@ -1,0 +1,26 @@
+{
+    "AbstractRowMapperTests": {
+        "verifyPerson": {
+            "return": 0,
+            "parameters": {
+                "person": 0
+            }
+        },
+        "verifyPersonViaBeanWrapper": {
+            "return": 0,
+            "parameters": {
+                "person": 0
+            }
+        }
+    },
+    "Mock": {
+        "getJdbcTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "verifyClosed": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

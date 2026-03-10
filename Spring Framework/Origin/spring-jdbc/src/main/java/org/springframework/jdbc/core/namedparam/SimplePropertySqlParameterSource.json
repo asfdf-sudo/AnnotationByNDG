@@ -1,0 +1,28 @@
+{
+    "SimplePropertySqlParameterSource": {
+        "hasValue": {
+            "return": 0,
+            "parameters": {
+                "paramName": 0
+            }
+        },
+        "getValue": {
+            "return": 1,
+            "parameters": {
+                "paramName": 0
+            }
+        },
+        "getSqlType": {
+            "return": 0,
+            "parameters": {
+                "paramName": 0
+            }
+        },
+        "getDescriptor": {
+            "return": 0,
+            "parameters": {
+                "paramName": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "DefaultJmsClientBuilder": {
+        "messageConverter": {
+            "return": 0,
+            "parameters": {
+                "messageConverter": 0
+            }
+        },
+        "messagePostProcessor": {
+            "return": 0,
+            "parameters": {
+                "messagePostProcessor": 0
+            }
+        },
+        "build": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

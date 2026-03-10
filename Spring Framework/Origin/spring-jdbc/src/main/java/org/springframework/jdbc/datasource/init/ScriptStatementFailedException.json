@@ -1,0 +1,12 @@
+{
+    "ScriptStatementFailedException": {
+        "buildErrorMessage": {
+            "return": 0,
+            "parameters": {
+                "stmt": 0,
+                "stmtNumber": 0,
+                "encodedResource": 0
+            }
+        }
+    }
+}

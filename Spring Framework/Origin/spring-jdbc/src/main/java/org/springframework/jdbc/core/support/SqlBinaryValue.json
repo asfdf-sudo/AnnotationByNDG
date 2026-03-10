@@ -1,0 +1,32 @@
+{
+    "SqlBinaryValue": {
+        "setTypeValue": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0,
+                "sqlType": 0,
+                "typeName": 1
+            }
+        },
+        "setByteArray": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0,
+                "sqlType": 0,
+                "bytes": 0
+            }
+        },
+        "setInputStream": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0,
+                "sqlType": 0,
+                "is": 0,
+                "length": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "AbstractContainerEntityManagerFactoryIntegrationTests": {
+        "testEntityManagerFactoryImplementsEntityManagerFactoryInfo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStateClean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testJdbcTx1_1": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testJdbcTx1_2": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testJdbcTx1_3": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testJdbcTx2": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testEntityManagerProxyIsProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBogusQuery": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetReferenceWhenNoRow": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testLazyLoading": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMultipleResults": {
+            "return": 0,
+            "parameters": {}
+        },
+        "insertPerson": {
+            "return": 0,
+            "parameters": {
+                "firstName": 0
+            }
+        },
+        "testEntityManagerProxyRejectsProgrammaticTxManagement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testInstantiateAndSaveWithSharedEmProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testInstantiateAndSave": {
+            "return": 0,
+            "parameters": {
+                "em": 0
+            }
+        },
+        "testQueryNoPersons": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryNoPersonsNotTransactional": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryNoPersonsShared": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryNoPersonsSharedNotTransactional": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCanSerializeProxies": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,320 @@
+{
+    "AbstractMessageListenerContainer": {
+        "setConcurrency": {
+            "return": 0,
+            "parameters": {
+                "concurrency": 0
+            }
+        },
+        "setDestination": {
+            "return": 0,
+            "parameters": {
+                "destination": 0
+            }
+        },
+        "getDestination": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setDestinationName": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0
+            }
+        },
+        "getDestinationName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getDestinationDescription": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageSelector": {
+            "return": 0,
+            "parameters": {
+                "messageSelector": 0
+            }
+        },
+        "getMessageSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageListener": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 1
+            }
+        },
+        "getMessageListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkMessageListener": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 1
+            }
+        },
+        "getDefaultSubscriptionName": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 0
+            }
+        },
+        "setSubscriptionDurable": {
+            "return": 0,
+            "parameters": {
+                "subscriptionDurable": 0
+            }
+        },
+        "isSubscriptionDurable": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSubscriptionShared": {
+            "return": 0,
+            "parameters": {
+                "subscriptionShared": 0
+            }
+        },
+        "isSubscriptionShared": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSubscriptionName": {
+            "return": 0,
+            "parameters": {
+                "subscriptionName": 1
+            }
+        },
+        "getSubscriptionName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDurableSubscriptionName": {
+            "return": 0,
+            "parameters": {
+                "durableSubscriptionName": 1
+            }
+        },
+        "getDurableSubscriptionName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setPubSubNoLocal": {
+            "return": 0,
+            "parameters": {
+                "pubSubNoLocal": 0
+            }
+        },
+        "isPubSubNoLocal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setReplyPubSubDomain": {
+            "return": 0,
+            "parameters": {
+                "replyPubSubDomain": 0
+            }
+        },
+        "isReplyPubSubDomain": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setReplyQosSettings": {
+            "return": 0,
+            "parameters": {
+                "replyQosSettings": 0
+            }
+        },
+        "getReplyQosSettings": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageConverter": {
+            "return": 0,
+            "parameters": {
+                "messageConverter": 0
+            }
+        },
+        "getMessageConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setExceptionListener": {
+            "return": 0,
+            "parameters": {
+                "exceptionListener": 0
+            }
+        },
+        "getExceptionListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setErrorHandler": {
+            "return": 0,
+            "parameters": {
+                "errorHandler": 0
+            }
+        },
+        "getErrorHandler": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setObservationRegistry": {
+            "return": 0,
+            "parameters": {
+                "observationRegistry": 0
+            }
+        },
+        "getObservationRegistry": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAcknowledgeAfterListener": {
+            "return": 0,
+            "parameters": {
+                "acknowledgeAfterListener": 0
+            }
+        },
+        "isAcknowledgeAfterListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setExposeListenerSession": {
+            "return": 0,
+            "parameters": {
+                "exposeListenerSession": 0
+            }
+        },
+        "isExposeListenerSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAcceptMessagesWhileStopping": {
+            "return": 0,
+            "parameters": {
+                "acceptMessagesWhileStopping": 0
+            }
+        },
+        "isAcceptMessagesWhileStopping": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validateConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setupMessageListener": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 1
+            }
+        },
+        "executeListener": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "message": 0
+            }
+        },
+        "createObservation": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "doExecuteListener": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "message": 0
+            }
+        },
+        "invokeListener": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "message": 0
+            }
+        },
+        "doInvokeListener": {
+            "return": 0,
+            "parameters": {
+                "listener": 0,
+                "message": 0
+            }
+        },
+        "commitIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "message": 1
+            }
+        },
+        "rollbackIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "rollbackOnExceptionIfNecessary": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "ex": 1
+            }
+        },
+        "isSessionLocallyTransacted": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "createConsumer": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "destination": 0
+            }
+        },
+        "handleListenerException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "invokeExceptionListener": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "invokeErrorHandler": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    },
+    "MessageRejectedWhileStoppingException": {},
+    "MicrometerInstrumentation": {
+        "instrumentSession": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "registry": 0
+            }
+        }
+    },
+    "ObservationFactory": {
+        "create": {
+            "return": 0,
+            "parameters": {
+                "registry": 0,
+                "message": 0
+            }
+        }
+    }
+}

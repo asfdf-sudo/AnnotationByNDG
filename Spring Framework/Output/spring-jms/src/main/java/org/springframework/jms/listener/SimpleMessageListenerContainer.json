@@ -1,0 +1,83 @@
+{
+    "SimpleMessageListenerContainer": {
+        "setConnectLazily": {
+            "return": 0,
+            "parameters": {
+                "connectLazily": 0
+            }
+        },
+        "setRecoverOnException": {
+            "return": 0,
+            "parameters": {
+                "recoverOnException": 0
+            }
+        },
+        "setConcurrency": {
+            "return": 0,
+            "parameters": {
+                "concurrency": 0
+            }
+        },
+        "setConcurrentConsumers": {
+            "return": 0,
+            "parameters": {
+                "concurrentConsumers": 0
+            }
+        },
+        "setTaskExecutor": {
+            "return": 0,
+            "parameters": {
+                "taskExecutor": 0
+            }
+        },
+        "validateConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sharedConnectionEnabled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doInitialize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doStart": {
+            "return": 0,
+            "parameters": {}
+        },
+        "prepareSharedConnection": {
+            "return": 0,
+            "parameters": {
+                "connection": 0
+            }
+        },
+        "onException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "initializeConsumers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createListenerConsumer": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "processMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0,
+                "session": 0
+            }
+        },
+        "doShutdown": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "NamedParameterUtils": {
+        "parseSqlStatement": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "addNamedParameter": {
+            "return": 0,
+            "parameters": {
+                "parameterList": 0,
+                "totalParameterCount": 0,
+                "escapes": 0,
+                "i": 0,
+                "j": 0,
+                "parameter": 0
+            }
+        },
+        "addNewNamedParameter": {
+            "return": 0,
+            "parameters": {
+                "namedParameters": 0,
+                "namedParameterCount": 0,
+                "parameter": 0
+            }
+        },
+        "skipCommentsAndQuotes": {
+            "return": 0,
+            "parameters": {
+                "statement": 0,
+                "position": 0
+            }
+        },
+        "substituteNamedParameters": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "paramSource": 0
+            }
+        },
+        "buildValueArray": {
+            "return": 0,
+            "parameters": {
+                "sql": 0,
+                "paramMap": 0
+            }
+        },
+        "findParameter": {
+            "return": 1,
+            "parameters": {
+                "declaredParams": 1,
+                "paramName": 0,
+                "paramIndex": 0
+            }
+        },
+        "isParameterSeparator": {
+            "return": 0,
+            "parameters": {
+                "c": 0
+            }
+        },
+        "buildSqlTypeArray": {
+            "return": 0,
+            "parameters": {
+                "parsedSql": 0,
+                "paramSource": 0
+            }
+        },
+        "buildSqlParameterList": {
+            "return": 0,
+            "parameters": {
+                "parsedSql": 0,
+                "paramSource": 0
+            }
+        },
+        "parseSqlStatementIntoString": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        }
+    },
+    "ParameterHolder": {
+        "getParameterName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getStartIndex": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getEndIndex": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

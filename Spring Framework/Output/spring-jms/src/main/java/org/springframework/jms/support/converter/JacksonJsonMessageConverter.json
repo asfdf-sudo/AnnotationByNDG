@@ -1,0 +1,133 @@
+{
+    "JacksonJsonMessageConverter": {
+        "setTargetType": {
+            "return": 0,
+            "parameters": {
+                "targetType": 0
+            }
+        },
+        "setEncoding": {
+            "return": 0,
+            "parameters": {
+                "encoding": 0
+            }
+        },
+        "setEncodingPropertyName": {
+            "return": 0,
+            "parameters": {
+                "encodingPropertyName": 0
+            }
+        },
+        "setTypeIdPropertyName": {
+            "return": 0,
+            "parameters": {
+                "typeIdPropertyName": 0
+            }
+        },
+        "setTypeIdMappings": {
+            "return": 0,
+            "parameters": {
+                "typeIdMappings": 0
+            }
+        },
+        "setBeanClassLoader": {
+            "return": 0,
+            "parameters": {
+                "classLoader": 1
+            }
+        },
+        "toMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0,
+                "objectWriter": 0
+            }
+        },
+        "fromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "mapToTextMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0,
+                "objectWriter": 0
+            }
+        },
+        "mapToBytesMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0,
+                "objectWriter": 0
+            }
+        },
+        "mapToMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0,
+                "objectWriter": 0,
+                "targetType": 0
+            }
+        },
+        "setTypeIdOnMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "message": 0
+            }
+        },
+        "convertToObject": {
+            "return": 0,
+            "parameters": {
+                "message": 0,
+                "targetJavaType": 0
+            }
+        },
+        "convertFromTextMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0,
+                "targetJavaType": 0
+            }
+        },
+        "convertFromBytesMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0,
+                "targetJavaType": 0
+            }
+        },
+        "convertFromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0,
+                "targetJavaType": 0
+            }
+        },
+        "getJavaTypeForMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "getSerializationView": {
+            "return": 1,
+            "parameters": {
+                "conversionHint": 1
+            }
+        },
+        "extractViewClass": {
+            "return": 0,
+            "parameters": {
+                "annotation": 0,
+                "conversionHint": 1
+            }
+        }
+    }
+}

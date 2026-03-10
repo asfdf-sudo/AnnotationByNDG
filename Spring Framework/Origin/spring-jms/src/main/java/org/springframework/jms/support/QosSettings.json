@@ -1,0 +1,48 @@
+{
+    "QosSettings": {
+        "setDeliveryMode": {
+            "return": 0,
+            "parameters": {
+                "deliveryMode": 0
+            }
+        },
+        "getDeliveryMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPriority": {
+            "return": 0,
+            "parameters": {
+                "priority": 0
+            }
+        },
+        "getPriority": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTimeToLive": {
+            "return": 0,
+            "parameters": {
+                "timeToLive": 0
+            }
+        },
+        "getTimeToLive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

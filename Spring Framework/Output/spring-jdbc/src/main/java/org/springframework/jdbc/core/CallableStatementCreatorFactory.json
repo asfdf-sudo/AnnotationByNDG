@@ -1,0 +1,52 @@
+{
+    "CallableStatementCreatorFactory": {
+        "getCallString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addParameter": {
+            "return": 0,
+            "parameters": {
+                "param": 0
+            }
+        },
+        "setResultSetType": {
+            "return": 0,
+            "parameters": {
+                "resultSetType": 0
+            }
+        },
+        "setUpdatableResults": {
+            "return": 0,
+            "parameters": {
+                "updatableResults": 0
+            }
+        },
+        "newCallableStatementCreator": {
+            "return": 0,
+            "parameters": {
+                "inParamMapper": 0
+            }
+        }
+    },
+    "CallableStatementCreatorImpl": {
+        "createCallableStatement": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "getSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "cleanupParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

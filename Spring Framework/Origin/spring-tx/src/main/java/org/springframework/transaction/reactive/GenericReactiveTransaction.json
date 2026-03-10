@@ -1,0 +1,56 @@
+{
+    "GenericReactiveTransaction": {
+        "getTransactionName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isNewTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isNewSynchronization": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isNested": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isReadOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isDebug": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSuspendedResources": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCompleted": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isCompleted": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

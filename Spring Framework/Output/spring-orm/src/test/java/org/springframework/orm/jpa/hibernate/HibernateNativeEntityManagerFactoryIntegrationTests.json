@@ -1,0 +1,32 @@
+{
+    "HibernateNativeEntityManagerFactoryIntegrationTests": {
+        "getConfigLocations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testEntityManagerFactoryImplementsEntityManagerFactoryInfo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testEntityListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCurrentSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSharedSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testStatelessSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReadOnly": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

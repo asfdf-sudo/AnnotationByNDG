@@ -1,0 +1,44 @@
+{
+    "SpacePerson": {
+        "getLastName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setLastName": {
+            "return": 0,
+            "parameters": {
+                "lastName": 1
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        },
+        "getBirthDate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBirthDate": {
+            "return": 0,
+            "parameters": {
+                "birthDate": 0
+            }
+        },
+        "getBalance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBalance": {
+            "return": 0,
+            "parameters": {
+                "balance": 0
+            }
+        }
+    }
+}

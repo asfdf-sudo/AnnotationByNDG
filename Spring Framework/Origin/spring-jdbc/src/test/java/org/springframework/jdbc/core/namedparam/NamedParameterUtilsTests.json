@@ -1,0 +1,122 @@
+{
+    "NamedParameterUtilsTests": {
+        "parseSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "substituteNamedParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertParamMapToArray": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertTypeMapToArray": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertSqlParameterValueToArray": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertTypeMapToSqlParameterList": {
+            "return": 0,
+            "parameters": {}
+        },
+        "buildValueArrayWithMissingParameterValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "substituteNamedParametersWithStringContainingQuotes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testParseSqlStatementWithStringContainingQuotes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseSqlContainingComments": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseSqlStatementWithPostgresCasting": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseSqlStatementWithPostgresContainedOperator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseSqlStatementWithPostgresAnyArrayStringsExistsOperator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseSqlStatementWithPostgresAllArrayStringsExistsOperator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseSqlStatementWithEscapedColon": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseSqlStatementWithBracketDelimitedParameterNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseSqlStatementWithEmptyBracketsOrBracketsInQuotes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseSqlStatementWithSingleLetterInBrackets": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseSqlStatementWithLogicalAnd": {
+            "return": 0,
+            "parameters": {}
+        },
+        "substituteNamedParametersWithLogicalAnd": {
+            "return": 0,
+            "parameters": {}
+        },
+        "variableAssignmentOperator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseSqlStatementWithParametersInsideQuotesAndComments": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        },
+        "parseSqlStatementWithSquareBracket": {
+            "return": 0,
+            "parameters": {}
+        },
+        "paramNameWithNestedSquareBrackets": {
+            "return": 0,
+            "parameters": {}
+        },
+        "namedParamMapReference": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "Foo": {
+        "getHeaders": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parseSqlStatementWithBackticks": {
+            "return": 0,
+            "parameters": {}
+        },
+        "substituteNamedParameters": {
+            "return": 0,
+            "parameters": {
+                "parsedSql": 0
+            }
+        }
+    }
+}

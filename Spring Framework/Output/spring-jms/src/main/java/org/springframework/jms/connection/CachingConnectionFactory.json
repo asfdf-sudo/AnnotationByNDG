@@ -1,0 +1,140 @@
+{
+    "CachingConnectionFactory": {
+        "setSessionCacheSize": {
+            "return": 0,
+            "parameters": {
+                "sessionCacheSize": 0
+            }
+        },
+        "getSessionCacheSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCacheProducers": {
+            "return": 0,
+            "parameters": {
+                "cacheProducers": 0
+            }
+        },
+        "isCacheProducers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCacheConsumers": {
+            "return": 0,
+            "parameters": {
+                "cacheConsumers": 0
+            }
+        },
+        "isCacheConsumers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getCachedSessionCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resetConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSession": {
+            "return": 1,
+            "parameters": {
+                "con": 0,
+                "mode": 0
+            }
+        },
+        "getCachedSessionProxy": {
+            "return": 0,
+            "parameters": {
+                "target": 0,
+                "sessionList": 0
+            }
+        }
+    },
+    "CachedSessionInvocationHandler": {
+        "invoke": {
+            "return": 0,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        },
+        "getCachedProducer": {
+            "return": 0,
+            "parameters": {
+                "dest": 0
+            }
+        },
+        "getCachedConsumer": {
+            "return": 0,
+            "parameters": {
+                "dest": 0,
+                "selector": 0,
+                "noLocal": 0,
+                "subscription": 0,
+                "durable": 0
+            }
+        },
+        "logicalClose": {
+            "return": 0,
+            "parameters": {
+                "proxy": 0
+            }
+        },
+        "physicalClose": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "DestinationCacheKey": {
+        "getDestinationString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "destinationEquals": {
+            "return": 0,
+            "parameters": {
+                "otherKey": 0
+            }
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 0
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "compareTo": {
+            "return": 0,
+            "parameters": {
+                "other": 0
+            }
+        }
+    },
+    "ConsumerCacheKey": {
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 0
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "JmsListenerContainerFactoryTests": {
+        "createSimpleContainer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createJmsContainerFullConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createJcaContainerFullConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jcaExclusiveProperties": {
+            "return": 0,
+            "parameters": {}
+        },
+        "backOffOverridesRecoveryInterval": {
+            "return": 0,
+            "parameters": {}
+        },
+        "endpointConcurrencyTakesPrecedence": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDefaultJmsConfig": {
+            "return": 0,
+            "parameters": {
+                "factory": 0
+            }
+        },
+        "assertDefaultJmsConfig": {
+            "return": 0,
+            "parameters": {
+                "container": 0
+            }
+        },
+        "setDefaultJcaConfig": {
+            "return": 0,
+            "parameters": {
+                "factory": 0
+            }
+        },
+        "assertDefaultJcaConfig": {
+            "return": 0,
+            "parameters": {
+                "container": 0
+            }
+        }
+    }
+}

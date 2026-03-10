@@ -1,0 +1,28 @@
+{
+    "AbstractInterruptibleBatchPreparedStatementSetter": {
+        "setValues": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "i": 0
+            }
+        },
+        "isBatchExhausted": {
+            "return": 0,
+            "parameters": {
+                "i": 0
+            }
+        },
+        "getBatchSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setValuesIfAvailable": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "i": 0
+            }
+        }
+    }
+}

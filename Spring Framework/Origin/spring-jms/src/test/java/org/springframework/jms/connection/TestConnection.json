@@ -1,0 +1,91 @@
+{
+    "TestConnection": {
+        "createSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getClientID": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setClientID": {
+            "return": 0,
+            "parameters": {
+                "paramName": 0
+            }
+        },
+        "getMetaData": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getExceptionListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setExceptionListener": {
+            "return": 0,
+            "parameters": {
+                "exceptionListener": 0
+            }
+        },
+        "start": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stop": {
+            "return": 0,
+            "parameters": {}
+        },
+        "close": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createConnectionConsumer": {
+            "return": 0,
+            "parameters": {
+                "destination": 0,
+                "paramName": 0,
+                "serverSessionPool": 0,
+                "i": 0
+            }
+        },
+        "createDurableConnectionConsumer": {
+            "return": 0,
+            "parameters": {
+                "topic": 0,
+                "paramName": 0,
+                "paramName1": 0,
+                "serverSessionPool": 0,
+                "i": 0
+            }
+        },
+        "createSharedConnectionConsumer": {
+            "return": 0,
+            "parameters": {
+                "topic": 0,
+                "subscriptionName": 0,
+                "messageSelector": 0,
+                "sessionPool": 0,
+                "maxMessages": 0
+            }
+        },
+        "createSharedDurableConnectionConsumer": {
+            "return": 0,
+            "parameters": {
+                "topic": 0,
+                "subscriptionName": 0,
+                "messageSelector": 0,
+                "sessionPool": 0,
+                "maxMessages": 0
+            }
+        },
+        "getStartCount": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getCloseCount": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

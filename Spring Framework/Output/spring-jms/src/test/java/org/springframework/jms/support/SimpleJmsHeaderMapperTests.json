@@ -1,0 +1,258 @@
+{
+    "SimpleJmsHeaderMapperTests": {
+        "jmsReplyToMappedFromHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "JmsReplyToIgnoredIfIncorrectType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsCorrelationIdMappedFromHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsCorrelationIdNumberConvertsToString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsCorrelationIdIgnoredIfIncorrectType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsTypeMappedFromHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsTypeIgnoredIfIncorrectType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsReadOnlyPropertiesNotMapped": {
+            "return": 0,
+            "parameters": {}
+        },
+        "contentTypePropertyMappedFromHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "userDefinedPropertyMappedFromHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "userDefinedPropertyMappedFromHeaderWithCustomPrefix": {
+            "return": 0,
+            "parameters": {}
+        },
+        "userDefinedPropertyWithUnsupportedType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "attemptToReadDisallowedCorrelationIdPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSCorrelationID": {
+            "return": 0,
+            "parameters": {}
+        },
+        "attemptToReadDisallowedDestinationPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "attemptToReadDisallowedDeliveryModePropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSDeliveryMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "attemptToReadDisallowedExpirationPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSExpiration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "attemptToReadDisallowedMessageIdPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSMessageID": {
+            "return": 0,
+            "parameters": {}
+        },
+        "attemptToReadDisallowedPriorityPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSPriority": {
+            "return": 0,
+            "parameters": {}
+        },
+        "attemptToReadDisallowedReplyToPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSReplyTo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "attemptToReadDisallowedRedeliveredPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSRedelivered": {
+            "return": 0,
+            "parameters": {}
+        },
+        "attemptToReadDisallowedTypePropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "attemptToReadDisallowedTimestampPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSTimestamp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "attemptToReadDisallowedUserPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getObjectProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "jmsCorrelationIdMappedToHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "destinationMappedToHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsDeliveryModeMappedToHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsExpirationMappedToHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsMessageIdMappedToHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsPriorityMappedToHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsReplyToMappedToHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsTypeMappedToHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jmsTimestampMappedToHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "contentTypePropertyMappedToHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "userDefinedPropertyMappedToHeader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "userDefinedPropertyMappedToHeaderWithCustomPrefix": {
+            "return": 0,
+            "parameters": {}
+        },
+        "propertyMappingExceptionIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setObjectProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "value": 0
+            }
+        },
+        "illegalArgumentExceptionIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "attemptToWriteDisallowedReplyToPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setJMSReplyTo": {
+            "return": 0,
+            "parameters": {
+                "replyTo": 0
+            }
+        },
+        "attemptToWriteDisallowedTypePropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setJMSType": {
+            "return": 0,
+            "parameters": {
+                "type": 0
+            }
+        },
+        "attemptToWriteDisallowedCorrelationIdStringPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setJMSCorrelationID": {
+            "return": 0,
+            "parameters": {
+                "correlationId": 0
+            }
+        },
+        "attemptToWriteDisallowedCorrelationIdNumberPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertInboundHeader": {
+            "return": 0,
+            "parameters": {
+                "jmsMessage": 0,
+                "headerId": 0,
+                "value": 1
+            }
+        },
+        "assertAttemptReadDisallowedPropertyIsNotFatal": {
+            "return": 0,
+            "parameters": {
+                "jmsMessage": 0,
+                "headerId": 0
+            }
+        },
+        "initBuilder": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

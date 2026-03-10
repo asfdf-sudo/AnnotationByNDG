@@ -1,0 +1,84 @@
+{
+    "JdbcClientIntegrationTests": {
+        "checkDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shutdownDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "updateWithGeneratedKeys": {
+            "return": 0,
+            "parameters": {}
+        },
+        "updateWithGeneratedKeysAndKeyColumnNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "updateWithGeneratedKeysUsingNamedParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "updateWithGeneratedKeysAndKeyColumnNamesUsingNamedParameters": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ReusedNamedParameterTests": {
+        "insertTestUsers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "selectWithReusedNamedParameter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "selectWithReusedNamedParameterFromBeanProperties": {
+            "return": 0,
+            "parameters": {}
+        },
+        "selectWithReusedNamedParameterAndMaxRows": {
+            "return": 0,
+            "parameters": {}
+        },
+        "selectWithReusedNamedParameterList": {
+            "return": 0,
+            "parameters": {}
+        },
+        "selectWithReusedNamedParameterListFromBeanProperties": {
+            "return": 0,
+            "parameters": {}
+        },
+        "selectWithReusedNamedParameterListAndMaxRows": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertResults": {
+            "return": 0,
+            "parameters": {
+                "users": 0
+            }
+        },
+        "assertSingleResult": {
+            "return": 0,
+            "parameters": {
+                "users": 0
+            }
+        },
+        "assertNumUsers": {
+            "return": 0,
+            "parameters": {
+                "count": 0
+            }
+        },
+        "assertUser": {
+            "return": 0,
+            "parameters": {
+                "id": 0,
+                "firstName": 0,
+                "lastName": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "EmbeddedDatabaseFactoryTests": {
+        "testGetDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customizeConfigurerWithAnotherDatabaseName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "configureConnectionProperties": {
+            "return": 0,
+            "parameters": {
+                "properties": 0,
+                "databaseName": 0
+            }
+        },
+        "customizeConfigurerWithCustomizedUrl": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "StubDatabasePopulator": {
+        "populate": {
+            "return": 0,
+            "parameters": {
+                "connection": 0
+            }
+        }
+    }
+}

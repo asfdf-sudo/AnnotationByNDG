@@ -1,0 +1,44 @@
+{
+    "JmsTransactionManagerTests": {
+        "verifyTransactionSynchronizationManagerState": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testParticipatingTransactionWithCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testParticipatingTransactionWithRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSuspendedTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionSuspension": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithMessageProducer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testLazyTransactionalSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testLazyWithoutSessionAccess": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

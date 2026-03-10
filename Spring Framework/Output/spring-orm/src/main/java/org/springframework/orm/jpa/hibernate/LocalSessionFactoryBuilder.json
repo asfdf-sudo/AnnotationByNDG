@@ -1,0 +1,73 @@
+{
+    "LocalSessionFactoryBuilder": {
+        "setJtaTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "jtaTransactionManager": 0
+            }
+        },
+        "setBeanContainer": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        },
+        "setCacheRegionFactory": {
+            "return": 0,
+            "parameters": {
+                "cacheRegionFactory": 0
+            }
+        },
+        "setMultiTenantConnectionProvider": {
+            "return": 0,
+            "parameters": {
+                "multiTenantConnectionProvider": 1
+            }
+        },
+        "setCurrentTenantIdentifierResolver": {
+            "return": 0,
+            "parameters": {
+                "currentTenantIdentifierResolver": 0
+            }
+        },
+        "setEntityTypeFilters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addPackages": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scanPackages": {
+            "return": 0,
+            "parameters": {}
+        },
+        "matchesEntityTypeFilter": {
+            "return": 0,
+            "parameters": {
+                "reader": 0,
+                "readerFactory": 0
+            }
+        },
+        "buildSessionFactory": {
+            "return": 0,
+            "parameters": {
+                "bootstrapExecutor": 0
+            }
+        }
+    },
+    "BootstrapSessionFactoryInvocationHandler": {
+        "invoke": {
+            "return": 0,
+            "parameters": {
+                "proxy": 0,
+                "method": 0,
+                "args": 0
+            }
+        },
+        "getSessionFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

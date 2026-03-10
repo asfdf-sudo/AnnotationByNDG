@@ -1,0 +1,96 @@
+{
+    "NamedParameterJdbcTemplateTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testNullDataSourceProvidedToCtor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testNullJdbcTemplateProvidedToCtor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTemplateConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExecute": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExecuteArray": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExecuteWithTypedParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExecuteNoParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryWithResultSetExtractor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryWithResultSetExtractorNoParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryWithRowCallbackHandler": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryWithRowCallbackHandlerNoParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryWithRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryWithRowMapperNoParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForObjectWithRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testQueryForStreamWithRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUpdate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUpdateWithTypedParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithPlainMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithEmptyMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithSqlParameterSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithInClause": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithSqlParameterSourcePlusTypeInfo": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

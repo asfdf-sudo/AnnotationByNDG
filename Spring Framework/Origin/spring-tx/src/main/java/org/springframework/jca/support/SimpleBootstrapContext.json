@@ -1,0 +1,26 @@
+{
+    "SimpleBootstrapContext": {
+        "getWorkManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getXATerminator": {
+            "return": 1,
+            "parameters": {}
+        },
+        "createTimer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isContextSupported": {
+            "return": 0,
+            "parameters": {
+                "workContextClass": 0
+            }
+        },
+        "getTransactionSynchronizationRegistry": {
+            "return": 1,
+            "parameters": {}
+        }
+    }
+}

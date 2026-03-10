@@ -1,0 +1,31 @@
+{
+    "CallCountingTransactionManager": {
+        "doGetTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doBegin": {
+            "return": 0,
+            "parameters": {
+                "transaction": 0,
+                "definition": 0
+            }
+        },
+        "doCommit": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "doRollback": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "clear": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

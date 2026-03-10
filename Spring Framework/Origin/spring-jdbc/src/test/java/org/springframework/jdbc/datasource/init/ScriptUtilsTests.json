@@ -1,0 +1,87 @@
+{
+    "ScriptUtilsTests": {
+        "splitSqlScriptDelimitedWithSemicolon": {
+            "return": 0,
+            "parameters": {}
+        },
+        "splitSqlScriptDelimitedWithNewLine": {
+            "return": 0,
+            "parameters": {}
+        },
+        "splitSqlScriptDelimitedWithNewLineButDefaultDelimiterSpecified": {
+            "return": 0,
+            "parameters": {}
+        },
+        "splitScriptWithSingleQuotesNestedInsideDoubleQuotes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "readAndSplitScriptWithMultipleNewlinesAsSeparator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "readAndSplitScriptContainingComments": {
+            "return": 0,
+            "parameters": {}
+        },
+        "readAndSplitScriptContainingCommentsWithWindowsLineEnding": {
+            "return": 0,
+            "parameters": {}
+        },
+        "readAndSplitScriptContainingCommentsWithMultiplePrefixes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "splitScriptContainingComments": {
+            "return": 0,
+            "parameters": {
+                "script": 0
+            }
+        },
+        "readAndSplitScriptContainingCommentsWithLeadingTabs": {
+            "return": 0,
+            "parameters": {}
+        },
+        "readAndSplitScriptContainingMultiLineComments": {
+            "return": 0,
+            "parameters": {}
+        },
+        "readAndSplitScriptContainingMultiLineNestedComments": {
+            "return": 0,
+            "parameters": {}
+        },
+        "containsStatementSeparator": {
+            "return": 0,
+            "parameters": {
+                "script": 0,
+                "delimiter": 0,
+                "expected": 0
+            }
+        },
+        "readScript": {
+            "return": 0,
+            "parameters": {
+                "path": 0
+            }
+        },
+        "splitSqlScript": {
+            "return": 0,
+            "parameters": {
+                "resource": 1,
+                "script": 0,
+                "separator": 0,
+                "commentPrefixes": 0,
+                "blockCommentStartDelimiter": 0,
+                "blockCommentEndDelimiter": 0,
+                "statements": 0
+            }
+        },
+        "containsSqlScriptDelimiters": {
+            "return": 0,
+            "parameters": {
+                "script": 0,
+                "delimiter": 0
+            }
+        }
+    }
+}

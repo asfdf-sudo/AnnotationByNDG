@@ -1,0 +1,30 @@
+{
+    "ColumnMapRowMapper": {
+        "mapRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rowNum": 0
+            }
+        },
+        "createColumnMap": {
+            "return": 0,
+            "parameters": {
+                "columnCount": 0
+            }
+        },
+        "getColumnKey": {
+            "return": 0,
+            "parameters": {
+                "columnName": 0
+            }
+        },
+        "getColumnValue": {
+            "return": 1,
+            "parameters": {
+                "rs": 0,
+                "index": 0
+            }
+        }
+    }
+}

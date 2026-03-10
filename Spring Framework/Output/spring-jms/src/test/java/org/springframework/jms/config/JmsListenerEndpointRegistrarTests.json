@@ -1,0 +1,32 @@
+{
+    "JmsListenerEndpointRegistrarTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerNullEndpoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerNullEndpointId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerEmptyEndpointId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerNullContainerFactoryIsAllowed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerNullContainerFactoryWithNoDefault": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerContainerWithoutFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

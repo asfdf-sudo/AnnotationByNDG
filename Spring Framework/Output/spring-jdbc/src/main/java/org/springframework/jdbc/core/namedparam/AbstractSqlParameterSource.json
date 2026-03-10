@@ -1,0 +1,34 @@
+{
+    "AbstractSqlParameterSource": {
+        "registerSqlType": {
+            "return": 0,
+            "parameters": {
+                "paramName": 1,
+                "sqlType": 0
+            }
+        },
+        "registerTypeName": {
+            "return": 0,
+            "parameters": {
+                "paramName": 1,
+                "typeName": 1
+            }
+        },
+        "getSqlType": {
+            "return": 0,
+            "parameters": {
+                "paramName": 1
+            }
+        },
+        "getTypeName": {
+            "return": 0,
+            "parameters": {
+                "paramName": 0
+            }
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

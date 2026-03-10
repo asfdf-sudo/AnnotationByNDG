@@ -1,0 +1,285 @@
+{
+    "StubTextMessage": {
+        "getText": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setText": {
+            "return": 0,
+            "parameters": {
+                "text": 0
+            }
+        },
+        "acknowledge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "clearBody": {
+            "return": 0,
+            "parameters": {}
+        },
+        "clearProperties": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getBooleanProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getByteProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 1
+            }
+        },
+        "getDoubleProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getFloatProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getIntProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getJMSCorrelationID": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSCorrelationIDAsBytes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSDeliveryMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSExpiration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSMessageID": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSPriority": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSRedelivered": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSReplyTo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSTimestamp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJMSDeliveryTime": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getLongProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getObjectProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getPropertyNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getShortProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 1
+            }
+        },
+        "getStringProperty": {
+            "return": 1,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "propertyExists": {
+            "return": 0,
+            "parameters": {
+                "name": 1
+            }
+        },
+        "setBooleanProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "value": 0
+            }
+        },
+        "setByteProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "value": 0
+            }
+        },
+        "setDoubleProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "value": 0
+            }
+        },
+        "setFloatProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "value": 0
+            }
+        },
+        "setIntProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "value": 0
+            }
+        },
+        "setJMSCorrelationID": {
+            "return": 0,
+            "parameters": {
+                "correlationId": 1
+            }
+        },
+        "setJMSCorrelationIDAsBytes": {
+            "return": 0,
+            "parameters": {
+                "correlationID": 0
+            }
+        },
+        "setJMSDeliveryMode": {
+            "return": 0,
+            "parameters": {
+                "deliveryMode": 0
+            }
+        },
+        "setJMSDestination": {
+            "return": 0,
+            "parameters": {
+                "destination": 0
+            }
+        },
+        "setJMSExpiration": {
+            "return": 0,
+            "parameters": {
+                "expiration": 0
+            }
+        },
+        "setJMSMessageID": {
+            "return": 0,
+            "parameters": {
+                "id": 0
+            }
+        },
+        "setJMSPriority": {
+            "return": 0,
+            "parameters": {
+                "priority": 0
+            }
+        },
+        "setJMSRedelivered": {
+            "return": 0,
+            "parameters": {
+                "redelivered": 0
+            }
+        },
+        "setJMSReplyTo": {
+            "return": 0,
+            "parameters": {
+                "replyTo": 0
+            }
+        },
+        "setJMSTimestamp": {
+            "return": 0,
+            "parameters": {
+                "timestamp": 0
+            }
+        },
+        "setJMSType": {
+            "return": 0,
+            "parameters": {
+                "type": 0
+            }
+        },
+        "setJMSDeliveryTime": {
+            "return": 0,
+            "parameters": {
+                "deliveryTime": 0
+            }
+        },
+        "setLongProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "value": 0
+            }
+        },
+        "setObjectProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 1,
+                "value": 1
+            }
+        },
+        "setShortProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "value": 0
+            }
+        },
+        "setStringProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "value": 0
+            }
+        },
+        "getBody": {
+            "return": 1,
+            "parameters": {
+                "c": 0
+            }
+        },
+        "isBodyAssignableTo": {
+            "return": 0,
+            "parameters": {
+                "c": 0
+            }
+        }
+    }
+}

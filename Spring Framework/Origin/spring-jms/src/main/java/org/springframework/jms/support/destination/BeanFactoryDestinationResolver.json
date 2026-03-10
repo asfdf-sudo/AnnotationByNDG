@@ -1,0 +1,18 @@
+{
+    "BeanFactoryDestinationResolver": {
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        },
+        "resolveDestinationName": {
+            "return": 0,
+            "parameters": {
+                "session": 1,
+                "destinationName": 0,
+                "pubSubDomain": 0
+            }
+        }
+    }
+}

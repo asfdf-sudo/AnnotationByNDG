@@ -1,0 +1,17 @@
+{
+    "SimplePropertyRowMapper": {
+        "mapRow": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "rowNumber": 0
+            }
+        },
+        "getDescriptor": {
+            "return": 0,
+            "parameters": {
+                "column": 0
+            }
+        }
+    }
+}

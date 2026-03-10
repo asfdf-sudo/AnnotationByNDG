@@ -1,0 +1,107 @@
+{
+    "SQLErrorCodesFactoryTests": {
+        "defaultInstanceWithNoSuchDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "defaultInstanceWithOracle": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertIsOracle": {
+            "return": 0,
+            "parameters": {
+                "sec": 0
+            }
+        },
+        "assertIsSQLServer": {
+            "return": 0,
+            "parameters": {
+                "sec": 0
+            }
+        },
+        "assertIsHsql": {
+            "return": 0,
+            "parameters": {
+                "sec": 0
+            }
+        },
+        "assertIsDB2": {
+            "return": 0,
+            "parameters": {
+                "sec": 0
+            }
+        },
+        "assertIsHana": {
+            "return": 0,
+            "parameters": {
+                "sec": 0
+            }
+        },
+        "lookupOrder": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestSQLErrorCodesFactory": {
+        "loadResource": {
+            "return": 0,
+            "parameters": {
+                "path": 0
+            }
+        },
+        "dataSourceWithNullMetadata": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getFromDataSourceWithSQLException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getErrorCodesFromDataSource": {
+            "return": 0,
+            "parameters": {
+                "productName": 0,
+                "factory": 0
+            }
+        },
+        "sqlServerRecognizedFromMetadata": {
+            "return": 0,
+            "parameters": {}
+        },
+        "oracleRecognizedFromMetadata": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hsqlRecognizedFromMetadata": {
+            "return": 0,
+            "parameters": {}
+        },
+        "dB2RecognizedFromMetadata": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hanaIsRecognizedFromMetadata": {
+            "return": 0,
+            "parameters": {}
+        },
+        "wildCardNameRecognized": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "WildcardSQLErrorCodesFactory": {
+        "loadResource": {
+            "return": 0,
+            "parameters": {
+                "path": 0
+            }
+        },
+        "assertIsEmpty": {
+            "return": 0,
+            "parameters": {
+                "sec": 0
+            }
+        }
+    }
+}

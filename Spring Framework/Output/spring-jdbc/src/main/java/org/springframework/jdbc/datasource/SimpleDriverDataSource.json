@@ -1,0 +1,26 @@
+{
+    "SimpleDriverDataSource": {
+        "setDriverClass": {
+            "return": 0,
+            "parameters": {
+                "driverClass": 0
+            }
+        },
+        "setDriver": {
+            "return": 0,
+            "parameters": {
+                "driver": 0
+            }
+        },
+        "getDriver": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConnectionFromDriver": {
+            "return": 0,
+            "parameters": {
+                "props": 0
+            }
+        }
+    }
+}

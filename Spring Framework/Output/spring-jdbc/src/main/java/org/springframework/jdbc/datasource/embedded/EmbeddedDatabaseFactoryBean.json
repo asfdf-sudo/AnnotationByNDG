@@ -1,0 +1,30 @@
+{
+    "EmbeddedDatabaseFactoryBean": {
+        "setDatabaseCleaner": {
+            "return": 0,
+            "parameters": {
+                "databaseCleaner": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getObject": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getObjectType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isSingleton": {
+            "return": 0,
+            "parameters": {}
+        },
+        "destroy": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

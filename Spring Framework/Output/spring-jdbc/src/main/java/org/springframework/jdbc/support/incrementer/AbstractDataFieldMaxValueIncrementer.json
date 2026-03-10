@@ -1,0 +1,54 @@
+{
+    "AbstractDataFieldMaxValueIncrementer": {
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "getDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setIncrementerName": {
+            "return": 0,
+            "parameters": {
+                "incrementerName": 1
+            }
+        },
+        "getIncrementerName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPaddingLength": {
+            "return": 0,
+            "parameters": {
+                "paddingLength": 0
+            }
+        },
+        "getPaddingLength": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "nextIntValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "nextLongValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "nextStringValue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getNextKey": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "TxNamespaceHandlerTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invokeTransactional": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackRules": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTestBean": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

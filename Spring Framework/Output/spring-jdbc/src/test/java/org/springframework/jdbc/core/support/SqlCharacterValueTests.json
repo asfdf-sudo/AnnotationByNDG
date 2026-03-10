@@ -1,0 +1,44 @@
+{
+    "SqlCharacterValueTests": {
+        "withString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withStringForClob": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withStringForNClob": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withCharArray": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withCharArrayForClob": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withCharArrayForNClob": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withReader": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withReaderForClob": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withReaderForNClob": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withAsciiStream": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "EmailPerson": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 1
+            }
+        },
+        "getAge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAge": {
+            "return": 0,
+            "parameters": {
+                "age": 0
+            }
+        },
+        "getBirth_date": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBirth_date": {
+            "return": 0,
+            "parameters": {
+                "birth_date": 0
+            }
+        },
+        "getBalance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBalance": {
+            "return": 0,
+            "parameters": {
+                "balance": 0
+            }
+        },
+        "setEMail": {
+            "return": 0,
+            "parameters": {
+                "email": 1
+            }
+        },
+        "getEMail": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "SQLExceptionSubclassTranslator": {
+        "doTranslate": {
+            "return": 1,
+            "parameters": {
+                "task": 0,
+                "sql": 0,
+                "ex": 0
+            }
+        }
+    }
+}

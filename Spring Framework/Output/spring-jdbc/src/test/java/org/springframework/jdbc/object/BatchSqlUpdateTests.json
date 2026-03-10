@@ -1,0 +1,18 @@
+{
+    "BatchSqlUpdateTests": {
+        "testBatchUpdateWithExplicitFlush": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBatchUpdateWithFlushThroughBatchSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestBatchUpdate": {
+            "return": 0,
+            "parameters": {
+                "flushThroughBatchSize": 0
+            }
+        }
+    }
+}

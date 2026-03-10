@@ -1,0 +1,22 @@
+{
+    "CustomSQLErrorCodesTranslation": {
+        "setErrorCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getErrorCodes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setExceptionClass": {
+            "return": 0,
+            "parameters": {
+                "exceptionClass": 1
+            }
+        },
+        "getExceptionClass": {
+            "return": 1,
+            "parameters": {}
+        }
+    }
+}

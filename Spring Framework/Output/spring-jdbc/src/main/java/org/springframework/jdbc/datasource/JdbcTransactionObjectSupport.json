@@ -1,0 +1,68 @@
+{
+    "JdbcTransactionObjectSupport": {
+        "setConnectionHolder": {
+            "return": 0,
+            "parameters": {
+                "connectionHolder": 0
+            }
+        },
+        "getConnectionHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasConnectionHolder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPreviousIsolationLevel": {
+            "return": 0,
+            "parameters": {
+                "previousIsolationLevel": 0
+            }
+        },
+        "getPreviousIsolationLevel": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setReadOnly": {
+            "return": 0,
+            "parameters": {
+                "readOnly": 0
+            }
+        },
+        "isReadOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSavepointAllowed": {
+            "return": 0,
+            "parameters": {
+                "savepointAllowed": 0
+            }
+        },
+        "isSavepointAllowed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSavepoint": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackToSavepoint": {
+            "return": 0,
+            "parameters": {
+                "savepoint": 0
+            }
+        },
+        "releaseSavepoint": {
+            "return": 0,
+            "parameters": {
+                "savepoint": 0
+            }
+        },
+        "getConnectionHolderForSavepoint": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

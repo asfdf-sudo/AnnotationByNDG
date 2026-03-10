@@ -1,0 +1,32 @@
+{
+    "EmptySqlParameterSource": {
+        "hasValue": {
+            "return": 0,
+            "parameters": {
+                "paramName": 0
+            }
+        },
+        "getValue": {
+            "return": 1,
+            "parameters": {
+                "paramName": 0
+            }
+        },
+        "getSqlType": {
+            "return": 0,
+            "parameters": {
+                "paramName": 0
+            }
+        },
+        "getTypeName": {
+            "return": 1,
+            "parameters": {
+                "paramName": 0
+            }
+        },
+        "getParameterNames": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

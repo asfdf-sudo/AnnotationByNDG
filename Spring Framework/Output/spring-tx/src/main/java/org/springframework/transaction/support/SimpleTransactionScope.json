@@ -1,0 +1,45 @@
+{
+    "SimpleTransactionScope": {
+        "get": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "objectFactory": 0
+            }
+        },
+        "remove": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "registerDestructionCallback": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "callback": 0
+            }
+        },
+        "getConversationId": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ScopedObjectsHolder": {},
+    "CleanupSynchronization": {
+        "suspend": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resume": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        }
+    }
+}

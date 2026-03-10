@@ -1,0 +1,12 @@
+{
+    "PersistenceExceptionTranslationAdvisor": {
+        "getAdvice": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPointcut": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

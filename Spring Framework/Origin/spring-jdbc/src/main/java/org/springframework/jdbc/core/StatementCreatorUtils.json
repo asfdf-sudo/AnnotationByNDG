@@ -1,0 +1,69 @@
+{
+    "StatementCreatorUtils": {
+        "javaTypeToSqlParameterType": {
+            "return": 0,
+            "parameters": {
+                "javaType": 1
+            }
+        },
+        "setParameterValue": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0,
+                "sqlType": 0,
+                "typeName": 0,
+                "inValue": 1
+            }
+        },
+        "setParameterValueInternal": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0,
+                "sqlType": 0,
+                "typeName": 1,
+                "scale": 1,
+                "inValue": 1
+            }
+        },
+        "setNull": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0,
+                "sqlType": 0,
+                "typeName": 1
+            }
+        },
+        "setValue": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0,
+                "sqlType": 0,
+                "typeName": 1,
+                "scale": 1,
+                "inValue": 0
+            }
+        },
+        "isStringValue": {
+            "return": 0,
+            "parameters": {
+                "inValueType": 0
+            }
+        },
+        "isDateValue": {
+            "return": 0,
+            "parameters": {
+                "inValueType": 0
+            }
+        },
+        "cleanupParameters": {
+            "return": 0,
+            "parameters": {
+                "paramValues": 1
+            }
+        }
+    }
+}

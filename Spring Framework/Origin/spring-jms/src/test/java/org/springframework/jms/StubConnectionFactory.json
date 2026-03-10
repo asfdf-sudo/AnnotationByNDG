@@ -1,0 +1,17 @@
+{
+    "StubConnectionFactory": {
+        "createConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createContext": {
+            "return": 0,
+            "parameters": {
+                "sessionMode": 0
+            }
+        }
+    }
+}

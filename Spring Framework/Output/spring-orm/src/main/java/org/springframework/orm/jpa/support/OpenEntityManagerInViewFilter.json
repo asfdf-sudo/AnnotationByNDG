@@ -1,0 +1,57 @@
+{
+    "OpenEntityManagerInViewFilter": {
+        "setEntityManagerFactoryBeanName": {
+            "return": 0,
+            "parameters": {
+                "entityManagerFactoryBeanName": 0
+            }
+        },
+        "getEntityManagerFactoryBeanName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPersistenceUnitName": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitName": 0
+            }
+        },
+        "getPersistenceUnitName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldNotFilterAsyncDispatch": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shouldNotFilterErrorDispatch": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doFilterInternal": {
+            "return": 0,
+            "parameters": {
+                "request": 0,
+                "response": 0,
+                "filterChain": 0
+            }
+        },
+        "lookupEntityManagerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createEntityManager": {
+            "return": 0,
+            "parameters": {
+                "emf": 0
+            }
+        },
+        "applyEntityManagerBindingInterceptor": {
+            "return": 0,
+            "parameters": {
+                "asyncManager": 0,
+                "key": 0
+            }
+        }
+    }
+}

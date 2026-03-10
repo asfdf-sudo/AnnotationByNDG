@@ -1,0 +1,52 @@
+{
+    "HibernateJpaVendorAdapter": {
+        "setPrepareConnection": {
+            "return": 0,
+            "parameters": {
+                "prepareConnection": 0
+            }
+        },
+        "getPersistenceProvider": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getPersistenceProviderRootPackage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJpaPropertyMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "buildJpaPropertyMap": {
+            "return": 0,
+            "parameters": {
+                "connectionReleaseOnClose": 0
+            }
+        },
+        "determineDatabaseDialectClass": {
+            "return": 1,
+            "parameters": {
+                "database": 0
+            }
+        },
+        "determineDatabaseDialectName": {
+            "return": 1,
+            "parameters": {
+                "database": 0
+            }
+        },
+        "getJpaDialect": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getEntityManagerFactoryInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getEntityManagerInterface": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

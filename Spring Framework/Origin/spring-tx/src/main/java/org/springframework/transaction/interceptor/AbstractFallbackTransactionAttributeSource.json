@@ -1,0 +1,53 @@
+{
+    "AbstractFallbackTransactionAttributeSource": {
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setEmbeddedValueResolver": {
+            "return": 0,
+            "parameters": {
+                "resolver": 0
+            }
+        },
+        "hasTransactionAttribute": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "targetClass": 1
+            }
+        },
+        "getTransactionAttribute": {
+            "return": 1,
+            "parameters": {
+                "method": 0,
+                "targetClass": 1,
+                "cacheNull": 0
+            }
+        },
+        "getCacheKey": {
+            "return": 0,
+            "parameters": {
+                "method": 0,
+                "targetClass": 1
+            }
+        },
+        "computeTransactionAttribute": {
+            "return": 1,
+            "parameters": {
+                "method": 0,
+                "targetClass": 1
+            }
+        },
+        "findTransactionAttribute": {
+            "return": 1,
+            "parameters": {
+                "method": 0
+            }
+        },
+        "allowPublicMethodsOnly": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

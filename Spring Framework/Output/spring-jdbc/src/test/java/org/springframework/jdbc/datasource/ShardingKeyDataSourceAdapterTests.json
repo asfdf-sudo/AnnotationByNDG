@@ -1,0 +1,32 @@
+{
+    "ShardingKeyDataSourceAdapterTests": {
+        "getShardingKey": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSuperShardingKey": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConnectionNoKeyProvider": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConnectionWithKeyProvider": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConnectionWithCredentialsNoKeyProvider": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConnectionWithCredentialsAndKeyProvider": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

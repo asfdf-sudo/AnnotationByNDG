@@ -1,0 +1,40 @@
+{
+    "JndiJtaTransactionManagerTests": {
+        "jtaTransactionManagerWithDefaultJndiLookups1": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithDefaultJndiLookups2": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithDefaultJndiLookupsAndNoTmFound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithDefaultJndiLookupsAndNoUtFound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestJtaTransactionManagerWithDefaultJndiLookups": {
+            "return": 0,
+            "parameters": {
+                "tmName": 0,
+                "tmFound": 0,
+                "defaultUt": 0
+            }
+        },
+        "jtaTransactionManagerWithCustomJndiLookups": {
+            "return": 0,
+            "parameters": {}
+        },
+        "jtaTransactionManagerWithNotCacheUserTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "tearDown": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

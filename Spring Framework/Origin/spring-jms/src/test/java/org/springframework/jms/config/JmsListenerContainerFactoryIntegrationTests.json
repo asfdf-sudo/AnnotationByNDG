@@ -1,0 +1,92 @@
+{
+    "JmsListenerContainerFactoryIntegrationTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "messageConverterUsedIfSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "messagingMessageConverterCanBeUsed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMessageConverterIsUsed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parameterAnnotationWithJdkProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "parameterAnnotationWithCglibProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invokeListener": {
+            "return": 0,
+            "parameters": {
+                "endpoint": 0,
+                "message": 0
+            }
+        },
+        "assertListenerMethodInvocation": {
+            "return": 0,
+            "parameters": {
+                "methodName": 0
+            }
+        },
+        "createMethodJmsEndpoint": {
+            "return": 0,
+            "parameters": {
+                "factory": 0,
+                "method": 0
+            }
+        },
+        "createDefaultMethodJmsEndpoint": {
+            "return": 0,
+            "parameters": {
+                "clazz": 0,
+                "methodName": 0
+            }
+        },
+        "initializeFactory": {
+            "return": 0,
+            "parameters": {
+                "factory": 0
+            }
+        },
+        "handleIt": {
+            "return": 0,
+            "parameters": {
+                "msg": 0,
+                "myHeader": 0
+            }
+        }
+    },
+    "JmsEndpointSampleBean": {
+        "handleIt": {
+            "return": 0,
+            "parameters": {
+                "msg": 0,
+                "myHeader": 0
+            }
+        }
+    },
+    "UpperCaseMessageConverter": {
+        "toMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0
+            }
+        },
+        "fromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        }
+    }
+}

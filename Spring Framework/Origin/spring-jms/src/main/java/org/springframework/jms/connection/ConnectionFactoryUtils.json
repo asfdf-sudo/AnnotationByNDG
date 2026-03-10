@@ -1,0 +1,108 @@
+{
+    "ConnectionFactoryUtils": {
+        "releaseConnection": {
+            "return": 0,
+            "parameters": {
+                "con": 1,
+                "cf": 1,
+                "started": 0
+            }
+        },
+        "getTargetSession": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "isSessionTransactional": {
+            "return": 0,
+            "parameters": {
+                "session": 1,
+                "cf": 1
+            }
+        },
+        "getTransactionalSession": {
+            "return": 1,
+            "parameters": {
+                "cf": 0,
+                "existingCon": 1,
+                "synchedLocalTransactionAllowed": 0
+            }
+        },
+        "getSession": {
+            "return": 1,
+            "parameters": {
+                "holder": 0
+            }
+        },
+        "getConnection": {
+            "return": 1,
+            "parameters": {
+                "holder": 0
+            }
+        },
+        "createConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSession": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "isSynchedLocalTransactionAllowed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransactionalQueueSession": {
+            "return": 1,
+            "parameters": {
+                "cf": 0,
+                "existingCon": 1,
+                "synchedLocalTransactionAllowed": 0
+            }
+        },
+        "getTransactionalTopicSession": {
+            "return": 1,
+            "parameters": {
+                "cf": 0,
+                "existingCon": 1,
+                "synchedLocalTransactionAllowed": 0
+            }
+        },
+        "doGetTransactionalSession": {
+            "return": 1,
+            "parameters": {
+                "connectionFactory": 0,
+                "resourceFactory": 0,
+                "startConnection": 0
+            }
+        }
+    },
+    "JmsResourceSynchronization": {
+        "shouldReleaseBeforeCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processResourceAfterCommit": {
+            "return": 0,
+            "parameters": {
+                "resourceHolder": 0
+            }
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "releaseResource": {
+            "return": 0,
+            "parameters": {
+                "resourceHolder": 0,
+                "resourceKey": 0
+            }
+        }
+    }
+}

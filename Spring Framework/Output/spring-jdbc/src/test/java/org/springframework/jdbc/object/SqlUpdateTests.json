@@ -1,0 +1,157 @@
+{
+    "SqlUpdateTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "verifyClosed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUpdate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUpdateInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUpdateIntInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testNamedParameterUpdateWithUnnamedDeclarations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testNamedParameterUpdateWithNamedDeclarations": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestNamedParameterUpdate": {
+            "return": 0,
+            "parameters": {
+                "namedDeclarations": 0
+            }
+        }
+    },
+    "NamedParameterUpdater": {
+        "run": {
+            "return": 0,
+            "parameters": {
+                "performanceId": 0,
+                "type": 0
+            }
+        },
+        "testUpdateString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUpdateMixed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUpdateAndGeneratedKeys": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUpdateConstructor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUnderMaxRows": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMaxRows": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testOverMaxRows": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testRequiredRows": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testNotRequiredRows": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "Updater": {
+        "run": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "IntUpdater": {
+        "run": {
+            "return": 0,
+            "parameters": {
+                "performanceId": 0
+            }
+        }
+    },
+    "IntIntUpdater": {
+        "run": {
+            "return": 0,
+            "parameters": {
+                "performanceId": 0,
+                "type": 0
+            }
+        }
+    },
+    "StringUpdater": {
+        "run": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        }
+    },
+    "MixedUpdater": {
+        "run": {
+            "return": 0,
+            "parameters": {
+                "performanceId": 0,
+                "type": 0,
+                "name": 0,
+                "confirmed": 0
+            }
+        }
+    },
+    "GeneratedKeysUpdater": {
+        "run": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "generatedKeyHolder": 0
+            }
+        }
+    },
+    "ConstructorUpdater": {
+        "run": {
+            "return": 0,
+            "parameters": {
+                "performanceId": 0,
+                "type": 0,
+                "name": 0,
+                "confirmed": 0
+            }
+        }
+    },
+    "MaxRowsUpdater": {
+        "run": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "RequiredRowsUpdater": {
+        "run": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

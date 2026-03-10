@@ -1,0 +1,94 @@
+{
+    "SingleConnectionFactoryTests": {
+        "testWithConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithQueueConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithTopicConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithConnectionFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithQueueConnectionFactoryAndJms11Usage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithQueueConnectionFactoryAndJms102Usage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithTopicConnectionFactoryAndJms11Usage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithTopicConnectionFactoryAndJms102Usage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithConnectionAggregatedStartStop": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithConnectionFactoryAndClientId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithConnectionFactoryAndExceptionListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithConnectionFactoryAndReconnectOnException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithConnectionFactoryAndExceptionListenerAndReconnectOnException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testWithConnectionFactoryAndExceptionListenerAndReconnectOnExceptionWithJMSException": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "FailingTestConnection": {
+        "setExceptionListener": {
+            "return": 0,
+            "parameters": {
+                "exceptionListener": 0
+            }
+        },
+        "testWithConnectionFactoryAndLocalExceptionListenerWithCleanup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "onException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "testWithConnectionFactoryAndLocalExceptionListenerWithReconnect": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCachingConnectionFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCachingConnectionFactoryWithQueueConnectionFactoryAndJms102Usage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCachingConnectionFactoryWithTopicConnectionFactoryAndJms102Usage": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

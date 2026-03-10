@@ -1,0 +1,48 @@
+{
+    "ApplicationManagedEntityManagerIntegrationTests": {
+        "testEntityManagerProxyIsProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testEntityManagerProxyAcceptsProgrammaticTxJoining": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testInstantiateAndSave": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCannotFlushWithoutGettingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doInstantiateAndSave": {
+            "return": 0,
+            "parameters": {
+                "em": 0
+            }
+        },
+        "testStateClean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReuseInNewTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "deleteAllPeopleUsingEntityManager": {
+            "return": 0,
+            "parameters": {
+                "em": 0
+            }
+        },
+        "testRollbackOccurs": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCommitOccurs": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

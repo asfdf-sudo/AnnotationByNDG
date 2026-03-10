@@ -1,0 +1,44 @@
+{
+    "TransactionProxyFactoryBean": {
+        "setTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "transactionManager": 0
+            }
+        },
+        "setTransactionAttributes": {
+            "return": 0,
+            "parameters": {
+                "transactionAttributes": 0
+            }
+        },
+        "setTransactionAttributeSource": {
+            "return": 0,
+            "parameters": {
+                "transactionAttributeSource": 0
+            }
+        },
+        "setPointcut": {
+            "return": 0,
+            "parameters": {
+                "pointcut": 0
+            }
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        },
+        "createMainInterceptor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "postProcessProxyFactory": {
+            "return": 0,
+            "parameters": {
+                "proxyFactory": 0
+            }
+        }
+    }
+}

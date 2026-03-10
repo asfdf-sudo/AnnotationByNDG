@@ -1,0 +1,271 @@
+{
+    "JmsTemplateTests": {
+        "setupMocks": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createInitialContext": {
+            "return": 0,
+            "parameters": {}
+        },
+        "useTransactedSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "useTransactedTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getLocalSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testExceptionStackTrace": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testProducerCallback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testProducerCallbackWithIdAndTimestampDisabled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSessionCallback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSessionCallbackWithinSynchronizedTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSendDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSendDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSendDestinationWithQOS": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSendDestinationNameWithQOS": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSendDefaultDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSendDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSendDefaultDestinationWithQOS": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSendDefaultDestinationNameWithQOS": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestSendDestination": {
+            "return": 0,
+            "parameters": {
+                "explicitDestination": 0,
+                "useDefaultDestination": 0,
+                "ignoreQOS": 0,
+                "disableIdAndTimestamp": 0
+            }
+        },
+        "testConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveDefaultDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveDestinationWithClientAcknowledge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveDefaultDestinationWithSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveDefaultDestinationNameWithSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveDestinationWithSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveDestinationWithClientAcknowledgeWithSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveDestinationNameWithSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveAndConvertDefaultDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveAndConvertDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveAndConvertDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveAndConvertDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveAndConvertDefaultDestinationWithSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveAndConvertDestinationNameWithSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReceiveAndConvertDestinationWithSelector": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestReceive": {
+            "return": 0,
+            "parameters": {
+                "explicitDestination": 0,
+                "useDefaultDestination": 0,
+                "testConverter": 0,
+                "clientAcknowledge": 0,
+                "messageSelector": 0,
+                "noLocal": 0,
+                "timeout": 0
+            }
+        },
+        "testSendAndReceiveDefaultDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSendAndReceiveDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSendAndReceiveDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSendAndReceiveDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestSendAndReceive": {
+            "return": 0,
+            "parameters": {
+                "explicitDestination": 0,
+                "useDefaultDestination": 0,
+                "timeout": 0
+            }
+        },
+        "testSendAndReceiveDestinationWithResponseQueue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSendAndReceiveDestinationNameWithResponseQueueName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestSendAndReceiveWithResponseQueue": {
+            "return": 0,
+            "parameters": {
+                "explicitDestination": 0,
+                "timeout": 0
+            }
+        },
+        "testIllegalStateException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testInvalidClientIDException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testInvalidDestinationException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testInvalidSelectorException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testJmsSecurityException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMessageEOFException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMessageFormatException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMessageNotReadableException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testMessageNotWriteableException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testResourceAllocationException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionInProgressException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionRolledBackException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testUncategorizedJmsException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestJmsException": {
+            "return": 0,
+            "parameters": {
+                "original": 0,
+                "thrownExceptionClass": 0
+            }
+        }
+    }
+}

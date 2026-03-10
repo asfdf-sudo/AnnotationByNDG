@@ -1,0 +1,52 @@
+{
+    "TransactionalApplicationListenerAdapter": {
+        "setOrder": {
+            "return": 0,
+            "parameters": {
+                "order": 0
+            }
+        },
+        "getOrder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTransactionPhase": {
+            "return": 0,
+            "parameters": {
+                "transactionPhase": 0
+            }
+        },
+        "getTransactionPhase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setListenerId": {
+            "return": 0,
+            "parameters": {
+                "listenerId": 0
+            }
+        },
+        "getListenerId": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addCallback": {
+            "return": 0,
+            "parameters": {
+                "callback": 0
+            }
+        },
+        "processEvent": {
+            "return": 0,
+            "parameters": {
+                "event": 0
+            }
+        },
+        "onApplicationEvent": {
+            "return": 0,
+            "parameters": {
+                "event": 0
+            }
+        }
+    }
+}

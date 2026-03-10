@@ -1,0 +1,28 @@
+{
+    "MapSqlParameterSourceTests": {
+        "nullParameterValuesPassedToCtorIsOk": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getValueChokesIfParameterIsNotPresent": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sqlParameterValueRegistersSqlType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toStringShowsParameterDetails": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toStringShowsCustomSqlType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toStringDoesNotShowTypeUnknown": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

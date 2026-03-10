@@ -1,0 +1,29 @@
+{
+    "SimpleJmsHeaderMapper": {
+        "fromHeaders": {
+            "return": 0,
+            "parameters": {
+                "headers": 0,
+                "jmsMessage": 0
+            }
+        },
+        "toHeaders": {
+            "return": 0,
+            "parameters": {
+                "jmsMessage": 0
+            }
+        },
+        "fromHeaderName": {
+            "return": 0,
+            "parameters": {
+                "headerName": 1
+            }
+        },
+        "toHeaderName": {
+            "return": 0,
+            "parameters": {
+                "propertyName": 0
+            }
+        }
+    }
+}

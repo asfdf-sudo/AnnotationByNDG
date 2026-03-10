@@ -1,0 +1,26 @@
+{
+    "JmsListenerContainerTestFactory": {
+        "setAutoStartup": {
+            "return": 0,
+            "parameters": {
+                "autoStartup": 0
+            }
+        },
+        "getListenerContainers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getListenerContainer": {
+            "return": 0,
+            "parameters": {
+                "id": 0
+            }
+        },
+        "createListenerContainer": {
+            "return": 0,
+            "parameters": {
+                "endpoint": 0
+            }
+        }
+    }
+}

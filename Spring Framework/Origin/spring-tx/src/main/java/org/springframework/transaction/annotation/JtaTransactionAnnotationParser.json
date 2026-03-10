@@ -1,0 +1,26 @@
+{
+    "JtaTransactionAnnotationParser": {
+        "isCandidateClass": {
+            "return": 0,
+            "parameters": {
+                "targetClass": 0
+            }
+        },
+        "parseTransactionAnnotation": {
+            "return": 0,
+            "parameters": {
+                "attributes": 0
+            }
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

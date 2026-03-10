@@ -1,0 +1,157 @@
+{
+    "RdbmsOperation": {
+        "setJdbcTemplate": {
+            "return": 0,
+            "parameters": {
+                "jdbcTemplate": 0
+            }
+        },
+        "getJdbcTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "setFetchSize": {
+            "return": 0,
+            "parameters": {
+                "fetchSize": 0
+            }
+        },
+        "setMaxRows": {
+            "return": 0,
+            "parameters": {
+                "maxRows": 0
+            }
+        },
+        "setQueryTimeout": {
+            "return": 0,
+            "parameters": {
+                "queryTimeout": 0
+            }
+        },
+        "setResultSetType": {
+            "return": 0,
+            "parameters": {
+                "resultSetType": 0
+            }
+        },
+        "getResultSetType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setUpdatableResults": {
+            "return": 0,
+            "parameters": {
+                "updatableResults": 0
+            }
+        },
+        "isUpdatableResults": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setReturnGeneratedKeys": {
+            "return": 0,
+            "parameters": {
+                "returnGeneratedKeys": 0
+            }
+        },
+        "isReturnGeneratedKeys": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setGeneratedKeysColumnNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getGeneratedKeysColumnNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSql": {
+            "return": 0,
+            "parameters": {
+                "sql": 1
+            }
+        },
+        "getSql": {
+            "return": 1,
+            "parameters": {}
+        },
+        "resolveSql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTypes": {
+            "return": 0,
+            "parameters": {
+                "types": 0
+            }
+        },
+        "declareParameter": {
+            "return": 0,
+            "parameters": {
+                "param": 0
+            }
+        },
+        "setParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDeclaredParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "compile": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isCompiled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkCompiled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validateParameters": {
+            "return": 0,
+            "parameters": {
+                "parameters": 0
+            }
+        },
+        "validateNamedParameters": {
+            "return": 0,
+            "parameters": {
+                "parameters": 1
+            }
+        },
+        "validateParameterCount": {
+            "return": 0,
+            "parameters": {
+                "suppliedParamCount": 0,
+                "declaredInParamCount": 0
+            }
+        },
+        "compileInternal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "supportsLobParameters": {
+            "return": 0,
+            "parameters": {}
+        },
+        "allowsUnusedParameters": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

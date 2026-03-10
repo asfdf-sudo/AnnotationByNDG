@@ -1,0 +1,14 @@
+{
+    "JtaAfterCompletionSynchronization": {
+        "beforeCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        }
+    }
+}

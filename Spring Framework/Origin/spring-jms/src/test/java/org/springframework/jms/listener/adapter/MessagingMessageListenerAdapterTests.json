@@ -1,0 +1,222 @@
+{
+    "MessagingMessageListenerAdapterTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "buildMessageWithStandardMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "exceptionInListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "exceptionInInvocation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "payloadConversionLazilyInvoked": {
+            "return": 0,
+            "parameters": {}
+        },
+        "headerConversionLazilyInvoked": {
+            "return": 0,
+            "parameters": {}
+        },
+        "incomingMessageUsesMessageConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "replyUsesMessageConverterForPayload": {
+            "return": 0,
+            "parameters": {}
+        },
+        "replyPayloadToQueue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "replyWithCustomTimeToLive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "replyWithFullQoS": {
+            "return": 0,
+            "parameters": {}
+        },
+        "replyPayloadToTopic": {
+            "return": 0,
+            "parameters": {}
+        },
+        "replyPayloadToDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "replyPayloadNoDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "replyJackson": {
+            "return": 0,
+            "parameters": {}
+        },
+        "replyJacksonMessageAndJsonView": {
+            "return": 0,
+            "parameters": {}
+        },
+        "replyJacksonPojoAndJsonView": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testReplyWithJackson": {
+            "return": 0,
+            "parameters": {
+                "methodName": 0,
+                "replyContent": 0
+            }
+        },
+        "lazyResolutionMessageToStringProvidesBestEffortWithUnresolvedPayload": {
+            "return": 0,
+            "parameters": {}
+        },
+        "lazyResolutionMessageToStringWithResolvedPayload": {
+            "return": 0,
+            "parameters": {}
+        },
+        "lazyResolutionMessageToStringWithResolvedPayloadAndHeaders": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSimpleInstance": {
+            "return": 0,
+            "parameters": {
+                "methodName": 0
+            }
+        },
+        "createInstance": {
+            "return": 0,
+            "parameters": {
+                "m": 0
+            }
+        },
+        "getPayloadInstance": {
+            "return": 0,
+            "parameters": {
+                "payload": 0,
+                "methodName": 0
+            }
+        },
+        "extractMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        }
+    },
+    "SampleBean": {
+        "simple": {
+            "return": 0,
+            "parameters": {
+                "input": 0
+            }
+        },
+        "echo": {
+            "return": 0,
+            "parameters": {
+                "input": 0
+            }
+        },
+        "replyPayloadToQueue": {
+            "return": 0,
+            "parameters": {
+                "input": 0
+            }
+        },
+        "replyPayloadToTopic": {
+            "return": 0,
+            "parameters": {
+                "input": 0
+            }
+        },
+        "replyPayloadToDestination": {
+            "return": 0,
+            "parameters": {
+                "input": 0
+            }
+        },
+        "replyPayloadNoDestination": {
+            "return": 0,
+            "parameters": {
+                "input": 0
+            }
+        },
+        "replyJackson": {
+            "return": 0,
+            "parameters": {
+                "input": 0
+            }
+        },
+        "replyJacksonMessageAndJsonView": {
+            "return": 0,
+            "parameters": {
+                "input": 0
+            }
+        },
+        "replyJacksonPojoAndJsonView": {
+            "return": 0,
+            "parameters": {
+                "input": 0
+            }
+        },
+        "createSampleResponse": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "fail": {
+            "return": 0,
+            "parameters": {
+                "input": 0
+            }
+        },
+        "wrongParam": {
+            "return": 0,
+            "parameters": {
+                "i": 0
+            }
+        }
+    },
+    "SampleResponse": {
+        "getCounter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCounter": {
+            "return": 0,
+            "parameters": {
+                "counter": 0
+            }
+        },
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "getDescription": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDescription": {
+            "return": 0,
+            "parameters": {
+                "description": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "TransactionSynchronizationAdapter": {
+        "getOrder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "suspend": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resume": {
+            "return": 0,
+            "parameters": {}
+        },
+        "flush": {
+            "return": 0,
+            "parameters": {}
+        },
+        "beforeCommit": {
+            "return": 0,
+            "parameters": {
+                "readOnly": 0
+            }
+        },
+        "beforeCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        }
+    }
+}

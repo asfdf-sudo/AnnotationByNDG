@@ -1,0 +1,50 @@
+{
+    "JmsMessageHeaderAccessor": {
+        "getCorrelationId": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getDestination": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getDeliveryMode": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getExpiration": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getMessageId": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getPriority": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getReplyTo": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getRedelivered": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getType": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getTimestamp": {
+            "return": 1,
+            "parameters": {}
+        },
+        "wrap": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        }
+    }
+}

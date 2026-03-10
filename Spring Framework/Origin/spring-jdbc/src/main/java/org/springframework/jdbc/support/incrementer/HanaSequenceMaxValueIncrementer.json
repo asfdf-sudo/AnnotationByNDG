@@ -1,0 +1,8 @@
+{
+    "HanaSequenceMaxValueIncrementer": {
+        "getSequenceQuery": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

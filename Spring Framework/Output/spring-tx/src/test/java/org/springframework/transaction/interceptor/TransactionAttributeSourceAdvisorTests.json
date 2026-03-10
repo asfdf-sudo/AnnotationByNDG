@@ -1,0 +1,8 @@
+{
+    "TransactionAttributeSourceAdvisorTests": {
+        "serializability": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

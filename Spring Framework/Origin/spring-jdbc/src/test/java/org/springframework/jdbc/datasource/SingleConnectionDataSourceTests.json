@@ -1,0 +1,31 @@
+{
+    "SingleConnectionDataSourceTests": {
+        "plainConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withAutoCloseable": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withSuppressClose": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withRollbackBeforeClose": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withEnforcedAutoCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getConnectionFromDriverManager": {
+            "return": 0,
+            "parameters": {
+                "url": 0,
+                "props": 0
+            }
+        }
+    }
+}

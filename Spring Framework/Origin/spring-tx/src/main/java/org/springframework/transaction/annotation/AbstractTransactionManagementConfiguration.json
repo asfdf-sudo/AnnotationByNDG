@@ -1,0 +1,24 @@
+{
+    "AbstractTransactionManagementConfiguration": {
+        "setImportMetadata": {
+            "return": 0,
+            "parameters": {
+                "importMetadata": 0
+            }
+        },
+        "setConfigurers": {
+            "return": 0,
+            "parameters": {
+                "configurers": 0
+            }
+        },
+        "transactionAttributeSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionalEventListenerFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

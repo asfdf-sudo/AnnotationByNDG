@@ -1,0 +1,16 @@
+{
+    "JdbcUpdateAffectedIncorrectNumberOfRowsException": {
+        "getExpectedRowsAffected": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getActualRowsAffected": {
+            "return": 0,
+            "parameters": {}
+        },
+        "wasDataUpdated": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

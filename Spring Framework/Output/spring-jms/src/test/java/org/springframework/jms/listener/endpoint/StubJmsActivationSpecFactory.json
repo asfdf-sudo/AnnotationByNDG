@@ -1,0 +1,11 @@
+{
+    "StubJmsActivationSpecFactory": {
+        "createActivationSpec": {
+            "return": 0,
+            "parameters": {
+                "adapter": 1,
+                "config": 1
+            }
+        }
+    }
+}

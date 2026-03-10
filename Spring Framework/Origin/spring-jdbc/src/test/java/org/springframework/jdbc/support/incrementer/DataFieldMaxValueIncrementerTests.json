@@ -1,0 +1,40 @@
+{
+    "DataFieldMaxValueIncrementerTests": {
+        "hanaSequenceMaxValueIncrementer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hsqlMaxValueIncrementer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hsqlMaxValueIncrementerWithDeleteSpecificValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mySQLIdentityColumnMaxValueIncrementer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mySQLMaxValueIncrementer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "mariaDBSequenceMaxValueIncrementer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "oracleSequenceMaxValueIncrementer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "postgresSequenceMaxValueIncrementer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sqlServerSequenceMaxValueIncrementer": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

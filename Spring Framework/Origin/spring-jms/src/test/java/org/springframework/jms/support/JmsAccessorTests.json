@@ -1,0 +1,40 @@
+{
+    "JmsAccessorTests": {
+        "failsIfConnectionFactoryIsNotSupplied": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sessionTransactedModeDefaultsToFalse": {
+            "return": 0,
+            "parameters": {}
+        },
+        "acknowledgeModeDefaultsToAutoAcknowledge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSessionAcknowledgeModeNameToUnsupportedValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSessionAcknowledgeModeNameToAllSupportedValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSessionAcknowledgeMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCustomSessionAcknowledgeMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customAcknowledgeModeIsConsideredClientAcknowledge": {
+            "return": 0,
+            "parameters": {}
+        },
+        "streamAcknowledgeModeConstants": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

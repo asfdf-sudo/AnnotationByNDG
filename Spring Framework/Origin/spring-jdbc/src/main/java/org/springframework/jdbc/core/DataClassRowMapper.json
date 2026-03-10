@@ -1,0 +1,24 @@
+{
+    "DataClassRowMapper": {
+        "initialize": {
+            "return": 0,
+            "parameters": {
+                "mappedClass": 0
+            }
+        },
+        "constructMappedInstance": {
+            "return": 0,
+            "parameters": {
+                "rs": 0,
+                "tc": 0
+            }
+        },
+        "newInstance": {
+            "return": 0,
+            "parameters": {
+                "mappedClass": 0,
+                "conversionService": 1
+            }
+        }
+    }
+}

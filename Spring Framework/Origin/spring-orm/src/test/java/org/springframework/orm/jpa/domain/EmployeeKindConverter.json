@@ -1,0 +1,16 @@
+{
+    "EmployeeKindConverter": {
+        "convertToDatabaseColumn": {
+            "return": 0,
+            "parameters": {
+                "employeeKind": 0
+            }
+        },
+        "convertToEntityAttribute": {
+            "return": 0,
+            "parameters": {
+                "data": 0
+            }
+        }
+    }
+}

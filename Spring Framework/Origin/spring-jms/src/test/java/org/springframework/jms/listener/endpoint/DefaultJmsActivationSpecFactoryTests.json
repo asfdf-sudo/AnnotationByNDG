@@ -1,0 +1,88 @@
+{
+    "DefaultJmsActivationSpecFactoryTests": {
+        "activeMQResourceAdapterSetup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "webSphereResourceAdapterSetup": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "StubActiveMQResourceAdapter": {},
+    "StubWebSphereResourceAdapterImpl": {},
+    "StubActiveMQActivationSpec": {
+        "setMaxSessions": {
+            "return": 0,
+            "parameters": {
+                "maxSessions": 0
+            }
+        },
+        "setMaxMessagesPerSessions": {
+            "return": 0,
+            "parameters": {
+                "maxMessagesPerSessions": 0
+            }
+        },
+        "getMaxSessions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getMaxMessagesPerSessions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDestination": {
+            "return": 0,
+            "parameters": {
+                "destination": 0
+            }
+        },
+        "isUseRAManagedTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setUseRAManagedTransaction": {
+            "return": 0,
+            "parameters": {
+                "useRAManagedTransaction": 0
+            }
+        }
+    },
+    "StubWebSphereActivationSpecImpl": {
+        "setDestination": {
+            "return": 0,
+            "parameters": {
+                "destination": 0
+            }
+        },
+        "getDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getMaxConcurrency": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMaxConcurrency": {
+            "return": 0,
+            "parameters": {
+                "maxConcurrency": 0
+            }
+        },
+        "getMaxBatchSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMaxBatchSize": {
+            "return": 0,
+            "parameters": {
+                "maxBatchSize": 0
+            }
+        }
+    }
+}

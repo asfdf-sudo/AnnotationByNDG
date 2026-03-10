@@ -1,0 +1,26 @@
+{
+    "EclipseLinkJpaVendorAdapter": {
+        "getPersistenceProvider": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getJpaPropertyMap": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineTargetDatabaseName": {
+            "return": 1,
+            "parameters": {
+                "database": 0
+            }
+        },
+        "getJpaDialect": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getEntityManagerInterface": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

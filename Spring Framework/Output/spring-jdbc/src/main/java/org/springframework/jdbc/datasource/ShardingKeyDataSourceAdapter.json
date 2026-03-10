@@ -1,0 +1,21 @@
+{
+    "ShardingKeyDataSourceAdapter": {
+        "setShardingKeyProvider": {
+            "return": 0,
+            "parameters": {
+                "shardingKeyProvider": 0
+            }
+        },
+        "getConnection": {
+            "return": 0,
+            "parameters": {
+                "username": 0,
+                "password": 0
+            }
+        },
+        "createConnectionBuilder": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

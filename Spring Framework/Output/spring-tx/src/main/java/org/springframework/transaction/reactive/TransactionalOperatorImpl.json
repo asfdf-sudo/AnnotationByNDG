@@ -1,0 +1,37 @@
+{
+    "TransactionalOperatorImpl": {
+        "getTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "action": 0
+            }
+        },
+        "rollbackOnException": {
+            "return": 0,
+            "parameters": {
+                "status": 0,
+                "ex": 0
+            }
+        },
+        "unwrapIfResourceCleanupFailure": {
+            "return": 0,
+            "parameters": {
+                "ex": 1
+            }
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "NamedParameterJdbcDaoSupport": {
+        "initTemplateConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getNamedParameterJdbcTemplate": {
+            "return": 1,
+            "parameters": {}
+        }
+    }
+}

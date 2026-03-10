@@ -1,0 +1,36 @@
+{
+    "EntityManagerHolder": {
+        "getEntityManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTransactionActive": {
+            "return": 0,
+            "parameters": {
+                "transactionActive": 0
+            }
+        },
+        "isTransactionActive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSavepointManager": {
+            "return": 0,
+            "parameters": {
+                "savepointManager": 0
+            }
+        },
+        "getSavepointManager": {
+            "return": 1,
+            "parameters": {}
+        },
+        "clear": {
+            "return": 0,
+            "parameters": {}
+        },
+        "closeAll": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

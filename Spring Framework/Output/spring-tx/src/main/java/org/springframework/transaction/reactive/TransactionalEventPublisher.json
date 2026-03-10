@@ -1,0 +1,10 @@
+{
+    "TransactionalEventPublisher": {
+        "publishEvent": {
+            "return": 0,
+            "parameters": {
+                "payload": 1
+            }
+        }
+    }
+}

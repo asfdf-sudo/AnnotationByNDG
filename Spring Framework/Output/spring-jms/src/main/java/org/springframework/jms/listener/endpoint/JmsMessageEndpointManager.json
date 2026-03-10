@@ -1,0 +1,78 @@
+{
+    "JmsMessageEndpointManager": {
+        "setMessageListener": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 0
+            }
+        },
+        "getMessageListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "transactionManager": 0
+            }
+        },
+        "setActivationSpecFactory": {
+            "return": 0,
+            "parameters": {
+                "activationSpecFactory": 1
+            }
+        },
+        "setDestinationResolver": {
+            "return": 0,
+            "parameters": {
+                "destinationResolver": 0
+            }
+        },
+        "setActivationSpecConfig": {
+            "return": 0,
+            "parameters": {
+                "activationSpecConfig": 0
+            }
+        },
+        "getActivationSpecConfig": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setBeanName": {
+            "return": 0,
+            "parameters": {
+                "beanName": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setupMessageListener": {
+            "return": 0,
+            "parameters": {
+                "messageListener": 0
+            }
+        },
+        "getMessageConverter": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getDestinationResolver": {
+            "return": 1,
+            "parameters": {}
+        },
+        "isPubSubDomain": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isReplyPubSubDomain": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getReplyQosSettings": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

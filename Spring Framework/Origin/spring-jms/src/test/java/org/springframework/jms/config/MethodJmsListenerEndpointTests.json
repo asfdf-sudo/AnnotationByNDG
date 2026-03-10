@@ -1,0 +1,310 @@
+{
+    "MethodJmsListenerEndpointTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {
+                "testInfo": 0
+            }
+        },
+        "createMessageListenerNoFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createMessageListener": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setExtraCollaborators": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveMessageAndSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveGenericMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveHeaderAndPayload": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveCustomHeaderNameAndPayload": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveCustomHeaderNameAndPayloadWithHeaderNameSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveHeaders": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveMessageHeaders": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveJmsMessageHeaderAccessor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveObjectPayload": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveConvertedPayload": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAndReply": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAndReplyWithSendToQueue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processFromTopicAndReplyWithSendToQueue": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAndReplyWithSendToTopic": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processFromQueueAndReplyWithSendToTopic": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAndReplyWithDefaultSendTo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAndReplyWithCustomReplyQosSettings": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAndReplyWithNullReplyQosSettings": {
+            "return": 0,
+            "parameters": {}
+        },
+        "processAndReplyWithSendTo": {
+            "return": 0,
+            "parameters": {
+                "listener": 0,
+                "replyDestinationName": 0,
+                "pubSubDomain": 0,
+                "replyQosSettings": 0
+            }
+        },
+        "emptySendTo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invalidSendTo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validatePayloadValid": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validatePayloadInvalid": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invalidPayloadType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invalidMessagePayloadType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createInstance": {
+            "return": 0,
+            "parameters": {
+                "factory": 0,
+                "method": 0
+            }
+        },
+        "createDefaultInstance": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSimpleJmsTextMessage": {
+            "return": 0,
+            "parameters": {
+                "body": 0
+            }
+        },
+        "getListenerMethod": {
+            "return": 0,
+            "parameters": {
+                "methodName": 0
+            }
+        },
+        "getDefaultListenerMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertDefaultListenerMethodInvocation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertListenerMethodInvocation": {
+            "return": 0,
+            "parameters": {
+                "bean": 0,
+                "methodName": 0
+            }
+        },
+        "initializeFactory": {
+            "return": 0,
+            "parameters": {
+                "factory": 0
+            }
+        },
+        "testValidator": {
+            "return": 0,
+            "parameters": {
+                "invalidValue": 0
+            }
+        },
+        "supports": {
+            "return": 0,
+            "parameters": {
+                "clazz": 0
+            }
+        },
+        "validate": {
+            "return": 0,
+            "parameters": {
+                "target": 1,
+                "errors": 0
+            }
+        },
+        "getTestMethod": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "JmsEndpointSampleBean": {
+        "resolveMessageAndSession": {
+            "return": 0,
+            "parameters": {
+                "message": 0,
+                "session": 0
+            }
+        },
+        "resolveGenericMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "resolveHeaderAndPayload": {
+            "return": 0,
+            "parameters": {
+                "content": 0,
+                "myCounter": 0
+            }
+        },
+        "resolveCustomHeaderNameAndPayload": {
+            "return": 0,
+            "parameters": {
+                "content": 0,
+                "counter": 0
+            }
+        },
+        "resolveCustomHeaderNameAndPayloadWithHeaderNameSet": {
+            "return": 0,
+            "parameters": {
+                "content": 0,
+                "counter": 0
+            }
+        },
+        "resolveHeaders": {
+            "return": 0,
+            "parameters": {
+                "content": 0,
+                "headers": 0
+            }
+        },
+        "resolveMessageHeaders": {
+            "return": 0,
+            "parameters": {
+                "headers": 0
+            }
+        },
+        "resolveJmsMessageHeaderAccessor": {
+            "return": 0,
+            "parameters": {
+                "headers": 0
+            }
+        },
+        "resolveObjectPayload": {
+            "return": 0,
+            "parameters": {
+                "bean": 0
+            }
+        },
+        "resolveConvertedPayload": {
+            "return": 0,
+            "parameters": {
+                "counter": 0
+            }
+        },
+        "processAndReply": {
+            "return": 0,
+            "parameters": {
+                "content": 0
+            }
+        },
+        "processAndReplyWithSendTo": {
+            "return": 0,
+            "parameters": {
+                "content": 0
+            }
+        },
+        "processAndReplyWithDefaultSendTo": {
+            "return": 0,
+            "parameters": {
+                "content": 0
+            }
+        },
+        "emptySendTo": {
+            "return": 0,
+            "parameters": {
+                "content": 0
+            }
+        },
+        "invalidSendTo": {
+            "return": 0,
+            "parameters": {
+                "content": 0
+            }
+        },
+        "validatePayload": {
+            "return": 0,
+            "parameters": {
+                "payload": 0
+            }
+        },
+        "invalidPayloadType": {
+            "return": 0,
+            "parameters": {
+                "payload": 0
+            }
+        },
+        "invalidMessagePayloadType": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        }
+    },
+    "MyBean": {}
+}

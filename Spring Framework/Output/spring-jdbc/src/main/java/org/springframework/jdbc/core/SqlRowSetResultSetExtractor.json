@@ -1,0 +1,20 @@
+{
+    "SqlRowSetResultSetExtractor": {
+        "extractData": {
+            "return": 0,
+            "parameters": {
+                "rs": 0
+            }
+        },
+        "createSqlRowSet": {
+            "return": 0,
+            "parameters": {
+                "rs": 0
+            }
+        },
+        "newCachedRowSet": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

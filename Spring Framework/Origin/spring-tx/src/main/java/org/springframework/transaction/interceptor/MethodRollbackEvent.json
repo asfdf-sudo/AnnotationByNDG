@@ -1,0 +1,12 @@
+{
+    "MethodRollbackEvent": {
+        "getFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTransaction": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

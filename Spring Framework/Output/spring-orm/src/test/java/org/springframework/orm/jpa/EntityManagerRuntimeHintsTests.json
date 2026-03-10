@@ -1,0 +1,24 @@
+{
+    "EntityManagerRuntimeHintsTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "entityManagerFactoryInfoHasHibernateHints": {
+            "return": 0,
+            "parameters": {}
+        },
+        "entityManagerProxyHasHibernateHints": {
+            "return": 0,
+            "parameters": {}
+        },
+        "entityManagerFactoryHasReflectionHints": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sqmQueryHints": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

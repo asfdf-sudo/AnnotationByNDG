@@ -1,0 +1,49 @@
+{
+    "WebLogicJtaTransactionManager": {
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "retrieveUserTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "retrieveTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "loadWebLogicTransactionHelper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "loadWebLogicTransactionClasses": {
+            "return": 0,
+            "parameters": {}
+        },
+        "obtainTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doJtaBegin": {
+            "return": 0,
+            "parameters": {
+                "txObject": 0,
+                "definition": 0
+            }
+        },
+        "doJtaResume": {
+            "return": 0,
+            "parameters": {
+                "txObject": 0,
+                "suspendedTransaction": 0
+            }
+        },
+        "createTransaction": {
+            "return": 0,
+            "parameters": {
+                "name": 1,
+                "timeout": 0
+            }
+        }
+    }
+}

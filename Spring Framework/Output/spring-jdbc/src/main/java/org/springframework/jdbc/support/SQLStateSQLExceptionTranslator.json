@@ -1,0 +1,37 @@
+{
+    "SQLStateSQLExceptionTranslator": {
+        "doTranslate": {
+            "return": 1,
+            "parameters": {
+                "task": 0,
+                "sql": 0,
+                "ex": 0
+            }
+        },
+        "getSqlState": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "indicatesDuplicateKey": {
+            "return": 0,
+            "parameters": {
+                "sqlState": 1,
+                "errorCode": 0
+            }
+        },
+        "indicatesCannotAcquireLock": {
+            "return": 0,
+            "parameters": {
+                "sqlState": 1
+            }
+        },
+        "indicatesQueryTimeout": {
+            "return": 0,
+            "parameters": {
+                "sqlState": 1
+            }
+        }
+    }
+}

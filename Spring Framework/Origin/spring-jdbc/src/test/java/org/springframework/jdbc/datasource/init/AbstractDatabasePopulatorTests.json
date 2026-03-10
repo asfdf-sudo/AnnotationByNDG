@@ -1,0 +1,66 @@
+{
+    "AbstractDatabasePopulatorTests": {
+        "scriptWithSingleLineCommentsAndFailedDrop": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scriptWithStandardEscapedLiteral": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scriptWithMySqlEscapedLiteral": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scriptWithMultipleStatements": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scriptWithMultipleStatementsAndLongSeparator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scriptWithMultipleStatementsAndWhitespaceSeparator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scriptWithMultipleStatementsAndNewlineSeparator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scriptWithMultipleStatementsAndMultipleNewlineSeparator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scriptWithEolBetweenTokens": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scriptWithCommentsWithinStatements": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scriptWithoutStatementSeparator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "constructorWithMultipleScriptResources": {
+            "return": 0,
+            "parameters": {}
+        },
+        "scriptWithSelectStatements": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usesBoundConnectionIfAvailable": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertTestDatabaseCreated": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        }
+    }
+}

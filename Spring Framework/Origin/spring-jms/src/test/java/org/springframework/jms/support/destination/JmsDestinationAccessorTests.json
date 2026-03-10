@@ -1,0 +1,13 @@
+{
+    "JmsDestinationAccessorTests": {
+        "testChokesIfDestinationResolverIsetToNullExplicitly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testSessionTransactedModeReallyDoesDefaultToFalse": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "StubJmsDestinationAccessor": {}
+}

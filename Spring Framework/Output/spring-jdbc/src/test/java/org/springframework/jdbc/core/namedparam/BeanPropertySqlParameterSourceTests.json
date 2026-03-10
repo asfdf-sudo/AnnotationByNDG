@@ -1,0 +1,52 @@
+{
+    "BeanPropertySqlParameterSourceTests": {
+        "withNullBeanPassedToCtor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getValueWhereTheUnderlyingBeanHasNoSuchProperty": {
+            "return": 0,
+            "parameters": {}
+        },
+        "successfulPropertyAccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "successfulPropertyAccessWithOverriddenSqlType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasValueWhereTheUnderlyingBeanHasNoSuchProperty": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getValueWhereTheUnderlyingBeanPropertyIsNotReadable": {
+            "return": 0,
+            "parameters": {}
+        },
+        "hasValueWhereTheUnderlyingBeanPropertyIsNotReadable": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toStringShowsParameterDetails": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toStringShowsCustomSqlType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toStringDoesNotShowTypeUnknown": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "NoReadableProperties": {
+        "setNoOp": {
+            "return": 0,
+            "parameters": {
+                "noOp": 0
+            }
+        }
+    }
+}

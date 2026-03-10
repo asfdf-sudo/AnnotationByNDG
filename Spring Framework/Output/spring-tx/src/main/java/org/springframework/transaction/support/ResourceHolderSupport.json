@@ -1,0 +1,88 @@
+{
+    "ResourceHolderSupport": {
+        "setSynchronizedWithTransaction": {
+            "return": 0,
+            "parameters": {
+                "synchronizedWithTransaction": 0
+            }
+        },
+        "isSynchronizedWithTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resetRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTimeoutInSeconds": {
+            "return": 0,
+            "parameters": {
+                "seconds": 0
+            }
+        },
+        "setTimeoutInMillis": {
+            "return": 0,
+            "parameters": {
+                "millis": 0
+            }
+        },
+        "hasTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getDeadline": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getTimeToLiveInSeconds": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTimeToLiveInMillis": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkTransactionTimeout": {
+            "return": 0,
+            "parameters": {
+                "deadlineReached": 0
+            }
+        },
+        "requested": {
+            "return": 0,
+            "parameters": {}
+        },
+        "released": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isOpen": {
+            "return": 0,
+            "parameters": {}
+        },
+        "clear": {
+            "return": 0,
+            "parameters": {}
+        },
+        "reset": {
+            "return": 0,
+            "parameters": {}
+        },
+        "unbound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isVoid": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

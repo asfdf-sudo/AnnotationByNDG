@@ -1,0 +1,69 @@
+{
+    "SimpleMessageConverter": {
+        "toMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0
+            }
+        },
+        "fromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "createMessageForString": {
+            "return": 0,
+            "parameters": {
+                "text": 0,
+                "session": 0
+            }
+        },
+        "createMessageForByteArray": {
+            "return": 0,
+            "parameters": {
+                "bytes": 0,
+                "session": 0
+            }
+        },
+        "createMessageForMap": {
+            "return": 0,
+            "parameters": {
+                "map": 0,
+                "session": 0
+            }
+        },
+        "createMessageForSerializable": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0
+            }
+        },
+        "extractStringFromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "extractByteArrayFromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "extractMapFromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        },
+        "extractSerializableFromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        }
+    }
+}

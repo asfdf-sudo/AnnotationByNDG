@@ -1,0 +1,12 @@
+{
+    "JmsTemplateJtaTests": {
+        "useTransactedSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "useTransactedTemplate": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

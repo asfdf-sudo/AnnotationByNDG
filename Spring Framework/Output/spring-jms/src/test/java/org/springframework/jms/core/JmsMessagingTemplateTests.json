@@ -1,0 +1,294 @@
+{
+    "JmsMessagingTemplateTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "validateJmsTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "payloadConverterIsConsistentConstructor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "payloadConverterIsConsistentSetter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customConverterAlwaysTakesPrecedence": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertPayloadConverter": {
+            "return": 0,
+            "parameters": {
+                "messagingTemplate": 0,
+                "messageConverter": 0
+            }
+        },
+        "send": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendDefaultDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendNoDefaultSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendPropertyInjection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertAndSendPayload": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertAndSendPayloadName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertAndSendDefaultDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertAndSendDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertAndSendNoDefaultSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertAndSendCustomJmsMessageConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toMessage": {
+            "return": 0,
+            "parameters": {
+                "object": 0,
+                "session": 0
+            }
+        },
+        "convertAndSendPayloadAndHeaders": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertAndSendPayloadAndHeadersName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveDefaultDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveNoDefaultSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelected": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedDefaultDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedNoDefaultSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveAndConvert": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveAndConvertName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveAndConvertDefaultDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveAndConvertDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveAndConvertWithConversion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveAndConvertNoConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveAndConvertNoInput": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedAndConvert": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedAndConvertName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedAndConvertDefaultDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedAndConvertDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedAndConvertWithConversion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedAndConvertNoConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "receiveSelectedAndConvertNoInput": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendAndReceive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendAndReceiveName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendAndReceiveDefaultDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendAndReceiveDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sendAndReceiveNoDefaultSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertSendAndReceivePayloadWithDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertSendAndReceivePayloadWithDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertSendAndReceiveWithDefaultDestination": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertSendAndReceiveWithDefaultDestinationAndHeaders": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertSendAndReceiveWithDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertSendAndReceiveWithDefaultDestinationNameAndHeaders": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertSendAndReceiveNoDefaultSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertMessageConversionExceptionOnSend": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertMessageConversionExceptionOnReceive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertMessageNotReadableException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertDestinationResolutionExceptionOnSend": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertDestinationResolutionExceptionOnReceive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertMessageFormatException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertMessageNotWritableException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertInvalidDestinationExceptionOnSendAndReceiveWithName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "convertInvalidDestinationExceptionOnSendAndReceive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "invokeMessageCreator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createTextMessage": {
+            "return": 0,
+            "parameters": {
+                "creator": 1
+            }
+        },
+        "createJmsTextMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertTextMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 1
+            }
+        }
+    }
+}

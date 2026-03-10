@@ -1,0 +1,11 @@
+{
+    "ScriptParseException": {
+        "buildMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0,
+                "resource": 1
+            }
+        }
+    }
+}

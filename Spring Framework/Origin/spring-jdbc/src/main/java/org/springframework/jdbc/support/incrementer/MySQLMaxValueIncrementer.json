@@ -1,0 +1,14 @@
+{
+    "MySQLMaxValueIncrementer": {
+        "setUseNewConnection": {
+            "return": 0,
+            "parameters": {
+                "useNewConnection": 0
+            }
+        },
+        "getNextKey": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

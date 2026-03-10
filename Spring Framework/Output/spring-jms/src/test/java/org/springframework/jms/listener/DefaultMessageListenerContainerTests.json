@@ -1,0 +1,84 @@
+{
+    "DefaultMessageListenerContainerTests": {
+        "applyBackOff": {
+            "return": 0,
+            "parameters": {}
+        },
+        "applyBackOffRetry": {
+            "return": 0,
+            "parameters": {}
+        },
+        "recoverResetBackOff": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stopAndRestart": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stopWithCallbackAndRestart": {
+            "return": 0,
+            "parameters": {}
+        },
+        "stopCallbackIsInvokedEvenIfContainerIsNotRunning": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCacheLevelNameToUnsupportedValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCacheLevelNameToAllSupportedValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCacheLevel": {
+            "return": 0,
+            "parameters": {}
+        },
+        "streamCacheConstants": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createRunningContainer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSuccessfulConnectionFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createContainer": {
+            "return": 0,
+            "parameters": {
+                "connectionFactory": 0
+            }
+        },
+        "createFailingContainerFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createRecoverableContainerFactory": {
+            "return": 0,
+            "parameters": {
+                "failingAttempts": 0
+            }
+        },
+        "answer": {
+            "return": 0,
+            "parameters": {
+                "invocation": 0
+            }
+        }
+    },
+    "TestRunnable": {
+        "run": {
+            "return": 0,
+            "parameters": {}
+        },
+        "waitForCompletion": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

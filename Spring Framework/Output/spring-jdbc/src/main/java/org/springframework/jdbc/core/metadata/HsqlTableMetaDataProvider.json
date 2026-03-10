@@ -1,0 +1,15 @@
+{
+    "HsqlTableMetaDataProvider": {
+        "isGetGeneratedKeysSimulated": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getSimpleQueryForGetGeneratedKey": {
+            "return": 0,
+            "parameters": {
+                "tableName": 0,
+                "keyColumnName": 0
+            }
+        }
+    }
+}

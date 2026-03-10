@@ -1,0 +1,8 @@
+{
+    "JmsMessageHeaderAccessorTests": {
+        "validateJmsHeaders": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

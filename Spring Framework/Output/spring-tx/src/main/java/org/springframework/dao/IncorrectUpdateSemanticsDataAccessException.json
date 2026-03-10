@@ -1,0 +1,8 @@
+{
+    "IncorrectUpdateSemanticsDataAccessException": {
+        "wasDataUpdated": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

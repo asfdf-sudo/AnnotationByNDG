@@ -1,0 +1,101 @@
+{
+    "ResultSetWrappingRowSetTests": {
+        "testGetBigDecimalInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetBigDecimalString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetStringInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetStringString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetTimestampInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetTimestampString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetDateInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetDateString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetTimeInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetTimeString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetObjectInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetObjectString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetIntInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetIntString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetFloatInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetFloatString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetDoubleInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetDoubleString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetLongInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetLongString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetBooleanInt": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testGetBooleanString": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTest": {
+            "return": 0,
+            "parameters": {
+                "rsetMethod": 0,
+                "rowsetMethod": 0,
+                "arg": 0,
+                "ret": 0
+            }
+        }
+    }
+}

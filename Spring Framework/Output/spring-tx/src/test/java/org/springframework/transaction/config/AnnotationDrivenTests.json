@@ -1,0 +1,38 @@
+{
+    "AnnotationDrivenTests": {
+        "withProxyTargetClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withConfigurationClass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withAnnotatedTransactionManagers": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestWithMultipleTransactionManagers": {
+            "return": 0,
+            "parameters": {
+                "context": 0
+            }
+        },
+        "serializableWithPreviousUsage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "serializableWithoutPreviousUsage": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TransactionCheckingInterceptor": {
+        "invoke": {
+            "return": 0,
+            "parameters": {
+                "methodInvocation": 0
+            }
+        }
+    }
+}

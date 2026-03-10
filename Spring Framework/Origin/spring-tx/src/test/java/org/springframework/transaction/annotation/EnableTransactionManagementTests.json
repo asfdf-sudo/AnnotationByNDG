@@ -1,0 +1,329 @@
+{
+    "EnableTransactionManagementTests": {
+        "transactionProxyIsCreated": {
+            "return": 0,
+            "parameters": {}
+        },
+        "cglibProxyClassIsCachedAcrossApplicationContexts": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionProxyIsCreatedWithEnableOnSuperclass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionProxyIsCreatedWithEnableOnExcludedSuperclass": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManagerIsResolvedOnInvocationOfTransactionalMethod": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManagerIsResolvedCorrectlyWhenMultipleManagersArePresent": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManagerIsResolvedCorrectlyWhenMultipleManagersArePresentAndOneIsPrimary": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManagerIsResolvedCorrectlyWithTxMgmtConfigurerAndPrimaryPresent": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManagerIsResolvedCorrectlyWithSingleTxManagerBeanAndTxMgmtConfigurer": {
+            "return": 0,
+            "parameters": {}
+        },
+        "proxyTypeAspectJCausesRegistrationOfAnnotationTransactionAspect": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionalEventListenerRegisteredProperly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionManagerAsManualSingleton": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionManagerViaQualifierAnnotation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "spr14322AnnotationOnInterfaceWithInterfaceProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "spr14322AnnotationOnInterfaceWithCglibProxy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "gh24502AppliesTransactionFromAnnotatedInterface": {
+            "return": 0,
+            "parameters": {}
+        },
+        "gh23473AppliesToRuntimeExceptionOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "gh23473AppliesRollbackOnAnyException": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TransactionalTestBean": {
+        "findAllFoos": {
+            "return": 0,
+            "parameters": {}
+        },
+        "saveQualifiedFoo": {
+            "return": 0,
+            "parameters": {}
+        },
+        "saveQualifiedFooWithAttributeAlias": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TransactionalTestBeanSubclass": {},
+    "TransactionalTestBeanWithNonExistentQualifier": {},
+    "TransactionalTestBeanWithInvalidQualifier": {},
+    "PlaceholderConfig": {
+        "placeholderConfigurer": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EnableTxConfig": {},
+    "InheritedEnableTxConfig": {},
+    "ParentEnableTxConfig": {
+        "someBean": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ChildEnableTxConfig": {
+        "someBean": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "NeverCondition": {
+        "matches": {
+            "return": 0,
+            "parameters": {
+                "context": 0,
+                "metadata": 0
+            }
+        },
+        "getConfigurationPhase": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "EnableAspectjTxConfig": {},
+    "TxManagerConfig": {
+        "testBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "MultiTxManagerConfig": {
+        "txManager2": {
+            "return": 0,
+            "parameters": {}
+        },
+        "annotationDrivenTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "PrimaryMultiTxManagerConfig": {
+        "testBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "primary": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManager2": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "PrimaryTxManagerAndTxMgmtConfigurerConfig": {
+        "testBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "primary": {
+            "return": 0,
+            "parameters": {}
+        },
+        "annotationDrivenTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "SingleTxManagerBeanAndTxMgmtConfigurerConfig": {
+        "testBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "annotationDrivenTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "ManualSingletonConfig": {
+        "initializeApp": {
+            "return": 0,
+            "parameters": {
+                "applicationContext": 0
+            }
+        },
+        "testBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "otherTxManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "QualifiedTransactionConfig": {
+        "initializeApp": {
+            "return": 0,
+            "parameters": {
+                "applicationContext": 0
+            }
+        },
+        "testBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBeanWithNonExistentQualifier": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testBeanWithInvalidQualifier": {
+            "return": 0,
+            "parameters": {}
+        },
+        "primaryTransactionManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "saveBar": {
+            "return": 0,
+            "parameters": {}
+        },
+        "saveFoo": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TransactionalTestService": {
+        "saveFoo": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "Spr14322ConfigA": {
+        "testBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "Spr14322ConfigB": {
+        "testBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "methodOne": {
+            "return": 0,
+            "parameters": {}
+        },
+        "methodTwo": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "MixedTransactionalTestService": {
+        "methodOne": {
+            "return": 0,
+            "parameters": {}
+        },
+        "methodTwo": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "Gh24502Config": {
+        "testBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestServiceWithRollback": {
+        "methodOne": {
+            "return": 0,
+            "parameters": {}
+        },
+        "methodTwo": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "MethodRollbackEventListener": {
+        "onApplicationEvent": {
+            "return": 0,
+            "parameters": {
+                "event": 0
+            }
+        }
+    },
+    "Gh23473ConfigA": {
+        "testBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "Gh23473ConfigB": {
+        "testBean": {
+            "return": 0,
+            "parameters": {}
+        },
+        "txManager": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

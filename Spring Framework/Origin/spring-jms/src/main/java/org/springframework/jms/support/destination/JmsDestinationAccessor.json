@@ -1,0 +1,38 @@
+{
+    "JmsDestinationAccessor": {
+        "setDestinationResolver": {
+            "return": 0,
+            "parameters": {
+                "destinationResolver": 0
+            }
+        },
+        "getDestinationResolver": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPubSubDomain": {
+            "return": 0,
+            "parameters": {
+                "pubSubDomain": 0
+            }
+        },
+        "isPubSubDomain": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveDestinationName": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "destinationName": 0
+            }
+        },
+        "receiveFromConsumer": {
+            "return": 1,
+            "parameters": {
+                "consumer": 0,
+                "timeout": 0
+            }
+        }
+    }
+}

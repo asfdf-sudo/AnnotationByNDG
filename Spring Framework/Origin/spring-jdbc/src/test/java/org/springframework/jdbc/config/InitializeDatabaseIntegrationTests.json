@@ -1,0 +1,62 @@
+{
+    "InitializeDatabaseIntegrationTests": {
+        "init": {
+            "return": 0,
+            "parameters": {}
+        },
+        "after": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCreateEmbeddedDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testDisableCreateEmbeddedDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testIgnoreFailedDrops": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testScriptNameWithPattern": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testScriptNameWithPlaceholder": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testScriptNameWithExpressions": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testCacheInitialization": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertCorrectSetup": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        }
+    },
+    "CacheData": {
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "getCachedData": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

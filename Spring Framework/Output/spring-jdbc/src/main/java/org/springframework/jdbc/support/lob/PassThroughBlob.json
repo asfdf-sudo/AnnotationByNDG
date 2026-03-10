@@ -1,0 +1,54 @@
+{
+    "PassThroughBlob": {
+        "length": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getBinaryStream": {
+            "return": 0,
+            "parameters": {
+                "pos": 0,
+                "length": 0
+            }
+        },
+        "setBinaryStream": {
+            "return": 0,
+            "parameters": {
+                "pos": 0
+            }
+        },
+        "getBytes": {
+            "return": 0,
+            "parameters": {
+                "pos": 0,
+                "length": 0
+            }
+        },
+        "setBytes": {
+            "return": 0,
+            "parameters": {
+                "pos": 0,
+                "bytes": 1,
+                "offset": 0,
+                "len": 0
+            }
+        },
+        "position": {
+            "return": 0,
+            "parameters": {
+                "pattern": 0,
+                "start": 0
+            }
+        },
+        "truncate": {
+            "return": 0,
+            "parameters": {
+                "len": 0
+            }
+        },
+        "free": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

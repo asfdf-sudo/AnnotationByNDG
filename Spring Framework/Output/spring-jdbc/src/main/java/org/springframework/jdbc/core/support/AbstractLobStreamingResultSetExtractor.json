@@ -1,0 +1,24 @@
+{
+    "AbstractLobStreamingResultSetExtractor": {
+        "extractData": {
+            "return": 1,
+            "parameters": {
+                "rs": 0
+            }
+        },
+        "handleNoRowFound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "handleMultipleRowsFound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "streamData": {
+            "return": 0,
+            "parameters": {
+                "rs": 0
+            }
+        }
+    }
+}

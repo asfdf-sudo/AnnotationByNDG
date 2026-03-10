@@ -1,0 +1,8 @@
+{
+    "DriversLicense": {
+        "getSerialNumber": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

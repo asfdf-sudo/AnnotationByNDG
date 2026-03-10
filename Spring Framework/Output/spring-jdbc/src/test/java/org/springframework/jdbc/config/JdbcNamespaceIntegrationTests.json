@@ -1,0 +1,108 @@
+{
+    "JdbcNamespaceIntegrationTests": {
+        "createEmbeddedDatabase": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createEmbeddedDatabaseAgain": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithResourcePattern": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithNonExistentResource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithAnonymousDataSourceAndDefaultDatabaseName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithImplicitDatabaseName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithExplicitDatabaseName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithGeneratedDatabaseName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithEndings": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createWithEndingsNested": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createAndDestroy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createAndDestroyNestedWithHsql": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createAndDestroyNestedWithH2": {
+            "return": 0,
+            "parameters": {}
+        },
+        "multipleDataSourcesHaveDifferentDatabaseNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "initializeWithCustomSeparator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "embeddedWithCustomSeparator": {
+            "return": 0,
+            "parameters": {}
+        },
+        "context": {
+            "return": 0,
+            "parameters": {
+                "file": 0
+            }
+        },
+        "assertBeanPropertyValueOf": {
+            "return": 0,
+            "parameters": {
+                "propertyName": 0,
+                "expected": 0,
+                "factory": 0
+            }
+        },
+        "assertNumRowsInTestTable": {
+            "return": 0,
+            "parameters": {
+                "template": 0,
+                "count": 0
+            }
+        },
+        "assertCorrectSetup": {
+            "return": 0,
+            "parameters": {
+                "file": 0
+            }
+        },
+        "assertCorrectSetupAndCloseContext": {
+            "return": 0,
+            "parameters": {
+                "file": 0,
+                "count": 0
+            }
+        },
+        "extractDataSourceUrl": {
+            "return": 0,
+            "parameters": {
+                "file": 0
+            }
+        }
+    }
+}

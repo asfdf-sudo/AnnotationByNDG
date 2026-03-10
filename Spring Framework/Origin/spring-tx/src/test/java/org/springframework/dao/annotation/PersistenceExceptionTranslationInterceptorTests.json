@@ -1,0 +1,31 @@
+{
+    "PersistenceExceptionTranslationInterceptorTests": {
+        "addPersistenceExceptionTranslation": {
+            "return": 0,
+            "parameters": {
+                "pf": 0,
+                "pet": 0
+            }
+        },
+        "detectPersistenceExceptionTranslators": {
+            "return": 0,
+            "parameters": {}
+        },
+        "detectPersistenceExceptionTranslatorsOnShutdown": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "CallOrderAwareExceptionTranslator": {
+        "translateExceptionIfPossible": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        },
+        "getOrder": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

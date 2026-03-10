@@ -1,0 +1,49 @@
+{
+    "OpenEntityManagerInViewTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "tearDown": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testOpenEntityManagerInViewInterceptor": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testOpenEntityManagerInViewInterceptorAsyncScenario": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testOpenEntityManagerInViewInterceptorAsyncTimeoutScenario": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testOpenEntityManagerInViewInterceptorAsyncErrorScenario": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testOpenEntityManagerInViewFilter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testOpenEntityManagerInViewFilterAsyncScenario": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestTaskExecutor": {
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "task": 0,
+                "startTimeout": 0
+            }
+        },
+        "await": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

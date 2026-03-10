@@ -1,0 +1,16 @@
+{
+    "PersistenceExceptionTranslationPostProcessor": {
+        "setRepositoryAnnotationType": {
+            "return": 0,
+            "parameters": {
+                "repositoryAnnotationType": 0
+            }
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        }
+    }
+}

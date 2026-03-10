@@ -1,0 +1,17 @@
+{
+    "CapturingSynchronizationCallback": {
+        "preProcessEvent": {
+            "return": 0,
+            "parameters": {
+                "event": 0
+            }
+        },
+        "postProcessEvent": {
+            "return": 0,
+            "parameters": {
+                "event": 0,
+                "ex": 1
+            }
+        }
+    }
+}

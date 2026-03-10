@@ -1,0 +1,175 @@
+{
+    "MutablePersistenceUnitInfo": {
+        "setPersistenceUnitName": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitName": 0
+            }
+        },
+        "getPersistenceUnitName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPersistenceProviderClassName": {
+            "return": 0,
+            "parameters": {
+                "persistenceProviderClassName": 1
+            }
+        },
+        "getPersistenceProviderClassName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTransactionType": {
+            "return": 0,
+            "parameters": {
+                "transactionType": 0
+            }
+        },
+        "getTransactionType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setJtaDataSource": {
+            "return": 0,
+            "parameters": {
+                "jtaDataSource": 0
+            }
+        },
+        "getJtaDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setNonJtaDataSource": {
+            "return": 0,
+            "parameters": {
+                "nonJtaDataSource": 0
+            }
+        },
+        "getNonJtaDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addMappingFileName": {
+            "return": 0,
+            "parameters": {
+                "mappingFileName": 1
+            }
+        },
+        "getMappingFileNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addJarFileUrl": {
+            "return": 0,
+            "parameters": {
+                "jarFileUrl": 1
+            }
+        },
+        "getJarFileUrls": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPersistenceUnitRootUrl": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitRootUrl": 0
+            }
+        },
+        "getPersistenceUnitRootUrl": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addManagedClassName": {
+            "return": 0,
+            "parameters": {
+                "managedClassName": 0
+            }
+        },
+        "getManagedClassNames": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addManagedPackage": {
+            "return": 0,
+            "parameters": {
+                "packageName": 0
+            }
+        },
+        "getManagedPackages": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setExcludeUnlistedClasses": {
+            "return": 0,
+            "parameters": {
+                "excludeUnlistedClasses": 0
+            }
+        },
+        "excludeUnlistedClasses": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSharedCacheMode": {
+            "return": 0,
+            "parameters": {
+                "sharedCacheMode": 0
+            }
+        },
+        "getSharedCacheMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setValidationMode": {
+            "return": 0,
+            "parameters": {
+                "validationMode": 1
+            }
+        },
+        "getValidationMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "addProperty": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "value": 0
+            }
+        },
+        "setProperties": {
+            "return": 0,
+            "parameters": {
+                "properties": 0
+            }
+        },
+        "getProperties": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPersistenceXMLSchemaVersion": {
+            "return": 0,
+            "parameters": {
+                "persistenceXMLSchemaVersion": 0
+            }
+        },
+        "getPersistenceXMLSchemaVersion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPersistenceProviderPackageName": {
+            "return": 0,
+            "parameters": {
+                "persistenceProviderPackageName": 0
+            }
+        },
+        "getPersistenceProviderPackageName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "DerbyMaxValueIncrementer": {
+        "setDummyName": {
+            "return": 0,
+            "parameters": {
+                "dummyName": 1
+            }
+        },
+        "getDummyName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getIncrementStatement": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getIdentityStatement": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

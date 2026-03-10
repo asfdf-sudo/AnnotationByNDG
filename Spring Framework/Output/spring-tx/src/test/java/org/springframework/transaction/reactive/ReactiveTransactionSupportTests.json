@@ -1,0 +1,120 @@
+{
+    "ReactiveTransactionSupportTests": {
+        "noExistingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "existingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "commitWithoutExistingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackWithoutExistingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackOnlyWithoutExistingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "commitWithExistingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackWithExistingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackOnlyWithExistingTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionTemplateWithException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "errorInCommitDoesInitiateRollbackAfterCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "beginFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "commitFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackFailure": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertHasBegan": {
+            "return": 0,
+            "parameters": {
+                "actual": 0
+            }
+        },
+        "assertHasNotBegan": {
+            "return": 0,
+            "parameters": {
+                "actual": 0
+            }
+        },
+        "assertHasCommitted": {
+            "return": 0,
+            "parameters": {
+                "actual": 0
+            }
+        },
+        "assertHasNotCommitted": {
+            "return": 0,
+            "parameters": {
+                "actual": 0
+            }
+        },
+        "assertHasRolledBack": {
+            "return": 0,
+            "parameters": {
+                "actual": 0
+            }
+        },
+        "assertHasNoRollback": {
+            "return": 0,
+            "parameters": {
+                "actual": 0
+            }
+        },
+        "assertHasSetRollbackOnly": {
+            "return": 0,
+            "parameters": {
+                "actual": 0
+            }
+        },
+        "assertHasNotSetRollbackOnly": {
+            "return": 0,
+            "parameters": {
+                "actual": 0
+            }
+        },
+        "assertHasCleanedUp": {
+            "return": 0,
+            "parameters": {
+                "actual": 0
+            }
+        },
+        "assertHasNotCleanedUp": {
+            "return": 0,
+            "parameters": {
+                "actual": 0
+            }
+        }
+    }
+}

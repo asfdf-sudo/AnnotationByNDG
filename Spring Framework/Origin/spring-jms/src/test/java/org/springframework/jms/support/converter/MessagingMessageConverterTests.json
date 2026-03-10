@@ -1,0 +1,24 @@
+{
+    "MessagingMessageConverterTests": {
+        "onlyHandlesMessage": {
+            "return": 0,
+            "parameters": {}
+        },
+        "simpleObject": {
+            "return": 0,
+            "parameters": {}
+        },
+        "customPayloadConverter": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "TestMessageConverter": {
+        "fromMessage": {
+            "return": 0,
+            "parameters": {
+                "message": 0
+            }
+        }
+    }
+}

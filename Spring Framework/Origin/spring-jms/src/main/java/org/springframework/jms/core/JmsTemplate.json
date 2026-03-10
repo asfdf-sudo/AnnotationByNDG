@@ -1,0 +1,346 @@
+{
+    "JmsTemplate": {
+        "setDefaultDestination": {
+            "return": 0,
+            "parameters": {
+                "destination": 1
+            }
+        },
+        "getDefaultDestination": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getDefaultQueue": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setDefaultDestinationName": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 1
+            }
+        },
+        "getDefaultDestinationName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getRequiredDefaultDestinationName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageConverter": {
+            "return": 0,
+            "parameters": {
+                "messageConverter": 0
+            }
+        },
+        "getMessageConverter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageIdEnabled": {
+            "return": 0,
+            "parameters": {
+                "messageIdEnabled": 0
+            }
+        },
+        "isMessageIdEnabled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setMessageTimestampEnabled": {
+            "return": 0,
+            "parameters": {
+                "messageTimestampEnabled": 0
+            }
+        },
+        "isMessageTimestampEnabled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPubSubNoLocal": {
+            "return": 0,
+            "parameters": {
+                "pubSubNoLocal": 0
+            }
+        },
+        "isPubSubNoLocal": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setReceiveTimeout": {
+            "return": 0,
+            "parameters": {
+                "receiveTimeout": 0
+            }
+        },
+        "getReceiveTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDeliveryDelay": {
+            "return": 0,
+            "parameters": {
+                "deliveryDelay": 0
+            }
+        },
+        "getDeliveryDelay": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setExplicitQosEnabled": {
+            "return": 0,
+            "parameters": {
+                "explicitQosEnabled": 0
+            }
+        },
+        "isExplicitQosEnabled": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setQosSettings": {
+            "return": 0,
+            "parameters": {
+                "settings": 0
+            }
+        },
+        "setDeliveryPersistent": {
+            "return": 0,
+            "parameters": {
+                "deliveryPersistent": 0
+            }
+        },
+        "setDeliveryMode": {
+            "return": 0,
+            "parameters": {
+                "deliveryMode": 0
+            }
+        },
+        "getDeliveryMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPriority": {
+            "return": 0,
+            "parameters": {
+                "priority": 0
+            }
+        },
+        "getPriority": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setTimeToLive": {
+            "return": 0,
+            "parameters": {
+                "timeToLive": 0
+            }
+        },
+        "getTimeToLive": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setObservationRegistry": {
+            "return": 0,
+            "parameters": {
+                "observationRegistry": 1
+            }
+        },
+        "getObservationRegistry": {
+            "return": 1,
+            "parameters": {}
+        },
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0,
+                "action": 0
+            }
+        },
+        "send": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0,
+                "messageCreator": 0
+            }
+        },
+        "doSend": {
+            "return": 0,
+            "parameters": {
+                "producer": 0,
+                "message": 0
+            }
+        },
+        "convertAndSend": {
+            "return": 0,
+            "parameters": {
+                "destinationName": 0,
+                "message": 0,
+                "postProcessor": 0
+            }
+        },
+        "receive": {
+            "return": 1,
+            "parameters": {
+                "destinationName": 0
+            }
+        },
+        "receiveSelected": {
+            "return": 1,
+            "parameters": {
+                "destinationName": 0,
+                "messageSelector": 1
+            }
+        },
+        "doReceive": {
+            "return": 1,
+            "parameters": {
+                "session": 0,
+                "consumer": 0
+            }
+        },
+        "receiveAndConvert": {
+            "return": 1,
+            "parameters": {
+                "destinationName": 0
+            }
+        },
+        "receiveSelectedAndConvert": {
+            "return": 1,
+            "parameters": {
+                "destinationName": 0,
+                "messageSelector": 1
+            }
+        },
+        "doConvertFromMessage": {
+            "return": 1,
+            "parameters": {
+                "message": 1
+            }
+        },
+        "sendAndReceive": {
+            "return": 1,
+            "parameters": {
+                "destinationName": 0,
+                "responseQueueName": 0,
+                "messageCreator": 0
+            }
+        },
+        "doSendAndReceive": {
+            "return": 1,
+            "parameters": {
+                "session": 0,
+                "destination": 0,
+                "responseQueue": 0,
+                "messageCreator": 0
+            }
+        },
+        "executeLocal": {
+            "return": 0,
+            "parameters": {
+                "action": 0,
+                "startConnection": 0
+            }
+        },
+        "browse": {
+            "return": 0,
+            "parameters": {
+                "queueName": 0,
+                "action": 0
+            }
+        },
+        "browseSelected": {
+            "return": 0,
+            "parameters": {
+                "queueName": 0,
+                "messageSelector": 1,
+                "action": 0
+            }
+        },
+        "getConnection": {
+            "return": 1,
+            "parameters": {
+                "holder": 0
+            }
+        },
+        "getSession": {
+            "return": 1,
+            "parameters": {
+                "holder": 0
+            }
+        },
+        "isSessionLocallyTransacted": {
+            "return": 0,
+            "parameters": {
+                "session": 0
+            }
+        },
+        "createProducer": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "destination": 1
+            }
+        },
+        "doCreateProducer": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "destination": 1
+            }
+        },
+        "createConsumer": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "destination": 0,
+                "messageSelector": 1
+            }
+        },
+        "createBrowser": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "queue": 0,
+                "messageSelector": 1
+            }
+        }
+    },
+    "JmsTemplateResourceFactory": {
+        "getConnection": {
+            "return": 1,
+            "parameters": {
+                "holder": 0
+            }
+        },
+        "getSession": {
+            "return": 1,
+            "parameters": {
+                "holder": 0
+            }
+        },
+        "createConnection": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createSession": {
+            "return": 0,
+            "parameters": {
+                "con": 0
+            }
+        },
+        "isSynchedLocalTransactionAllowed": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "MicrometerInstrumentation": {
+        "instrumentSession": {
+            "return": 0,
+            "parameters": {
+                "session": 0,
+                "registry": 0
+            }
+        }
+    }
+}

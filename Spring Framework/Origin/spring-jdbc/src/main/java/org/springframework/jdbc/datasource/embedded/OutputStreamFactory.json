@@ -1,0 +1,14 @@
+{
+    "OutputStreamFactory": {
+        "getNoopOutputStream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "write": {
+            "return": 0,
+            "parameters": {
+                "b": 0
+            }
+        }
+    }
+}

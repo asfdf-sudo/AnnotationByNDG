@@ -1,0 +1,106 @@
+{
+    "JpaTransactionManagerTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "verifyTransactionSynchronizationManagerState": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithRollbackException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionRollbackWithAlreadyRolledBack": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testParticipatingTransactionWithCommit": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testParticipatingTransactionWithRollback": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testParticipatingTransactionWithRollbackOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testParticipatingTransactionWithRequiresNew": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testParticipatingTransactionWithRequiresNewAndPrebound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPropagationSupportsAndRequiresNew": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testPropagationSupportsAndRequiresNewAndEarlyAccess": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionWithRequiresNewInAfterCompletion": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterCompletion": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "testTransactionCommitWithPropagationSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionRollbackWithPropagationSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithPrebound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionRollbackWithPrebound": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionCommitWithPreboundAndPropagationSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionRollbackWithPreboundAndPropagationSupports": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testInvalidIsolation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTransactionFlush": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

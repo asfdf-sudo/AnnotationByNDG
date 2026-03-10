@@ -1,0 +1,115 @@
+{
+    "TransactionInterceptorTests": {
+        "advised": {
+            "return": 0,
+            "parameters": {
+                "target": 0,
+                "ptm": 0,
+                "tas": 0
+            }
+        },
+        "serializableWithAttributeProperties": {
+            "return": 0,
+            "parameters": {}
+        },
+        "serializableWithCompositeSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineTransactionManagerWithNoBeanFactory": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineTransactionManagerWithNoBeanFactoryAndNoTransactionAttribute": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineTransactionManagerWithNoTransactionAttribute": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineTransactionManagerWithQualifierUnknown": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineTransactionManagerWithQualifierAndDefault": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineTransactionManagerWithQualifierAndDefaultName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineTransactionManagerWithEmptyQualifierAndDefaultName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineTransactionManagerWithQualifierSeveralTimes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineTransactionManagerWithBeanNameSeveralTimes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "determineTransactionManagerDefaultSeveralTimes": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createTransactionInterceptor": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 1,
+                "transactionManagerName": 1,
+                "transactionManager": 1
+            }
+        },
+        "transactionInterceptorWithTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "transactionManager": 0,
+                "beanFactory": 0
+            }
+        },
+        "transactionInterceptorWithTransactionManagerName": {
+            "return": 0,
+            "parameters": {
+                "transactionManagerName": 0,
+                "beanFactory": 0
+            }
+        },
+        "simpleTransactionInterceptor": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        },
+        "associateTransactionManager": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0,
+                "name": 0
+            }
+        }
+    },
+    "SerializableTransactionManager": {
+        "getTransaction": {
+            "return": 0,
+            "parameters": {
+                "definition": 0
+            }
+        },
+        "commit": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        },
+        "rollback": {
+            "return": 0,
+            "parameters": {
+                "status": 0
+            }
+        }
+    }
+}

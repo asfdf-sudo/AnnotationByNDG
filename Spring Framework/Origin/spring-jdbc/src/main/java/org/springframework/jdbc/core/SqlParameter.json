@@ -1,0 +1,32 @@
+{
+    "SqlParameter": {
+        "getName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getSqlType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTypeName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "getScale": {
+            "return": 1,
+            "parameters": {}
+        },
+        "isInputValueProvided": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isResultsParameter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "sqlTypesToAnonymousParameterList": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

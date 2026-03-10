@@ -1,0 +1,48 @@
+{
+    "AnnotationTransactionAttributeSource": {
+        "setPublicMethodsOnly": {
+            "return": 0,
+            "parameters": {
+                "publicMethodsOnly": 0
+            }
+        },
+        "addDefaultRollbackRule": {
+            "return": 0,
+            "parameters": {
+                "rollbackRule": 0
+            }
+        },
+        "isCandidateClass": {
+            "return": 0,
+            "parameters": {
+                "targetClass": 0
+            }
+        },
+        "findTransactionAttribute": {
+            "return": 1,
+            "parameters": {
+                "method": 0
+            }
+        },
+        "determineTransactionAttribute": {
+            "return": 1,
+            "parameters": {
+                "element": 0
+            }
+        },
+        "allowPublicMethodsOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

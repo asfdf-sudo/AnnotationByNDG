@@ -1,0 +1,35 @@
+{
+    "PostgresCallMetaDataProvider": {
+        "isReturnResultSetSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isRefCursorSupported": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getRefCursorSqlType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "metaDataSchemaNameToUse": {
+            "return": 0,
+            "parameters": {
+                "schemaName": 1
+            }
+        },
+        "createDefaultOutParameter": {
+            "return": 0,
+            "parameters": {
+                "parameterName": 0,
+                "meta": 0
+            }
+        },
+        "byPassReturnParameter": {
+            "return": 0,
+            "parameters": {
+                "parameterName": 0
+            }
+        }
+    }
+}

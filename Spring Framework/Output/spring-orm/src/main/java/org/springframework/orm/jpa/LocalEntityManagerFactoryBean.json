@@ -1,0 +1,34 @@
+{
+    "LocalEntityManagerFactoryBean": {
+        "setPersistenceConfiguration": {
+            "return": 0,
+            "parameters": {
+                "configuration": 0
+            }
+        },
+        "getPersistenceConfiguration": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setPersistenceUnitName": {
+            "return": 0,
+            "parameters": {
+                "persistenceUnitName": 0
+            }
+        },
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 1
+            }
+        },
+        "getDataSource": {
+            "return": 0,
+            "parameters": {}
+        },
+        "createNativeEntityManagerFactory": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

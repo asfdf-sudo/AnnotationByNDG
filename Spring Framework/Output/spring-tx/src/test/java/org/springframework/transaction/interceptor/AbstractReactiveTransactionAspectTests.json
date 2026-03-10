@@ -1,0 +1,126 @@
+{
+    "AbstractReactiveTransactionAspectTests": {
+        "setup": {
+            "return": 0,
+            "parameters": {}
+        },
+        "noTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionShouldSucceed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "twoTransactionsShouldSucceed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "transactionShouldSucceedWithNotNew": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackOnCheckedException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "noRollbackOnCheckedException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackOnUncheckedException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "noRollbackOnUncheckedException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackOnCheckedExceptionWithRollbackException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "noRollbackOnCheckedExceptionWithRollbackException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "rollbackOnUncheckedExceptionWithRollbackException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "noRollbackOnUncheckedExceptionWithRollbackException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "doTestRollbackOnException": {
+            "return": 0,
+            "parameters": {
+                "ex": 0,
+                "shouldRollback": 0,
+                "rollbackException": 0
+            }
+        },
+        "rollbackOn": {
+            "return": 0,
+            "parameters": {
+                "t": 0
+            }
+        },
+        "cannotCreateTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "cannotCommitTransaction": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkReactiveTransaction": {
+            "return": 0,
+            "parameters": {
+                "expected": 0
+            }
+        },
+        "advised": {
+            "return": 0,
+            "parameters": {
+                "target": 0,
+                "rtm": 0,
+                "tas": 0
+            }
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "exceptional": {
+            "return": 0,
+            "parameters": {
+                "t": 0
+            }
+        }
+    },
+    "DefaultTestBean": {
+        "getName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setName": {
+            "return": 0,
+            "parameters": {
+                "name": 0
+            }
+        },
+        "exceptional": {
+            "return": 0,
+            "parameters": {
+                "t": 0
+            }
+        }
+    }
+}

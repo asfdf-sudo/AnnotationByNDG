@@ -1,0 +1,34 @@
+{
+    "AbstractDatabaseInitializationTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "shutDown": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getEmbeddedDatabaseType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resource": {
+            "return": 0,
+            "parameters": {
+                "path": 0
+            }
+        },
+        "defaultSchema": {
+            "return": 0,
+            "parameters": {}
+        },
+        "usersSchema": {
+            "return": 0,
+            "parameters": {}
+        },
+        "assertUsersDatabaseCreated": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

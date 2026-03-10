@@ -1,0 +1,28 @@
+{
+    "EntityManagerFactoryUtilsTests": {
+        "testDoGetEntityManager": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testDoGetEntityManagerWithTx": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTranslatesIllegalStateException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testTranslatesIllegalArgumentException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testDoesNotTranslateUnfamiliarException": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testConvertJpaPersistenceException": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

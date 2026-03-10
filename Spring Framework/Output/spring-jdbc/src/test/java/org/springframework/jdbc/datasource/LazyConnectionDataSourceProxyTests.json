@@ -1,0 +1,20 @@
+{
+    "LazyConnectionDataSourceProxyTests": {
+        "setDefaultTransactionIsolationNameToUnsupportedValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDefaultTransactionIsolationNameToAllSupportedValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setDefaultTransactionIsolation": {
+            "return": 0,
+            "parameters": {}
+        },
+        "streamIsolationConstants": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

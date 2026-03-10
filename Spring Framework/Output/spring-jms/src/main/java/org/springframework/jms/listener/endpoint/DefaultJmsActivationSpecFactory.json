@@ -1,0 +1,24 @@
+{
+    "DefaultJmsActivationSpecFactory": {
+        "determineActivationSpecClass": {
+            "return": 0,
+            "parameters": {
+                "adapter": 0
+            }
+        },
+        "populateActivationSpecProperties": {
+            "return": 0,
+            "parameters": {
+                "bw": 0,
+                "config": 0
+            }
+        },
+        "applyAcknowledgeMode": {
+            "return": 0,
+            "parameters": {
+                "bw": 0,
+                "ackMode": 0
+            }
+        }
+    }
+}

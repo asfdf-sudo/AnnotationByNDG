@@ -1,0 +1,14 @@
+{
+    "DerbyTableMetaDataProvider": {
+        "initializeWithMetaData": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0
+            }
+        },
+        "isGetGeneratedKeysSupported": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

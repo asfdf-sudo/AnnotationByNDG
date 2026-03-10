@@ -1,0 +1,36 @@
+{
+    "RowMapperTests": {
+        "setUp": {
+            "return": 0,
+            "parameters": {}
+        },
+        "verifyClosed": {
+            "return": 0,
+            "parameters": {}
+        },
+        "verifyResults": {
+            "return": 0,
+            "parameters": {}
+        },
+        "staticQueryWithRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "preparedStatementCreatorWithRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "preparedStatementSetterWithRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithArgsAndRowMapper": {
+            "return": 0,
+            "parameters": {}
+        },
+        "queryWithArgsAndTypesAndRowMapper": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

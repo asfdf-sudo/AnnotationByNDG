@@ -1,0 +1,20 @@
+{
+    "JmsActivationSpecConfigTests": {
+        "setAcknowledgeModeNameToUnsupportedValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setAcknowledgeModeNameToAllSupportedValues": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setSessionAcknowledgeMode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "streamAcknowledgeModeConstants": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

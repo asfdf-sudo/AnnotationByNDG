@@ -1,0 +1,51 @@
+{
+    "TemporaryLobCreator": {
+        "setBlobAsBytes": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0,
+                "content": 1
+            }
+        },
+        "setBlobAsBinaryStream": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0,
+                "binaryStream": 1,
+                "contentLength": 0
+            }
+        },
+        "setClobAsString": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0,
+                "content": 1
+            }
+        },
+        "setClobAsAsciiStream": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0,
+                "asciiStream": 1,
+                "contentLength": 0
+            }
+        },
+        "setClobAsCharacterStream": {
+            "return": 0,
+            "parameters": {
+                "ps": 0,
+                "paramIndex": 0,
+                "characterStream": 1,
+                "contentLength": 0
+            }
+        },
+        "close": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

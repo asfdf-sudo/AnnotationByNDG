@@ -1,0 +1,28 @@
+{
+    "AbstractColumnMaxValueIncrementer": {
+        "setColumnName": {
+            "return": 0,
+            "parameters": {
+                "columnName": 0
+            }
+        },
+        "getColumnName": {
+            "return": 0,
+            "parameters": {}
+        },
+        "setCacheSize": {
+            "return": 0,
+            "parameters": {
+                "cacheSize": 0
+            }
+        },
+        "getCacheSize": {
+            "return": 0,
+            "parameters": {}
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

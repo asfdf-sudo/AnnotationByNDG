@@ -1,0 +1,50 @@
+{
+    "PersistenceExceptionTranslationPostProcessorTests": {
+        "proxiesCorrectly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "checkWillTranslateExceptions": {
+            "return": 0,
+            "parameters": {
+                "o": 0
+            }
+        }
+    },
+    "RepositoryWithoutInterface": {
+        "nameDoesntMatter": {
+            "return": 0,
+            "parameters": {}
+        },
+        "additionalMethod": {
+            "return": 0,
+            "parameters": {
+                "fail": 0
+            }
+        }
+    },
+    "RepositoryWithoutInterfaceAndOtherwiseAdvised": {
+        "additionalMethod": {
+            "return": 0,
+            "parameters": {
+                "fail": 0
+            }
+        }
+    },
+    "MyPersistenceExceptionTranslator": {
+        "translateExceptionIfPossible": {
+            "return": 0,
+            "parameters": {
+                "ex": 0
+            }
+        }
+    },
+    "LogAllAspect": {
+        "log": {
+            "return": 0,
+            "parameters": {
+                "jp": 0
+            }
+        }
+    }
+}

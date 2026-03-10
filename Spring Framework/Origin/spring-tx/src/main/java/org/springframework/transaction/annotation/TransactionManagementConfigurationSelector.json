@@ -1,0 +1,14 @@
+{
+    "TransactionManagementConfigurationSelector": {
+        "selectImports": {
+            "return": 0,
+            "parameters": {
+                "adviceMode": 0
+            }
+        },
+        "determineTransactionAspectClass": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

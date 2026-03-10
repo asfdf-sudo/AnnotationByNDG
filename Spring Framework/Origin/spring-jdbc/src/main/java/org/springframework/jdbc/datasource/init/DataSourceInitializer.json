@@ -1,0 +1,42 @@
+{
+    "DataSourceInitializer": {
+        "setDataSource": {
+            "return": 0,
+            "parameters": {
+                "dataSource": 0
+            }
+        },
+        "setDatabasePopulator": {
+            "return": 0,
+            "parameters": {
+                "databasePopulator": 1
+            }
+        },
+        "setDatabaseCleaner": {
+            "return": 0,
+            "parameters": {
+                "databaseCleaner": 1
+            }
+        },
+        "setEnabled": {
+            "return": 0,
+            "parameters": {
+                "enabled": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "destroy": {
+            "return": 0,
+            "parameters": {}
+        },
+        "execute": {
+            "return": 0,
+            "parameters": {
+                "populator": 1
+            }
+        }
+    }
+}

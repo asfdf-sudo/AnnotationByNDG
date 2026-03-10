@@ -1,0 +1,16 @@
+{
+    "BeanFactoryDataSourceLookupTests": {
+        "testLookupSunnyDay": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testLookupWhereBeanFactoryYieldsNonDataSourceType": {
+            "return": 0,
+            "parameters": {}
+        },
+        "testLookupWhereBeanFactoryHasNotBeenSupplied": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

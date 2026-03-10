@@ -1,0 +1,38 @@
+{
+    "DelegatingTransactionDefinition": {
+        "getPropagationBehavior": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getIsolationLevel": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getTimeout": {
+            "return": 0,
+            "parameters": {}
+        },
+        "isReadOnly": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getName": {
+            "return": 1,
+            "parameters": {}
+        },
+        "equals": {
+            "return": 0,
+            "parameters": {
+                "other": 1
+            }
+        },
+        "hashCode": {
+            "return": 0,
+            "parameters": {}
+        },
+        "toString": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

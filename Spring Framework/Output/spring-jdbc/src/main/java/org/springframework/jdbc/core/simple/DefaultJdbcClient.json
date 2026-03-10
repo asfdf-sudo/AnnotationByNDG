@@ -1,0 +1,142 @@
+{
+    "DefaultJdbcClient": {
+        "sql": {
+            "return": 0,
+            "parameters": {
+                "sql": 0
+            }
+        }
+    },
+    "DefaultStatementSpec": {
+        "enforceCustomTemplate": {
+            "return": 0,
+            "parameters": {}
+        },
+        "withFetchSize": {
+            "return": 0,
+            "parameters": {
+                "fetchSize": 0
+            }
+        },
+        "withMaxRows": {
+            "return": 0,
+            "parameters": {
+                "maxRows": 0
+            }
+        },
+        "withQueryTimeout": {
+            "return": 0,
+            "parameters": {
+                "queryTimeout": 0
+            }
+        },
+        "param": {
+            "return": 0,
+            "parameters": {
+                "name": 0,
+                "value": 0,
+                "sqlType": 0
+            }
+        },
+        "validateIndexedParamValue": {
+            "return": 0,
+            "parameters": {
+                "value": 0
+            }
+        },
+        "params": {
+            "return": 0,
+            "parameters": {
+                "paramMap": 0
+            }
+        },
+        "paramSource": {
+            "return": 0,
+            "parameters": {
+                "namedParamSource": 0
+            }
+        },
+        "query": {
+            "return": 0,
+            "parameters": {
+                "rse": 0
+            }
+        },
+        "update": {
+            "return": 0,
+            "parameters": {
+                "generatedKeyHolder": 0
+            }
+        },
+        "useNamedParams": {
+            "return": 0,
+            "parameters": {}
+        },
+        "statementCreatorForIndexedParams": {
+            "return": 0,
+            "parameters": {}
+        },
+        "statementCreatorForIndexedParamsWithKeys": {
+            "return": 0,
+            "parameters": {
+                "keyColumnNames": 0
+            }
+        }
+    },
+    "IndexedParamResultQuerySpec": {
+        "rowSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "listOfRows": {
+            "return": 0,
+            "parameters": {}
+        },
+        "singleRow": {
+            "return": 0,
+            "parameters": {}
+        },
+        "singleColumn": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "NamedParamResultQuerySpec": {
+        "rowSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "listOfRows": {
+            "return": 0,
+            "parameters": {}
+        },
+        "singleRow": {
+            "return": 0,
+            "parameters": {}
+        },
+        "singleColumn": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "IndexedParamMappedQuerySpec": {
+        "stream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "list": {
+            "return": 0,
+            "parameters": {}
+        }
+    },
+    "NamedParamMappedQuerySpec": {
+        "stream": {
+            "return": 0,
+            "parameters": {}
+        },
+        "list": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

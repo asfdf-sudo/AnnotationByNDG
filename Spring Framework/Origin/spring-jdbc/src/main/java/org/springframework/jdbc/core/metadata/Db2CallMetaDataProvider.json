@@ -1,0 +1,16 @@
+{
+    "Db2CallMetaDataProvider": {
+        "initializeWithMetaData": {
+            "return": 0,
+            "parameters": {
+                "databaseMetaData": 0
+            }
+        },
+        "metaDataSchemaNameToUse": {
+            "return": 1,
+            "parameters": {
+                "schemaName": 1
+            }
+        }
+    }
+}

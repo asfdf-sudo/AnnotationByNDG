@@ -1,0 +1,20 @@
+{
+    "JmsTemplateTransactedTests": {
+        "setupMocks": {
+            "return": 0,
+            "parameters": {}
+        },
+        "getLocalSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "useTransactedSession": {
+            "return": 0,
+            "parameters": {}
+        },
+        "useTransactedTemplate": {
+            "return": 0,
+            "parameters": {}
+        }
+    }
+}

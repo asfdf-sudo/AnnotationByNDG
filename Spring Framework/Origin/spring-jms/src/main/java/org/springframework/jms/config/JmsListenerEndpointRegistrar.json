@@ -1,0 +1,63 @@
+{
+    "JmsListenerEndpointRegistrar": {
+        "setEndpointRegistry": {
+            "return": 0,
+            "parameters": {
+                "endpointRegistry": 1
+            }
+        },
+        "getEndpointRegistry": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setMessageHandlerMethodFactory": {
+            "return": 0,
+            "parameters": {
+                "messageHandlerMethodFactory": 1
+            }
+        },
+        "getMessageHandlerMethodFactory": {
+            "return": 1,
+            "parameters": {}
+        },
+        "setContainerFactory": {
+            "return": 0,
+            "parameters": {
+                "containerFactory": 0
+            }
+        },
+        "setContainerFactoryBeanName": {
+            "return": 0,
+            "parameters": {
+                "containerFactoryBeanName": 0
+            }
+        },
+        "setBeanFactory": {
+            "return": 0,
+            "parameters": {
+                "beanFactory": 0
+            }
+        },
+        "afterPropertiesSet": {
+            "return": 0,
+            "parameters": {}
+        },
+        "registerAllEndpoints": {
+            "return": 0,
+            "parameters": {}
+        },
+        "resolveContainerFactory": {
+            "return": 0,
+            "parameters": {
+                "descriptor": 0
+            }
+        },
+        "registerEndpoint": {
+            "return": 0,
+            "parameters": {
+                "endpoint": 0
+            }
+        }
+    },
+    "JmsListenerEndpointDescriptor": {}
+}
