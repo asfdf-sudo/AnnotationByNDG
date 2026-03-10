@@ -11,9 +11,10 @@ This study presents a method of constructing nullability dependency graphs using
 - `Readme.md` : This file
 - `Leftfield` : The field positioning function module, which can be used for field filtering.
 - `run_npe_new.py` : The main module of the method includes the construction of nodes for NDG and the extraction of edges.
+- `FieldtoClass.py` : When the type of a class's field belongs to another class, create a mapping from the field name to the real class name.
 - **Running Scripts**:
 - - `test_npe_run_new.py` : The running script for generating annotations.
   - `countAnnotation.py` : This can be used for generating statistical annotations.
   - `compareJson.py` : This script can be used to statistically analyze the comparison of annotation labels before and after annotation generation.
   - `run_test.py` : This script is used for batch processing the construction of the Juliet project and generating the project build logs for each individual project.
-  - 
+
