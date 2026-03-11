@@ -99,7 +99,8 @@ def write_data(root_dir, missed_report, missed_report_message, false_positive, f
         ws.append([error_all[i][0], error_all[i][1]])
     wb.save("analyze_result_0307_org.xlsx")
 
-directory = r'C:\Users\Asfdf\Desktop\annoation\0307logs_after'
+directory = r'\log'
 missed_report, missed_report_message, false_positive, false_positive_message, error_sums_before, error_sums_after, error_all = extract_error_positions(directory)
-write_data(r'C:\Users\Asfdf\Desktop\annoation', missed_report, missed_report_message, false_positive, false_positive_message, error_sums_before, error_sums_after, error_all)
+write_data(r'\annoation', missed_report, missed_report_message, false_positive, false_positive_message, error_sums_before, error_sums_after, error_all)
+
 
