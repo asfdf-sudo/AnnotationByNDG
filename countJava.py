@@ -285,7 +285,7 @@ def main():
     """主函数"""
     import sys
     
-    folder_path = r"C:\Users\Asfdf\Desktop\data"
+    folder_path = r"\data"
     
     # 验证路径
     if not os.path.exists(folder_path):
@@ -296,4 +296,5 @@ def main():
     analyze_java_projects(folder_path)
 
 if __name__ == "__main__":
+
     main()
