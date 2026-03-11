@@ -220,14 +220,11 @@ def extract_left_field_accesses(code: bytes, root: Node) -> List[Node]:
     return left_nodes
 
 
-# -----------------------------
-# 主函数：完成 1/2/3
-# -----------------------------
 @dataclass
 class AnalysisResult:
-    all_class_fields: List[str]         # step2: unique list
-    left_class_fields: List[str]        # step3: unique list
-    ast_root_type: str                  # step1: root type
+    all_class_fields: List[str]         
+    left_class_fields: List[str]    
+    ast_root_type: str              
 
 
 def analyze_java_with_treesitter(
@@ -290,4 +287,5 @@ def analyze_java_with_treesitter(
         left_class_fields=sorted(left_fields),
         ast_root_type=root.type,
     )
+
 
